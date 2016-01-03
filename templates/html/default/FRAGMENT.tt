@@ -1,0 +1,6 @@
+[%# args:
+
+self => an SML::Fragment object
+
+%]
+[%- INCLUDE part_list.tt -%]

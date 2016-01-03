@@ -1,0 +1,10 @@
+[%# args:
+
+self => an SML::Conditional object
+
+%]
+<!-- BEGIN CONDITIONAL -->
+
+[%- INCLUDE part_list.tt -%]
+
+<!-- END CONDITIONAL -->

@@ -1,0 +1,6 @@
+[%# args:
+
+self => an SML::UserEnteredText object
+
+%]
+<span style="font-weight:bold;font-family:courier;">[%-FILTER html-%][%-self.get_content-%][%-END-%]</span>

@@ -1,0 +1,6 @@
+[%# args:
+
+self => an SML::String object
+
+%]
+&#8220;[%- INCLUDE STRING.tt -%]&#8221;

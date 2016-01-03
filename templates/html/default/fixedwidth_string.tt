@@ -1,0 +1,6 @@
+[%# args:
+
+self => an SML::String object
+
+%]
+<span style="font-family:monospace;">[%- INCLUDE STRING.tt -%]</span>
