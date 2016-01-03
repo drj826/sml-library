@@ -34,7 +34,7 @@ orientation:: landscape
 
 fontsize:: footnotesize
 
-file:: ../t/DefinitionListItem.t
+file:: ../SML/t/DefinitionListItem.t
 
 <<<LISTING
 

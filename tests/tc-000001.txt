@@ -28,7 +28,7 @@ numbers:: left
 
 language:: Perl
 
-file:: ../t/test.bat
+file:: ../SML/t/test.bat
 
 <<<LISTING
 

@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Audio.t
+file:: ../SML/t/Audio.t
 
 <<<LISTING
 

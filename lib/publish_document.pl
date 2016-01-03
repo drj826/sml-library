@@ -1,7 +1,7 @@
 use Log::Log4perl;
 Log::Log4perl->init("../conf/log.conf");
 
-use lib "../../lib";
+use lib "../../SML/lib";
 
 use SML::Library;
 

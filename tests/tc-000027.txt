@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Sidebar.t
+file:: ../SML/t/Sidebar.t
 
 <<<LISTING
 

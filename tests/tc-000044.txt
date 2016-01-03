@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/ListItem.t
+file:: ../SML/t/ListItem.t
 
 <<<LISTING
 

@@ -34,7 +34,7 @@ orientation:: landscape
 
 fontsize:: footnotesize
 
-file:: ../t/Inline.t
+file:: ../SML/t/Inline.t
 
 <<<LISTING
 

@@ -2,7 +2,7 @@
 
 set test=%1
 
-cd ../t
+cd ../SML/t
 
 @echo on
 

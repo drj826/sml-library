@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Line.t
+file:: ../SML/t/Line.t
 
 <<<LISTING
 

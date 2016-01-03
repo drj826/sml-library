@@ -42,7 +42,7 @@ language:: Perl
 
 fontsize:: footnotesize
 
-file:: ../lib/SML/Document.pm
+file:: ../SML/lib/SML/Document.pm
 
 <<<LISTING
 

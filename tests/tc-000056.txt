@@ -34,7 +34,7 @@ orientation:: landscape
 
 fontsize:: footnotesize
 
-file:: ../t/Paragraph.t
+file:: ../SML/t/Paragraph.t
 
 <<<LISTING
 

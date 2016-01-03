@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Keypoints.t
+file:: ../SML/t/Keypoints.t
 
 <<<LISTING
 

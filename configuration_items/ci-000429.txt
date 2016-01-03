@@ -27,7 +27,7 @@ language:: Perl
 
 fontsize:: footnotesize
 
-file:: ../lib/SML/TableRow.pm
+file:: ../SML/lib/SML/TableRow.pm
 
 <<<LISTING
 

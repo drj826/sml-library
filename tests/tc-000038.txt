@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Quotation.t
+file:: ../SML/t/Quotation.t
 
 <<<LISTING
 

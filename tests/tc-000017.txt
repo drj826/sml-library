@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/CommentDivision.t
+file:: ../SML/t/CommentDivision.t
 
 <<<LISTING
 

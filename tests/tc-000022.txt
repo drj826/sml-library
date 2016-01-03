@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Revisions.t
+file:: ../SML/t/Revisions.t
 
 <<<LISTING
 

@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Reasoner.t
+file:: ../SML/t/Reasoner.t
 
 <<<LISTING
 

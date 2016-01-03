@@ -34,7 +34,7 @@ orientation:: portrait
 
 fontsize:: footnotesize
 
-file:: ../t/Parser.t
+file:: ../SML/t/Parser.t
 
 <<<LISTING
 

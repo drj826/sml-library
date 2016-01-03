@@ -43,7 +43,7 @@ language:: Perl
 
 fontsize:: footnotesize
 
-file:: ../lib/SML/Library.pm
+file:: ../SML/lib/SML/Library.pm
 
 <<<LISTING
 

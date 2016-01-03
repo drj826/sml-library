@@ -28,7 +28,7 @@ language:: Perl
 
 fontsize:: footnotesize
 
-file:: ../lib/SML/DefinitionListItem.pm
+file:: ../SML/lib/SML/DefinitionListItem.pm
 
 <<<LISTING
 

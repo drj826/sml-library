@@ -32,7 +32,7 @@ language:: Perl
 
 fontsize:: footnotesize
 
-file:: ../lib/SML/Parser.pm
+file:: ../SML/lib/SML/Parser.pm
 
 <<<LISTING
 
