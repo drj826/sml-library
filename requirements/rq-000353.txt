@@ -1,0 +1,28 @@
+>>>requirement.rq-000353
+
+title:: Represent Strikethrough Text
+
+revision:: $Revision: 10973 $
+
+date:: $Date: 2012-10-27 14:46:35 -0600 (Sat, 27 Oct 2012) $
+
+author:: $Author: don.johnson $
+
+priority:: routine
+
+is_part_of:: rq-000120
+
+type:: data format
+
+description:: The data format shall have the capability to represent
+strikethrough text.  Strikethrough (also called strikeout) is a
+typographical presentation of words with a horizontal line through
+their center.  The words remain readable.  This presentation
+signifies, (1) the words are a mistake and not meant for inclusion,
+(2) the author implies a change of thought but wants the reader to see
+the original thought, or (3) [g:SML:epanorthosis].
+
+index:: [id:rq-000060]; strikethrough text; strikeout text;
+epanorthosis
+
+<<<requirement

@@ -20,6 +20,8 @@ acronym:: CSV = [g:Comma Separated Value]
 # D
 ######################################################################
 
+acronym:: DFRD {SML} = Data Format Requirements Document
+
 acronym:: DVI = [g:Device Independent]
 
 ######################################################################

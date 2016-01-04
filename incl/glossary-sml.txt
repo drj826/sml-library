@@ -198,6 +198,10 @@ other entities. See [g:SML:property]
 glossary:: entity {SML2} = An [g:SML:division] that represents a thing
 of interest to an organization
 
+glossary:: epanorthosis {SML} = a figure of speech that signifies
+emphatic work replacement. ``Thousand, no, millions!'' Often used for
+emphasis or sarcasim
+
 glossary:: epigraph {SML1} = A quotation at the beginning of a book,
 chapter, etc. suggesting its theme
 

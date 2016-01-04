@@ -50,42 +50,16 @@ ver:: 0.1 = 2011-04-08 = Initial draft.
 
 * Introduction
 
-type:: chapter
+This document describes what I want [a:SML] software to do.  The
+requirements are organized into [g:SML:functional requirement]s,
+[g:SML:non-functional requirement]s, and [g:SML:technical
+requirement]s:
 
-This is the [a:SML:FRD] for the [a:SML] data format.  The required
-data format will be used to represent book, article, and report
-manuscripts that will be published to multiple document renditions by
-a publishing application.
++ [lookup:title:rq-000104]
 
-Intended applications of this data format include: (1) requirements
-documentation, (2) design documentation, (3) test documentation, (4)
-training documentation, and (5) project plans.
++ [lookup:title:rq-000111]
 
-The overarching purpose of the data format is to enable authors to
-create readable, modular, re-usable documents and document fragments
-they can automatically publish to multiple different renditions.
-Authors shouldn't have to re-write the same information twice.
-Therefore they need the capability to combine and re-use fragments of
-documents to create whole documents.
-
-Why call it a [acl:SML] data format?
-
-The term [g:SML:manuscript] implies that I intend authors to use the
-language to manually capture their ideas in an original form that can
-be processed and published in a variety of ways.
-
-The term [g:SML:semantic] implies the language must have a structured
-mechanism to express the ~~meaning~~ of the text so that processing
-applications can automatically ~~reason~~ about document content.  For
-instance, I want applications to have the capability to validate that
-text conforms to the meaning expressed in a user-defined
-[g:SML:ontology].
-
-The concept of a ``semantic manuscript'' aligns well with my purpose
-to enable authors to create readable, modular, re-usable documents and
-document fragments they can automatically publish to multiple
-different document renditions and to write applications that can
-reason about the meaning of their documents.
++ [lookup:title:rq-000199]
 
 ######################################################################
 
@@ -213,12 +187,6 @@ contains a complete collection of terms and their definitions.
 # Perform Functions For Users
 
 * plugin:: Parts2Sections rq-000104
-
-######################################################################
-
-# Represent Document Content
-
-* plugin:: Parts2Sections rq-000107
 
 ######################################################################
 

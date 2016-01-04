@@ -1,0 +1,125 @@
+>>>DOCUMENT.sml-dfrd
+
+title:: Data Format Requirements Document (DFRD)
+
+subtitle:: Semantic Manuscript Language (SML)
+
+abbreviation:: DFRD
+
+author:: Don Johnson
+
+revision:: 1234
+
+copyright:: 2016, Don Johnson
+
+logo_image_small:: files/images/sml_logo.png
+
+logo_image_center:: files/images/crags.jpg
+
+version:: 0.1
+
+date:: 3 Jan 2016
+
+use_formal_status:: 1
+
+######################################################################
+
+>>>VERSION_HISTORY
+
+ver:: 0.1 = 2016-01-03 = Initial version split off from the old SML
+Functional Requirements Document (FRD)
+
+<<<VERSION_HISTORY
+
+######################################################################
+
+*.sml-dfrd-introduction Introduction
+
+This is a boring document.  What are you looking for? This is the
+[a:SML:DFRD] for the [a:SML] data format. It describes what the SML
+data format must be able to represent. So, if you're wondering, ``Can
+SML represent ~~strikethrough~~ strings?'' this document is for
+you![f:sml-dfrd-introduction:1]
+
+The required data format will be used to represent book, article, and
+report [g:SML:manuscript]s that can be published to multiple document
+renditions by publishing applications.
+
+I intend to use this data format for: (1) requirements documentation,
+(2) design documentation, (3) test documentation, (4) training
+documentation, and (5) project plans.
+
+The overarching purpose of the data format is to enable authors to
+create readable, modular, re-usable documents and document fragments
+the same way they create software.
+
+Authors should never re-write the same information twice.  Therefore
+they need the capability to combine and re-use fragments of documents
+to create whole documents.
+
+Why call it a [acl:SML] data format?
+
+The term [g:SML:manuscript] implies that I intend authors to use the
+language to manually capture their ideas in an original form that can
+be processed and published in a variety of ways.
+
+The term [g:SML:semantic] implies the language must have a structured
+mechanism to express the ~~meaning~~ of the text so that processing
+applications can automatically ~~reason~~ about document content.  For
+instance, I want applications to have the capability to validate that
+text conforms to the meaning expressed in a user-defined
+[g:SML:ontology].
+
+The concept of a ``semantic manuscript'' aligns well with my purpose
+to enable authors to create readable, modular, re-usable documents and
+document fragments they can automatically publish to multiple
+different document renditions and to write applications that can
+reason about the meaning of their documents.
+
+#------------------------------
+# footnotes
+
+footnote::1: I recommend looking for the term ``strikethrough'' in the
+index.
+
+######################################################################
+
+# Represent Document Content
+
+* plugin:: Parts2Sections rq-000107
+
+######################################################################
+# Backmatter
+
+include:: acronyms-sml
+
+include:: acronyms-ieee
+
+include:: acronyms-cmmi
+
+include:: glossary-sml
+
+include:: glossary-ieee
+
+include:: glossary-cmmi
+
+include:: sources
+
+include:: sources-ieee
+
+include:: sources-cmmi
+
+######################################################################
+# Local Emacs Variables
+#
+
+# Local Variables:
+# mode: outline
+# mode: fill
+# coding: us-ascii
+# fill-column: 70
+# End:
+
+######################################################################
+
+<<<DOCUMENT
