@@ -1,0 +1,21 @@
+>>>requirement.rq-000356
+
+title:: Implement Solutions
+
+type:: activity
+
+revision:: 1234
+
+date:: 4 Jan 2016
+
+author:: Don Johnson
+
+is_part_of:: rq-000358
+
+description:: The organization shall implement solutions.  The purpose
+of implementing a solution is to provide the actual capability to meet
+a need.
+
+index:: [id:rq-000356]; solution; implement;
+
+<<<requirement

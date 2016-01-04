@@ -1,0 +1,21 @@
+>>>requirement.rq-000357
+
+title:: Verify Solutions Satisfy Requirements
+
+type:: activity
+
+revision:: 1234
+
+date:: 4 Jan 2016
+
+author:: Don Johnson
+
+is_part_of:: rq-000358
+
+description:: The organization shall verify that solutions satisfy
+requirements.  The purpose of verification is to prove that a solution
+either does or doesn't satisfy requirement.
+
+index:: [id:rq-000357]; verification
+
+<<<requirement

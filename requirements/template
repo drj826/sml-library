@@ -2,24 +2,16 @@
 
 title::
 
-revision:: $Revision: 10973 $
+type::
 
-date:: $Date: 2012-10-27 14:46:35 -0600 (Sat, 27 Oct 2012) $
+date:: 2016-01-04
 
-author:: $Author: don.johnson $
+author:: 
 
 is_part_of::
 
-priority::
-
-type::
-
-owner::
-
-directed_by::
-
 description::
 
-index:: [id:rq-00
+index:: [id:rq-00]
 
-<<]<requirement
+<<<requirement

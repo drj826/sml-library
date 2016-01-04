@@ -65,19 +65,23 @@ sub render {
 
   push(@{ $output_line_list }, $text);
 
-  my $part_id_list = $library->get_property_value_list($division_id,'has_part');
-  my $depth        = 2;
+  my $depth = 2;
 
-  foreach my $part_id (@{ $part_id_list })
+  if ( $library->has_property($division_id,'has_part') )
     {
-      if ( $part_id )
+      my $part_id_list = $library->get_property_value_list($division_id,'has_part');
+
+      foreach my $part_id (@{ $part_id_list })
 	{
-	  $self->_render_subsection_include_element
-	    (
-	     $output_line_list,
-	     $depth,
-	     $part_id,
-	    );
+	  if ( $part_id )
+	    {
+	      $self->_render_subsection_include_element
+		(
+		 $output_line_list,
+		 $depth,
+		 $part_id,
+		);
+	    }
 	}
     }
 

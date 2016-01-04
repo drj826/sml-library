@@ -38,6 +38,12 @@ This [a:SML:BRD] describes what I plan to do with the [a:SML].
 
 ######################################################################
 
+# Perform Engineering Activities
+
+* plugin:: Parts2Sections rq-000358
+
+######################################################################
+
 *.sml-brd-terms Key Terms and Definitions
 
 = [g:SML:business requirement] = [def:SML:business requirement]

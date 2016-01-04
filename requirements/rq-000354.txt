@@ -1,0 +1,21 @@
+>>>requirement.rq-000354
+
+title:: Understand Requirements
+
+type:: activity
+
+revision:: 1234
+
+date:: 4 Jan 2016
+
+author:: Don Johnson
+
+is_part_of:: rq-000358
+
+description:: The organization shall understand requirements.  A
+requirement is a statement of need.  There are many reasons to create
+a common understanding of requirements.
+
+index:: [id:rq-000354]; requirements
+
+<<<requirement
