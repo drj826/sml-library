@@ -1,0 +1,80 @@
+>>>DOCUMENT.sml-brd
+
+title:: Business Requirements Document (BRD)
+
+subtitle:: Semantic Manuscript Language (SML)
+
+abbreviation:: BRD
+
+author:: Don Johnson
+
+revision:: 1234
+
+copyright:: 2016, Don Johnson
+
+logo_image_small:: files/images/sml_logo.png
+
+logo_image_center:: files/images/crags.jpg
+
+version:: 0.1
+
+date:: 3 Jan 2016
+
+use_formal_status:: 1
+
+######################################################################
+
+>>>VERSION_HISTORY
+
+ver:: 0.1 = 2016-01-03 = Initial version.
+
+<<<VERSION_HISTORY
+
+######################################################################
+
+*.sml-brd-introduction Introduction
+
+This [a:SML:BRD] describes what I plan to do with the [a:SML].
+
+######################################################################
+
+*.sml-brd-terms Key Terms and Definitions
+
+= [g:SML:business requirement] = [def:SML:business requirement]
+
+######################################################################
+# Backmatter
+
+include:: acronyms-sml
+
+include:: acronyms-ieee
+
+include:: acronyms-cmmi
+
+include:: glossary-sml
+
+include:: glossary-ieee
+
+include:: glossary-cmmi
+
+include:: sources
+
+include:: sources-ieee
+
+include:: sources-cmmi
+
+######################################################################
+# Local Emacs Variables
+#
+
+# Local Variables:
+# mode: outline
+# mode: fill
+# coding: us-ascii
+# fill-column: 70
+# End:
+
+######################################################################
+
+<<<DOCUMENT
+

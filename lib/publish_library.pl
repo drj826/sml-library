@@ -10,6 +10,7 @@ my $library = SML::Library->new(config_filename=>'library.conf');
 $library->get_all_entities;
 
 $library->publish('sml-ug',  'html','default');
+$library->publish('sml-brd', 'html','default');
 $library->publish('sml-dfrd','html','default');
 $library->publish('sml-srd', 'html','default');
 $library->publish('sml-sdd', 'html','default');

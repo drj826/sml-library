@@ -74,7 +74,7 @@ contains a complete collection of terms and their definitions.
 
 = [g:CMMI:bidirectional traceability] = [def:CMMI:bidirectional traceability]
 
-= [a:BRD] = [acl:BRD]
+= [a:SML:BRD] = [acl:SML:BRD]
 
 = [g:SML:business requirement] = [def:SML:business requirement]
 

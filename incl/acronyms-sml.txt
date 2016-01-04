@@ -6,7 +6,7 @@
 
 acronym:: BNF = [g:Backus-Naur Form]
 
-acronym:: BRD = Business Requirements Document
+acronym:: BRD {SML} = Business Requirements Document
 
 ######################################################################
 # C
@@ -21,6 +21,8 @@ acronym:: CSV = [g:Comma Separated Value]
 ######################################################################
 
 acronym:: DFRD {SML} = Data Format Requirements Document
+
+acronym:: DRY {SML} = [g:SML:don't repeat yourself]
 
 acronym:: DVI = [g:Device Independent]
 
