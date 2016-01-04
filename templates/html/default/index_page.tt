@@ -30,10 +30,10 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 
 [%- FOREACH entry IN index.get_group_entry_list(group) -%]
 <tr>
-<td>
+<td class="index">
 <div style="text-indent:0pt;">[%- INCLUDE STRING.tt self = entry.get_term_string -%]</div>
 </td>
-<td>
+<td class="index">
 <div style="text-indent:0pt;">
   [%- FOREACH locator IN entry.get_locator_list -%]
     [%-
@@ -56,10 +56,10 @@ document_title_element = library.get_first_property_value_element(document_id,'t
   [%- IF entry.has_subentries -%]
     [%- FOREACH subentry IN entry.get_subentry_list -%]
 <tr>
-<td>
+<td class="index">
 <div style="text-indent:10pt;">[%- INCLUDE STRING.tt self = subentry.get_term_string -%]</div>
 </td>
-<td>
+<td class="index">
 <div style="text-indent:10pt;">
       [%- FOREACH locator IN subentry.get_locator_list -%]
         [%-
@@ -82,10 +82,10 @@ document_title_element = library.get_first_property_value_element(document_id,'t
       [%- IF subentry.has_subentries -%]
         [%- FOREACH subsubentry IN subentry.get_subentry_list -%]
 <tr>
-<td>
+<td class="index">
 <div style="text-indent:20pt;">[%- INCLUDE STRING.tt self = subsubentry.get_term_string -%]</div>
 </td>
-<td>
+<td class="index">
 <div style="text-indent:20pt;">
           [%- FOREACH locator IN subsubentry.get_locator_list -%]
             [%-

@@ -1,10 +1,10 @@
->>>DOCUMENT.sml-frd
+>>>DOCUMENT.sml-srd
 
-title:: Functional Requirements Document (FRD)
+title:: Software Requirements Document (SRD)
 
-subtitle:: SML Data Format[linebreak]and[linebreak]SML Software Library
+subtitle:: Semantic Manuscript Language (SML)
 
-abbreviation:: FRD
+abbreviation:: SRD
 
 author:: Don Johnson
 
@@ -50,16 +50,16 @@ ver:: 0.1 = 2011-04-08 = Initial draft.
 
 * Introduction
 
-This document describes what I want [a:SML] software to do.  The
-requirements are organized into [g:SML:functional requirement]s,
-[g:SML:non-functional requirement]s, and [g:SML:technical
-requirement]s:
+This software requirements document describes what I want the [a:SML]
+software to do.  The requirements are organized into [g:SML:functional
+requirement]s, [g:SML:non-functional requirement]s, and
+[g:SML:technical requirement]s:
 
-+ [lookup:title:rq-000104]
++ [id:rq-000104] [lookup:title:rq-000104]
 
-+ [lookup:title:rq-000111]
++ [id:rq-000111] [lookup:title:rq-000111]
 
-+ [lookup:title:rq-000199]
++ [id:rq-000199] [lookup:title:rq-000199]
 
 ######################################################################
 
