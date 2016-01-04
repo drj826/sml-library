@@ -50,10 +50,14 @@ ver:: 0.1 = 2011-04-08 = Initial draft.
 
 * Introduction
 
-This software requirements document describes what I want the [a:SML]
-software to do.  The requirements are organized into [g:SML:functional
-requirement]s, [g:SML:non-functional requirement]s, and
-[g:SML:technical requirement]s:
+The purpose of this [a:SML2:SRD] is to communicate a common
+understanding of ~~what~~ the [a:SML] software does (or is supposed to
+do). Reading this document will give you a comprehensive understanding
+of the purpose of [a:SML] software.
+
+The requirements are organized into [g:SML:functional requirement]s,
+[g:SML:non-functional requirement]s, and [g:SML:technical
+requirement]s:
 
 + [id:rq-000104] [lookup:title:rq-000104]
 
@@ -152,7 +156,7 @@ contains a complete collection of terms and their definitions.
 
 = [g:SML:shall statement] = [def:SML:shall statement]
 
-= [a:SML:SRD] = [acl:SML:SRD]
+= [a:SML2:SRD] = [acl:SML2:SRD]
 
 = [a:IEEE:SRR] = [acl:IEEE:SRR]
 

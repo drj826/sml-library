@@ -48,7 +48,7 @@ acronym:: GPL = General Public License
 # H
 ######################################################################
 
-acronym:: HTML = Hypertext markup Language
+acronym:: HTML = HyperText Markup Language
 
 ######################################################################
 # I
@@ -78,7 +78,9 @@ acronym:: SDD {SML} = System Design Document
 
 acronym:: SML = [g:SML:Semantic Manuscript Language]
 
-acronym:: SRD {SML} = System Requirements Document
+acronym:: SRD {SML1} = System Requirements Document
+
+acronym:: SRD {SML2} = Software Requirements Document
 
 ######################################################################
 # T
