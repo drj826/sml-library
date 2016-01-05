@@ -15,7 +15,7 @@ library => an SML::Library object
 <table style="width:100%">
 
 <tr>
-<td>
+<td class="navigation">
 
 [%- IF library.has_published_file('DRAFT','index.html') -%]
 <a href="DRAFT/index.html">DRAFT</a><br/>
@@ -33,7 +33,7 @@ library => an SML::Library object
 </tr>
 
 <tr>
-<td>
+<td class="navigation">
 <br/><br/>
 [%- INCLUDE publish_date_time.tt -%]
 </td>

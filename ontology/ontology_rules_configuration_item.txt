@@ -31,7 +31,6 @@ description:: A configuration item (CI) is an aggregation of hardware,
 software, or both, that is designated for configuration management and
 treated as a single entity in the configuration management process.
 
-
 <<<DIVISION_DECLARATION
 
 ######################################################################

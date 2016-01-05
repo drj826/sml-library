@@ -12,8 +12,6 @@ ontology = library.get_ontology
 
 <h1 align="center">Traceability</h1>
 
-<br/>
-
 [%- entity_name_list = ontology.get_entity_name_list -%]
 
 <p style="background-color:#eeeeee;padding:10px;">Whole/Part Traceability Trees</p>

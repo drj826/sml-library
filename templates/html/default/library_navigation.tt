@@ -15,7 +15,7 @@ library => an SML::Library object
 <table style="width:100%">
 
 <tr>
-<td>
+<td class="navigation">
 
 <a href="index.html">Library</a>
 
@@ -49,9 +49,8 @@ library => an SML::Library object
 </td>
 </tr>
 
-
 <tr>
-<td>
+<td class="navigation">
 <br/><br/>
 [%- INCLUDE publish_date_time.tt -%]
 </td>
