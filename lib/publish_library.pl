@@ -19,4 +19,6 @@ $library->publish('sml-ted', 'html','default');
 $library->publish_library_pages;
 $library->publish_index;
 
+$library->store_sha_digest_file;
+
 1;
