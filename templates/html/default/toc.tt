@@ -12,7 +12,10 @@ section_list           = document.get_list_of_divisions_with_name('SECTION')
 
 -%]
 [%- WRAPPER document_page.tt -%]
-
+[%#  !!!!!!i need to have stuff from here go into two different places 
+     !!!!!!in document_page otherwise, every document will have to know
+     !!!!!!about the special div types that exist in the document_page or css %]
+<div class="row bannerline">
 <table style="width:100%">
 <tr>
 
@@ -57,7 +60,9 @@ section_list           = document.get_list_of_divisions_with_name('SECTION')
 
 </tr>
 </table>
+</div>
 
+<div class="row content">
 <h2 style="text-align:center;">Table of Contents</h2>
 
 [%- FOREACH section IN section_list -%]
@@ -108,3 +113,51 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 [%- END -%]
 [%- END -%]
 [%- END -%]
+</div> <!--end of div class = "row content"-->
+
+<div class="row bannerline">
+<table style="width:100%">
+<tr>
+
+[%# PREVIOUS %]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].titlepage.html">&lt; Title Page</a>
+</td>
+
+[%# LINK TO TABLE OF CONTENTS %]
+<td style="width:60%;font-size:8pt;text-align:center">
+<a href="[%document_id%].toc.html">
+[%- INCLUDE element.tt element = document_title_element -%]
+</a>
+</td>
+
+[%# NEXT %]
+[%- IF document.contains_division_with_name('TABLE') -%]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].tables.html">List of Tables &gt;</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('FIGURE') -%]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].figures.html">List of Figures &gt;</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('ATTACHMENT') -%]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].attachments.html">List of Attachments &gt;</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('LISTING') -%]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].listings.html">List of Listings &gt;</a>
+</td>
+
+[%- ELSE -%]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].1.html">NEXT &gt;</a>
+</td>
+[%- END %]
+
+</tr>
+</table>
+</div>  <!--end of div class="row bannerline"-->

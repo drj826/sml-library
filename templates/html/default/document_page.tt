@@ -40,18 +40,20 @@ id      = self.get_id
 </head>
 <body>
 
-[% INCLUDE header.tt -%]
-[% INCLUDE footer.tt -%]
 [% INCLUDE document_navigation.tt -%]
 
-<div id="content">
+<div class="box">
+
+[% INCLUDE header.tt -%]
 
 [% content -%]
 
 <div class="pad2"></div>
 <div class="pad2"></div>
 
-</div>
+[% INCLUDE footer.tt -%]
+
+</div> <!--end div class="box"-->
 
 </body>
 </html>
