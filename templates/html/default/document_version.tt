@@ -15,7 +15,7 @@ sha         = sha_digest.substr(0,7)
 
 [%- IF library.has_property(document_id,'version') -%]
 [%- version = library.get_first_property_value(document_id,'version') -%]
-<font color="#888888">v[%version%]</font><br/>
+<font color="#888888">[%version%]</font><br/>
 [%- END -%]
 
 [%- IF library.has_property(document_id,'date') -%]
