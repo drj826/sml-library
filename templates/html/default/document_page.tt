@@ -47,8 +47,7 @@ id      = self.get_id
 [%- INCLUDE header.tt -%]
 
 <div class="row bannerline">
-[% id %] is the id
-[%- nav_bannerline -%]
+[%- banner_navigation -%]
 </div>
 
 <div class="row content">
@@ -59,7 +58,7 @@ id      = self.get_id
 </div> 
 
 <div class="row bannerline">
-[%- nav_bannerline -%]
+[%- banner_navigation -%]
 </div>
 
 [%- INCLUDE footer.tt -%]
