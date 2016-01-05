@@ -80,7 +80,7 @@ date     = library.get_published_document_property_value('DRAFT',document_id,'da
 -%]
 <td style="background-color:[%bgcolor%];">[%date%]</td>
 
-<td style="background-color:[%bgcolor%];">v[%version%]</td>
+<td style="background-color:[%bgcolor%];">[%version%]</td>
 
 <td style="background-color:[%bgcolor%];">
 r[%revision%]<br/>

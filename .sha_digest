@@ -490,10 +490,10 @@ b0cf3aa50cfc7911467c3aa6d7b9713c3bb184c7 lis-preformattedblock-pm-unit-test-resu
 45e50cc1e2c5680dd5c016324ec74fb1871b5654 lis-section-pm
 d2b53c2c8c584e466551538bb0786bff924d78d8 lis-section-pm-unit-test-case
 fc615066b9b65ce422e8e1d13f6cab0752749ea4 lis-section-pm-unit-test-results
-90241689bb85cfa7fbe57e01852a955539639b8c lis-sml-ontology-config
+368ae274ad70496a88f455cad224b4c1e309dd1f lis-sml-ontology-config
 aff613a508044f8f06d483e3be4f10a13882180d lis-sml-pm
 a7faf1024fa98ebc647b5aa690c471b10283228e lis-sml-pm-unit-test-case
-894dc653f0af9d47ea70f626c57e4bc933ea0a31 lis-sml-pm-unit-test-results
+cd855e3f5a19cf8151b13d2221aa709b7be2dede lis-sml-pm-unit-test-results
 2b78bfb7aa90489f6d9b2cacd16f3f73e9ee16ed lis-sml-syntax
 6be88ebbf272949a3e86e34ae49d972bac7ffdd4 lis-source-pm
 c80e76e525e39d15b25b0e9749b5fb8446edc381 lis-source-pm-unit-test-case
@@ -509,7 +509,7 @@ d173e2eabfb5c0f81e1e931a0cad086a8e606838 lis-tablecell-pm-unit-test-case
 0afe9e7b3743df7fc21e180e42e5ae4d059c7ddb lis-tablecell-pm-unit-test-results
 cce09e52ebda99f92d6cf23f05f3a9d7775dd49d lis-tablerow-pm-unit-test-case
 93b5c8f2248e254aad67eff105bae576d5191113 lis-tablerow-pm-unit-test-results
-7c6700f0db4fcef32436e85e517a373aa1ec8281 lis-test-bat
+d59f00e053f2e43602dcd78586d16548041dec8b lis-test-bat
 e302d066db2a99c9bd18728611f17311628008ea lis-test-bat-unit-test-results
 46d86d826d1f35534ee665f342c9b6f1be60cc4f lis-util-pm
 9e483a897d5e75036e66f34f3c066d62fb4c8898 lis-util-pm-unit-test-case
@@ -923,8 +923,8 @@ cebd800d97a8a6d9925fdc10957722f8e22906b4 sml-sdd
 98ee828d32be6db9d19924e9e93c31cecf0747d1 sml-special-summary
 978ea50b208c7713848418707f704bd5116589a7 sml-srd
 bdd8535e2c72d46cebde948a5ac72ee650327a09 sml-structure-summary
-8d7c610934564b7497a3d567875d46e5926aa59d sml-ted
-c5cd0d9dee1f4bf355dc36eae00a21fc2250ff47 sml-ug
+7636190f75153b24f38ab88cfa681535b94fab9c sml-ted
+f4334ba59eb20a85df33c29d773ff8b82df16712 sml-ug
 ee5628c82be571f460d46f4938447da9309d174b solution-assertions
 73648a4f8020c9d0567876191a3dd9f47d4cceea solutions
 922af879902f6f08105df191f4ca324c8e23bb90 solutions-traceability
@@ -959,7 +959,7 @@ fa0834ca828a9c84a3d4286011b79a4844813fcf take-note
 c91a0e5415f00939987cab699e5ae62a9690c9b4 tc-000001
 f1bcb0757cf7bbed0bdbfba20caab0742c0ba86d tc-000002
 fc37e083787bf4670898c40dbedcce5c083af4bc tc-000003
-28a8031afb0745fa3fda614d0b6e33f62975af71 tc-000004
+996ccb3dd04f6f640fd7ccf6133e66445ee2220a tc-000004
 55000a566618162a75f1a228a1ca02c8eadf977b tc-000005
 22e8915dc19008f4f3c787e129cca4845cebe157 tc-000006
 9ee71aa4f6b0aab7873b369b3c4f855db6abe6bb tc-000007
