@@ -17,7 +17,7 @@ entity_id   => ID of entity for which to build row
 [%- ELSE -%]
 <tr data-tt-id="[%entity_id%]">
 [%- END %]
-<td width="75px">[% INCLUDE status_icon.tt %]&nbsp;[% INCLUDE library_id_link.tt id = entity_id %]</td>
+<td width="85px">[% INCLUDE status_icon.tt %]&nbsp;[% INCLUDE library_id_link.tt id = entity_id %]</td>
 <td>[% INCLUDE part_list.tt self = library.get_first_property_value_element(entity_id,'title') %]</td>
 </tr>
 
