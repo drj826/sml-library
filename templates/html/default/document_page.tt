@@ -32,7 +32,7 @@ id      = self.get_id
 
 <title>[%- library.get_first_property_value(id,'title') -%]</title>
 
-[% INCLUDE js_popimage.tt -%]
+[%~ INCLUDE js_popimage.tt -%]
 [% INCLUDE js_treetable.tt -%]
 [% INCLUDE js_gotoa.tt -%]
 [% INCLUDE document_css.tt -%]
@@ -44,16 +44,27 @@ id      = self.get_id
 
 <div class="box">
 
-[% INCLUDE header.tt -%]
+[%- INCLUDE header.tt -%]
 
-[% content -%]
+<div class="row bannerline">
+[% id %] is the id
+[%- nav_bannerline -%]
+</div>
 
+<div class="row content">
+
+[%- content -%]
 <div class="pad2"></div>
 <div class="pad2"></div>
+</div> 
 
-[% INCLUDE footer.tt -%]
+<div class="row bannerline">
+[%- nav_bannerline -%]
+</div>
 
-</div> <!--end div class="box"-->
+[%- INCLUDE footer.tt -%]
+
+</div> 
 
 </body>
 </html>

@@ -2,8 +2,8 @@
 html { height: 100%; max-height: 100%; padding: 0; margin: 0; border: 0; }
 body { height: 100%; max-height: 100%; margin: 0; border: 0; padding: 0; font-size: 10pt; font-family: verdana, sans-serif; }
 .box { display: flex; flex-flow: column; height: 100%; margin-left: 110px; background-color: #DDDDDD; }
-.box .row { border: 1px dotted grey; flex: 1 1 auto; }
-.box .row.bannerline { text-align: center; }
+.box .row { flex: 1 1 auto; }
+.box .row.bannerline { background-color: #c6ecc6; text-align: center; }
 .box .row.content { overflow: auto; padding: 5px; background-color: white; }
 #left { overflow-y: auto; overflow-x: hidden; position: fixed; left: 0; top: 0; height: 100%; width: 110px; background-color: #c6ecc6; z-index: 5; }
 * html #head, * html #foot, * html #left { position: absolute; }
@@ -127,4 +127,3 @@ SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; ba
 .attachment { background-color: #FFFFFF; padding: 4px; font-size: 8pt; }
 P.num { color: #aaaaaa; text-align: right; font-size: 8pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt; }
 </style>
-

@@ -16,6 +16,12 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/crags.jpg
 
+header_center:: This is my center header entry
+
+header_left: [l:date:sml-dfrd]
+
+header_right: [l:author:sml-dfrd]
+
 version:: 0.1
 
 date:: 3 Jan 2016
