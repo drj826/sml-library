@@ -52,29 +52,35 @@ document_id = document.get_id
 
 <div class="box">
 
-<div class="row banner">
-[%- INCLUDE banner.tt -%]
+[%- IF document.contains_header -%]
+<div class="row hdr">
+[%- INCLUDE header.tt -%]
 </div>
+[%- END -%]
 
-
-[%~ IF banner_navigation != '' ~%]
-<div class="row banner">
-[%~ banner_navigation ~%]
+[%- IF banner_navigation != '' -%]
+<div class="row banner_navigation">
+[%- banner_navigation -%]
 </div>
-[%~ END ~%]
+[%- END -%]
 
 <div class="row content">
-
 [%- content -%]
 <div class="pad2"></div>
 <div class="pad2"></div>
-</div> 
-
-<div class="row banner">
-[%- banner_navigation -%]
 </div>
 
+[%- IF banner_navigation != '' -%]
+<div class="row banner_navigation">
+[%- banner_navigation -%]
+</div>
+[%- END -%]
+
+[%- IF document.contains_footer -%]
+<div class="row ftr">
 [%- INCLUDE footer.tt -%]
+</div>
+[%- END -%]
 
 </div> 
 
