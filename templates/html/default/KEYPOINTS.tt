@@ -1,0 +1,18 @@
+[%# args:
+
+self => an SML::Structure object
+
+%]
+[%-
+
+number = self.get_number
+anchor = 'KEYPOINTS.' _ number
+
+-%]
+<div class="keypoints" id="[%anchor%]">
+
+<span style="font-weight:bold;">Key Points</span>
+
+[% INCLUDE narrative_part_list.tt %]
+
+</div>

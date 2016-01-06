@@ -16,18 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/meadow.jpg
 
-header_left:: left field
-
-header_center:: center field
-
-header_right:: right field
-
-footer_left:: left arm
-
-footer_center:: belly button
-
-footer_right:: right arm
-
 version:: v2.0
 
 previous_version:: v0.1-rc1
@@ -62,10 +50,22 @@ author:: Donald C. Gause & Gerald M. Weinberg
 
 <<<EPIGRAPH
 
-This book describes how to construct documents and libraries of
-documents using [a:SML]. ~~This~~ document was written using [a:SML].
-[a:SML] is a minimalistic plain text [g:SML:descriptive markup]
-language designed to:
+>>>KEYPOINTS
+
++ Understand the purpose of this user guide
+
++ Understand the purpose of SML
+
++ Explain why it's called Semantic Manuscript Language
+
++ Summarize SML Capabilities
+
+<<<KEYPOINTS
+
+This user guide describes how to construct documents using
+[a:SML]. ~~This~~ document was written in [a:SML].  [a:SML] is a
+minimalistic plain text [g:SML:descriptive markup] language designed
+to:
 
 - be human readable
 
@@ -83,7 +83,7 @@ language designed to:
 
 Why call it ``[acl:SML]''?
 
-index:: Semantic Manuscript Language; SML; structured text
+index:: Semantic Manuscript Language; SML
 
 The term [g:SML:manuscript] means authors use the language to capture
 ideas in an ~~original~~ form that can be processed and published.  A

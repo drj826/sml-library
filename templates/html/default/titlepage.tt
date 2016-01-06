@@ -9,6 +9,7 @@ document => an SML::Document object
 %]
 [%-
 
+self        = document
 document_id = document.get_id
 library     = document.get_library
 
