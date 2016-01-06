@@ -16,18 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/meadow.jpg
 
-header_left:: left field
-
-header_center:: center field
-
-header_right:: right field
-
-footer_left:: left arm
-
-footer_center:: belly button
-
-footer_right:: right arm
-
 version:: v2.0
 
 previous_version:: v0.1-rc1
