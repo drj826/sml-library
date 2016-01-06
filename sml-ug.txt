@@ -62,10 +62,10 @@ author:: Donald C. Gause & Gerald M. Weinberg
 
 <<<KEYPOINTS
 
-This book describes how to construct documents and libraries of
-documents using [a:SML]. ~~This~~ document was written using [a:SML].
-[a:SML] is a minimalistic plain text [g:SML:descriptive markup]
-language designed to:
+This user guide describes how to construct documents using
+[a:SML]. ~~This~~ document was written in [a:SML].  [a:SML] is a
+minimalistic plain text [g:SML:descriptive markup] language designed
+to:
 
 - be human readable
 
@@ -83,7 +83,7 @@ language designed to:
 
 Why call it ``[acl:SML]''?
 
-index:: Semantic Manuscript Language; SML; structured text
+index:: Semantic Manuscript Language; SML
 
 The term [g:SML:manuscript] means authors use the language to capture
 ideas in an ~~original~~ form that can be processed and published.  A
