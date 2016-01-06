@@ -1,0 +1,17 @@
+[%# args:
+
+document => an SML::Document object
+
+%]
+[%- UNLESS document -%]
+[%- document = self.get_containing_document -%]
+[%- END -%]
+[%~
+
+document_id = document.get_id
+library     = document.get_library
+
+~%]
+[% IF library.has_property(document_id,'header_center') %]
+[%- library.get_first_property_value(document_id,'header_center') -%]
+[% END %]

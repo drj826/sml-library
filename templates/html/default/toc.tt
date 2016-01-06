@@ -13,7 +13,7 @@ section_list           = document.get_list_of_divisions_with_name('SECTION')
 -%]
 
 [%- banner_navigation_block = BLOCK  -%]
-[%- INCLUDE banner_navigation.tt -%]
+[%- INCLUDE banner_navigation.tt use_banner = banner_navigation_toc.tt -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt banner_navigation = banner_navigation_block -%]

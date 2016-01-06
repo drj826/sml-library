@@ -1,6 +1,6 @@
 [%# args:
 
-self    => document part represented by content
+self    => SML::Part represented by content
 content => content to be wrapped by the page
 
 %]
@@ -10,6 +10,14 @@ library = self.get_library
 id      = self.get_id
 
 -%]
+
+[%- UNLESS document -%]
+[%- document = self.get_containing_document -%]
+[%- END -%]
+[%~
+document_id = document.get_id
+~%]
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <!-- ============================================================= -->
@@ -40,15 +48,20 @@ id      = self.get_id
 </head>
 <body>
 
-[% INCLUDE document_navigation.tt -%]
+[%- INCLUDE document_navigation.tt -%]
 
 <div class="box">
 
-[%- INCLUDE header.tt -%]
-
-<div class="row bannerline">
-[%- banner_navigation -%]
+<div class="row banner">
+[%- INCLUDE banner.tt -%]
 </div>
+
+
+[%~ IF banner_navigation != '' ~%]
+<div class="row banner">
+[%~ banner_navigation ~%]
+</div>
+[%~ END ~%]
 
 <div class="row content">
 
@@ -57,7 +70,7 @@ id      = self.get_id
 <div class="pad2"></div>
 </div> 
 
-<div class="row bannerline">
+<div class="row banner">
 [%- banner_navigation -%]
 </div>
 
