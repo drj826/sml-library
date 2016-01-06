@@ -5,6 +5,7 @@ document => an SML::Document object
 %]
 [%-
 
+self                   = document
 document_id            = document.get_id
 library                = document.get_library
 document_title_element = library.get_first_property_value_element(document_id,'title')
