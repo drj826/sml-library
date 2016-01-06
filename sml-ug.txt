@@ -50,6 +50,18 @@ author:: Donald C. Gause & Gerald M. Weinberg
 
 <<<EPIGRAPH
 
+>>>KEYPOINTS
+
++ Understand the purpose of this user guide
+
++ Understand the purpose of SML
+
++ Explain why it's called Semantic Manuscript Language
+
++ Summarize SML Capabilities
+
+<<<KEYPOINTS
+
 This book describes how to construct documents and libraries of
 documents using [a:SML]. ~~This~~ document was written using [a:SML].
 [a:SML] is a minimalistic plain text [g:SML:descriptive markup]
