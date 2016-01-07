@@ -7,19 +7,17 @@ use lib "../../SML/lib";
 use SML::Library;
 use Time::Duration;
 
-my $document_id = shift;
-
 my $begin = time();
 
 my $library = SML::Library->new(config_filename=>'library.conf');
 
-$logger->info("publish document $document_id");
+$logger->info("store SHA digest file");
 
-$library->publish($document_id,'html','default');
+$library->store_sha_digest_file;
 
 my $end = time();
 my $duration = duration($end - $begin);
 
-$logger->info("publish document $document_id $duration");
+$logger->info("store SHA digest file $duration");
 
 1;

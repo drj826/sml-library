@@ -221,7 +221,7 @@ whole [g:SML:line]s of [g:SML:text].  Blocks are parsed into
 
 # Allocations
 
-* Allocations
+*.sml-allocations Allocations
 
 plugin:: IncludeAllocations
 
