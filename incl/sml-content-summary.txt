@@ -1,15 +1,5 @@
 >>>RAW.sml-content-summary
 
->>>COMMENT
-
-$Author: don.johnson $
-
-$Revision: 15125 $
-
-$Date: 2013-07-07 09:24:43 -0600 (Sun, 07 Jul 2013) $
-
-<<<COMMENT
-
 : !!Exercises.!! ([ref:exercises]) Specify training exercises. A
 ~~list of exercises~~ is automatically generated for the front matter
 of the document.
