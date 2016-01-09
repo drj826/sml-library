@@ -22,6 +22,6 @@ indented to represent section levels.
 
 index:: [id:rq-000262]; table of contents!HTML; HTML table of contents
 
-= [g:SML:section] = [def:SML:section]
+= [g:SML:SECTION] = [def:SML:SECTION]
 
 <<<requirement

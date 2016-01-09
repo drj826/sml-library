@@ -16,7 +16,7 @@ type:: non-functional
 
 description:: The [g:SML:library] [g:SML:ontology] shall be
 configurable in specified ways.  The [g:SML:ontology] applies to all
-[g:SML:document]s in a [g:SML:library].
+[g:SML:DOCUMENT]s in a [g:SML:library].
 
 index:: [id:rq-000183]; ontology!configurability
 

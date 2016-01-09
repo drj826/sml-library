@@ -9,7 +9,7 @@ is_part_of:: rq-000326
 type:: data format
 
 description:: The data format shall have the capability to represent a
-section within a hierarchy of [g:SML:document] [g:SML:section]s.
+section within a hierarchy of [g:SML:DOCUMENT] [g:SML:SECTION]s.
 Sections enable authors to organize [g:SML:content] into a logical
 hierarchy of topics.  A section [g:SML:title] (a.k.a. a section
 heading) marks the beginning of a section. The end of a section is

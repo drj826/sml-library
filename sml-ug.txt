@@ -176,7 +176,7 @@ used to do this with code until I found myself updating the same code
 in six places.  I decided to modularize my code into libraries and now
 I can use the same code in many places but maintainin it in only one.
 The same is true of documentation.  When I want the same text in
-multiple documents I just save it as an SML [g:SML:fragment] and
+multiple documents I just save it as an SML [g:SML:FRAGMENT] and
 maintain it in one place.
 
 - ~~Write Once and Done~~ -- Similar to the [g:IEEE:waterfall model]
@@ -1647,8 +1647,8 @@ Divisions start with {lit:>>>DIVISION_NAME.id} and end with
 {lit:<<<DIVISION_NAME}.  The divisions allowed in your library are
 enumerated in the [g:SML:ontology].
 
-In the following sections you'll learn how to add paragraphs,
-[g:SML:section]s, [g:SML:table]s, [g:SML:figure]s, [g:SML:listing]s,
+In the following sections you'll learn how to add [g:SML:paragraph]s,
+[g:SML:SECTION]s, [g:SML:TABLE]s, [g:SML:FIGURE]s, [g:SML:LISTING]s,
 and other document [g:SML2:structure]s.
 
 [a:SML] is a formal [g:SML:descriptive markup] language.  That means
