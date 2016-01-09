@@ -5,11 +5,11 @@ self => an SML::GlossaryTermReference object
 %]
 [%-
 
-document    = self.get_containing_document
+library     = self.get_library
 tag         = self.get_tag
 term        = self.get_term
 namespace   = self.get_namespace
-glossary    = document.get_glossary
+glossary    = library.get_glossary
 entry       = glossary.get_entry(term,namespace)
 bookmark    = entry.get_bookmark
 
