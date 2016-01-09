@@ -1,8 +1,14 @@
-[%# args:
+[%#
+
+BULLET_LIST.tt
+
+ARGS:
 
 self => an SML::BulletList object
 
-%]
+-%]
 <ul>
+
 [% INCLUDE part_list.tt %]
+
 </ul>

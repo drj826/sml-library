@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+status_icon.tt
+
+ARGS:
 
 status => one of: green, yellow, red, grey
 
-%]
+-%]
 [%- IF status == 'green' -%]
 <img src="images/status_green.png">
 [%- ELSIF status == 'yellow' -%]

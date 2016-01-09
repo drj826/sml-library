@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+URL_REF.tt
+
+ARGS:
 
 self => an SML::URLReference object
 
-%]
+-%]
 [%-
 
 url = self.get_url

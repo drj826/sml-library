@@ -1,9 +1,14 @@
-[%# args:
+[%#
+
+PREFORMATTED_BLOCK.tt
+
+ARGS:
 
 self => an SML::PreformattedBlock object
 
-%]
+-%]
 <pre>
-[%FILTER html-%][%-self.get_content-%][%-END-%]
-</pre>
 
+[%FILTER html%][%self.get_content%][%END%]
+
+</pre>

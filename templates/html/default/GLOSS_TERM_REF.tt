@@ -1,17 +1,21 @@
-[%# args:
+[%#
+
+GLOSS_TERM_REF.tt
+
+ARGS:
 
 self => an SML::GlossaryTermReference object
 
-%]
+-%]
 [%-
 
-library     = self.get_library
-tag         = self.get_tag
-term        = self.get_term
-namespace   = self.get_namespace
-glossary    = library.get_glossary
-entry       = glossary.get_entry(term,namespace)
-bookmark    = entry.get_bookmark
+library   = self.get_library
+tag       = self.get_tag
+term      = self.get_term
+namespace = self.get_namespace
+glossary  = library.get_glossary
+entry     = glossary.get_entry(term,namespace)
+bookmark  = entry.get_bookmark
 
 -%]
 [%- IF (tag == 'g') || (tag == 'gls') -%]

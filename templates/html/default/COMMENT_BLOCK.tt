@@ -1,1 +1,7 @@
-[%# Don't do anything with comment blocks %]
+[%#
+
+COMMENT_BLOCK.tt
+
+Don't do anything with comment blocks
+
+-%]

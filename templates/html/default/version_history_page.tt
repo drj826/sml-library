@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+version_history_page.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 self                   = document

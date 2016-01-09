@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+METADATA.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 library        = document.get_library

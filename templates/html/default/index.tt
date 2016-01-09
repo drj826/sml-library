@@ -1,1 +1,5 @@
-[%# index element %]
+[%#
+
+index.tt
+
+-%]

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+EPIGRAPH.tt
+
+ARGS:
 
 self => an SML::Epigraph object
 
-%]
+-%]
 [%-
 
 epigraph_number = self.get_number
@@ -14,9 +18,7 @@ anchor          = 'epigraph.' _ epigraph_number
 
 [%- IF library.has_property(epigraph_id,'text')  -%]
 <p align="right">
-<i>
-[%- INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'text') -%]
-</i>
+<i>[% INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'text') %]</i>
 </p>
 [%- END -%]
 

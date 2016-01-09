@@ -1,1 +1,6 @@
+[%#
+
+js_popimage.tt
+
+-%]
 <script type="text/javascript" src="popimage.js"></script>

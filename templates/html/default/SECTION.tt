@@ -1,6 +1,8 @@
 [%#
 
-sections are rendered, one per HTML page, by the publisher using the
-section_page.tt template
+SECTION.tt
 
-%]
+In this default HTML style Sections are rendered, one per HTML page,
+by the publisher using the section_page.tt template
+
+-%]

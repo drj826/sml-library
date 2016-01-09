@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+EMAIL_ADDR.tt
+
+ARGS:
 
 self => an SML::EmailAddr object
 
-%]
+-%]
 [%-
 
 email_addr = self.get_email_addr

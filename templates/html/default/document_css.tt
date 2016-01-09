@@ -1,3 +1,8 @@
+[%#
+
+document_css.tt
+
+-%]
 <style type="text/css">
 html { height: 100%; max-height: 100%; padding: 0; margin: 0; border: 0; }
 body { height: 100%; max-height: 100%; margin: 10px; border: 0; padding: 0; font-size: 10pt; font-family: verdana, sans-serif; }
@@ -126,4 +131,3 @@ SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; ba
 .attachment { background-color: #FFFFFF; padding: 4px; font-size: 8pt; }
 P.num { color: #aaaaaa; text-align: right; font-size: 8pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt; }
 </style>
-

@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+COMMAND_REF.tt
+
+ARGS:
 
 self => an SML::CommandReference object
 
-%]
-<span style="font-family:monospace;">[%-FILTER html-%][%-self.get_content-%][%-END-%]</span>
+-%]
+<span style="font-family:monospace;">[%FILTER html%][%self.get_content%][%END%]</span>

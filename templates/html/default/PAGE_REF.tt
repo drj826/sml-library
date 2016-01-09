@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+PAGE_REF.tt
+
+ARGS:
 
 self => an SML::PageReference object
 
-%]
+-%]
 [%-
 
 target_id   = self.get_target_id

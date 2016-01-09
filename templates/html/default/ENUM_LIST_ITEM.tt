@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+ENUM_LIST_ITEM.tt
+
+ARGS:
 
 self => an SML::EnumeratedListItem object
 
-%]
-<li>[%- INCLUDE part_list.tt -%]</li>
+-%]
+<li>[% INCLUDE part_list.tt %]</li>

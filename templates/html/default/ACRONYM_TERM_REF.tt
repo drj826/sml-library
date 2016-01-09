@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+ACRONYM_TERM_REF.tt
+
+ARGS:
 
 self => an SML::AcronymTermReference object
 
-%]
+-%]
 [%-
 
 document          = self.get_containing_document

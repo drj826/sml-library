@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+part_list.tt
+
+ARGS:
 
 self => an SML::Part object
 
-%]
+-%]
 [%- FOREACH part IN self.get_part_list -%]
-  [%- template = part.get_name _ '.tt' -%]
-  [%- INCLUDE $template self = part -%]
+[%- template = part.get_name _ '.tt' -%]
+[%- INCLUDE $template self = part -%]
 [%- END -%]

@@ -1,10 +1,14 @@
-[%# args:
+[%#
+
+tm_tree_row.tt
+
+ARGS:
 
 library     => an SML::Library object
 entity_name => name of entity for which to build tree
 entity_id   => ID of entity for which to build row
 
-%]
+-%]
 [%- IF library.has_property(entity_id,'status') -%]
 [%- status = library.get_first_property_value(entity_id,'status') -%]
 [%- ELSE -%]

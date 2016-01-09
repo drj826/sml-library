@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+entity_attribute_row.tt
+
+ARGS:
 
 self => an SML::Entity object
 
-%]
+-%]
 [%-
 
 library   = self.get_library

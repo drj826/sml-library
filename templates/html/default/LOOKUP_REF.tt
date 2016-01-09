@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+LOOKUP_REF.tt
+
+ARGS:
 
 self => an SML::LookupReference object
 
-%]
+-%]
 [%-
 
 library              = self.get_library
@@ -10,4 +14,4 @@ target_id            = self.get_target_id
 target_property_name = self.get_target_property
 
 -%]
-[%- library.get_first_property_value(target_id,target_property_name) -%]
+[% library.get_first_property_value(target_id,target_property_name) %]

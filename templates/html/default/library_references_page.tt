@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+library_references_page.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 references = library.get_references

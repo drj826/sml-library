@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+TITLE_REF.tt
+
+ARGS:
 
 self => an SML::TitleReference object
 
-%]
+-%]
 [%-
 
 library      = self.get_library

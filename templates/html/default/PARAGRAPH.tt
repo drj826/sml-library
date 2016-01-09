@@ -1,13 +1,16 @@
-[%# args:
+[%#
+
+PARAGRAPH.tt
+
+ARGS:
 
 self => an SML::Paragraph object
 
-%]
+-%]
 <p>
 [%- IF self.contains_parts -%]
-  [%- INCLUDE part_list.tt -%]
+[%- INCLUDE part_list.tt -%]
 [%- ELSE -%]
-  [%-FILTER html-%][%-self.get_content-%][%-END-%]
+[%FILTER html%][%self.get_content%][%END%]
 [%- END -%]
 </p>
-

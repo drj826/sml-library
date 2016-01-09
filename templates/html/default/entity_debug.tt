@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+entity_debug.tt
+
+ARGS:
 
 self => an SML::Entity object
 
-%]
+-%]
 <br/><br/>
 
 <div style="background-color:#ffffee;padding:10px;">
