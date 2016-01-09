@@ -9,7 +9,7 @@ priority:: routine
 type:: functional
 
 description:: The system shall enable a user to render the
-[g:SML:element]s within [a:SML] [g:SML:document]s to [a:CSV] files.
+[g:SML:element]s within [a:SML] [g:SML:DOCUMENT]s to [a:CSV] files.
 
 revision:: $Revision: 11687 $
 

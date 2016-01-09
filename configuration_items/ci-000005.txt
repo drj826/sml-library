@@ -7,7 +7,7 @@ type:: software
 is_part_of:: ci-000004
 
 description:: The Document.pm perl module implements the
-[g:SML:document] class.
+[g:SML:DOCUMENT] class.
 
 revision:: $Revision: 15144 $
 
@@ -17,10 +17,10 @@ author:: $Author: don.johnson $
 
 index:: [id:ci-000005]; Document.pm; SML::Document
 
-= [g:SML:document] = [def:SML:document]
+= [g:SML:DOCUMENT] = [def:SML:DOCUMENT]
 
 [ref:fig-class-diagram-document] shows the composition of an SML
-[g:SML:document].
+[g:SML:DOCUMENT].
 
 >>>FIGURE.fig-class-diagram-document
 
