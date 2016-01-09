@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+source_entry.tt
+
+ARGS:
 
 source => an SML::Source object
 
-%]
+-%]
 [%-
 
 library   = source.get_library
@@ -302,4 +306,3 @@ source_id = source.get_id
 [%- END -%]
 
 </table>
-

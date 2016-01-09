@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+library_acronyms_page.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 acronym_list = library.get_acronym_list

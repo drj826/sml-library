@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+TABLE_ROW.tt
+
+ARGS:
 
 self => an SML::TableRow object
 
-%]
+-%]
 <tr>
-[%- INCLUDE part_list.tt -%]
+[% INCLUDE part_list.tt %]
 </tr>

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+document_navigation.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%- UNLESS document -%]
 [%- document = self.get_containing_document -%]
 [%- END -%]
@@ -11,7 +15,6 @@ document => an SML::Document object
 document_id = document.get_id
 
 -%]
-
 <!-- navigation -->
 <div id="left">
 <div class="pad4"></div>

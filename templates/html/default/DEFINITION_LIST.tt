@@ -1,8 +1,14 @@
-[%# args:
+[%#
+
+DEFINITION_LIST.tt
+
+ARGS:
 
 self => an SML::DefinitionList object
 
-%]
+-%]
 <dl>
+
 [% INCLUDE part_list.tt %]
+
 </dl>

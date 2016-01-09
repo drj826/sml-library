@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+entity_metadata_table.tt
+
+ARGS:
 
 self => an SML::Entity object
 
-%]
+-%]
 [%-
 
 library  = self.get_library
@@ -61,5 +65,3 @@ revision = library.get_first_property_value(id,'revision')
 </tr>
 
 </table>
-
-

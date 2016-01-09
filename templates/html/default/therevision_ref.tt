@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+therevision_ref.tt
+
+ARGS:
 
 self => an SML::Symbol object
 
-%]
+-%]
 [%-
 
 document    = self.get_containing_document

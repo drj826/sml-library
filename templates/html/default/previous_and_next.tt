@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+previous_and_next.tt
+
+ARGS:
 
 self => an SML::Division object
 
-%]
+-%]
 [%-
 
 library                = self.get_library
@@ -64,4 +68,3 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 
 </tr>
 </table>
-

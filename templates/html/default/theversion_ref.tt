@@ -1,12 +1,16 @@
-[%# args:
+[%#
+
+theversion_ref.tt
+
+ARGS:
 
 self => an SML::Symbol object
 
-%]
+-%]
 [%-
 
 document    = self.get_containing_document
 document_id = document.get_id
 
 -%]
-[%- library.get_first_property_value(document_id,'version') -%]
+[% library.get_first_property_value(document_id,'version') %]

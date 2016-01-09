@@ -1,8 +1,14 @@
-[%# args:
+[%#
+
+BARE_TABLE.tt
+
+ARGS:
 
 self => an SML::Baretable object
 
-%]
+-%]
 <table>
+
 [% INCLUDE part_list.tt %]
+
 </table>

@@ -14,7 +14,7 @@ copyright:: 2016, Don Johnson
 
 logo_image_small:: files/images/sml_logo.png
 
-logo_image_center:: files/images/crags.jpg
+logo_image_center:: files/images/molly.jpg
 
 version:: 0.1
 

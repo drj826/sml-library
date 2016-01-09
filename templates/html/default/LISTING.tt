@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+LISTING.tt
+
+ARGS:
 
 self => an SML::Listing object
 
-%]
+-%]
 [%-
 
 listing_number = self.get_number
@@ -20,4 +24,3 @@ anchor         = 'LISTING.' _ listing_number
 </pre>
 
 </div>
-

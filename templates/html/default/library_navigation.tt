@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+library_navigation.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 <!-- navigation -->
 <div id="left">
 <div class="pad4"></div>
@@ -58,4 +62,3 @@ library => an SML::Library object
 
 </table>
 </div>
-

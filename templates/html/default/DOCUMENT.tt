@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+DOCUMENT.tt
+
+ARGS:
 
 self => an SML::Document object
 
-%]
+-%]
 [%- INCLUDE part_list.tt -%]

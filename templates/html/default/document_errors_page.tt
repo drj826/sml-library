@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+document_errors_page.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 error_list  = document.get_error_list

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+footnote.tt
+
+ARGS:
 
 self => an SML::Note object with name = 'footnote'
 
-%]
+-%]
 [%-
 
 section = self.get_containing_section
@@ -11,5 +15,4 @@ num     = self.get_number
 anchor  = 'footnote.' _ label _ '.' _ num
 
 -%]
-<p class="footnote" id="[%anchor%]">[[%num%]] [%- INCLUDE part_list.tt -%]</p>
-
+<p class="footnote" id="[%anchor%]">[[%num%]] [% INCLUDE part_list.tt %]</p>

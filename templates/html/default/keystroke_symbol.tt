@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+keystroke_symbol.tt
+
+ARGS:
 
 self => an SML::Symbol object
 
-%]
-<span class="keystroke">[%-FILTER html-%][%-self.get_content-%][%-END-%]</span>
+-%]
+<span class="keystroke">[%FILTER html%][%self.get_content%][%END%]</span>

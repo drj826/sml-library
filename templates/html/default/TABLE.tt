@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+TABLE.tt
+
+ARGS:
 
 self => an SML::Table object
 
-%]
+-%]
 [%-
 
 number = self.get_number

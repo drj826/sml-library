@@ -1,6 +1,10 @@
+[%#
+
+js_gotoa.tt
+
+-%]
 <script type="text/javascript">
 <!--
 function goToA(target) {window.location.hash=target}
 //-->
 </script>
-

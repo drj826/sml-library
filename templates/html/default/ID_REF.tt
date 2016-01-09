@@ -1,4 +1,8 @@
-[%# args:
+[%#
+
+ID_REF.tt
+
+ARGS:
 
 self => SML::IDReference object
 

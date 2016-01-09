@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+DEMO.tt
+
+ARGS:
 
 self => an SML::Demo object
 
-%]
+-%]
 [%-
 
 demo_number = self.get_number
@@ -18,4 +22,3 @@ anchor      = 'DEMO.' _ demo_number
 [%- INCLUDE narrative_part_list.tt -%]
 
 </div>
-

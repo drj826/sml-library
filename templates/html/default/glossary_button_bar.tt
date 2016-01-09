@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+glossary_button_bar.tt
+
+ARGS:
 
 glossary => an SML::Glossary object
 
-%]
+-%]
 <div align="center">
 <table>
 <tr>

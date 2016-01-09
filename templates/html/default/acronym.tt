@@ -1,1 +1,5 @@
-[%# acronym element %]
+[%#
+
+acronym.tt
+
+-%]

@@ -1,8 +1,12 @@
 [%# args:
 
+library_glossary_page.tt
+
+ARGS:
+
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 glossary = library.get_glossary

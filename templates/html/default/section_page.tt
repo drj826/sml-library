@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+section_page.tt
+
+ARGS:
 
 self => an SML::Section object
 
-%]
+-%]
 [%-
 
 library        = self.get_library

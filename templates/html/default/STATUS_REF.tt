@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+STATUS_REF.tt
+
+ARGS:
 
 self => an SML::Entity object
 
-%]
+-%]
 [%-
 
 status_or_id = self.get_entity_id

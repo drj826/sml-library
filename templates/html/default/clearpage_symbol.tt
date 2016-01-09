@@ -1,1 +1,5 @@
-[%# clearpage_symbol has no meaning in HTML %]
+[%#
+
+clearpage_symbol.tt
+
+-%]

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+GLOSS_DEF_REF.tt
+
+ARGS:
 
 self => an SML::GlossaryDefinitionReference object
 
-%]
+-%]
 [%-
 
 document   = self.get_containing_document

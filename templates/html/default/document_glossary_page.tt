@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+document_glossary_page.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 library                = document.get_library
