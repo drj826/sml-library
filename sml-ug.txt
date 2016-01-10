@@ -2191,7 +2191,7 @@ paragraph:
   # a comment line.  Therefore you can `comment out' a paragraph but
   # putting a `#' at the beginning of each line.
 
-An easier way is to enclose the paragraph in a comment block like
+An easier way is to enclose the paragraph in a comment division like
 this:
 
   >>>COMMENT

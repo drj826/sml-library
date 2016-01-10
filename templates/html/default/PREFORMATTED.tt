@@ -7,4 +7,4 @@ ARGS:
 self => an SML::PreformattedDivision object
 
 -%]
-[% INCLUDE part_list.tt %]
+[%- INCLUDE part_list.tt -%]
