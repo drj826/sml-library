@@ -70,6 +70,10 @@ document_id = document.get_id
 <a href="[%document_id%].history.html">History</a><br/>
 [%- END -%]
 
+[%- IF document.contains_changes -%]
+<a href="[%document_id%].change.html">Changes</a><br/>
+[%- END -%]
+
 <br/>
 
 [%- IF document.get_glossary.contains_entries -%]
