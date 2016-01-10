@@ -1,0 +1,41 @@
+[%# args:
+
+library_change_page.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+[%-
+
+change_list      = library.get_change_list
+change_count     = change_list.size
+previous_version = library.get_previous_version
+
+-%]
+[%- WRAPPER library_page.tt -%]
+
+[%- IF change_count == 1 -%]
+<h1 align="center">One Change Since [%previous_version%]</h1>
+
+[%- ELSE -%]
+<h1 align="center">[%change_count%] Changes Since [%previous_version%]</h1>
+
+[%- END -%]
+
+<table>
+[%- FOREACH change IN change_list -%]
+  [%-
+  action      = change.0
+  division_id = change.1
+  -%]
+<tr>
+<td>[%action%]</td>
+<td>[%division_id%]</td>
+</tr>
+
+[%- END -%]
+</table>
+
+[%- END -%]
