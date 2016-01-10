@@ -9,11 +9,11 @@ self => an SML::AcronymTermReference object
 -%]
 [%-
 
-document          = self.get_containing_document
+library           = self.get_library
 tag               = self.get_tag
 acronym           = self.get_acronym
 namespace         = self.get_namespace
-acronym_list      = document.get_acronym_list
+acronym_list      = library.get_acronym_list
 entry             = acronym_list.get_entry(acronym,namespace)
 term_string       = entry.get_term_string
 definition_string = entry.get_definition_string
