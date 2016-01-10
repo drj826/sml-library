@@ -60,6 +60,13 @@ library => an SML::Library object
 <tr>
 <td class="navigation">
 <br/><br/>
+[% INCLUDE library_version.tt -%]
+</td>
+</tr>
+
+<tr>
+<td class="navigation">
+<br/><br/>
 [%- INCLUDE publish_date_time.tt -%]
 </td>
 </tr>
