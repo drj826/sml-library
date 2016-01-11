@@ -88,9 +88,9 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 change_list      = document.get_change_list
 change_count     = change_list.size
 previous_version = library.get_previous_version
-add_count        = document.get_change_count('add')
-update_count     = document.get_change_count('update')
-delete_count     = document.get_change_count('delete')
+add_count        = document.get_add_count
+update_count     = document.get_update_count
+delete_count     = document.get_delete_count
 
 -%]
 

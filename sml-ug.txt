@@ -5389,13 +5389,6 @@ Instances inherit the attributes of the classes to which they belong.
 
 ######################################################################
 
-***.roles Roles
-
-A ~~role~~ describes the duties of an individual.  An individual may
-have multiple roles.
-
-######################################################################
-
 **.special-features Special Features
 
 ######################################################################

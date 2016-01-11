@@ -12,9 +12,9 @@ library => an SML::Library object
 change_list      = library.get_change_list
 change_count     = change_list.size
 previous_version = library.get_previous_version
-add_count        = library.get_change_count('add')
-update_count     = library.get_change_count('update')
-delete_count     = library.get_change_count('delete')
+add_count        = library.get_add_count
+update_count     = library.get_update_count
+delete_count     = library.get_delete_count
 
 -%]
 [%- WRAPPER library_page.tt -%]

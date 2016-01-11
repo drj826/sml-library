@@ -12,13 +12,22 @@ self => an SML::Entity object
 library  = self.get_library
 id       = self.get_id
 name     = self.get_name.ucfirst
-date     = library.get_first_property_value(id,'date')
-author   = library.get_first_property_value(id,'author')
-revision = library.get_first_property_value(id,'revision')
 
 -%]
 [%- IF library.has_property(id,'type') -%]
 [%- type = library.get_first_property_value(id,'type') -%]
+[%- END -%]
+
+[%- IF library.has_property(id,'date') -%]
+[%- date = library.get_first_property_value(id,'date') -%]
+[%- END -%]
+
+[%- IF library.has_property(id,'author') -%]
+[%- author = library.get_first_property_value(id,'author') -%]
+[%- END -%]
+
+[%- IF library.has_property(id,'revision') -%]
+[%- revision = library.get_first_property_value(id,'revision') -%]
 [%- END -%]
 
 <table style="width:100%;">
