@@ -10,14 +10,6 @@ library = self.get_library
 id      = self.get_id
 
 -%]
-
-[%- UNLESS document -%]
-[%- document = self.get_containing_document -%]
-[%- END -%]
-[%~
-document_id = document.get_id
-~%]
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <!-- ============================================================= -->
@@ -47,42 +39,43 @@ document_id = document.get_id
 
 </head>
 <body>
+<div class="mainbox">
+	<div class="left_navigation">
+		[%- INCLUDE document_navigation.tt -%]
+	</div>
 
-[%- INCLUDE document_navigation.tt -%]
+	<div class="main_page_area">
+		[% IF document.contains_header -%]
+			<div class="page_header">
+				[%- INCLUDE header.tt -%]
+			</div>
+		[%- END -%]
 
-<div class="box">
+		[%- IF banner_navigation != '' -%]
+			<div class="page_navigation">
+				[%- banner_navigation -%]
+			</div>
+		[%- END -%]
 
-[%- IF document.contains_header -%]
-<div class="row hdr">
-[%- INCLUDE header.tt -%]
+		<div class="page_content">
+			[%- content -%]
+			<div class="pad2"></div>
+			<div class="pad2"></div>
+		</div>
+
+		[%- IF banner_navigation != '' -%]
+			<div class="page_navigation">
+				[%- banner_navigation -%]
+			</div>
+		[%- END -%]
+
+		[%- IF document.contains_footer -%]
+			<div class="page_footer">
+				[%- INCLUDE footer.tt -%]
+			</div>
+		[%- END -%]
+	</div> 
 </div>
-[%- END -%]
-
-[%- IF banner_navigation != '' -%]
-<div class="row banner_navigation">
-[%- banner_navigation -%]
-</div>
-[%- END -%]
-
-<div class="row content">
-[%- content -%]
-<div class="pad2"></div>
-<div class="pad2"></div>
-</div>
-
-[%- IF banner_navigation != '' -%]
-<div class="row banner_navigation">
-[%- banner_navigation -%]
-</div>
-[%- END -%]
-
-[%- IF document.contains_footer -%]
-<div class="row ftr">
-[%- INCLUDE footer.tt -%]
-</div>
-[%- END -%]
-
-</div> 
 
 </body>
 </html>

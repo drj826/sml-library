@@ -8,22 +8,18 @@ document => an SML::Document object
 
 %]
 [%-
-self2 = self
+
 self        = document
 document_id = document.get_id
 library     = document.get_library
-self2name = self2.get_name
-self2id = self2.get_id
+
 -%]
 [%- banner_navigation_block = BLOCK  -%]
 [%- INCLUDE banner_navigation.tt -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt banner_navigation = banner_navigation_block -%]
-self2name is [%self2.get_name%]</br>
-self2name is [%self2name%]</br>
-self2id is [%self2.get_id%]</br>
-self2id is [%self2id%]
+
 <br/>
 <br/>
 <br/>

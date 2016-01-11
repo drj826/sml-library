@@ -13,7 +13,6 @@ document_id = document.get_id
 -%]
 
 <!-- navigation -->
-<div id="left">
 <div class="pad4"></div>
 <div align="center">
 <a href="../index.html">
@@ -108,4 +107,3 @@ document_id = document.get_id
 </tr>
 
 </table>
-</div>
