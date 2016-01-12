@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+CITATION_REF.tt
+
+ARGS:
 
 self => an SML::CitationReference object
 
-%]
+-%]
 [%-
 
 source_id = self.get_source_id

@@ -1,1 +1,7 @@
-[%# outcome element - DO NOT RENDER ANYTHING %]
+[%#
+
+outcome.tt
+
+DO NOT RENDER ANYTHING
+
+-%]

@@ -1,1 +1,5 @@
-[%# file element %]
+[%#
+
+file.tt
+
+-%]

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+index_button_bar.tt
+
+ARGS:
 
 index => an SML::Index object
 
-%]
+-%]
 <div align="center">
 <table>
 <tr>

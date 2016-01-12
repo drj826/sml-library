@@ -1,6 +1,10 @@
 [%#
 
+underline_string.tt
+
+ARGS:
+
 self => an SML::String object
 
-%]
-<span style="text-decoration:underline;">[%- INCLUDE STRING.tt -%]</span>
+-%]
+<span style="text-decoration:underline;">[% INCLUDE STRING.tt %]</span>

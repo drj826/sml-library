@@ -14,6 +14,9 @@ my $library = SML::Library->new(config_filename=>'library.conf');
 $logger->info("publish library");
 
 $library->get_all_entities;
+$library->get_all_documents;
+
+$library->store_sha_digest_file;
 
 $library->publish('sml-ug',  'html','default');
 $library->publish('sml-brd', 'html','default');
@@ -24,8 +27,6 @@ $library->publish('sml-ted', 'html','default');
 
 $library->publish_library_pages;
 $library->publish_index;
-
-$library->store_sha_digest_file;
 
 my $end = time();
 my $duration = duration($end - $begin);

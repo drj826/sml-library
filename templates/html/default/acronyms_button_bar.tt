@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+acronyms_button_bar.tt
+
+ARGS:
 
 document     => an SML::Document object
 acronym_list => an SML::AcronymList object
 
-%]
+-%]
 <div align="center">
 <table>
 <tr>
@@ -12,7 +16,6 @@ acronym_list => an SML::AcronymList object
 <td style="text-align:center;padding:0px;"><button type="button" style="width:25px" onclick="goToA('#[%group%]');">[%group%]</button></td>
 
 [%- END -%]
-
 </tr>
 </table>
 </div>

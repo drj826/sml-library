@@ -1,1 +1,5 @@
-[%# pagebreak_symbol %]
+[%#
+
+pagebreak_symbol.tt
+
+-%]

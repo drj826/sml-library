@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+tm_tree_page.tt
+
+ARGS:
 
 library     => an SML::Library object
 entity_name => name of entity for which to build tree
 
-%]
+-%]
 [%-
 
 entity_id_list = library.get_division_id_list_by_name(entity_name)

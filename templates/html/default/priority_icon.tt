@@ -1,4 +1,8 @@
-[%# args:
+[%#
+
+priority_icon.tt
+
+ARGS:
 
 priority => one of: critical, high, routine, low
 

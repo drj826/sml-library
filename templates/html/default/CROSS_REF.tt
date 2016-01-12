@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+CROSS_REF.tt
+
+ARGS:
 
 self => an SML::CrossReference object
 
-%]
+-%]
 [%-
 
 target_id   = self.get_target_id

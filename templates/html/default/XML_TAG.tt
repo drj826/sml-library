@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+XML_TAG.tt
+
+ARGS:
 
 self => an SML::XMLTag object
 
-%]
-&lt;[%-FILTER html-%][%-self.get_content-%][%-END-%]&gt;
+-%]
+&lt;[%FILTER html%][%self.get_content%][%END%]&gt;

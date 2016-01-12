@@ -15,7 +15,7 @@ priority:: routine
 type:: functional
 
 description:: The software shall enable a user to render
-[g:SML:document]s from [g:SML:Semantic Manuscript Language] (SML) to
+[g:SML:DOCUMENT]s from [g:SML:Semantic Manuscript Language] (SML) to
 finalized [a:SML].  That might seem odd.  It means the publishing
 function shall produce SML documents with the following functions
 completed: (1) resolve `includes', (2) run scripts, (3) resolve

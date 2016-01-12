@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+library_id_link.tt
+
+ARGS:
 
 library => SML::Library object
 id      => division ID
 
-%]
+-%]
 [%-
 
 division    = library.get_division(id)

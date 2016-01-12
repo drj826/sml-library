@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+BLOCK.tt
+
+ARGS:
 
 self => an SML::Block object
 
-%]
+-%]
 [%- INCLUDE part_list.tt -%]

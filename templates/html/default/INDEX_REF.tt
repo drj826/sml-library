@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+INDEX_REF.tt
+
+ARGS:
 
 self => as SML::IndexReference object
 
-%]
-[%- self.get_entry -%]
+-%]
+[% self.get_entry %]

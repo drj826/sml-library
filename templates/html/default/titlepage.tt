@@ -6,7 +6,7 @@ ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 self        = document

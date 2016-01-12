@@ -1,9 +1,13 @@
-[%# args:
+[%#
 
-self    => SML::Part represented by content
+document_page.tt
+
+ARGS:
+
+self    => document part represented by content
 content => content to be wrapped by the page
 
-%]
+-%]
 [%-
 
 library = self.get_library
@@ -32,8 +36,7 @@ id      = self.get_id
 
 <title>[%- library.get_first_property_value(id,'title') -%]</title>
 
-[%~ INCLUDE js_popimage.tt -%]
-[% INCLUDE js_treetable.tt -%]
+[% INCLUDE js_popimage.tt -%]
 [% INCLUDE js_gotoa.tt -%]
 [% INCLUDE document_css.tt -%]
 

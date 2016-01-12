@@ -14,7 +14,7 @@ copyright:: 2016, Don Johnson
 
 logo_image_small:: files/images/sml_logo.png
 
-logo_image_center:: files/images/crags.jpg
+logo_image_center:: files/images/rosie.jpg
 
 version:: 0.1
 
@@ -34,13 +34,8 @@ ver:: 0.1 = 2016-01-03 = Initial version.
 
 *.sml-brd-introduction Introduction
 
-This [a:SML:BRD] describes what I plan to do with the [a:SML].
-
-######################################################################
-
-# Perform Engineering Activities
-
-* plugin:: Parts2Sections rq-000358
+This [a:SML:BRD] describes what I plan to do with the [a:SML] for
+software engineering.
 
 ######################################################################
 
@@ -49,25 +44,41 @@ This [a:SML:BRD] describes what I plan to do with the [a:SML].
 = [g:SML:business requirement] = [def:SML:business requirement]
 
 ######################################################################
+
+*.roles Roles
+
+include:: ro-000001           # Systems Engineer
+
+include:: ro-000002           # Document Author
+
+include:: ro-000003           # Release Manager
+
+######################################################################
+
+# Perform Engineering Activities
+
+* plugin:: Parts2Sections rq-000358
+
+######################################################################
 # Backmatter
 
-include:: acronyms-sml
+include:: acronyms-sml        # SML acronym definitions
 
-include:: acronyms-ieee
+include:: acronyms-ieee       # IEEE acronym definitions
 
-include:: acronyms-cmmi
+include:: acronyms-cmmi       # CMMI acronym definitions
 
-include:: glossary-sml
+include:: glossary-sml        # SML glossary definitions
 
-include:: glossary-ieee
+include:: glossary-ieee       # IEEE glossary definitions
 
-include:: glossary-cmmi
+include:: glossary-cmmi       # CMMI glossary definitions
 
-include:: sources
+include:: sources             # SML sources
 
-include:: sources-ieee
+include:: sources-ieee        # IEEE sources
 
-include:: sources-cmmi
+include:: sources-cmmi        # CMMI sources
 
 ######################################################################
 # Local Emacs Variables

@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+subscript_string.tt
+
+ARGS:
 
 self => an SML::String object
 
-%]
-<sub>[%- INCLUDE STRING.tt -%]</sub>
+-%]
+<sub>[% INCLUDE STRING.tt %]</sub>

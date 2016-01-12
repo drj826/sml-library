@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+list_of_exercises_page.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 self                   = document

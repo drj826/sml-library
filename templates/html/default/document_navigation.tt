@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+document_navigation.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%- UNLESS document -%]
 [%- document = self.get_containing_document -%]
 [%- END -%]
@@ -11,7 +15,6 @@ document => an SML::Document object
 document_id = document.get_id
 
 -%]
-
 <!-- navigation -->
 <div class="pad4"></div>
 <div align="center">
@@ -64,6 +67,10 @@ document_id = document.get_id
 
 [%- IF document.contains_version_history -%]
 <a href="[%document_id%].history.html">History</a><br/>
+[%- END -%]
+
+[%- IF document.contains_changes -%]
+<a href="[%document_id%].change.html">Changes</a><br/>
 [%- END -%]
 
 <br/>

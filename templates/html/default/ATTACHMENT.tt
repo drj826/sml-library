@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+ATTACHMENT.tt
+
+ARGS:
 
 self => an SML::Attachment object
 
-%]
+-%]
 [%-
 
 library = self.get_library
@@ -12,7 +16,6 @@ file    = library.get_first_property_value(id,'file')
 anchor  = 'ATTACHMENT.' _ number
 
 -%]
-
 <div class="attachment" id="[%anchor%]">
 <table>
 <tr>
@@ -25,4 +28,3 @@ anchor  = 'ATTACHMENT.' _ number
 </tr>
 </table>
 </div>
-

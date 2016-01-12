@@ -1,1 +1,7 @@
-[%# Don't do anything with comment divisions %]
+[%#
+
+COMMENT.tt
+
+Don't do anything with comment divisions
+
+-%]

@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+RAW.tt
+
+ARGS:
 
 self => an SML::Division object
 
-%]
-[%- INCLUDE part_list.tt -%]
+-%]
+[% INCLUDE part_list.tt %]

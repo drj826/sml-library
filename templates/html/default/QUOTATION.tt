@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+QUOTATION.tt
+
+ARGS:
 
 self => an SML::Quotation object
 
-%]
+-%]
 [%-
 
 library = self.get_library
@@ -21,4 +25,3 @@ anchor  = 'quotation.' _ self.get_number
 [%- END -%]
 
 </div>
-

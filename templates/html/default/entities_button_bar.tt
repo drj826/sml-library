@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+entities_button_bar.tt
+
+ARGS:
 
 ontology => an SML::Ontology object
 
-%]
+-%]
 <div>
 Entities: 
 [%- FOREACH entity_name IN ontology.get_entity_name_list -%]

@@ -1,15 +1,5 @@
 >>>RAW.sml-special-summary
 
->>>COMMENT
-
-$Author: don.johnson $
-
-$Revision: 15125 $
-
-$Date: 2013-07-07 09:24:43 -0600 (Sun, 07 Jul 2013) $
-
-<<<COMMENT
-
 #---------------------------------------------------------------------
 
 : !!Includes.!! ([ref:include]) Content from other files can be

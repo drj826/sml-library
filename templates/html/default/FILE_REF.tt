@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+FILE_REF.tt
+
+ARGS:
 
 self => an SML::FileReference object
 
-%]
+-%]
 <tt>[%self.get_filespec%]</tt>

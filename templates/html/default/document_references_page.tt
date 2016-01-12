@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+document_references_page.tt
+
+ARGS:
 
 document => an SML::Document object
 
-%]
+-%]
 [%-
 
 library                = document.get_library

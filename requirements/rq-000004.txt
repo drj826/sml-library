@@ -9,7 +9,7 @@ priority:: routine
 type:: functional
 
 description:: The system shall enable a user to render
-[g:SML:document]s from [a:SML] to [a:XML].
+[g:SML:DOCUMENT]s from [a:SML] to [a:XML].
 
 revision:: $Revision: 11687 $
 

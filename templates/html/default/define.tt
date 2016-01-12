@@ -1,6 +1,10 @@
-[%# args:
+[%#
+
+define.tt
+
+ARGS:
 
 self => an SML::Element object with name = 'define'
 
-%]
-[%- INCLUDE part_list.tt -%]
+-%]
+[% INCLUDE part_list.tt %]

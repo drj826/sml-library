@@ -1,0 +1,17 @@
+[%#
+
+library_version.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+<div style="text-align:center;font-size:8pt;">
+
+[%- IF library.has_version -%]
+[%- version = library.get_version -%]
+<font color="#888888">[%version%]</font><br/>
+[%- END -%]
+
+</div>

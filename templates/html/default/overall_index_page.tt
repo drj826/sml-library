@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+overall_index_page.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 id               = library.get_id

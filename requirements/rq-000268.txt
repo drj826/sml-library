@@ -21,6 +21,6 @@ readers to quickly navigate to any demonstration in the document.
 index:: [id:rq-000268]; list of demonstrations!HTML; HTML list of
 demonstrations
 
-= [g:SML:demo] = [def:SML:demo]
+= [g:SML:DEMO] = [def:SML:DEMO]
 
 <<<requirement

@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+library_entities_page.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 ontology = library.get_ontology

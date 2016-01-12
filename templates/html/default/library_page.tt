@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+library_page.tt
+
+ARGS:
 
 library => an SML::Library object
 
-%]
+-%]
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <!-- ============================================================= -->
@@ -47,4 +51,3 @@ library => an SML::Library object
 
 </body>
 </html>
-

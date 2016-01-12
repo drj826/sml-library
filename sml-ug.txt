@@ -69,13 +69,13 @@ to:
 
 - be human readable
 
-- express and validate [g:SML:semantic] relationships
-
 - enable [g:SML:continuous integration] of documentation
+
+- express and validate [g:SML:semantic] relationships
 
 - be easy to edit
 
-- be easy to automatically generate
+- be easy to generate automatically
 
 - publish complex documents
 
@@ -85,13 +85,13 @@ Why call it ``[acl:SML]''?
 
 index:: Semantic Manuscript Language; SML
 
-The term [g:SML:manuscript] means authors use the language to capture
-ideas in an ~~original~~ form that can be processed and published.  A
-manuscript is the original form for a published document.
+SML enables you to express the [g:SML:semantics] (~~meaning~~) of the
+text so that applications can automatically ~~reason~~ about document
+content.
 
-The term [g:SML:semantic] means the language has a structured way to
-express the ~~meaning~~ of the text so that applications can
-automatically ~~reason~~ about document content.
+A [g:SML:manuscript] is the ~~original~~ form for a published
+document. Authors use SML to capture ideas in an ~~original~~ form
+that can be processed and published into multiple renditions.
 
 The concept of a ``semantic manuscript'' aligns well with my purpose
 to enable authors to create readable, modular, documents and re-usable
@@ -118,16 +118,8 @@ professionally typeset hardcopy or web content.
 index:: published rendition!PDF; published rendition!HTML; published
 rendition!XML; published rendition!RTF; published rendition!CSV
 
-The ||publish|| program renders [a:SML] text files into published
-documents.  I used it to publish ~~this~~ document.  This book's [a:SML]
-text file is included with the [cmd:publish] distribution at
-[path:docs/sml.txt].  You can publish this book yourself to test
-things out.
-
-The program is free (licensed under the [a:GPL]). Binaries are
-available for Windows and Linux, and the source code is available for
-any platform that runs [g:Perl].  For more information contact me at
-drj826@acm.org.
+[a:SML] is free (licensed under the [a:GPL]). I've implemented a free
+codebase in Perl 5 that includes a parser and publisher.
 
 index:: LaTeX; PDFLaTeX
 
@@ -146,7 +138,7 @@ elements of the document to a spreadsheet or database.
 The purpose of this section is to convince you it's better to write
 documentation using [a:SML] than a word processor.
 
-~~Why don't we write software the way we write documentation?~~
+Why don't we write ~~software~~ the way we write ~~documentation~~?
 Because it would be ~~terribly~~ inefficient and result in
 unmaintainable software.
 
@@ -176,7 +168,7 @@ used to do this with code until I found myself updating the same code
 in six places.  I decided to modularize my code into libraries and now
 I can use the same code in many places but maintainin it in only one.
 The same is true of documentation.  When I want the same text in
-multiple documents I just save it as an SML [g:SML:fragment] and
+multiple documents I just save it as an SML [g:SML:FRAGMENT] and
 maintain it in one place.
 
 - ~~Write Once and Done~~ -- Similar to the [g:IEEE:waterfall model]
@@ -1647,8 +1639,8 @@ Divisions start with {lit:>>>DIVISION_NAME.id} and end with
 {lit:<<<DIVISION_NAME}.  The divisions allowed in your library are
 enumerated in the [g:SML:ontology].
 
-In the following sections you'll learn how to add paragraphs,
-[g:SML:section]s, [g:SML:table]s, [g:SML:figure]s, [g:SML:listing]s,
+In the following sections you'll learn how to add [g:SML:paragraph]s,
+[g:SML:SECTION]s, [g:SML:TABLE]s, [g:SML:FIGURE]s, [g:SML:LISTING]s,
 and other document [g:SML2:structure]s.
 
 [a:SML] is a formal [g:SML:descriptive markup] language.  That means
@@ -2199,7 +2191,7 @@ paragraph:
   # a comment line.  Therefore you can `comment out' a paragraph but
   # putting a `#' at the beginning of each line.
 
-An easier way is to enclose the paragraph in a comment block like
+An easier way is to enclose the paragraph in a comment division like
 this:
 
   >>>COMMENT
@@ -5394,13 +5386,6 @@ Instances inherit the attributes of the classes to which they belong.
 
 = class_of = The ID (label) of another task for which this is a class.
 Instances inherit the attributes of the classes to which they belong.
-
-######################################################################
-
-***.roles Roles
-
-A ~~role~~ describes the duties of an individual.  An individual may
-have multiple roles.
 
 ######################################################################
 

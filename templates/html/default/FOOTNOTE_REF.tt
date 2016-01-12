@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+FOOTNOTE_REF.tt
+
+ARGS:
 
 self => an SML::FootnoteReference object
 
-%]
+-%]
 [%-
 
 id  = self.get_section_id

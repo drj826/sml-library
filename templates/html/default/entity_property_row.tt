@@ -1,10 +1,14 @@
-[%# args:
+[%#
+
+entity_property_row.tt
+
+ARGS:
 
 self          => an SML::Entity object
 property_name => entity property name (i.e. 'is_part_of')
 label         => entity property name label (i.e. 'is part of:')
 
-%]
+-%]
 [%-
 
 library   = self.get_library

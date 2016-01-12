@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+division_heading.tt
+
+ARGS:
 
 self  => an SML::Division object
 label => a label (i.e. 'Demonstration')
 
-%]
+-%]
 [%-
 
 library = self.get_library

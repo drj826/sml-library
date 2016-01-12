@@ -1,9 +1,13 @@
-[%# args:
+[%#
+
+publish_date_time.tt
+
+ARGS:
 
 library  => an SML::Library object (maybe)
 document => an SML::Document object
 
-%]
+-%]
 [%- UNLESS library -%]
 [%- library = document.get_library -%]
 [%- END -%]

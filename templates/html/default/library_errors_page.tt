@@ -1,8 +1,12 @@
 [%# args:
 
+library_errors_page.tt
+
+ARGS:
+
 library => an SML::Library object
 
-%]
+-%]
 [%-
 
 error_list  = library.get_error_list

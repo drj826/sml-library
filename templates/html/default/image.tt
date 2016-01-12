@@ -1,8 +1,12 @@
-[%# args:
+[%#
+
+image.tt
+
+ARGS:
 
 self => an SML::Image object
 
-%]
+-%]
 [%-
 
 basename = self.get_basename

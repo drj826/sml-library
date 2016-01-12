@@ -1,0 +1,142 @@
+[%#
+
+document_change_page.tt
+
+ARGS:
+
+document => an SML::Document object
+
+-%]
+[%-
+
+self                   = document
+library                = document.get_library
+document_id            = document.get_id
+document_title_element = library.get_first_property_value_element(document_id,'title')
+
+-%]
+[%- WRAPPER document_page.tt -%]
+
+<table style="width:100%">
+<tr>
+
+[%# PREVIOUS %]
+[%- IF document.contains_version_history -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].history.html">&lt; Version History</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('SLIDE') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].slides.html">&lt; List of Slides</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('ATTACHMENT') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].attachments.html">&lt; List of Attachments</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('FIGURE') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].figures.html">&lt; List of Figures</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('TABLE') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].tables.html">&lt; List of Tables</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('LISTING') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].listings.html">&lt; List of Listings</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('DEMO') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].demos.html">&lt; List of Demonstrations</a>
+</td>
+
+[%- ELSIF document.contains_division_with_name('EXERCISE') -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].exercises.html">&lt; List of Exercises</a>
+</td>
+
+[%- ELSE -%]
+<td style="width:20%;font-size:8pt;text-align:left">
+<a href="[%document_id%].toc.html">&lt; Table of Contents</a>
+</td>
+
+[%- END -%]
+
+[%# LINK TO TABLE OF CONTENTS %]
+<td style="width:60%;font-size:8pt;text-align:center">
+<a href="[%document_id%].toc.html">
+[%- INCLUDE element.tt element = document_title_element -%]
+</a>
+</td>
+
+[%# NEXT %]
+<td style="width:20%;font-size:8pt;text-align:right">
+<a href="[%document_id%].1.html">NEXT &gt;</a>
+</td>
+
+</tr>
+</table>
+
+[%-
+
+change_list      = document.get_change_list
+change_count     = change_list.size
+previous_version = library.get_previous_version
+add_count        = document.get_add_count
+update_count     = document.get_update_count
+delete_count     = document.get_delete_count
+
+-%]
+
+[%- IF change_count == 1 -%]
+<h1 align="center">One Change Since [%previous_version%]</h1>
+
+[%- ELSE -%]
+<h1 align="center">[%change_count%] Changes Since [%previous_version%]</h1>
+
+[%- END -%]
+
+<p align="center">([%add_count%] added, [%delete_count%] deleted, [%update_count%] updated)</p>
+
+<div align="center">
+<table>
+[%- bgcolor = '#eeeeee' -%]
+[%- FOREACH change IN change_list -%]
+
+  [%-
+  action        = change.0
+  division_id   = change.1
+  division_name = library.get_division_name_for_id(division_id)
+  file          = library.get_file_containing_id(division_id)
+  filename      = file.get_filename
+  -%]
+
+  [%- IF library.has_property(division_id,'title') -%]
+  [%- title = library.get_first_property_value(division_id,'title') -%]
+  [%- END -%]
+
+  [%- IF bgcolor == '#eeeeee' -%]
+    [%- bgcolor = '#ffffff' -%]
+  [%- ELSE -%]
+    [%- bgcolor = '#eeeeee' -%]
+  [%- END -%]
+
+<tr>
+<td style="background-color:[%bgcolor%]">[%action%]</td>
+<td style="background-color:[%bgcolor%]">[%division_name%]</td>
+<td style="background-color:[%bgcolor%]">[% INCLUDE id_link.tt id = division_id %]</td>
+<td style="background-color:[%bgcolor%]">[%title%]</td>
+<td style="background-color:[%bgcolor%]">in [%filename%]</td>
+</tr>
+
+[% END -%]
+</table>
+</div>
+
+[%- END -%]
