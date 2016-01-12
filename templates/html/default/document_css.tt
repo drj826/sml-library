@@ -13,7 +13,7 @@ body { height: 100%; max-height: 100%; margin: 0; border: 0; padding: 0; font-si
 .page_header { flex: 0 0 auto; }
 .page_footer { flex: 0 0 auto; }
 .page_navigation { flex: 0 0 auto; }
-.page_content { flex: 1 1 auto; overflow-y: auto; padding-left: 10px; }
+.page_content { border: 1px solid #c6ecc6; flex: 1 1 auto; overflow-y: auto; padding-left: 10px; }
 * html #head, * html #foot, * html #left { position: absolute; }
 #pad1 { display: block; width: 118px; height: 20px; float: left; }
 #pad3 { display: block; width: 118px; height: 60px; float: left; }

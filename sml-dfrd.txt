@@ -22,6 +22,8 @@ header_left:: [l:date:sml-dfrd]
 
 header_right:: [l:author:sml-dfrd]
 
+footer_center:: This in an entry for the document center footer.
+
 version:: 0.1
 
 date:: 3 Jan 2016

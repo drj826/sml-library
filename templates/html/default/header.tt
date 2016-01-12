@@ -21,16 +21,22 @@ library     = document.get_library
 <table style="width: 100%;">
   <tr>
   [%# HEADER_LEFT %]
-  <td style="width: 10%; text-align: left; font-size: 8pt;">
+  <td style="width: 15%; text-align: left; font-size: 8pt;">
+  [%- IF library.has_property(document_id,'header_left') -%]
   [%- library.get_first_property_value(document_id,'header_left') -%]
+  [%- END -%]
   </td>
   [%# HEADER_CENTER %]
-  <td style="width: 80%; text-align: center; font-size: 8pt;">
+  <td style="width: 70%; text-align: center; font-size: 8pt;">
+  [%- IF library.has_property(document_id,'header_center') -%]
   [%- library.get_first_property_value(document_id,'header_center') -%]
+  [%- END -%]
   </td>
   [%# HEADER_RIGHT %]
-  <td style="width: 10%; text-align: right; font-size: 8pt;">
+  <td style="width: 15%; text-align: right; font-size: 8pt;">
+  [%- IF library.has_property(document_id,'header_right') -%]
   [%- library.get_first_property_value(document_id,'header_right') -%]
+  [%- END -%]
   </td>
   </tr>
 </table>

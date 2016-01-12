@@ -14,6 +14,14 @@ library = self.get_library
 id      = self.get_id
 
 -%]
+[%- UNLESS document -%]
+[%- document = self.get_containing_document -%]
+[%- END -%]
+[%-
+
+document_id = document.get_id
+
+-%]
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/1999/xhtml" xml:lang="en">
 
 <!-- ============================================================= -->
@@ -54,9 +62,9 @@ id      = self.get_id
 			</div>
 		[%- END -%]
 
-		[%- IF banner_navigation != '' -%]
+		[%- IF page_navigation != '' -%]
 			<div class="page_navigation">
-				[%- banner_navigation -%]
+				[%- page_navigation -%]
 			</div>
 		[%- END -%]
 
@@ -66,9 +74,9 @@ id      = self.get_id
 			<div class="pad2"></div>
 		</div>
 
-		[%- IF banner_navigation != '' -%]
+		[%- IF page_navigation != '' -%]
 			<div class="page_navigation">
-				[%- banner_navigation -%]
+				[%- page_navigation -%]
 			</div>
 		[%- END -%]
 
