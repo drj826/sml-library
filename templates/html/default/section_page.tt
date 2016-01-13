@@ -18,7 +18,7 @@ title_element  = library.get_first_property_value_element(section_id,'title')
 -%]
 [% WRAPPER document_page.tt -%]
 
-[%- INCLUDE previous_and_next.tt -%]
+[%- INCLUDE previous_and_next.tt pagename = section_number -%]
 
 <div class="section" id="[%anchor%]">
 
@@ -30,6 +30,6 @@ title_element  = library.get_first_property_value_element(section_id,'title')
 
 </div>
 
-[%- INCLUDE previous_and_next.tt -%]
+[%- INCLUDE previous_and_next.tt pagename = section_number -%]
 
 [%- END -%]

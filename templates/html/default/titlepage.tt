@@ -16,11 +16,7 @@ library     = document.get_library
 -%]
 [% WRAPPER document_page.tt -%]
 
-<table style="width:100%">
-<tr>
-<td style="font-size:8pt;text-align:right"><a href="[%document_id%].toc.html">Table of Contents &gt;</a></td>
-</tr>
-</table>
+[% INCLUDE previous_and_next.tt pagename = 'titlepage' %]
 
 <br/>
 <br/>
