@@ -11,11 +11,12 @@ my $document_id = shift;
 
 my $begin = time();
 
-my $library = SML::Library->new(config_filename=>'library.conf');
+my $library   = SML::Library->new(config_filename=>'library.conf');
+my $publisher = $library->get_publisher;
 
 $logger->info("publish document $document_id");
 
-$library->publish($document_id,'html','default');
+$publisher->publish($document_id,'html','default');
 
 my $end = time();
 my $duration = duration($end - $begin);

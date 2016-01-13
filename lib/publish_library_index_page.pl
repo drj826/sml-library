@@ -13,7 +13,7 @@ my $library = SML::Library->new(config_filename=>'library.conf');
 
 $logger->info("publish library index");
 
-$library->publish_index;
+$library->publish_library_index_page;
 
 my $end = time();
 my $duration = duration($end - $begin);

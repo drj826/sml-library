@@ -15,18 +15,10 @@ $logger->info("publish library");
 
 $library->get_all_entities;
 $library->get_all_documents;
-
 $library->store_sha_digest_file;
-
-$library->publish('sml-ug',  'html','default');
-$library->publish('sml-brd', 'html','default');
-$library->publish('sml-dfrd','html','default');
-$library->publish('sml-srd', 'html','default');
-$library->publish('sml-sdd', 'html','default');
-$library->publish('sml-ted', 'html','default');
-
+$library->publish_all_documents('html','default');
 $library->publish_library_pages;
-$library->publish_index;
+$library->publish_library_index_page;
 
 my $end = time();
 my $duration = duration($end - $begin);

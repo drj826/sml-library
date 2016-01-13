@@ -1,6 +1,6 @@
 >>>requirement.rq-000089
 
-title:: Represent an Acronym Definition
+title:: Represent an Acronym List Entry
 
 revision:: $Revision: 10973 $
 
@@ -15,11 +15,12 @@ is_part_of:: rq-000327
 type:: data format
 
 description:: The data format shall have the capability to represent
-an acronym definition.  This capability enables an author to establish
-formal definitions of acronyms used in a document.  The data format
-representation of an acronym definition must allow but not mandate
-newline characters within an acronym definition.
+an acronym list entry (acrony/definition pair).  This capability
+enables an author to establish formal definitions of acronyms used in
+a document.  The data format representation of an acronym definition
+must allow but not mandate newline characters within an acronym
+definition.
 
-index:: [id:rq-000089]; acronym!definition
+index:: [id:rq-000089]; acronym; acronym list!entry
 
 <<<requirement
