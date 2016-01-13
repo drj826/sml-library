@@ -1,0 +1,59 @@
+[%# 
+
+page_navigation.tt
+
+ARGS:
+
+self    => document part represented by content
+page_type => from another template indicating what type of page this is
+
+%]
+
+[%- IF self.get_name == 'DOCUMENT' -%]
+[%-
+
+document_id = document.get_id
+
+-%]
+
+[%- ELSIF self.get_name == 'SECTION' -%]
+[%-
+
+library                = self.get_library
+document               = self.get_containing_document
+previous               = self.get_previous_number
+next                   = self.get_next_number
+document_id            = document.get_id
+document_title_element = library.get_first_property_value_element(document_id,'title')
+
+-%]
+[%- ELSE -%]
+[%# Option to put an ERM indicating an unexpected object encountered %]
+[%- RETURN -%]
+[% END %]
+
+<table style="width:100%">
+<tr>
+  [%# PREVIOUS %]
+  <td style="width:20%;font-size:8pt;text-align:left">
+  [%- IF previous_page -%]
+  <a href="[%document_id%].[% previous_page%].html">&lt; PREVIOUS [% previous_page%]</a>
+  [%- END -%]
+  </td>
+
+  [%# LINK TO TABLE OF CONTENTS %]
+  <td style="width:60%;font-size:8pt;text-align:center">
+  <a href="[%document_id%].toc.html">
+  [%- INCLUDE element.tt element = document_title_element -%]
+  </a>
+  </td>
+
+  [%# NEXT %]
+  <td style="width:20%;font-size:8pt;text-align:right">
+  [%- IF next_page -%]
+  <a href="[%document_id%].[% next_page%].html"> NEXT &gt;[% next_page%]</a>
+  [%- END -%]
+  </td>
+
+  </tr>
+</table>

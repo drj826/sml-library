@@ -15,7 +15,11 @@ library     = document.get_library
 
 -%]
 [%- page_navigation_block = BLOCK  -%]
-[%- INCLUDE page_navigation.tt page_type = 'titlepage' -%]
+[%#- previous_page = document.get_page_before('titlepage') %]
+[%#- previous_page = 'titlepage' %]
+[%#- next_page = document.get_page_after('titlepage') %]
+[%- next_page = 'toc' %]
+[%- INCLUDE page_navigation.tt -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
