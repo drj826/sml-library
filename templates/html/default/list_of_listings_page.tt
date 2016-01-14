@@ -16,9 +16,11 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 section_list           = document.get_list_of_divisions_with_name('SECTION')
 
 -%]
-[%- WRAPPER document_page.tt -%]
-
+[%- page_navigation_block = BLOCK  -%]
 [% INCLUDE previous_and_next.tt pagename = 'listings' %]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h2 align="center">List of Listings</h2>
 

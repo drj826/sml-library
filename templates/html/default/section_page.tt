@@ -16,9 +16,12 @@ anchor         = 'section.' _ section_number
 title_element  = library.get_first_property_value_element(section_id,'title')
 
 -%]
-[% WRAPPER document_page.tt -%]
 
+[%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = section_number -%]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <div class="section" id="[%anchor%]">
 
@@ -29,7 +32,5 @@ title_element  = library.get_first_property_value_element(section_id,'title')
 <br/>
 
 </div>
-
-[%- INCLUDE previous_and_next.tt pagename = section_number -%]
 
 [%- END -%]

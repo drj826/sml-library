@@ -17,9 +17,11 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 count                  = glossary.get_entry_count
 
 -%]
-[%- WRAPPER document_page.tt -%]
-
+[%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = 'glossary' -%]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h1 style="text-align:center;">Glossary</h1>
 

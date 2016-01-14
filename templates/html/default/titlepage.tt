@@ -14,9 +14,11 @@ document_id = document.get_id
 library     = document.get_library
 
 -%]
-[% WRAPPER document_page.tt -%]
-
+[%- page_navigation_block = BLOCK  -%]
 [% INCLUDE previous_and_next.tt pagename = 'titlepage' %]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <br/>
 <br/>

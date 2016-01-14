@@ -16,9 +16,12 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 section_list           = document.get_list_of_divisions_with_name('SECTION')
 
 -%]
-[%- WRAPPER document_page.tt -%]
 
+[%- page_navigation_block = BLOCK  -%]
 [% INCLUDE previous_and_next.tt pagename = 'contents' %]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h2 style="text-align:center;">Table of Contents</h2>
 
@@ -67,6 +70,9 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 </a>
 </div>
 
-[%- END -%]
-[%- END -%]
+[%- END -%] [%#end of IF section_depth == '1' -%]
+[%- END -%] [%#endof FOREACH section IN section_list -%]
+
+
+
 [%- END -%]

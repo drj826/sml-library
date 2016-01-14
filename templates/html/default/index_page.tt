@@ -16,9 +16,11 @@ document_id            = document.get_id
 document_title_element = library.get_first_property_value_element(document_id,'title')
 
 -%]
-[%- WRAPPER document_page.tt -%]
-
+[%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = 'index' -%]
+[%- END -%]
+
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h1 style="text-align:center;">Index</h1>
 
