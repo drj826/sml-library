@@ -9,9 +9,10 @@ self => an SML::Entity object
 -%]
 [%-
 
-library  = self.get_library
-id       = self.get_id
-name     = self.get_name.ucfirst
+library    = self.get_library
+id         = self.get_id
+name       = self.get_name.ucfirst
+sha_digest = self.get_sha_digest.substr(0,7)
 
 -%]
 [%- IF library.has_property(id,'type') -%]
@@ -30,27 +31,21 @@ name     = self.get_name.ucfirst
 [%- revision = library.get_first_property_value(id,'revision') -%]
 [%- END -%]
 
-<table style="width:100%;">
+<table style="width:100%;border-collapse:collapse;">
 
 <tr>
-<td style="background-color:#bbbbbb;color:#ffffff;font-size:12pt;" colspan="7">[%name%]</td>
+<td style="background-color:#eeeeee;color:#888888;font-size:12pt;" colspan="10">[%name%]</td>
 </tr>
 
 <tr>
-<td style="width:14%;background-color:#eeeeee;">ID:</td>
-<td style="width:14%;background-color:#eeeeee;">Type:</td>
-<td style="width:10%;background-color:#eeeeee;">Priority:</td>
-<td style="width:10%;background-color:#eeeeee;">Status:</td>
-<td style="width:18%;background-color:#eeeeee;">Last Modified:</td>
-<td style="width:18%;background-color:#eeeeee;">By:</td>
-<td style="width:14%;background-color:#eeeeee;">Changeset:</td>
-</tr>
+<td style="width:5%;background-color:#eeeeee;color:#888888;">ID:</td>
+<td style="width:10%;background-color:#eeeeee;">[%id%]</td>
 
-<tr>
-<td style="width:14%;background-color:#eeeeee;">[%id%]</td>
-<td style="width:14%;background-color:#eeeeee;">[%type%]</td>
+<td style="width:8%;background-color:#eeeeee;color:#888888;">Type:</td>
+<td style="background-color:#eeeeee;">[%type%]</td>
 
-<td style="width:10%;background-color:#eeeeee;">
+<td style="width:8%;background-color:#eeeeee;color:#888888;">Priority:</td>
+<td style="background-color:#eeeeee;">
 [%- IF library.has_property(id,'priority') -%]
 [%- priority = library.get_first_property_value(id,'priority') -%]
 [% INCLUDE priority_icon.tt %] [%priority%]
@@ -59,7 +54,8 @@ name     = self.get_name.ucfirst
 [%- END -%]
 </td>
 
-<td style="width:10%;background-color:#eeeeee;">
+<td style="width:8%;background-color:#eeeeee;color:#888888;">Status:</td>
+<td style="background-color:#eeeeee;">
 [%- IF library.has_property(id,'status') -%]
 [%- status = library.get_first_property_value(id,'status') -%]
 [% INCLUDE status_icon.tt %] [%status%]
@@ -68,9 +64,9 @@ name     = self.get_name.ucfirst
 [%- END -%]
 </td>
 
-<td style="width:18%;background-color:#eeeeee;">[%date%]</td>
-<td style="width:18%;background-color:#eeeeee;">[%author%]</td>
-<td style="width:14%;background-color:#eeeeee;">[%revision%]</td>
+<td style="width:5%;background-color:#eeeeee;color:#888888;">SHA1:</td>
+<td style="background-color:#eeeeee;">[%sha_digest%]</td>
+
 </tr>
 
 </table>
