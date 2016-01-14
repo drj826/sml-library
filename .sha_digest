@@ -478,7 +478,7 @@ ea612b96c2e7cc7bd250c82ae520f33f03328dd0 lis-listitem-pm-unit-test-results
 850c82d388e4d68b4a143e90cd7059258b593454 lis-options-pm-unit-test-results
 ac22bc26abc8b8ad525cd2da6a617e6d8191fd7d lis-paragraph-pm-unit-test-case
 86a40241b278b3baffb2a4bb1377ffe2860ab173 lis-paragraph-pm-unit-test-results
-db95cef50c1e40422fdc22e245431b5796ae7872 lis-parser-pm
+da6296101a47455a34afe4abdc40d0cd402ddef4 lis-parser-pm
 1c85e1d777342dfdf5ecff310f1eb271eeda0f51 lis-parser-pm-unit-test-case
 9b82916c62b67f1bf6e37f85423627330d5ce324 lis-parser-pm-unit-test-results
 4ccedabefd21bd307bc054158b2011123c5ced33 lis-preformatted-block-pm
@@ -915,7 +915,7 @@ e7f2c380bd2e2f7c4bda3f0dbda35e4c5601f41d sml-allocations
 d087f9f9b7d8a5b9ffea040af7171683f45a65bc sml-brd-introduction
 6e7c4ad365e9685cd184f6e4c1eff742e6c1b3a0 sml-brd-terms
 625c6af5afc016a8f5b6449c5e37f9ebddbb7d99 sml-content-summary
-31cf37cab4e90cf14e84b5c5b6a6da775a7afdfa sml-dfrd
+d949ca113edbbde0bc6745b7a8b0dab306a01767 sml-dfrd
 09ee2c2a3e7eaa8bc2a5abce394bf6264ffe1667 sml-dfrd-introduction
 db81d6f30cd9a4488e7eda2d0c47fb3b26d954cc sml-forward
 388e9fb86bfb5299835bf292a1d0ea1fd30a921b sml-language

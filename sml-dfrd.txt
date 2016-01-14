@@ -16,16 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/molly.jpg
 
-header_center:: Thisismycenterheaderentry_fork
-
-header_left:: [l:date:sml-dfrd]
-
-header_right:: [l:author:sml-dfrd]
-
-footer_center:: This in an entry for the document center footer.
-
-version:: 0.1
-
 date:: 3 Jan 2016
 
 use_formal_status:: 1
