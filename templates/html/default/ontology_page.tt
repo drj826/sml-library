@@ -10,18 +10,24 @@ library => an SML::Library object
 [%-
 
 ontology = library.get_ontology
+div_ct   = ontology.get_rule_type_count('div')
+prp_ct   = ontology.get_rule_type_count('prp')
+cmp_ct   = ontology.get_rule_type_count('cmp')
+enu_ct   = ontology.get_rule_type_count('enu')
+def_ct   = ontology.get_rule_type_count('def')
+count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 
 -%]
 [%- WRAPPER library_page.tt -%]
 
 <h1 align="center">Ontology</h1>
 
+<p align="center">([%count%] rules)</p>
+
 [%- INCLUDE ontology_button_bar.tt -%]
 
 [%- FOREACH entity_name IN ontology.get_entity_name_list -%]
-  [%-
-  entity_class = ontology.get_class_for_division_name(entity_name)
-  -%]
+[%- entity_class = ontology.get_class_for_division_name(entity_name) -%]
 <h2 style="background-color:#eeeeee;padding:10px;" id="[%entity_name%]">[%entity_name%]</h2>
 
 <table>

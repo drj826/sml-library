@@ -9,23 +9,22 @@ document => an SML::Document object
 -%]
 [%-
 
+self                   = document
 library                = document.get_library
 glossary               = document.get_glossary
 document_id            = document.get_id
 document_title_element = library.get_first_property_value_element(document_id,'title')
+count                  = glossary.get_entry_count
 
 -%]
-[%- WRAPPER document_page.tt -%]
+[%- page_navigation_block = BLOCK  -%]
+[%- INCLUDE previous_and_next.tt pagename = 'glossary' -%]
+[%- END -%]
 
-<div style="font-size:8pt;text-align:center">
-<a href="[%document_id%].toc.html">
-[%- INCLUDE element.tt element = document_title_element -%]
-</a>
-</div>
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h1 style="text-align:center;">Glossary</h1>
 
-[%- count = glossary.get_entry_count -%]
 <p align="center">([%count%] entries)</p>
 
 [%- INCLUDE glossary_button_bar.tt -%]
@@ -34,7 +33,11 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 
 [%- FOREACH group IN glossary.get_group_list -%]
 
-<tr id="[%group%]"><td colspan="3"><span style="font-size:20pt;">[%group%]</span></td></tr>
+<tr id="[%group%]">
+<td colspan="3">
+<span style="font-size:20pt;font-weight:bold;">[%group%]</span>
+</td>
+</tr>
 
   [%- bgcolor = '#eeeeee' -%]
   [%- FOREACH entry IN glossary.get_group_entry_list(group) -%]

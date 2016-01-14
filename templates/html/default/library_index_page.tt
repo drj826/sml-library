@@ -66,7 +66,7 @@ num                 = num + 1
 <td style="background-color:[%bgcolor%];">[%document_abbr%]</td>
 
 <td style="background-color:[%bgcolor%];">
-<a href="[%document_id%]/[%document_id%].titlepage.html">
+<a href="[%document_id%]/titlepage.html">
 <span style="font-weight:bold;">[%document_title%]</span>
 [%- IF document_subtitle -%]
  - [%document_subtitle%]
@@ -77,7 +77,7 @@ num                 = num + 1
 [%- IF library.has_published_document('DRAFT',document_id) -%]
 [%-
 
-version  = library.get_published_document_property_value('DRAFT',document_id,'version')
+version  = library.get_version
 revision = library.get_published_document_property_value('DRAFT',document_id,'revision')
 date     = library.get_published_document_property_value('DRAFT',document_id,'date')
 
@@ -96,7 +96,7 @@ r[%revision%]<br/>
 <td style="background-color:[%bgcolor%];">
 
 [%- IF library.has_published_document_rendition('DRAFT',document_id,'html') -%]
-<a href="[%document_id%]/[%document_id%].titlepage.html">
+<a href="[%document_id%]/titlepage.html">
 <img src="images/html_icon.png" height="27" width="28">
 </a>
 [%- END -%]

@@ -97,11 +97,11 @@ change and is ~~not~~ a break-fix
 
 glossary:: business requirement {SML} = A requirement that describes
 what an organization or role must do for another organization or role.
-Business requirements begin with the phrase, ``The organization
-shall...'' [G:SML:system requirement]s are derived from business
-requirements and consist of [g:SML:functional requirement]s,
-[g:SML:non-functional requirement]s, and [g:SML:technical
-requirement]s
+It describes an ~~activity~~. Business requirements begin with the
+phrase, ``The organization shall...'' [G:SML:system requirement]s are
+derived from business requirements and consist of [g:SML:functional
+requirement]s, [g:SML:non-functional requirement]s, and
+[g:SML:technical requirement]s
 
 ######################################################################
 # C
@@ -141,6 +141,13 @@ glossary:: configuration item {SML} = An [g:SML2:entity] that
 represents an aggregation of work products that is designated for
 configuration management and treated as a single entity in the
 configuration management process
+
+glossary:: confirmation bias {SML} = The tendency to search for,
+interpret, favor, and recall information in a way that confirms one's
+beliefs or hypotheses, while giving disproportionately less
+consideration to alternative possibilities. Also called confirmatory
+bias or myside bias.  See
+[url:https://en.wikipedia.org/wiki/Confirmation_bias]
 
 glossary:: content {SML} = (1) Text meant to convey meaning.  (2) A
 type of markup feature that describes the ~~meaning~~ of [g:SML:text]

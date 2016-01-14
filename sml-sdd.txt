@@ -17,8 +17,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/aspen-leaf.jpg
 
-version:: 2.0
-
 revision:: $Revision: 15138 $
 
 date:: 21 Dec 2015

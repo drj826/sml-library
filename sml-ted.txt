@@ -19,8 +19,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/river.jpg
 
-version:: 2.0
-
 revision:: $Revision: 15138 $
 
 use_formal_status:: 1

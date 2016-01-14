@@ -15,11 +15,7 @@ library     = document.get_library
 
 -%]
 [%- page_navigation_block = BLOCK  -%]
-[%#- previous_page = document.get_page_before('titlepage') %]
-[%#- previous_page = 'titlepage' %]
-[%#- next_page = document.get_page_after('titlepage') %]
-[%- next_page = 'toc' %]
-[%- INCLUDE page_navigation.tt -%]
+[% INCLUDE previous_and_next.tt pagename = 'titlepage' %]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
@@ -53,12 +49,8 @@ library     = document.get_library
 <br/>
 <br/>
 
-[%- IF library.has_property(document_id,'version') -%]
-<p align="center">Version [% INCLUDE part_list.tt self = library.get_first_property_value_element(document_id,'version') %]</p>
-[%- END -%]
-
-[%- IF library.has_property(document_id,'date') -%]
-<p align="center">[% library.get_first_property_value(document_id,'date') %]</p>
+[%- IF library.has_version -%]
+<p align="center">[% library.get_version %]</p>
 [%- END -%]
 
 [%- IF library.has_property(document_id,'organization') -%]

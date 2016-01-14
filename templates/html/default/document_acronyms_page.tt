@@ -9,19 +9,18 @@ document => an SML::Document object
 -%]
 [%-
 
+self                   = document
 library                = document.get_library
 acronym_list           = document.get_acronym_list
 document_id            = document.get_id
 document_title_element = library.get_first_property_value_element(document_id,'title')
 
 -%]
-[%- WRAPPER document_page.tt -%]
+[%- page_navigation_block = BLOCK  -%]
+[%- INCLUDE previous_and_next.tt pagename = 'acronyms' -%]
+[%- END -%]
 
-<div style="font-size:8pt;text-align:center">
-<a href="[%document_id%].toc.html">
-[%- INCLUDE element.tt element = document_title_element -%]
-</a>
-</div>
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
 
 <h1 style="text-align:center;">Acronyms</h1>
 

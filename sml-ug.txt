@@ -16,10 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/meadow.jpg
 
-version:: v2.0
-
-previous_version:: v0.1-rc1
-
 revision:: 31415
 
 date:: 21 Dec 2015

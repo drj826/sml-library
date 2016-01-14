@@ -18,7 +18,7 @@ title_element  = library.get_first_property_value_element(section_id,'title')
 -%]
 
 [%- page_navigation_block = BLOCK  -%]
-[%- INCLUDE page_navigation.tt page_type = 'section' -%]
+[%- INCLUDE previous_and_next.tt pagename = section_number -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
@@ -32,6 +32,5 @@ title_element  = library.get_first_property_value_element(section_id,'title')
 <br/>
 
 </div>
-
 
 [%- END -%]

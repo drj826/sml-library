@@ -17,11 +17,7 @@ section_list           = document.get_list_of_divisions_with_name('SECTION')
 
 -%]
 [%- page_navigation_block = BLOCK  -%]
-[%#- previous_page = document.get_page_before('tables') %]
-[%- previous_page = 'toc' %]
-[%#- next_page = document.get_page_after('tables') %]
-[%#- next_page = 'tables' %]
-[%- INCLUDE page_navigation.tt -%]
+[% INCLUDE previous_and_next.tt pagename = 'tables' %]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]

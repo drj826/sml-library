@@ -71,14 +71,14 @@ num               = num + 1
 [%- IF library.has_published_document('DRAFT',document_id) -%]
 [%-
 
-version  = library.get_published_document_property_value('DRAFT',document_id,'version')
+version  = library.get_version
 revision = library.get_published_document_property_value('DRAFT',document_id,'revision')
 date     = library.get_published_document_property_value('DRAFT',document_id,'date')
 
 -%]
 <td style="background-color:[%lite_orange%];">
 [%- IF library.has_published_document_rendition('DRAFT',document_id,'html') -%]
-<a href="DRAFT/[%document_id%]/[%document_id%].titlepage.html">
+<a href="DRAFT/[%document_id%]/titlepage.html">
 <img src="images/html_icon.png" height="27" width="28">
 </a>
 [%- END -%]
@@ -109,7 +109,7 @@ date     = library.get_published_document_property_value('REVIEW',document_id,'d
 -%]
 <td style="background-color:[%lite_green%];">
 [%- IF library.has_published_document_rendition('REVIEW',document_id,'html') -%]
-<a href="REVIEW/[%document_id%]/[%document_id%].titlepage.html">
+<a href="REVIEW/[%document_id%]/titlepage.html">
 <img src="images/html_icon.png" height="27" width="28">
 </a>
 [%- END -%]
@@ -140,7 +140,7 @@ date     = library.get_published_document_property_value('APPROVED',document_id,
 -%]
 <td style="background-color:[%lite_blue%];">
 [%- IF library.has_published_document_rendition('APPROVED',document_id,'html') -%]
-<a href="APPROVED/[%document_id%]/[%document_id%].titlepage.html">
+<a href="APPROVED/[%document_id%]/titlepage.html">
 <img src="images/html_icon.png" height="27" width="28">
 </a>
 [%- END -%]
