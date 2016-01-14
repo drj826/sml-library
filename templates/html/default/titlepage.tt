@@ -47,12 +47,8 @@ library     = document.get_library
 <br/>
 <br/>
 
-[%- IF library.has_property(document_id,'version') -%]
-<p align="center">Version [% INCLUDE part_list.tt self = library.get_first_property_value_element(document_id,'version') %]</p>
-[%- END -%]
-
-[%- IF library.has_property(document_id,'date') -%]
-<p align="center">[% library.get_first_property_value(document_id,'date') %]</p>
+[%- IF library.has_version -%]
+<p align="center">[% library.get_version %]</p>
 [%- END -%]
 
 [%- IF library.has_property(document_id,'organization') -%]

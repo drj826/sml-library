@@ -123,6 +123,8 @@ DIV.exercise { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 
 DIV.listing { background-color: #ddffdd; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.todo { background-color: #ffcccc; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; font-size: 8pt; }
 DIV.keypoints { background-color: #eeeeee; width: 50%; padding: 4pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
+DIV.keypoints UL { margin-left: 0pt; }
+DIV.keypoints OL { margin-left: 0pt; }
 SPAN.indent { margin-left: 40pt; font-size: 8pt; }
 SPAN.keystroke { border-style: outset; border-color: #666666; border-width: 1px; background-color: #eeeeee; color: #444444; padding-top: 0px; padding-bottom: 0px; padding-left: 2px; padding-right: 2px; font-family: courier; font-size: 8pt; }
 SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; background-color: #eeee00; color: #444444; padding-top: 0px; padding-bottom: 0px; padding-left: 2px; padding-right: 2px; }

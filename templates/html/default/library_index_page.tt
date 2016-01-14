@@ -77,7 +77,7 @@ num                 = num + 1
 [%- IF library.has_published_document('DRAFT',document_id) -%]
 [%-
 
-version  = library.get_published_document_property_value('DRAFT',document_id,'version')
+version  = library.get_version
 revision = library.get_published_document_property_value('DRAFT',document_id,'revision')
 date     = library.get_published_document_property_value('DRAFT',document_id,'date')
 

@@ -31,7 +31,11 @@ count                  = glossary.get_entry_count
 
 [%- FOREACH group IN glossary.get_group_list -%]
 
-<tr id="[%group%]"><td colspan="3"><span style="font-size:20pt;">[%group%]</span></td></tr>
+<tr id="[%group%]">
+<td colspan="3">
+<span style="font-size:20pt;font-weight:bold;">[%group%]</span>
+</td>
+</tr>
 
   [%- bgcolor = '#eeeeee' -%]
   [%- FOREACH entry IN glossary.get_group_entry_list(group) -%]

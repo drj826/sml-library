@@ -16,8 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/molly.jpg
 
-version:: 0.1
-
 date:: 3 Jan 2016
 
 use_formal_status:: 1
