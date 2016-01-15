@@ -33,15 +33,32 @@ library => an SML::Library object
 
 </head>
 <body>
+<div class="mainbox">
+  <div class="left_navigation">
+    [% INCLUDE overall_navigation.tt -%]
+  </div>
 
-[% INCLUDE header.tt -%]
-[% INCLUDE footer.tt -%]
-[% INCLUDE overall_navigation.tt -%]
+  <div class="main_page_area">
+    [%# room for future determination of .contains_header for library pages -%]
 
-<div id="content">
+    [%#		<div class="page_header"> %]
+    [%#      INCLUDE xxlibrary_header.tt -%]
+    [%#		</div>  %]
+    [%#      END -%]
 
-[% content -%]
+    <div class="page_content">
+      [%- content -%]
+      <div class="pad2"></div>
+      <div class="pad2"></div>
+    </div>
 
+    [%# room for future determination of .contains_footer for library pages -%]
+    [%#		<div class="page_footer"> %]
+    [%#      INCLUDE xxlibrary_footer.tt -%]
+    [%#		</div>  %]
+    [%#      END -%]
+
+  </div>
 </div>
 
 </body>
