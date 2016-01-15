@@ -446,7 +446,7 @@ f35d784cf42a461c1ae62d749a9e27e5e456c2b8 lis-definitionlistitem-pm-unit-test-res
 a0ffd390a7e02ce8f06731919e0a19c5d9d8613d lis-division-pm
 38cbcb9b50400bf219d613b88a93a81aa7916698 lis-division-pm-unit-test-case
 19b3fd670658234df6b0307327be1da9e8abff55 lis-division-pm-unit-test-results
-a126911ef8673784c9b1ad0f2fc824b2ccf41a59 lis-document-pm
+733246f4cac3b7f547394fed970d722e524f5a0b lis-document-pm
 621712624f7a67b883f841db8be6f889b0fe56e4 lis-document-pm-unit-test-case
 bdada471c162fe1a8ad6e26469284baec23e68b4 lis-document-pm-unit-test-results
 d39279664272448f6a67eb63825a6dc078c4fe53 lis-element-pm
@@ -462,7 +462,7 @@ dfedde61c616316e158023732d28a9bf9a65e3c5 lis-emacs-startup
 70a33e04388b06ef7477fa665c0d65759b585043 lis-item-pm-unit-test-case
 b01173ba1725a433ae59b64b1fdbcc5e5e13cfd8 lis-item-pm-unit-test-results
 fe567b2b3517aeeb47bcf67e0fcec930796fac67 lis-lib-ontology-config
-7bc69a7eadf3b214d0a2c87b90c0c2f5f77af68e lis-library-pm
+09b831961b5f8c8c91a9ec5d99611b37c679b892 lis-library-pm
 aec29f828e1295ab79f7b4eafac657b6dd02170e lis-library-pm-unit-test-case
 b710ba9db35d456cf135c81973ae0415be969997 lis-library-pm-unit-test-results
 0bc335f5227710ff07b4c4b618fdffd27e004664 lis-line-pm
