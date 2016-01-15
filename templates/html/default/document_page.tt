@@ -51,41 +51,41 @@ document_id = document.get_id
 </head>
 <body>
 <div class="mainbox">
-	<div class="left_navigation">
-		[%- INCLUDE document_navigation.tt -%]
-	</div>
+<div class="left_navigation">
+[%- INCLUDE document_navigation.tt -%]
+</div>
 
-	<div class="main_page_area">
-		[% IF document.contains_header -%]
-			<div class="page_header">
-				[%- INCLUDE header.tt -%]
-			</div>
-		[%- END -%]
+<div class="main_page_area">
+[% IF document.contains_header -%]
+<div class="page_header">
+[%- INCLUDE header.tt -%]
+</div>
+[%- END -%]
 
-		[%- IF page_navigation != '' -%]
-			<div class="page_navigation">
-				[%- page_navigation -%]
-			</div>
-		[%- END -%]
+[%- IF page_navigation != '' -%]
+<div class="page_navigation">
+[%- page_navigation -%]
+</div>
+[%- END -%]
 
-		<div class="page_content">
-			[%- content -%]
-			<div class="pad2"></div>
-			<div class="pad2"></div>
-		</div>
+<div class="page_content">
+[%- content -%]
+<div class="pad2"></div>
+<div class="pad2"></div>
+</div>
 
-		[%- IF page_navigation != '' -%]
-			<div class="page_navigation">
-				[%- page_navigation -%]
-			</div>
-		[%- END -%]
+[%- IF page_navigation != '' -%]
+<div class="page_navigation">
+[%- page_navigation -%]
+</div>
+[%- END -%]
 
-		[%- IF document.contains_footer -%]
-			<div class="page_footer">
-				[%- INCLUDE footer.tt -%]
-			</div>
-		[%- END -%]
-	</div> 
+[%- IF document.contains_footer -%]
+<div class="page_footer">
+[%- INCLUDE footer.tt -%]
+</div>
+[%- END -%]
+</div> 
 </div>
 
 </body>
