@@ -31,11 +31,10 @@ bgcolor          = '#eeeeee'
 <table>
 
 <tr>
-<td style="background-color:[%grey%];font-weight:bold;width:40%;" colspan="3">Document</td>
-<td style="background-color:[%grey%];font-weight:bold;">Author</td>
-<td style="background-color:[%orange%];font-weight:bold;text-align:center;" colspan="2">DRAFT</td>
-<td style="background-color:[%green%];font-weight:bold;text-align:center;" colspan="2">REVIEW</td>
-<td style="background-color:[%blue%];font-weight:bold;text-align:center;" colspan="2">APPROVED</td>
+<td style="background-color:[%grey%];font-weight:bold;width:55%;" colspan="3">Document</td>
+<td style="background-color:[%orange%];font-weight:bold;width:15%;text-align:center;" colspan="2">DRAFT</td>
+<td style="background-color:[%green%];font-weight:bold;width:15%;text-align:center;" colspan="2">REVIEW</td>
+<td style="background-color:[%blue%];font-weight:bold;width:15%;text-align:center;" colspan="2">APPROVED</td>
 </tr>
 
 [%- FOREACH document_id IN document_id_list -%]
@@ -43,7 +42,6 @@ bgcolor          = '#eeeeee'
 
 document_title    = library.get_published_document_property_value('DRAFT',document_id,'title')
 document_subtitle = library.get_published_document_property_value('DRAFT',document_id,'subtitle')
-document_author   = library.get_published_document_property_value('DRAFT',document_id,'author')
 document_abbr     = library.get_published_document_property_value('DRAFT',document_id,'abbreviation')
 num               = num + 1
 
@@ -66,8 +64,6 @@ num               = num + 1
 [%- END -%]
 </td>
 
-<td style="background-color:[%bgcolor%];">[%document_author%]</td>
-
 [%- IF library.has_published_document('DRAFT',document_id) -%]
 [%-
 
@@ -76,6 +72,10 @@ document_sha_digest = library.get_published_document_property_value('DRAFT',docu
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
+<td style="background-color:[%lite_orange%];width:5%;">
+[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+</td>
+
 <td style="background-color:[%lite_orange%];">
 [%- IF library.has_published_document_rendition('DRAFT',document_id,'html') -%]
 <a href="DRAFT/[%document_id%]/titlepage.html">
@@ -89,12 +89,8 @@ sha                 = document_sha_digest.substr(0,7)
 [%- END -%]
 </td>
 
-<td style="background-color:[%lite_orange%];">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
-</td>
-
 [%- ELSE -%]
-<td style="background-color:[%lite_orange%];"></td>
+<td style="background-color:[%lite_orange%];width:5%;"></td>
 <td style="background-color:[%lite_orange%];"></td>
 
 [%- END -%]
@@ -107,6 +103,10 @@ document_sha_digest = library.get_published_document_property_value('REVIEW',doc
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
+<td style="background-color:[%lite_green%];width:5%;">
+[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+</td>
+
 <td style="background-color:[%lite_green%];">
 [%- IF library.has_published_document_rendition('REVIEW',document_id,'html') -%]
 <a href="REVIEW/[%document_id%]/titlepage.html">
@@ -120,12 +120,8 @@ sha                 = document_sha_digest.substr(0,7)
 [%- END -%]
 </td>
 
-<td style="background-color:[%lite_green%];">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
-</td>
-
 [%- ELSE -%]
-<td style="background-color:[%lite_green%];"></td>
+<td style="background-color:[%lite_green%];width:5%;"></td>
 <td style="background-color:[%lite_green%];"></td>
 
 [%- END -%]
@@ -138,6 +134,10 @@ document_sha_digest = library.get_published_document_property_value('APPROVED',d
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
+<td style="background-color:[%lite_blue%];width:5%;">
+[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+</td>
+
 <td style="background-color:[%lite_blue%];">
 [%- IF library.has_published_document_rendition('APPROVED',document_id,'html') -%]
 <a href="APPROVED/[%document_id%]/titlepage.html">
@@ -151,12 +151,8 @@ sha                 = document_sha_digest.substr(0,7)
 [%- END -%]
 </td>
 
-<td style="background-color:[%lite_blue%];">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
-</td>
-
 [%- ELSE -%]
-<td style="background-color:[%lite_blue%];"></td>
+<td style="background-color:[%lite_blue%];width:5%;"></td>
 <td style="background-color:[%lite_blue%];"></td>
 
 [%- END -%]

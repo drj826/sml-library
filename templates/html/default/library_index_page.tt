@@ -33,7 +33,7 @@ bgcolor          = '#eeeeee'
 <tr>
 <td style="background-color:[%grey%];font-weight:bold;width:50%;" colspan="3">Document</td>
 <td style="background-color:[%grey%];font-weight:bold;width:8%"">Version</td>
-<td style="background-color:[%grey%];font-weight:bold;width:10%"">Author</td>
+<td style="background-color:[%grey%];font-weight:bold;width:12%"">Author</td>
 <td style="background-color:[%grey%];font-weight:bold;">Renditions</td>
 </tr>
 
