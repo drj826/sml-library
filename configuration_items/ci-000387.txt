@@ -10,6 +10,14 @@ description:: The SML/Block.pm Module...
 
 index:: [id:ci-000387]; Block.pm; SML::Block
 
+>>>FIGURE.fig-block-class-diagram
+
+title:: SML::Block Class Diagram
+
+image:: files/images/class-diagram-block.png
+
+<<<FIGURE
+
 >>>LISTING.lis-block-pm
 
 title:: Block.pm

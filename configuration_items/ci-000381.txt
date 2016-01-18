@@ -18,7 +18,7 @@ index:: [id:ci-000381]; Division.pm; SML::Division; division
 
 >>>FIGURE.fig-class-diagram-division
 
-title:: Division Classes
+title:: SML::Division Class Diagram
 
 image:: files/images/class-diagram-division.png
 

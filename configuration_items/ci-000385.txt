@@ -10,6 +10,14 @@ description:: The SML/Line.pm Module...
 
 index:: [id:ci-000385]; Line.pm; SML::Line
 
+>>>FIGURE.fig-line-class-diagram
+
+title:: SML::Line Class Diagram
+
+image:: files/images/class-diagram-line.png
+
+<<<FIGURE
+
 >>>LISTING.lis-line-pm
 
 title:: Line.pm
