@@ -20,12 +20,6 @@ chaining and backward chaining [wp-semantic-reasoner] The
 semantics like business rules to which engineering documents must
 conform.
 
-revision:: $Revision: 10975 $
-
-date:: $Date: 2012-10-27 14:49:09 -0600 (Sat, 27 Oct 2012) $
-
-author:: $Author: don.johnson $
-
 index:: [id:ci-000380]; Reasoner.pm; SML::Reasoner
 
 = [g:SML:reasoner] = [def:SML:reasoner]

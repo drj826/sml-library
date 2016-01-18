@@ -16,10 +16,6 @@ logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/meadow.jpg
 
-revision:: 31415
-
-date:: 21 Dec 2015
-
 status:: yellow
 
 ######################################################################
@@ -6144,25 +6140,25 @@ along with alternative syntaxes for reusing them
 
 ---
 
-: the document revision
+# : the document revision
 
-:
+# :
 
-  [therevision]
+#   [therevision]
 
-: [therevision]
+# : [therevision]
 
----
+# ---
 
-: the document date
+# : the document date
 
-:
+# :
 
-  [thedate]
+#   [thedate]
 
-: [thedate]
+# : [thedate]
 
----
+# ---
   
 [a:SML] also has a generic ``lookup'' feature that enables you to
 reuse any element of structured data, even user defined attributes:

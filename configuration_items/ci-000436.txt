@@ -1,0 +1,42 @@
+>>>configuration_item.ci-000436
+
+title:: SML::Part Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Part is an abstract class for a document part
+(like a paragrah, section, table, list item, glossary entry, bold
+string, etc.).  Parts may contain other parts.  Every part object
+belongs to a [g:SML:library]. There are three types of parts:
+[g:SML:division]s, [g:SML:block]s, and [g:SML:string]s. A part can be
+either a [g:SML:narrative part] or a [g:SML:data part]. Every part has
+a name.  For publishing purposes the name is used to identify the
+template used to render the part.
+
+index:: ci-000436; SML::Part; part
+
+>>>FIGURE.fig-class-diagram-part
+
+title:: SML::Part Class Diagram
+
+image:: files/images/class-diagram-part.png
+
+<<<FIGURE
+
+>>>LISTING.lis-part-pm
+
+title:: Part.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Part.pm
+
+<<<LISTING
+
+<<<configuration_item

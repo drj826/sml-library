@@ -11,12 +11,6 @@ method of validating software quality until a more concrete method can
 be created.  Compliance with requirements is validated by observing
 the item in operation.
 
-revision:: $Revision: 10967 $
-
-date:: $Date: 2012-10-27 14:28:23 -0600 (Sat, 27 Oct 2012) $
-
-author:: $Author: don.johnson $
-
 index:: [id:tc-000041]; demonstration
 
 <<<test

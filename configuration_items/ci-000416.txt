@@ -2,12 +2,6 @@
 
 title:: SML/Entity.pm Module
 
-revision:: $Revision: 11547 $
-
-date:: $Date: 2012-11-27 17:11:22 -0700 (Tue, 27 Nov 2012) $
-
-author:: $Author: don.johnson $
-
 type:: software
 
 is_part_of:: ci-000004

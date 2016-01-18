@@ -81,7 +81,7 @@ sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%bgcolor%];">
-[%version%]<br/><span style="color:#bbbbbb;">[%sha%]</span>
+[%version%]<br/><span style="color:#aaaaaa;">[%sha%]</span>
 </td>
 
 <td style="background-color:[%bgcolor%];">[%document_author%]</td>

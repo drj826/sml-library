@@ -12,12 +12,6 @@ represent the content of an SML document. The SML syntax specification
 is a context free grammar implemented in [a:EBNF].  The SML syntax is
 not customizable and applies the same to all SML libraries.
 
-revision:: $Revision: 6476 $
-
-date:: $Date: 2012-03-05 07:05:48 -0700 (Mon, 05 Mar 2012) $
-
-author:: $Author: don.johnson $
-
 index:: [id:ci-000379]; SML syntax; EBNF
 
 There is an online EBNF validator here:

@@ -6,12 +6,6 @@ requirement::  rq-000194 # Represent Inference Rules
 
 test::     tc-000041 # Demonstration
 
-revision:: $Revision: 15124 $
-
-date::     $Date: 2013-07-07 09:23:01 -0600 (Sun, 07 Jul 2013) $
-
-author::   $Author: don.johnson $
-
 outcome::2012-03-25:al-000284:red: At this time SML does not represent
 inference rules.
 

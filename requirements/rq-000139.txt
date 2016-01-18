@@ -2,12 +2,6 @@
 
 title:: Generate Document Front and Back Matter
 
-revision:: $Revision: 15126 $
-
-date:: $Date: 2013-07-07 09:25:21 -0600 (Sun, 07 Jul 2013) $
-
-author:: $Author: don.johnson $
-
 is_part_of:: rq-000199
 
 priority:: routine

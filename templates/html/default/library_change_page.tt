@@ -37,10 +37,22 @@ delete_count     = library.get_delete_count
   [%-
   action        = change.0
   division_id   = change.1
-  division_name = library.get_division_name_for_id(division_id)
-  file          = library.get_file_containing_id(division_id)
-  filename      = file.get_filename
   -%]
+
+  [%- IF (action == 'ADDED') OR (action == 'UPDATED') -%]
+    [%-
+    division_name = library.get_division_name_for_id(division_id)
+    file          = library.get_file_containing_id(division_id)
+    filename      = 'in ' _ file.get_filename
+    -%]
+  [%- ELSE -%]
+    [%-
+    division_name = ''
+    file          = ''
+    filename      = ''
+    -%]
+  [%- END -%]
+  
 
   [%- IF library.has_property(division_id,'title') -%]
   [%- title = library.get_first_property_value(division_id,'title') -%]
@@ -57,7 +69,7 @@ delete_count     = library.get_delete_count
 <td style="background-color:[%bgcolor%]">[%division_name%]</td>
 <td style="background-color:[%bgcolor%]">[% INCLUDE library_id_link.tt id = division_id %]</td>
 <td style="background-color:[%bgcolor%]">[%title%]</td>
-<td style="background-color:[%bgcolor%]">in [%filename%]</td>
+<td style="background-color:[%bgcolor%]">[%filename%]</td>
 </tr>
 
 [%- END -%]

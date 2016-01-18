@@ -1,35 +1,30 @@
 >>>configuration_item.ci-000410
 
-title:: SML/Library.pm Module
+title:: SML::Library Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/Library.pm Module...
-
-revision:: $Revision: 15144 $
-
-date:: $Date: 2013-07-07 11:40:33 -0600 (Sun, 07 Jul 2013) $
-
-author:: $Author: don.johnson $
+description:: SML::Library is the central class in the design. A
+library contains a collection of related [g:SML:DOCUMENT]s.  These
+documents may describe entities, their properties, and how they relate
+to one another.  A library has an [g:SML:ontology], a set of rules
+that declares the entities that exist and how they may be related.
 
 index:: [id:ci-000410]; Library.pm; SML::Library
 
 = [g:SML:library] = [def:SML:library]
 
-This section describes the design of the [a:SML] [g:SML:library]
-class. [ref:fig-class-diagram-library] shows the composition of an SML
-[g:SML:library].  The library class does not inherit attributes or
-methods from any other class.
+[ref:fig-class-diagram-library] shows the relationship between the
+class and other classes. It also shows the public attributes and
+methods.
 
 >>>FIGURE.fig-class-diagram-library
 
-title:: SML Library Composition
+title:: SML::Library Class Diagram
 
 image:: files/images/class-diagram-library.png
-
-width:: 3.75in
 
 <<<FIGURE
 

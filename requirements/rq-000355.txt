@@ -4,12 +4,6 @@ title:: Design Solutions
 
 type:: activity
 
-revision:: 1234
-
-date:: 4 Jan 2016
-
-author:: Don Johnson
-
 is_part_of:: rq-000358
 
 description:: The organization shall design solutions.  The purpose of

@@ -9,8 +9,6 @@ abbreviation:: TED
 
 author:: Don Johnson
 
-date:: 20 Dec 2015
-
 copyright:: 2002-2012, Don Johnson
 
 doctype:: book
@@ -18,8 +16,6 @@ doctype:: book
 logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/river.jpg
-
-revision:: $Revision: 15138 $
 
 use_formal_status:: 1
 

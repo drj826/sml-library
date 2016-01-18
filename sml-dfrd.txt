@@ -8,15 +8,11 @@ abbreviation:: DFRD
 
 author:: Don Johnson
 
-revision:: 1234
-
 copyright:: 2016, Don Johnson
 
 logo_image_small:: files/images/sml_logo.png
 
 logo_image_center:: files/images/molly.jpg
-
-date:: 3 Jan 2016
 
 use_formal_status:: 1
 

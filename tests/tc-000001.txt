@@ -9,12 +9,6 @@ type:: container
 description:: This test case serves as a container for all unit test
 cases in the SML software library.
 
-revision:: $Revision: 15145 $
-
-date:: $Date: 2013-07-07 11:41:13 -0600 (Sun, 07 Jul 2013) $
-
-author:: $Author: don.johnson $
-
 index:: [id:tc-000001]; unit test cases
 
 All unit tests can be executed by the single action of executing

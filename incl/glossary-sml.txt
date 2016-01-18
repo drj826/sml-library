@@ -182,6 +182,10 @@ of LaTeX
 
 glossary:: data format {SML} = The structure of a computer file
 
+glossary:: data part {SML} = An [g:SML:element] that represents data
+about the enclosing [g:SML:division] and is therefore not considered
+part of the narrative text. Contrast with [g:SML:narrative part]
+
 glossary:: definition {SML} = A special [g:SML:block] that defines an
 key/value pair.  Definitions are limited to a single block of
 text. Definitions can declare themselves part of a namespace to
@@ -279,7 +283,7 @@ in this library are: [g:SML:allocation], [g:SML:assignment],
 [g:SML:task], and [g:SML:test]. Contrast with [g:SML2:structure]
 
 glossary:: epanorthosis {SML} = a figure of speech that signifies
-emphatic work replacement. ``Thousand, no, millions!'' Often used for
+emphatic work replacement. ``Thousands, no, millions!'' Often used for
 emphasis or sarcasim
 
 glossary:: epigraph {SML1} = A quotation at the beginning of a book,
@@ -402,8 +406,9 @@ publishing application to insert a listing into the document
 ###
 
 glossary:: library {SML} = A collection of related [a:SML]
-[g:SML:DOCUMENT]s which describe entities, [g:SML1:entity] properties,
-and entity relationships conforming to a pre-defined [g:SML:ontology]
+[g:SML:DOCUMENT]s.  Each document may describe entities,
+[g:SML1:entity] properties, and entity relationships conforming to a
+pre-defined [g:SML:ontology]
 
 glossary:: library object model {SML} = A model of related object
 classes, and the public interfaces of those classes, that describes
@@ -451,6 +456,10 @@ directives.  See also [g:SML:compliance directive]
 ######################################################################
 # N
 ######################################################################
+
+glossary:: narrative part {SML} = A [g:SML:part] which is part of the
+narrative text and not a data element.  Contrast with [g:SML:data
+part]
 
 glossary:: newline {SML} = The character that ends a line of text.
 Newline is also known as ``line break,'' ``end-of-line,'' or ``EOL.''

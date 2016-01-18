@@ -2,12 +2,6 @@
 
 title:: SML/Syntax.pm
 
-revision:: $Revision: 11580 $
-
-date:: $Date: 2012-11-29 07:56:53 -0700 (Thu, 29 Nov 2012) $
-
-author:: $Author: don.johnson $
-
 type:: software
 
 is_part_of:: ci-000004

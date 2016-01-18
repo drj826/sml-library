@@ -13,12 +13,6 @@ readable, simple to edit, able to express rich semantic relationships,
 and contain all information necessary to publish professional
 documentation.
 
-revision:: $Revision: 623 $
-
-date:: $Date: 2009-09-08 14:49:48 -0600 (Tue, 08 Sep 2009) $
-
-author:: $Author: don.johnson $
-
 >>>LISTING.lis-sml-pm
 
 title:: SML.pm
