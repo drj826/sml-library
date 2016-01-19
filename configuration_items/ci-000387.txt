@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000387
 
-title:: SML/Block.pm Module
+title:: SML::Block Class
 
 type:: software
 
@@ -20,7 +20,7 @@ image:: files/images/class-diagram-block.png
 
 >>>LISTING.lis-block-pm
 
-title:: Block.pm
+title:: Block.pm Code Listing
 
 numbers:: left
 

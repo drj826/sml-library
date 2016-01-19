@@ -31,7 +31,7 @@ image:: files/images/class-diagram-parser.png
 
 >>>LISTING.lis-parser-pm
 
-title:: Parser.pm
+title:: Parser.pm Code Listing
 
 numbers:: left
 

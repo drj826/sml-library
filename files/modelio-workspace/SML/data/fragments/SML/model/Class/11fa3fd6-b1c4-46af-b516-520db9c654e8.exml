@@ -1233,9 +1233,9 @@
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="origin_line" mc="Standard.Association" uid="c19125a1-17dd-4d99-b612-5fed688801fc"/>
+                      <ID name="origin" mc="Standard.Association" uid="c19125a1-17dd-4d99-b612-5fed688801fc"/>
                       <ATTRIBUTES>
-                        <ATT name="Name"><![CDATA[origin_line]]></ATT>
+                        <ATT name="Name"><![CDATA[origin]]></ATT>
                         <ATT name="status">1970354901745664</ATT>
                       </ATTRIBUTES>
                       <DEPENDENCIES></DEPENDENCIES>
@@ -1245,7 +1245,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="origin_line" mc="Standard.Association" uid="c19125a1-17dd-4d99-b612-5fed688801fc"/>
+              <COMPID name="origin" mc="Standard.Association" uid="c19125a1-17dd-4d99-b612-5fed688801fc"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

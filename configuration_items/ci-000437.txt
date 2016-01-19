@@ -20,7 +20,7 @@ image:: files/images/class-diagram-ontology.png
 
 >>>LISTING.lis-ontology-pm
 
-title:: Ontology.pm
+title:: Ontology.pm Code Listing
 
 numbers:: left
 

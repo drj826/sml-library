@@ -11,15 +11,15 @@ my $begin = time();
 
 my $library = SML::Library->new(config_filename=>'library.conf');
 
-$logger->info("publish library index page");
+$logger->info("publish overall index page");
 
 my $publisher = $library->get_publisher;
 
-$publisher->publish_html_library_index_page;
+$publisher->publish_html_overall_index_page;
 
 my $end = time();
 my $duration = duration($end - $begin);
 
-$logger->info("publish library index page $duration");
+$logger->info("publish overall index page $duration");
 
 1;

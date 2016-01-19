@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000385
 
-title:: SML/Line.pm Module
+title:: SML::Line Class
 
 type:: software
 
@@ -20,7 +20,7 @@ image:: files/images/class-diagram-line.png
 
 >>>LISTING.lis-line-pm
 
-title:: Line.pm
+title:: Line.pm Code Listing
 
 numbers:: left
 
