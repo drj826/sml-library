@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Str" version="4">
+  <OBJECT>
+    <ID name="Str" mc="Standard.DataType" uid="8af95fb4-7bbe-4599-a248-20dda55b2c3b"/>
+    <PID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">true</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Str]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

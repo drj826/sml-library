@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Perl5" version="4">
+  <OBJECT>
+    <ID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
+    <PID name="sml" mc="Standard.Package" uid="55843ab6-ab60-4529-b55e-3fb547ffec28"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">true</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Perl5]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="HashRef" mc="Standard.DataType" uid="290e16a5-0926-415b-89dc-6005a5fab2a0"/>
+        <COMPID name="ArrayRef" mc="Standard.DataType" uid="fd577100-c454-462b-b2f8-fe3b00ab7b89"/>
+        <COMPID name="Str" mc="Standard.DataType" uid="8af95fb4-7bbe-4599-a248-20dda55b2c3b"/>
+        <COMPID name="Int" mc="Standard.DataType" uid="32e49b2a-f269-49e4-9209-3b4222604b7c"/>
+        <COMPID name="Bool" mc="Standard.DataType" uid="f073c29b-ab32-446f-b23a-81053a4eafb0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

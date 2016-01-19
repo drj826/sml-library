@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="sml-core" version="4">
+  <OBJECT>
+    <ID name="sml-core" mc="Standard.Package" uid="55843ab6-ab60-4529-b55e-3fb547ffec28"/>
+    <PID name="SML" mc="Standard.Project" uid="c5f60fd6-0016-43ba-9588-6f5e4615ef05"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[sml-core]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Library" mc="Standard.Class" uid="c3ec73fc-be31-4f85-a3cf-4d3051d15ae4"/>
+        <COMPID name="Util" mc="Standard.Class" uid="f44e85ea-7e7f-4ec7-bbec-718267d4bee6"/>
+        <COMPID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
+        <COMPID name="Ontology" mc="Standard.Class" uid="06e774fe-70a9-4a81-881b-8640cdc8b970"/>
+        <COMPID name="Reasoner" mc="Standard.Class" uid="8a097b14-5ad2-4083-bfc3-df3ce6224adc"/>
+        <COMPID name="Publisher" mc="Standard.Class" uid="b495f2db-f8c0-4090-99cb-3b24bb631658"/>
+        <COMPID name="Glossary" mc="Standard.Class" uid="82ef5942-c569-4d77-891c-31e6827e4548"/>
+        <COMPID name="AcronymList" mc="Standard.Class" uid="143e0e22-cae1-498a-9004-85b4794a04e0"/>
+        <COMPID name="References" mc="Standard.Class" uid="7ba43bf9-0ce1-4496-ad37-624003e2a5ee"/>
+        <COMPID name="File" mc="Standard.Class" uid="37c4cba4-9f71-4406-8b6b-d139dd9ec232"/>
+        <COMPID name="Parser" mc="Standard.Class" uid="7ac49d8f-7a83-4e31-8da1-bf7d33374b2c"/>
+        <COMPID name="Document" mc="Standard.Class" uid="56ae6694-f960-47ef-823e-b8f0fb87cc6d"/>
+        <COMPID name="Entity" mc="Standard.Class" uid="5d218311-5ce6-441e-a223-627c87a7d1fd"/>
+        <COMPID name="Division" mc="Standard.Class" uid="11fa3fd6-b1c4-46af-b516-520db9c654e8"/>
+        <COMPID name="Definition" mc="Standard.Class" uid="6abb2097-768b-4f29-b994-654d0b3ff1cc"/>
+        <COMPID name="Outcome" mc="Standard.Class" uid="8afc138d-8741-4ebe-aa93-17cc676b15ff"/>
+        <COMPID name="Value" mc="Standard.Class" uid="3560d4bc-5ac8-4d9f-9db3-cdde83079a46"/>
+        <COMPID name="Triple" mc="Standard.Class" uid="4a4935b1-7926-4094-a09f-e55c9b6b8981"/>
+        <COMPID name="Error" mc="Standard.Class" uid="93f477f5-9669-44df-85b6-720f1ca87ffd"/>
+        <COMPID name="Part" mc="Standard.Class" uid="01156f52-f3fd-470e-a1e5-45b531a318ff"/>
+        <COMPID name="Block" mc="Standard.Class" uid="91875e60-bf7c-4ac3-a488-5858cc87b1db"/>
+        <COMPID name="String" mc="Standard.Class" uid="24d24ebc-0ede-475b-abce-623bfd1ae755"/>
+        <COMPID name="Structure" mc="Standard.Class" uid="3cf85972-dd42-45b9-b049-dc3031efe8a1"/>
+        <COMPID name="Section" mc="Standard.Class" uid="5e960082-59ca-4c99-9676-878e7f48477b"/>
+        <COMPID name="Table" mc="Standard.Class" uid="516ad75c-1144-4008-b890-7ca76eb93d1f"/>
+        <COMPID name="Figure" mc="Standard.Class" uid="2063606c-d73a-4aef-b2ac-e6b2114c4f48"/>
+        <COMPID name="Listing" mc="Standard.Class" uid="63221b18-49aa-457b-87cc-6446695a5e6d"/>
+        <COMPID name="BulletList" mc="Standard.Class" uid="7a7ae867-6006-4480-9a76-06a0469b5d2d"/>
+        <COMPID name="EnumeratedList" mc="Standard.Class" uid="30dff42a-0d5f-4b4f-913b-01f5a4649049"/>
+        <COMPID name="TableRow" mc="Standard.Class" uid="4fec7a91-856c-42ab-b169-31fef0a746ad"/>
+        <COMPID name="TableCell" mc="Standard.Class" uid="3ea5ad04-021c-4429-8567-eaa8284f78b8"/>
+        <COMPID name="Source" mc="Standard.Class" uid="9368d514-2738-4de3-96e9-bf8b866cf5a7"/>
+        <COMPID name="Paragraph" mc="Standard.Class" uid="9d0ee385-32b2-48b2-80e0-b0452f1a9cf8"/>
+        <COMPID name="ListItem" mc="Standard.Class" uid="2053949b-241c-4b09-80c6-29684f10a457"/>
+        <COMPID name="PreformattedBlock" mc="Standard.Class" uid="2cf43af3-f32f-499f-b32b-a28b854054e8"/>
+        <COMPID name="Element" mc="Standard.Class" uid="88c61f12-4d6a-4d10-abbd-2e3d68b7ecec"/>
+        <COMPID name="Line" mc="Standard.Class" uid="bd644a44-2547-447f-b65a-551367a354aa"/>
+        <COMPID name="OntologyRule" mc="Standard.Class" uid="d084b18e-7763-4081-8030-86d6aa6a4266"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="ad2e92fb-7452-4322-85bf-94a0f485785f"/>
+        <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
+        <COMPID name="Part Class diagram" mc="Standard.ClassDiagram" uid="f14ec78a-ee18-4346-9931-08447d62f41e"/>
+        <COMPID name="Parser Class diagram" mc="Standard.ClassDiagram" uid="99fdf11e-6c2f-4bf3-aa14-65a8e85ad3de"/>
+        <COMPID name="Division Class diagram" mc="Standard.ClassDiagram" uid="3aa57bf6-403e-4d60-8627-6be9048bdcbb"/>
+        <COMPID name="Block Class diagram" mc="Standard.ClassDiagram" uid="28187b15-d592-4e8c-ac2c-3dd0875b4742"/>
+        <COMPID name="Line Class diagram" mc="Standard.ClassDiagram" uid="083ebd92-93a4-47dd-a7ec-399cb31c6004"/>
+        <COMPID name="Ontology Class diagram" mc="Standard.ClassDiagram" uid="37a9eb6c-80f8-4bcd-b504-9ad1df69df48"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

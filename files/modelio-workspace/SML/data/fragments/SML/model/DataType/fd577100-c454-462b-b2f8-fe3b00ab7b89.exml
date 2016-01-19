@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ArrayRef" version="4">
+  <OBJECT>
+    <ID name="ArrayRef" mc="Standard.DataType" uid="fd577100-c454-462b-b2f8-fe3b00ab7b89"/>
+    <PID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">true</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ArrayRef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

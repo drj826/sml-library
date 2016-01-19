@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SML" version="4">
+  <OBJECT>
+    <ID name="SML" mc="Standard.DiagramSet" uid="d46b5cd8-7dc4-432b-a7a1-a125f18deb81"/>
+    <PID name="SML" mc="Standard.Project" uid="c5f60fd6-0016-43ba-9588-6f5e4615ef05"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[SML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

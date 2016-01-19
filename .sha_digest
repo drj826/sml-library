@@ -370,7 +370,8 @@ c1d325a48215847e89e09e9cde8bec8f43f69dc6 ci-000427
 1ff75b641d707e0e4240c4ab932247d3d4f1cbb6 ci-000432
 278034a833a1accf983f06de321680afe49dd0ac ci-000433
 311ff34b1a9a23ac94fd8eddc7e2620a8148680b ci-000435
-0c8bfc66337636c96bff65b981cabf2852a0c9f0 ci-000436
+eed069ded77faa4e18e3d3b1e3a146d23ecc4301 ci-000436
+c3a567ebbaee2e6b6ade0062de134701efff2faf ci-000437
 b96fbbe3891054f7d61cd479161b10c3aab84724 cmmi
 24c1344155fdfea8b4a489bc45abd155e4ab531d cms15
 4963549123b4b3497a9d81c0e7a9bccba92d21fe comments
@@ -400,6 +401,7 @@ d9f408f9e4cbf76303feb3b2aa999a25e4ce9f9d fig-dir-output
 9ecb93f50000e1816d8dc4aa9ac5531684715ab2 fig-knoppix-screenshot
 bd1f4648d43cf6a86a087e9fc111ffc39761f8d7 fig-line-class-diagram
 b80621a27dd401e44bb7182f26f61ba11e8c4774 fig-messages
+1a244a410cc2eed242cd6aa30303db0fb0c3a099 fig-ontology-class-diagram
 7dccb81c227fa41c932c1246c7020086c066651b fig-parser-class-diagram
 09cf2c296a896564e94e715906a55b6e0e50a618 fig-publish-window
 b9fb270ff900844f9b8848ea97ebbc58857c41cf fig-publishing-flowchart
@@ -477,6 +479,7 @@ b3657615921df1f9eb12587442948e2d48628959 lis-line-pm-unit-test-results
 337f9a46ce915ec11d1bdc55d9d7a9dfb6df3a19 lis-listing-pm-unit-test-results
 5d81958e951a24b689abc1be4549fe141b37044d lis-listitem-pm-unit-test-case
 ea612b96c2e7cc7bd250c82ae520f33f03328dd0 lis-listitem-pm-unit-test-results
+fb50eae4f5ed2ec5ce6ecdd3f29bfc1ba54ad6b1 lis-ontology-pm
 75693db1438d1ab13718c28e4d7a2c5d5eefa263 lis-options-pm
 58fc3cfe5c60c6d3440d50de5ecac02a162cbd0a lis-options-pm-unit-test-case
 850c82d388e4d68b4a143e90cd7059258b593454 lis-options-pm-unit-test-results
@@ -925,7 +928,7 @@ b1ef23db13b1ef0a8494e9e7c29ec92b252aa222 sml-dfrd
 db81d6f30cd9a4488e7eda2d0c47fb3b26d954cc sml-forward
 388e9fb86bfb5299835bf292a1d0ea1fd30a921b sml-language
 387b2a2b0623018866e1ac5d6549f56a3b67b948 sml-presentation-summary
-5bcbebee05c10d08453542a2f1c94f768a02ecc7 sml-sdd
+9edb1aa3c004a9c3c69f0eb905d12847ddc97b48 sml-sdd
 377946d7173c8712a1c29d6383ad3436d830bdad sml-special-summary
 21c9064685732be6445b8de1690c59b58a90d48f sml-srd
 654269bd38f8f22069b91d863f3242e8653a89e1 sml-structure-summary

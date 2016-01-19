@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SML" version="4">
+  <OBJECT>
+    <ID name="SML" mc="Standard.AnalystProject" uid="e444d981-8882-42cf-bfd9-bce0b781a460"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[SML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="SML" mc="Standard.PropertyContainer" uid="d064d3c1-02fa-4d43-bf3e-be1bb2d3770f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
