@@ -33,6 +33,7 @@ library => an SML::Library object
 <link rel="stylesheet" href="css/jquery.treetable.theme.default.css" />
 
 <script type="text/javascript" src="javascript/jquery-2.1.4.min.js"></script>
+[% INCLUDE js_gotoa.tt -%]
 
 [% INCLUDE library_css.tt -%]
 
