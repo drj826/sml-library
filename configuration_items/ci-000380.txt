@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000380
 
-title:: SML/Reasoner.pm Module
+title:: SML::Reasoner Class
 
 type:: software
 
@@ -23,5 +23,27 @@ conform.
 index:: [id:ci-000380]; Reasoner.pm; SML::Reasoner
 
 = [g:SML:reasoner] = [def:SML:reasoner]
+
+>>>FIGURE.fig-reasoner-class-diagram
+
+title:: SML::Reasoner Class Diagram
+
+image:: files/images/class-diagram-reasoner.png
+
+<<<FIGURE
+
+>>>LISTING.lis-reasoner-pm
+
+title:: Reasoner.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Reasoner.pm
+
+<<<LISTING
 
 <<<configuration_item

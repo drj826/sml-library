@@ -66,6 +66,7 @@
         <COMPID name="Ontology Class diagram" mc="Standard.ClassDiagram" uid="37a9eb6c-80f8-4bcd-b504-9ad1df69df48"/>
         <COMPID name="Document Class diagram" mc="Standard.ClassDiagram" uid="07c89cf5-a079-4fc1-bbac-8fc19edc58d6"/>
         <COMPID name="Publisher Class diagram" mc="Standard.ClassDiagram" uid="4cee19c6-9497-400b-8d11-04ca55fb878e"/>
+        <COMPID name="Reasoner Class diagram" mc="Standard.ClassDiagram" uid="bf5738bb-de36-4354-8f22-bab854279e95"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
