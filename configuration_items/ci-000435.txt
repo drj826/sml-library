@@ -1,14 +1,35 @@
 >>>configuration_item.ci-000435
 
-title:: SML/Glossary.pm Module
+title:: SML::Glossary Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/Glossary.pm module implements the SML::Glossary
-class which represents a glossary of terms.
+description:: The SML::Glossary class represents a glossary of terms.
 
 index:: [id:ci-000435]; Glossary.pm; SML::Glossary
+
+>>>FIGURE.fig-glossary-class-diagram
+
+title:: SML::Glossary Class Diagram
+
+image:: files/images/class-diagram-glossary.png
+
+<<<FIGURE
+
+>>>LISTING.lis-glossary-pm
+
+title:: Glossary.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Glossary.pm
+
+<<<LISTING
 
 <<<configuration_item

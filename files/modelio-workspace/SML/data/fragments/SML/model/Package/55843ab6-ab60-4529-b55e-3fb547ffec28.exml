@@ -13,6 +13,9 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="parse" mc="Standard.Activity" uid="7f8ec936-e2ec-458e-b79b-5eb528b72eef"/>
+      </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="Library" mc="Standard.Class" uid="c3ec73fc-be31-4f85-a3cf-4d3051d15ae4"/>
         <COMPID name="Util" mc="Standard.Class" uid="f44e85ea-7e7f-4ec7-bbec-718267d4bee6"/>
@@ -54,10 +57,10 @@
         <COMPID name="OntologyRule" mc="Standard.Class" uid="d084b18e-7763-4081-8030-86d6aa6a4266"/>
         <COMPID name="Index" mc="Standard.Class" uid="f091a239-fcc3-44d5-82b2-16d3a81c0359"/>
         <COMPID name="Note" mc="Standard.Class" uid="f125146c-4fe1-4321-b184-542e779e42b0"/>
+        <COMPID name="Options" mc="Standard.Class" uid="00ee6088-39c3-41ec-bd2a-f73a7074bb14"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
-        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="ad2e92fb-7452-4322-85bf-94a0f485785f"/>
         <COMPID name="Part Class diagram" mc="Standard.ClassDiagram" uid="f14ec78a-ee18-4346-9931-08447d62f41e"/>
         <COMPID name="Parser Class diagram" mc="Standard.ClassDiagram" uid="99fdf11e-6c2f-4bf3-aa14-65a8e85ad3de"/>
         <COMPID name="Division Class diagram" mc="Standard.ClassDiagram" uid="3aa57bf6-403e-4d60-8627-6be9048bdcbb"/>
@@ -67,6 +70,8 @@
         <COMPID name="Document Class diagram" mc="Standard.ClassDiagram" uid="07c89cf5-a079-4fc1-bbac-8fc19edc58d6"/>
         <COMPID name="Publisher Class diagram" mc="Standard.ClassDiagram" uid="4cee19c6-9497-400b-8d11-04ca55fb878e"/>
         <COMPID name="Reasoner Class diagram" mc="Standard.ClassDiagram" uid="bf5738bb-de36-4354-8f22-bab854279e95"/>
+        <COMPID name="Util Class diagram" mc="Standard.ClassDiagram" uid="313726ae-f732-4780-a933-e9985573f841"/>
+        <COMPID name="Glossary Class diagram" mc="Standard.ClassDiagram" uid="c8529f77-9277-4556-b0aa-8512656d1661"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

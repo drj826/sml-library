@@ -21,11 +21,19 @@ Here is the definition of `parser' from the glossary:
 
 [ref:lis-parser-pm] shows the Parser.pm file.
 
->>>FIGURE.fig-parser-class-diagram
+>>>FIGURE.fig-class-diagram-parser
 
 title:: SML::Parser Class Diagram
 
 image:: files/images/class-diagram-parser.png
+
+<<<FIGURE
+
+>>>FIGURE.fig-activity-diagram-parse
+
+title:: SML::Parser ``parse'' Activity Diagram
+
+image:: files/images/activity-diagram-parse.png
 
 <<<FIGURE
 
