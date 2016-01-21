@@ -72,6 +72,10 @@
         <COMPID name="Reasoner Class diagram" mc="Standard.ClassDiagram" uid="bf5738bb-de36-4354-8f22-bab854279e95"/>
         <COMPID name="Util Class diagram" mc="Standard.ClassDiagram" uid="313726ae-f732-4780-a933-e9985573f841"/>
         <COMPID name="Glossary Class diagram" mc="Standard.ClassDiagram" uid="c8529f77-9277-4556-b0aa-8512656d1661"/>
+        <COMPID name="Section Class diagram" mc="Standard.ClassDiagram" uid="61e58ce2-6b1c-4de6-aa1e-7a42fb4f71ae"/>
+        <COMPID name="Options Class diagram" mc="Standard.ClassDiagram" uid="c0473e77-0edf-4df7-a9c4-5c7d4d3cff35"/>
+        <COMPID name="Entity Class diagram" mc="Standard.ClassDiagram" uid="07dde3f3-160f-4297-b443-16438543c1a9"/>
+        <COMPID name="String Class diagram" mc="Standard.ClassDiagram" uid="adf61e33-9e3c-49f5-bbf6-b1d8087a7198"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

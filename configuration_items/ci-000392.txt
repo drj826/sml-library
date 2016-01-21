@@ -1,18 +1,31 @@
 >>>configuration_item.ci-000392
 
-title:: SML/Section.pm Module
+title:: SML::Section Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/Section.pm Module...
+description:: The SML::Section class represents a document section.
+Sections exist in sequences and cannot be nested.  This may seem
+counterintuitive.  A section may not contain another section? What
+about sub-sections?  Technically, sections don't ~~contain~~
+sub-sections.  Sections have properties like depth and number that
+make them appear nested, when in fact they are not.
 
 index:: [id:ci-000392]; Section.pm; SML::Section
 
+>>>FIGURE.fig-class-diagram-section
+
+title:: SML::Section Class Diagram
+
+image:: files/images/class-diagram-section.png
+
+<<<FIGURE
+
 >>>LISTING.lis-section-pm
 
-title:: Section.pm
+title:: Section.pm Code Listing
 
 numbers:: left
 

@@ -1,17 +1,38 @@
 >>>configuration_item.ci-000416
 
-title:: SML/Entity.pm Module
+title:: SML::Entity Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The Entity.pm module implements the SML::Entity
-class. An SML entity is a region that represents content with semantic
-meaning.  Entities are often related to other entitys. Common entities
-include problems, solutions, tests, results, tasks, roles,
-allocations, and assignments.
+description:: The SML::Entity class represents an [g:SML1:entity]. The
+[g:SML:library] [g:SML:ontology] declares the entities allowed in the
+library, their properties, and how they are allowed to relate to one
+another.
 
 index:: [id:ci-000416]; Entity.pm; SML::Entity
+
+>>>FIGURE.fig-class-diagram-entity
+
+title:: SML::Entity Class Diagram
+
+image:: files/images/class-diagram-entity.png
+
+<<<FIGURE
+
+>>>LISTING.lis-entity-pm
+
+title:: Entity.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Entity.pm
+
+<<<LISTING
 
 <<<configuration_item
