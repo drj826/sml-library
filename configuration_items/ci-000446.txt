@@ -1,0 +1,36 @@
+>>>configuration_item.ci-000446
+
+title:: SML::Error Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Error represents an error encountered during
+parsing, reasoning about, or publishing of SML text.
+
+index:: ci-000446; SML::Error; Error.pm; error
+
+>>>FIGURE.fig-class-diagram-error
+
+title:: SML::Error Class Diagram
+
+image:: files/images/class-diagram-error.png
+
+<<<FIGURE
+
+>>>LISTING.lis-error-pm
+
+title:: Error.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Error.pm
+
+<<<LISTING
+
+<<<configuration_item

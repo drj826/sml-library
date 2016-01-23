@@ -10,6 +10,14 @@ description:: The SML class provides a convenient mechanism for
 application writers pull SML functionality into their application.
 The SML class provides no public attributes or methods.
 
+>>>FIGURE.fig-class-diagram-sml
+
+title:: SML Class Diagram
+
+image:: files/images/class-diagram-sml.png
+
+<<<FIGURE
+
 >>>LISTING.lis-sml-pm
 
 title:: SML.pm

@@ -416,7 +416,7 @@
           <DEPENDENCIES>
             <COMP relation="Outgoing">
               <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="0996b97b-dd8b-4b70-865f-8a14eadafa9c"/>
+                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="0b73a099-281f-4bf2-9090-56093b5131f9"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"></ATT>
                   <ATT name="Weight"><![CDATA[1]]></ATT>
@@ -426,84 +426,7 @@
                 <DEPENDENCIES>
                   <LINK relation="Target">
                     <REFOBJ>
-                      <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="cb729108-1f94-446e-9eed-e1e47bb335b6"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="substitute variables" mc="Standard.ConditionalNode" uid="94d6c386-ff47-49bb-b447-49bcfa06b70c"/>
-          <ATTRIBUTES>
-            <ATT name="IsDeterminate">false</ATT>
-            <ATT name="IsAssured">false</ATT>
-            <ATT name="MustIsolate">false</ATT>
-            <ATT name="IsMultipleInstance">false</ATT>
-            <ATT name="IsCompensation">false</ATT>
-            <ATT name="Name"><![CDATA[substitute variables]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="80f7ffc2-97c8-466f-a657-702fabb51b61"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Fork/Join5" mc="Standard.ForkJoinNode" uid="0daf75ed-0868-420e-91c1-f09124c7aca8"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Decision-Merge5" mc="Standard.DecisionMergeNode" uid="5f884303-e7c6-4a2f-b1a4-dc5515e39675"/>
-          <ATTRIBUTES>
-            <ATT name="DecisionKind">ExclusiveDecision</ATT>
-            <ATT name="DecisionInputBehavior"></ATT>
-            <ATT name="Name"><![CDATA[Decision-Merge5]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="b42915c9-f6f3-4774-a8c6-b77d721fa761"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="substitute variables" mc="Standard.ConditionalNode" uid="94d6c386-ff47-49bb-b447-49bcfa06b70c"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="346b6053-20fb-4642-bfed-ae7a25455b1e"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Fork/Join5" mc="Standard.ForkJoinNode" uid="0daf75ed-0868-420e-91c1-f09124c7aca8"/>
+                      <ID name="parse division blocks" mc="Standard.OpaqueAction" uid="afbf1a0d-ce6b-4b87-b7c0-a10e28bb5760"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -629,109 +552,6 @@
                   <LINK relation="Target">
                     <REFOBJ>
                       <ID name="Decision-Merge3" mc="Standard.DecisionMergeNode" uid="54834917-399d-488e-ae6f-9465486bed85"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="cb729108-1f94-446e-9eed-e1e47bb335b6"/>
-          <ATTRIBUTES>
-            <ATT name="IsCombineDuplicate">true</ATT>
-            <ATT name="JoinSpec"><![CDATA[and]]></ATT>
-            <ATT name="Name"><![CDATA[Fork/Join1]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="2a904d67-88a0-4ea3-b54c-23b8e5e4bc59"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Decision-Merge5" mc="Standard.DecisionMergeNode" uid="5f884303-e7c6-4a2f-b1a4-dc5515e39675"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Fork/Join5" mc="Standard.ForkJoinNode" uid="0daf75ed-0868-420e-91c1-f09124c7aca8"/>
-          <ATTRIBUTES>
-            <ATT name="IsCombineDuplicate">true</ATT>
-            <ATT name="JoinSpec"><![CDATA[and]]></ATT>
-            <ATT name="Name"><![CDATA[Fork/Join5]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="4aa5edf7-18ea-49ca-b493-3a0d9d135fc1"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Decision-Merge4" mc="Standard.DecisionMergeNode" uid="d9d076d0-35a7-44fd-b7f2-9cadb06eb642"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="Decision-Merge4" mc="Standard.DecisionMergeNode" uid="d9d076d0-35a7-44fd-b7f2-9cadb06eb642"/>
-          <ATTRIBUTES>
-            <ATT name="DecisionKind">ExclusiveDecision</ATT>
-            <ATT name="DecisionInputBehavior"></ATT>
-            <ATT name="Name"><![CDATA[Decision-Merge4]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Outgoing">
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="9a4bd671-4641-44a9-a156-77a0adb0a0a8"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="Fork/Join1" mc="Standard.ForkJoinNode" uid="cb729108-1f94-446e-9eed-e1e47bb335b6"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-              <OBJECT>
-                <ID name="ControlFlow" mc="Standard.ControlFlow" uid="d2759eb8-3617-4095-9d46-2b0e2642d05b"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"></ATT>
-                  <ATT name="Weight"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[ControlFlow]]></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Target">
-                    <REFOBJ>
-                      <ID name="parse division blocks" mc="Standard.OpaqueAction" uid="afbf1a0d-ce6b-4b87-b7c0-a10e28bb5760"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>

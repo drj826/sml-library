@@ -1,14 +1,37 @@
 >>>configuration_item.ci-000415
 
-title:: SML/Definition.pm Module
+title:: SML::Definition Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The Definition.pm module implements the SML::Definition
-class. A definition is an element that defines an key/value pair.
+description:: The SML::Definition class represents a term/definition
+pair.  The defined term may also belong to a namespace to disambiguate
+the term from the same term in other namespaces.
 
-index:: [id:ci-000415]; Definition.pm; SML::Definition
+index:: [id:ci-000415]; Definition.pm; SML::Definition; definition
+
+>>>FIGURE.fig-class-diagram-definition
+
+title:: SML::Definition Class Diagram
+
+image:: files/images/class-diagram-definition.png
+
+<<<FIGURE
+
+>>>LISTING.lis-definition-pm
+
+title:: Definition.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Definition.pm
+
+<<<LISTING
 
 <<<configuration_item

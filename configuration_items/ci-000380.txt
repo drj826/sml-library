@@ -24,7 +24,7 @@ index:: [id:ci-000380]; Reasoner.pm; SML::Reasoner
 
 = [g:SML:reasoner] = [def:SML:reasoner]
 
->>>FIGURE.fig-reasoner-class-diagram
+>>>FIGURE.fig-class-diagram-reasoner
 
 title:: SML::Reasoner Class Diagram
 

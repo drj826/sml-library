@@ -1,14 +1,22 @@
 >>>configuration_item.ci-000384
 
-title:: SML/File.pm Module
+title:: SML::File Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/File.pm Module...
+description:: An SML::File represents a file in the filesystem.
 
-index:: [id:ci-000384]; File.pm; SML::File
+index:: [id:ci-000384]; File.pm; SML::File; file
+
+>>>FIGURE.fig-class-diagram-file
+
+title:: SML::File Class Diagram
+
+image:: files/images/class-diagram-file.png
+
+<<<FIGURE
 
 >>>LISTING.lis-file-pm
 

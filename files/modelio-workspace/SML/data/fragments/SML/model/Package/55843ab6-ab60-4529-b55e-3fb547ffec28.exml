@@ -58,6 +58,14 @@
         <COMPID name="Index" mc="Standard.Class" uid="f091a239-fcc3-44d5-82b2-16d3a81c0359"/>
         <COMPID name="Note" mc="Standard.Class" uid="f125146c-4fe1-4321-b184-542e779e42b0"/>
         <COMPID name="Options" mc="Standard.Class" uid="00ee6088-39c3-41ec-bd2a-f73a7074bb14"/>
+        <COMPID name="AcronymTermReference" mc="Standard.Class" uid="df6bf6e4-973e-47ac-8452-a1d86559b465"/>
+        <COMPID name="CitationReference" mc="Standard.Class" uid="ea478afe-86d1-48df-b247-54315572b7fe"/>
+        <COMPID name="CrossReference" mc="Standard.Class" uid="81470cae-192f-4375-be04-4936c873740e"/>
+        <COMPID name="DefinitionListItem" mc="Standard.Class" uid="9a26978c-640a-478f-86cb-50c8a15349e0"/>
+        <COMPID name="SML" mc="Standard.Class" uid="841dfaa8-cbe0-4734-ba28-6e5d5ee2c41a"/>
+        <COMPID name="EmailAddress" mc="Standard.Class" uid="90ae7b8c-4798-4064-a509-b1a8e8743f51"/>
+        <COMPID name="EnumeratedList" mc="Standard.Class" uid="f30adcb9-5aca-44c2-b13b-999a1d4d51cd"/>
+        <COMPID name="Svninfo" mc="Standard.Class" uid="cc2b373b-737e-4e3c-a03e-2c4b052e7fce"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
@@ -76,6 +84,20 @@
         <COMPID name="Options Class diagram" mc="Standard.ClassDiagram" uid="c0473e77-0edf-4df7-a9c4-5c7d4d3cff35"/>
         <COMPID name="Entity Class diagram" mc="Standard.ClassDiagram" uid="07dde3f3-160f-4297-b443-16438543c1a9"/>
         <COMPID name="String Class diagram" mc="Standard.ClassDiagram" uid="adf61e33-9e3c-49f5-bbf6-b1d8087a7198"/>
+        <COMPID name="AcronymList Class diagram" mc="Standard.ClassDiagram" uid="0cee83d2-118c-4675-89f1-551d9ffe2ca6"/>
+        <COMPID name="AcronymTermReference Class diagram" mc="Standard.ClassDiagram" uid="1d5056d0-f9e1-4a13-88e1-fecde5114e5a"/>
+        <COMPID name="BulletList Class diagram" mc="Standard.ClassDiagram" uid="60e9ad29-269d-4f6c-b51b-3fa7131ac46b"/>
+        <COMPID name="CitationReference Class diagram" mc="Standard.ClassDiagram" uid="e4f32190-731f-4010-949b-ee6181de508f"/>
+        <COMPID name="Cross Reference Class diagram" mc="Standard.ClassDiagram" uid="43275ffa-8fb0-40bc-828b-effb3d060529"/>
+        <COMPID name="Definition Class diagram" mc="Standard.ClassDiagram" uid="130873f5-613b-4e8f-a4e8-ea3fa5845703"/>
+        <COMPID name="DefinitionListItem Class diagram" mc="Standard.ClassDiagram" uid="633c7f83-0f22-4226-93a9-59c729536b25"/>
+        <COMPID name="SML Class diagram" mc="Standard.ClassDiagram" uid="3eb6762d-91ab-47ab-88a2-0ca63eb9a16b"/>
+        <COMPID name="Element Class diagram" mc="Standard.ClassDiagram" uid="df363ae2-e8c3-4340-8c21-d367b641b206"/>
+        <COMPID name="EmailAddress Class diagram" mc="Standard.ClassDiagram" uid="4f8dc3f1-1d29-46fd-b938-17bf3bfa4c83"/>
+        <COMPID name="EnumeratedList Class diagram" mc="Standard.ClassDiagram" uid="495fa72b-f301-431e-a626-969e8f3ab7c9"/>
+        <COMPID name="Error Class diagram" mc="Standard.ClassDiagram" uid="c7e6a0fa-6ebf-4309-8a90-7ff747ada88c"/>
+        <COMPID name="Figure Class diagram" mc="Standard.ClassDiagram" uid="1af5a075-776c-49f7-8ae4-146760b6d90f"/>
+        <COMPID name="File Class diagram" mc="Standard.ClassDiagram" uid="76a7f18d-31e6-4000-9f49-12af584c112b"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -11,7 +11,7 @@ methods used by other classes.
 
 index:: [id:ci-000383]; Util.pm; SML::Util; utility methods
 
->>>FIGURE.fig-util-class-diagram
+>>>FIGURE.fig-class-diagram-util
 
 title:: SML::Util Class Diagram
 

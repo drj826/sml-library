@@ -1,0 +1,36 @@
+>>>configuration_item.ci-000439
+
+title:: SML::AcronymList Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::AcronymList represents a list of acronym entries
+each consisting of an acronym and a definition.
+
+index:: ci-000439; SML::AcronymList; AcronymList.pm; acronym list
+
+>>>FIGURE.fig-class-diagram-acronym-list
+
+title:: SML::AcronymList Class Diagram
+
+image:: files/images/class-diagram-acronym-list.png
+
+<<<FIGURE
+
+>>>LISTING.lis-acronymlist-pm
+
+title:: AcronymList.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/AcronymList.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -4,7 +4,8 @@ my $logger = Log::Log4perl::get_logger('sml.application');
 
 use lib "../../SML/lib";
 
-use SML::Library;
+use SML;
+
 use Time::Duration;
 
 my $begin = time();

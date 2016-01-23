@@ -10,7 +10,7 @@ description:: The SML::Glossary class represents a glossary of terms.
 
 index:: [id:ci-000435]; Glossary.pm; SML::Glossary
 
->>>FIGURE.fig-glossary-class-diagram
+>>>FIGURE.fig-class-diagram-glossary
 
 title:: SML::Glossary Class Diagram
 

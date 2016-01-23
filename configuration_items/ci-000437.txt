@@ -10,7 +10,7 @@ description:: The SML::Ontology class represents an [g:SML:ontology].
 
 index:: [id:ci-000437]; SML::Ontology; ontology
 
->>>FIGURE.fig-ontology-class-diagram
+>>>FIGURE.fig-class-diagram-ontology
 
 title:: SML::Ontology Class Diagram
 

@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000443
+
+title:: SML::CrossReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::CrossReference represents a reference to any
+other division ID in the library. The cited division must exist in the
+library.
+
+index:: ci-000443; SML::CrossReference; CrossReference.pm;
+cross reference
+
+>>>FIGURE.fig-class-diagram-cross-reference
+
+title:: SML::CrossReference Class Diagram
+
+image:: files/images/class-diagram-cross-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-crossreference-pm
+
+title:: CrossReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/CrossReference.pm
+
+<<<LISTING
+
+<<<configuration_item
