@@ -66,6 +66,15 @@
         <COMPID name="EmailAddress" mc="Standard.Class" uid="90ae7b8c-4798-4064-a509-b1a8e8743f51"/>
         <COMPID name="EnumeratedList" mc="Standard.Class" uid="f30adcb9-5aca-44c2-b13b-999a1d4d51cd"/>
         <COMPID name="Svninfo" mc="Standard.Class" uid="cc2b373b-737e-4e3c-a03e-2c4b052e7fce"/>
+        <COMPID name="FileReference" mc="Standard.Class" uid="18daef74-0447-4fd6-8e1d-b809dbee3959"/>
+        <COMPID name="FootnoteReference" mc="Standard.Class" uid="4aa1b943-1737-455d-8afa-e8e08983669d"/>
+        <COMPID name="GlossaryDefinitionReference" mc="Standard.Class" uid="7c6a5d70-f2b6-4a32-93c4-6c110bacf702"/>
+        <COMPID name="GlossaryTermReference" mc="Standard.Class" uid="c99d21a3-6911-4a5a-bbdb-48a2153e5a15"/>
+        <COMPID name="IDReference" mc="Standard.Class" uid="0943b3e4-bc91-4037-952d-61480e12c8be"/>
+        <COMPID name="Image" mc="Standard.Class" uid="3e50bd78-2a49-4e7f-b5d5-1ca4a70a24ad"/>
+        <COMPID name="IndexEntry" mc="Standard.Class" uid="37588ebc-43ab-4ef9-9da8-e1e9bd100b47"/>
+        <COMPID name="IndexReference" mc="Standard.Class" uid="dc45ec20-1382-4251-8ec5-563be35b599b"/>
+        <COMPID name="LookupReference" mc="Standard.Class" uid="6a2d7f10-cfef-4923-ad7c-7096639f66c5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
@@ -98,6 +107,19 @@
         <COMPID name="Error Class diagram" mc="Standard.ClassDiagram" uid="c7e6a0fa-6ebf-4309-8a90-7ff747ada88c"/>
         <COMPID name="Figure Class diagram" mc="Standard.ClassDiagram" uid="1af5a075-776c-49f7-8ae4-146760b6d90f"/>
         <COMPID name="File Class diagram" mc="Standard.ClassDiagram" uid="76a7f18d-31e6-4000-9f49-12af584c112b"/>
+        <COMPID name="FileReference Class diagram" mc="Standard.ClassDiagram" uid="a11272ec-6923-431b-8b86-fb3102bba5f5"/>
+        <COMPID name="FootnoteReference Class diagram" mc="Standard.ClassDiagram" uid="9cbc0f2e-f8a1-442a-b02f-9a9e29929124"/>
+        <COMPID name="GlossaryDefinitionReference Class diagram" mc="Standard.ClassDiagram" uid="34b6a603-868c-4e0c-923a-bec2d2b47636"/>
+        <COMPID name="GlossaryTermReference Class diagram" mc="Standard.ClassDiagram" uid="0d26a731-d456-466d-8c2f-50a59728b7b2"/>
+        <COMPID name="IDReference Class diagram" mc="Standard.ClassDiagram" uid="25d30583-b76f-4dc2-9abd-580ca273273d"/>
+        <COMPID name="Image Class diagram" mc="Standard.ClassDiagram" uid="d7866e6f-190b-465f-b0fb-750be080e286"/>
+        <COMPID name="Index Class diagram" mc="Standard.ClassDiagram" uid="f5e7182f-f960-495d-aa65-8a1203f56969"/>
+        <COMPID name="IndexEntry Class diagram" mc="Standard.ClassDiagram" uid="2ac784a5-1927-4a28-801e-93ea8df5000c"/>
+        <COMPID name="IndexReference Class diagram" mc="Standard.ClassDiagram" uid="5c40ac6f-f70e-477c-bf34-ff9ae86205ba"/>
+        <COMPID name="ListItem Class diagram" mc="Standard.ClassDiagram" uid="111b3b9f-dc7d-4a00-bd30-66aff77abb3b"/>
+        <COMPID name="Listing Class diagram" mc="Standard.ClassDiagram" uid="66cf390b-9b0b-4cf1-bb81-83c2d7520cad"/>
+        <COMPID name="LookupReference Class diagram" mc="Standard.ClassDiagram" uid="9041be2a-dd90-4785-b90b-0fee0ea18124"/>
+        <COMPID name="Note Class diagram" mc="Standard.ClassDiagram" uid="1987aa81-08af-4954-9dfb-de00c5899387"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

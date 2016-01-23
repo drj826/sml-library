@@ -1,0 +1,36 @@
+>>>configuration_item.ci-000452
+
+title:: SML::Image Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Image represents an image file in the
+filesystem. The image filespec must exist in the library.
+
+index:: [id:ci-000452]; Image.pm; SML::Image; image
+
+>>>FIGURE.fig-class-diagram-image
+
+title:: SML::Image Class Diagram
+
+image:: files/images/class-diagram-image.png
+
+<<<FIGURE
+
+>>>LISTING.lis-image-pm
+
+title:: Image.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Image.pm
+
+<<<LISTING
+
+<<<configuration_item

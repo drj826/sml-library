@@ -1,0 +1,37 @@
+>>>configuration_item.ci-000447
+
+title:: SML::FileReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::FileReference represents a reference to any
+file.  The referenced file ~~does not~~ need to be in the library.
+
+index:: ci-000447; SML::FileReference; FileReference.pm;
+file reference
+
+>>>FIGURE.fig-class-diagram-file-reference
+
+title:: SML::FileReference Class Diagram
+
+image:: files/images/class-diagram-file-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-filereference-pm
+
+title:: FileReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/FileReference.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000456
+
+title:: SML::LookupReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::LookupReference represents a reference to any
+property value.  The reference specifies the division ID and property
+name.
+
+index:: ci-000456; SML::LookupReference; LookupReference.pm;
+lookup reference
+
+>>>FIGURE.fig-class-diagram-lookup-reference
+
+title:: SML::LookupReference Class Diagram
+
+image:: files/images/class-diagram-lookup-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-lookupreference-pm
+
+title:: LookupReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/LookupReference.pm
+
+<<<LISTING
+
+<<<configuration_item

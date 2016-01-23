@@ -1,0 +1,36 @@
+>>>configuration_item.ci-000453
+
+title:: SML::Index Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: The SML::Index class represents a collection of index
+entries with their locations in the text.
+
+index:: [id:ci-000453]; Index.pm; SML::Index; index
+
+>>>FIGURE.fig-class-diagram-index
+
+title:: SML::Index Class Diagram
+
+image:: files/images/class-diagram-index.png
+
+<<<FIGURE
+
+>>>LISTING.lis-index-pm
+
+title:: Index.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Index.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000449
+
+title:: SML::GlossaryDefinitionReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::GlossaryDefinitionReference represents a
+reference to a glossary definition.  The referenced glossary
+definition must be somewhere in the library.
+
+index:: ci-000449; SML::GlossaryDefinitionReference;
+GlossaryDefinitionReference.pm; glossary definition reference
+
+>>>FIGURE.fig-class-diagram-glossary-definition-reference
+
+title:: SML::GlossaryDefinitionReference Class Diagram
+
+image:: files/images/class-diagram-glossary-definition-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-glossarydefinitionreference-pm
+
+title:: GlossaryDefinitionReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/GlossaryDefinitionReference.pm
+
+<<<LISTING
+
+<<<configuration_item
