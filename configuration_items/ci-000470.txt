@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000470
+
+title:: SML::URLReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::URLReference represents a reference to any
+other division ID in the library. The cited division must exist in the
+library.
+
+index:: ci-000470; SML::URLReference; URLReference.pm;
+URL reference
+
+>>>FIGURE.fig-class-diagram-url-reference
+
+title:: SML::URLReference Class Diagram
+
+image:: files/images/class-diagram-url-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-urlreference-pm
+
+title:: URLReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/URLReference.pm
+
+<<<LISTING
+
+<<<configuration_item

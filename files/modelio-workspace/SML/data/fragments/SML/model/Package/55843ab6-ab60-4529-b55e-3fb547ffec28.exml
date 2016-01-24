@@ -75,6 +75,15 @@
         <COMPID name="IndexEntry" mc="Standard.Class" uid="37588ebc-43ab-4ef9-9da8-e1e9bd100b47"/>
         <COMPID name="IndexReference" mc="Standard.Class" uid="dc45ec20-1382-4251-8ec5-563be35b599b"/>
         <COMPID name="LookupReference" mc="Standard.Class" uid="6a2d7f10-cfef-4923-ad7c-7096639f66c5"/>
+        <COMPID name="PageReference" mc="Standard.Class" uid="dd1b1b82-e826-4693-8678-e1f4d8b164b7"/>
+        <COMPID name="PathReference" mc="Standard.Class" uid="d64efbb6-77f5-4b2a-9649-78266cfc7c66"/>
+        <COMPID name="StatusReference" mc="Standard.Class" uid="3565afa1-b15a-4417-b729-f58f9fbca224"/>
+        <COMPID name="Step" mc="Standard.Class" uid="f41af89b-b01f-401a-829a-486e8c5dc24f"/>
+        <COMPID name="Symbol" mc="Standard.Class" uid="86046908-1148-4e40-b3c5-eaf95dfaaf9f"/>
+        <COMPID name="Syntax" mc="Standard.Class" uid="9b1db437-8cda-4b1b-bbfd-ef93dd9c12aa"/>
+        <COMPID name="TitleReference" mc="Standard.Class" uid="0237e8d1-3a10-4239-b6b7-fb7a70c2ad44"/>
+        <COMPID name="URLReference" mc="Standard.Class" uid="ec8a2daa-bd93-4ee2-8700-aa5eb4ca22c2"/>
+        <COMPID name="VariableReference" mc="Standard.Class" uid="a45198a0-c0e1-45c3-9a1b-60a925386cf5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
@@ -120,6 +129,28 @@
         <COMPID name="Listing Class diagram" mc="Standard.ClassDiagram" uid="66cf390b-9b0b-4cf1-bb81-83c2d7520cad"/>
         <COMPID name="LookupReference Class diagram" mc="Standard.ClassDiagram" uid="9041be2a-dd90-4785-b90b-0fee0ea18124"/>
         <COMPID name="Note Class diagram" mc="Standard.ClassDiagram" uid="1987aa81-08af-4954-9dfb-de00c5899387"/>
+        <COMPID name="OntologyRule Class diagram" mc="Standard.ClassDiagram" uid="3f35d408-9300-4510-91d9-33c25a839bce"/>
+        <COMPID name="Outcome Class diagram" mc="Standard.ClassDiagram" uid="0cc28665-2e5f-4221-8ccd-e073855d6a00"/>
+        <COMPID name="PageReference Class diagram" mc="Standard.ClassDiagram" uid="6a30a212-3c92-4fac-b340-781da1327505"/>
+        <COMPID name="Paragraph Class diagram" mc="Standard.ClassDiagram" uid="3a1561a3-b396-492f-a1c4-50ae48ebc444"/>
+        <COMPID name="PathReference Class diagram" mc="Standard.ClassDiagram" uid="637f15bc-1936-4363-829e-d726a685587e"/>
+        <COMPID name="PreformattedBlock Class diagram" mc="Standard.ClassDiagram" uid="77695105-4ef1-4d86-8e65-a89ab12e46d0"/>
+        <COMPID name="References Class diagram" mc="Standard.ClassDiagram" uid="44d7ec60-bd66-4438-a9f7-a8301bc17eff"/>
+        <COMPID name="Source Class diagram" mc="Standard.ClassDiagram" uid="d3ec2e5a-f502-4750-b835-74a192923d22"/>
+        <COMPID name="StatusReference Class diagram" mc="Standard.ClassDiagram" uid="1cc0c8d9-0c9d-4be4-b99c-3b5496214319"/>
+        <COMPID name="Step Class diagram" mc="Standard.ClassDiagram" uid="1d7c988f-2764-4202-8a4e-0546777e88b3"/>
+        <COMPID name="Structure Class diagram" mc="Standard.ClassDiagram" uid="a61fb87a-6e28-47a8-9d31-5fb2e554a665"/>
+        <COMPID name="Svninfo Class diagram" mc="Standard.ClassDiagram" uid="12709852-67ad-477f-959f-934200a76b2f"/>
+        <COMPID name="Symbol Class diagram" mc="Standard.ClassDiagram" uid="10161482-da29-47b5-90b5-9fa924c8d37f"/>
+        <COMPID name="Syntax Class diagram" mc="Standard.ClassDiagram" uid="5050f1a4-0346-428b-a779-573cc217d59b"/>
+        <COMPID name="Table Class diagram" mc="Standard.ClassDiagram" uid="de378ab2-1426-45cc-8d3d-b5f580a7d10e"/>
+        <COMPID name="TableCell Class diagram" mc="Standard.ClassDiagram" uid="28a7b232-32e1-4d5f-b0d9-47210fb72ac1"/>
+        <COMPID name="TableRow Class diagram" mc="Standard.ClassDiagram" uid="debeeb67-bd91-44c8-9b72-2a0ea3bdb8c0"/>
+        <COMPID name="TitleReference Class diagram" mc="Standard.ClassDiagram" uid="0cef47e2-d7ea-4b3f-8b1b-5ad88e10f3ee"/>
+        <COMPID name="Triple Class diagram" mc="Standard.ClassDiagram" uid="f3c7034e-ae80-47b2-a9a7-10e962bd1688"/>
+        <COMPID name="URLReference Class diagram" mc="Standard.ClassDiagram" uid="9412c254-be66-43c0-b321-607752f0da39"/>
+        <COMPID name="Value Class diagram" mc="Standard.ClassDiagram" uid="3fa9c39a-ee7c-4605-854b-0d28e1442d52"/>
+        <COMPID name="VariableReference Class diagram" mc="Standard.ClassDiagram" uid="cab19978-9c87-4bef-8c7d-5f57ef2c885a"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

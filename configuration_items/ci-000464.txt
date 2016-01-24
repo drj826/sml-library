@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000464
+
+title:: SML::StatusReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::StatusReference represents a reference to the
+status of an entity.  Status indicates the degree to which something
+is complete.  Valid status values are: green, yellow, red, and grey.
+
+index:: ci-000464; SML::StatusReference; StatusReference.pm;
+status reference
+
+>>>FIGURE.fig-class-diagram-status-reference
+
+title:: SML::StatusReference Class Diagram
+
+image:: files/images/class-diagram-status-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-statusreference-pm
+
+title:: StatusReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/StatusReference.pm
+
+<<<LISTING
+
+<<<configuration_item

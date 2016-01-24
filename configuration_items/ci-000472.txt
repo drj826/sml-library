@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000472
+
+title:: SML::VariableReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::VariableReference represents a reference to a
+variable.  The referenced variable must be declared somewhere in the
+library.
+
+index:: ci-000472; SML::VariableReference; VariableReference.pm;
+variable reference
+
+>>>FIGURE.fig-class-diagram-variable-reference
+
+title:: SML::VariableReference Class Diagram
+
+image:: files/images/class-diagram-variable-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-variablereference-pm
+
+title:: VariableReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/VariableReference.pm
+
+<<<LISTING
+
+<<<configuration_item

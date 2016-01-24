@@ -1,14 +1,22 @@
 >>>configuration_item.ci-000428
 
-title:: SML/TableCell.pm Module
+title:: SML::TableCell Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/TableCell.pm Module...
+description:: An SML::TableCell represents a single cell in a table.
 
 index:: [id:ci-000428]; table cell; TableCell.pm; SML::TableCell
+
+>>>FIGURE.fig-class-diagram-table-cell
+
+title:: SML::TableCell Class Diagram
+
+image:: files/images/class-diagram-table-cell.png
+
+<<<FIGURE
 
 >>>LISTING.lis-table-cell-pm
 

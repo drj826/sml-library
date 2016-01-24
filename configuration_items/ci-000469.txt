@@ -1,0 +1,36 @@
+>>>configuration_item.ci-000469
+
+title:: SML::Triple Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Triple represents a subject, predicate, object
+triple.
+
+index:: ci-000469; SML::Triple; Triple.pm; triple
+
+>>>FIGURE.fig-class-diagram-triple
+
+title:: SML::Triple Class Diagram
+
+image:: files/images/class-diagram-triple.png
+
+<<<FIGURE
+
+>>>LISTING.lis-triple-pm
+
+title:: Triple.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Triple.pm
+
+<<<LISTING
+
+<<<configuration_item

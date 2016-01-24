@@ -1,0 +1,35 @@
+>>>configuration_item.ci-000467
+
+title:: SML::Symbol Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Symbol represents a single symbol character.
+
+index:: ci-000467; SML::Symbol; Symbol.pm; symbol
+
+>>>FIGURE.fig-class-diagram-symbol
+
+title:: SML::Symbol Class Diagram
+
+image:: files/images/class-diagram-symbol.png
+
+<<<FIGURE
+
+>>>LISTING.lis-symbol-pm
+
+title:: Symbol.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Symbol.pm
+
+<<<LISTING
+
+<<<configuration_item

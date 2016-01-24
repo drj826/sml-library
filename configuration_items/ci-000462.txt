@@ -1,0 +1,37 @@
+>>>configuration_item.ci-000462
+
+title:: SML::Publisher Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::Publisher publishes object model content to
+finished documents and other products such as library glossaries and
+indexes and various cross reference products.
+
+index:: [id:ci-000462]; Publisher.pm; SML::Publisher; publisher
+
+>>>FIGURE.fig-class-diagram-publisher
+
+title:: SML::Publisher Class Diagram
+
+image:: files/images/class-diagram-publisher.png
+
+<<<FIGURE
+
+>>>LISTING.lis-publisher-pm
+
+title:: Publisher.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Publisher.pm
+
+<<<LISTING
+
+<<<configuration_item

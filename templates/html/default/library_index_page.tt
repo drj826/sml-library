@@ -33,7 +33,7 @@ bgcolor          = '#eeeeee'
 <tr>
 <td style="background-color:[%grey%];font-weight:bold;width:50%;" colspan="3">Document</td>
 <td style="background-color:[%grey%];font-weight:bold;width:8%"">Version</td>
-<td style="background-color:[%grey%];font-weight:bold;width:12%"">Author</td>
+<td style="background-color:[%grey%];font-weight:bold;width:8%"">Changes</td>
 <td style="background-color:[%grey%];font-weight:bold;">Renditions</td>
 </tr>
 
@@ -42,7 +42,9 @@ bgcolor          = '#eeeeee'
 
 document_title      = library.get_published_document_property_value('DRAFT',document_id,'title')
 document_subtitle   = library.get_published_document_property_value('DRAFT',document_id,'subtitle')
-document_author     = library.get_published_document_property_value('DRAFT',document_id,'author')
+document            = library.get_division(document_id)
+change_list         = document.get_change_list
+change_count        = change_list.size
 document_abbr       = library.get_published_document_property_value('DRAFT',document_id,'abbreviation')
 document_sha_digest = library.get_published_document_property_value('DRAFT',document_id,'sha_digest')
 document_errors     = library.get_published_document_property_value('DRAFT',document_id,'contains_error')
@@ -84,7 +86,7 @@ sha                 = document_sha_digest.substr(0,7)
 [%version%]<br/><span style="color:#aaaaaa;">[%sha%]</span>
 </td>
 
-<td style="background-color:[%bgcolor%];">[%document_author%]</td>
+<td style="background-color:[%bgcolor%];">[%change_count%]</td>
 
 <td style="background-color:[%bgcolor%];">
 

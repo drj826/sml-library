@@ -1,0 +1,38 @@
+>>>configuration_item.ci-000460
+
+title:: SML::PageReference Class
+
+type:: software
+
+is_part_of:: ci-000004
+
+description:: An SML::PageReference represents a reference to any
+division ID which should be presented as the page on which the
+division starts.  The referenced division ~~must~~ be in the library.
+
+index:: ci-000460; SML::PageReference; PageReference.pm;
+page reference
+
+>>>FIGURE.fig-class-diagram-page-reference
+
+title:: SML::PageReference Class Diagram
+
+image:: files/images/class-diagram-page-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-pagereference-pm
+
+title:: PageReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/PageReference.pm
+
+<<<LISTING
+
+<<<configuration_item

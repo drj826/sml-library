@@ -1,14 +1,22 @@
 >>>configuration_item.ci-000401
 
-title:: SML/Table.pm Module
+title:: SML::Table Class
 
 type:: software
 
 is_part_of:: ci-000004
 
-description:: The SML/Table.pm Module...
+description:: An SML::Table represents tabular information in a document.
 
-index:: [id:ci-000401]; Table.pm; SML::Table
+index:: [id:ci-000401]; Table.pm; SML::Table; table
+
+>>>FIGURE.fig-class-diagram-table
+
+title:: SML::Table Class Diagram
+
+image:: files/images/class-diagram-table.png
+
+<<<FIGURE
 
 >>>LISTING.lis-table-pm
 
