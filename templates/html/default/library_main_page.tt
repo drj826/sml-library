@@ -30,13 +30,6 @@ bgcolor          = '#eeeeee'
 <div align="center">
 <table>
 
-<tr>
-<td style="background-color:[%grey%];font-weight:bold;width:50%;" colspan="3">Document</td>
-<td style="background-color:[%grey%];font-weight:bold;width:8%"">Version</td>
-<td style="background-color:[%grey%];font-weight:bold;width:8%"">Changes</td>
-<td style="background-color:[%grey%];font-weight:bold;">Renditions</td>
-</tr>
-
 [%- FOREACH document_id IN document_id_list -%]
 [%-
 
@@ -61,11 +54,11 @@ num                 = num + 1
 [%- END -%]
 <tr>
 
-<td style="background-color:[%bgcolor%];">[%num%]</td>
+<td style="background-color:[%bgcolor%];width:2%;">[%num%]</td>
 
-<td style="background-color:[%bgcolor%];">[%document_abbr%]</td>
+<td style="background-color:[%bgcolor%];width:5%;">[%document_abbr%]</td>
 
-<td style="background-color:[%bgcolor%];">
+<td style="background-color:[%bgcolor%];width:50%;">
 <a href="[%document_id%]/titlepage.html">
 <span style="font-weight:bold;">[%document_title%]</span>
 [%- IF document_subtitle -%]
@@ -77,16 +70,13 @@ num                 = num + 1
 [%- IF library.has_published_document('DRAFT',document_id) -%]
 [%-
 
-version             = library.get_version
 document_sha_digest = library.get_published_document_property_value('DRAFT',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
-<td style="background-color:[%bgcolor%];">
-[%version%]<br/><span style="color:#aaaaaa;">[%sha%]</span>
+<td style="background-color:[%bgcolor%];width:10%;">
+[%sha%]<br/><span style="color:#aaaaaa;">[%change_count%] changes</span>
 </td>
-
-<td style="background-color:[%bgcolor%];">[%change_count%]</td>
 
 <td style="background-color:[%bgcolor%];">
 
