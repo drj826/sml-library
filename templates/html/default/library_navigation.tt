@@ -45,6 +45,10 @@ library => an SML::Library object
 <a href="references.html">References</a><br/>
 [%- END -%]
 
+[%- IF library.get_index.contains_entries OR library.has_published_file('DRAFT','library_index.html') -%]
+<a href="library_index.html">Index</a><br/>
+[%- END -%]
+
 [%- IF library.contains_changes OR library.has_published_file('DRAFT','change.html') -%]
 <a href="change.html">Changes</a><br/>
 [%- END -%]

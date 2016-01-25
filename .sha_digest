@@ -551,7 +551,7 @@ f35d784cf42a461c1ae62d749a9e27e5e456c2b8 lis-definitionlistitem-pm-unit-test-res
 3e74bda6079aa9c12066b6440f129015028aee91 lis-division-pm
 38cbcb9b50400bf219d613b88a93a81aa7916698 lis-division-pm-unit-test-case
 19b3fd670658234df6b0307327be1da9e8abff55 lis-division-pm-unit-test-results
-a775e795bf7ee7b608ac9ac4b89ead3e59972012 lis-document-pm
+3296f66e3866901b475a88bff34a4bb229b41f26 lis-document-pm
 621712624f7a67b883f841db8be6f889b0fe56e4 lis-document-pm-unit-test-case
 bdada471c162fe1a8ad6e26469284baec23e68b4 lis-document-pm-unit-test-results
 b5609c3860d9eda5b12d193a74ac6f24856d9538 lis-element-pm
@@ -575,13 +575,13 @@ c36aa57550c2240242a7dcaa51cdda844ca66679 lis-glossarydefinitionreference-pm
 bfdf0be7ed1ffe09e610dfa8b3862f4ac9ff296b lis-glossarytermreference-pm
 1ab40e8282e6a9ce143b32b7fcc6ac82f8a37b9e lis-idreference-pm
 d50c874f31f6909a078f995937a15125f93c11f4 lis-image-pm
-0ce30f85f491683beb7a9abde4a9362ad4b7901d lis-index-pm
+0f448c1430d5a925fa1909923e64b0b982a65b1a lis-index-pm
 526a23eefc7e1ea9bc46805066620b0e2357a7df lis-indexentry-pm
 2a1b82290e29645e5d59d714ca3b7f71e7b51e19 lis-indexreference-pm
 70a33e04388b06ef7477fa665c0d65759b585043 lis-item-pm-unit-test-case
 b01173ba1725a433ae59b64b1fdbcc5e5e13cfd8 lis-item-pm-unit-test-results
 f347abb73f17353d0c65d3ba4a0da14cf26538d1 lis-lib-ontology-config
-ecdf3fac4434246c1a6d553e1b8ebb96d0bbc1f9 lis-library-pm
+48b081a58096977012d7ee7d4be975bd108918cb lis-library-pm
 aec29f828e1295ab79f7b4eafac657b6dd02170e lis-library-pm-unit-test-case
 b710ba9db35d456cf135c81973ae0415be969997 lis-library-pm-unit-test-results
 da0aa070aa7d57e6b0860ca14831b2d60cf068a0 lis-line-pm
@@ -605,7 +605,7 @@ df3bbdf4def1a3965d2070594b72e43c7a840ea0 lis-options-pm
 8d4eaea7630ddb4505930cd751b134d50df75b77 lis-paragraph-pm
 ac22bc26abc8b8ad525cd2da6a617e6d8191fd7d lis-paragraph-pm-unit-test-case
 86a40241b278b3baffb2a4bb1377ffe2860ab173 lis-paragraph-pm-unit-test-results
-d6465328bd3ce14204c32bad1b3399fd14f04ffb lis-parser-pm
+474272b620138c0b70f069dbdba370bc9553e899 lis-parser-pm
 1c85e1d777342dfdf5ecff310f1eb271eeda0f51 lis-parser-pm-unit-test-case
 9b82916c62b67f1bf6e37f85423627330d5ce324 lis-parser-pm-unit-test-results
 e5b03eb7de28f8f96163b2c1c3b5075f80da20f9 lis-part-pm
@@ -613,7 +613,7 @@ e5b03eb7de28f8f96163b2c1c3b5075f80da20f9 lis-part-pm
 23e450aeb3161541df8f506bcea42e3a5c48a987 lis-preformatted-block-pm
 87f01728aa637cbbbacf74c4601b8d8f11e64184 lis-preformattedblock-pm-unit-test-case
 b0cf3aa50cfc7911467c3aa6d7b9713c3bb184c7 lis-preformattedblock-pm-unit-test-results
-9cf75e35cac83dfeadd1aacd844814aa6aed05f0 lis-publisher-pm
+110be83a3ac12fb1ad39aef48b01c9e05d592334 lis-publisher-pm
 52b293f4eb5b55177142bff8ac58725cd269062b lis-reasoner-pm
 093ed9c587411dbdb484cb436cfedb519c1fabad lis-reasoner-pm-unit-test-case
 411d3ff638cd9b3b257ea792d7cafb1002eea341 lis-reasoner-pm-unit-test-results
