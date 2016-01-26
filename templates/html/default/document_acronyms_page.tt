@@ -18,6 +18,7 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 -%]
 [%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = 'acronyms' -%]
+[%- INCLUDE acronyms_button_bar.tt -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
@@ -26,8 +27,6 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 
 [%- count = acronym_list.get_entry_count -%]
 <p align="center">([%count%] entries)</p>
-
-[%- INCLUDE acronyms_button_bar.tt -%]
 
 <table style="width:100%">
 

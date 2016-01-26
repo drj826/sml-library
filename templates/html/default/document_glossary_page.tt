@@ -19,6 +19,7 @@ count                  = glossary.get_entry_count
 -%]
 [%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = 'glossary' -%]
+[%- INCLUDE glossary_button_bar.tt -%]
 [%- END -%]
 
 [%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
@@ -26,8 +27,6 @@ count                  = glossary.get_entry_count
 <h1 style="text-align:center;">Glossary</h1>
 
 <p align="center">([%count%] entries)</p>
-
-[%- INCLUDE glossary_button_bar.tt -%]
 
 <table style="width:100%">
 
