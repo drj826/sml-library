@@ -11,6 +11,7 @@ entity_name => name of entity for which to build tree
 [%-
 
 entity_id_list = library.get_division_id_list_by_name(entity_name)
+ps             = library.get_property_store
 
 -%]
 [%- WRAPPER library_page.tt -%]
@@ -23,7 +24,7 @@ entity_id_list = library.get_division_id_list_by_name(entity_name)
 <table id="tree">
 
 [%- FOREACH entity_id IN entity_id_list -%]
-[%- UNLESS library.has_property(entity_id,'is_part_of') -%]
+[%- UNLESS ps.has_property(entity_id,'is_part_of') -%]
 
 [%- INCLUDE tm_tree_row.tt -%]
 

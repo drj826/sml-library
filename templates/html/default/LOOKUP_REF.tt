@@ -9,9 +9,9 @@ self => an SML::LookupReference object
 -%]
 [%-
 
-library              = self.get_library
+ps                   = self.get_library.get_property_store
 target_id            = self.get_target_id
 target_property_name = self.get_target_property
 
 -%]
-[% library.get_first_property_value(target_id,target_property_name) %]
+[% INCLUDE STRING.tt self = ps.get_property_string(target_id,target_property_name) %]

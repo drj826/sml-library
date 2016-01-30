@@ -32,7 +32,7 @@ TD { font-size: 10pt; font-family:verdana,sans-serif; vertical-align:top; paddin
 P.title { font-weight: bold; text-align: center; }
 P.source { font-style: italic; margin-left: 30pt; }
 PRE { margin-left: 20pt; margin-right: 20pt; }
-A { text-decoration: none; }
+A { text-decoration: none; color: #002266;}
 TT { font-size: 11pt; }
 UL { margin-left: 20pt; }
 UL UL { margin-left: 10pt; }

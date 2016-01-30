@@ -22,15 +22,15 @@ library => an SML::Library object
 <td class="navigation">
 
 [%- IF library.has_published_file('DRAFT','index.html') -%]
-<a href="DRAFT/index.html">DRAFT</a><br/>
+<a href="DRAFT/LIBRARY/index.html">DRAFT</a><br/>
 [%- END -%]
 
 [%- IF library.has_published_file('REVIEW','index.html') -%]
-<a href="REVIEW/index.html">REVIEW</a><br/>
+<a href="REVIEW/LIBRARY/index.html">REVIEW</a><br/>
 [%- END -%]
 
 [%- IF library.has_published_file('APPROVED','index.html') -%]
-<a href="APPROVED/index.html">APPROVED</a><br/>
+<a href="APPROVED/LIBRARY/index.html">APPROVED</a><br/>
 [%- END -%]
 
 </td>

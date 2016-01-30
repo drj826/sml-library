@@ -10,6 +10,7 @@ document => an SML::Document object
 [%-
 
 library        = document.get_library
+ps             = library.get_property_store
 id             = document.get_id
 sha_digest     = document.get_sha_digest
 contains_error = document.contains_error
@@ -30,9 +31,8 @@ contains_error:: [%contains_error%]
 version:: [%version%]
 
 
-[%- FOREACH property_name IN library.get_property_name_list(id) -%]
-[%- FOREACH property_value IN library.get_property_value_list(id,property_name) -%]
-[%- property_value = utility.strip_string_markup(property_value) -%]
+[%- FOREACH property_name IN ps.get_property_name_list(id) -%]
+[%- FOREACH property_value IN ps.get_property_text_list(id,property_name) -%]
 [%property_name%]:: [%property_value%]
 
 

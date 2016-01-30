@@ -17,8 +17,8 @@ entity_id = self.get_id
 [%- attribute_list = library.get_property_value_element_list(entity_id,'attr') -%]
 [%- FOREACH attribute IN attribute_list -%]
 <tr>
-<td>[% INCLUDE STRING.tt self = attribute.get_term_string %]:</td>
-<td>[% INCLUDE STRING.tt self = attribute.get_definition_string %]</td>
+<td style="width:20%;">[% INCLUDE STRING.tt self = attribute.get_term_string %]:</td>
+<td style="width:80%;">[% INCLUDE STRING.tt self = attribute.get_definition_string %]</td>
 </tr>
 
 [%- END -%]

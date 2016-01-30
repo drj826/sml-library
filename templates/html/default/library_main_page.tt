@@ -59,7 +59,7 @@ num                 = num + 1
 <td style="background-color:[%bgcolor%];width:5%;">[%document_abbr%]</td>
 
 <td style="background-color:[%bgcolor%];width:50%;">
-<a href="[%document_id%]/titlepage.html">
+<a href="../[%document_id%]/titlepage.html">
 <span style="font-weight:bold;">[%document_title%]</span>
 [%- IF document_subtitle -%]
  - [%document_subtitle%]
@@ -75,19 +75,26 @@ sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%bgcolor%];width:10%;">
-[%sha%]<br/><span style="color:#aaaaaa;">[%change_count%] changes</span>
+<span style="color:#aaaaaa;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+no change
+[%- ELSIF change_count == 1 -%]
+<a href="../[%document_id%]/change.html">1 change</a>
+[%- ELSE -%]
+<a href="../[%document_id%]/change.html">[%change_count%] changes</a>
+[%- END -%]
 </td>
 
 <td style="background-color:[%bgcolor%];">
 
 [%- IF library.has_published_document_rendition('DRAFT',document_id,'html') -%]
-<a href="[%document_id%]/titlepage.html">
+<a href="../[%document_id%]/titlepage.html">
 <img src="images/html_icon.png" height="27" width="28">
 </a>
 [%- END -%]
 
 [%- IF library.has_published_document_rendition('DRAFT',document_id,'pdf') -%]
-<a href="[%document_id%]/[%document_id%].pdf">
+<a href="../[%document_id%]/[%document_id%].pdf">
 <img src="images/pdf_icon.png" height="27" width="28">
 </a>
 [%- END -%]

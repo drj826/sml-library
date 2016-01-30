@@ -17,7 +17,7 @@ tested item.  The current syntax provides no way to capture that.
 These same issues apply to reviews.
 
 outcome::2012-09-04:al-000069:green: Since last analyzing whether SML
-satisfies [id:rq-000035] ``[lookup:title:rq-000035],'' I've added
+satisfies [id:rq-000035] ``[title:rq-000035],'' I've added
 ``allocation'' and ``assignment'' entities to the ontology.  Declaring
 the outcome of allocation and assignment validation now satisfies
 [id:rq-000035].

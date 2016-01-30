@@ -10,25 +10,26 @@ self => an SML::Entity object
 [%-
 
 library    = self.get_library
+ps         = library.get_property_store
 id         = self.get_id
 name       = self.get_name.ucfirst
 sha_digest = self.get_sha_digest.substr(0,7)
 
 -%]
-[%- IF library.has_property(id,'type') -%]
-[%- type = library.get_first_property_value(id,'type') -%]
+[%- IF ps.has_property(id,'type') -%]
+[%- type = ps.get_property_text(id,'type') -%]
 [%- END -%]
 
-[%- IF library.has_property(id,'date') -%]
-[%- date = library.get_first_property_value(id,'date') -%]
+[%- IF ps.has_property(id,'date') -%]
+[%- date = ps.get_property_text(id,'date') -%]
 [%- END -%]
 
-[%- IF library.has_property(id,'author') -%]
-[%- author = library.get_first_property_value(id,'author') -%]
+[%- IF ps.has_property(id,'author') -%]
+[%- author = ps.get_property_text(id,'author') -%]
 [%- END -%]
 
-[%- IF library.has_property(id,'revision') -%]
-[%- revision = library.get_first_property_value(id,'revision') -%]
+[%- IF ps.has_property(id,'revision') -%]
+[%- revision = ps.get_property_text(id,'revision') -%]
 [%- END -%]
 
 <table style="width:100%;border-collapse:collapse;">
@@ -46,8 +47,8 @@ sha_digest = self.get_sha_digest.substr(0,7)
 
 <td style="width:8%;background-color:#eeeeee;color:#888888;">Priority:</td>
 <td style="background-color:#eeeeee;">
-[%- IF library.has_property(id,'priority') -%]
-[%- priority = library.get_first_property_value(id,'priority') -%]
+[%- IF ps.has_property(id,'priority') -%]
+[%- priority = ps.get_property_text(id,'priority') -%]
 [% INCLUDE priority_icon.tt %] [%priority%]
 [%- ELSE -%]
 [% INCLUDE priority_icon.tt %]
@@ -56,8 +57,8 @@ sha_digest = self.get_sha_digest.substr(0,7)
 
 <td style="width:8%;background-color:#eeeeee;color:#888888;">Status:</td>
 <td style="background-color:#eeeeee;">
-[%- IF library.has_property(id,'status') -%]
-[%- status = library.get_first_property_value(id,'status') -%]
+[%- IF ps.has_property(id,'status') -%]
+[%- status = ps.get_property_text(id,'status') -%]
 [% INCLUDE status_icon.tt %] [%status%]
 [%- ELSE -%]
 [% INCLUDE status_icon.tt %]

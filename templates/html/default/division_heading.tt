@@ -13,14 +13,15 @@ label => a label (i.e. 'Demonstration')
 library = self.get_library
 number  = self.get_number
 id      = self.get_id
+ps      = library.get_property_store
 
 -%]
 <span style="font-weight:bold;">
 [%label%] [%number%]
-[%- IF library.has_property(id,'title') -%]
- - [%- INCLUDE element.tt element = library.get_first_property_value_element(id,'title') -%]
+[%- IF ps.has_property(id,'title') -%]
+ - [%- INCLUDE STRING.tt self = ps.get_property_string(id,'title') -%]
 [%- END -%]
 </span>
-[%- IF library.has_property(id,'description') -%]
- - [%- INCLUDE element.tt element = library.get_first_property_value_element(id,'description') -%]
+[%- IF ps.has_property(id,'description') -%]
+ - [%- INCLUDE STRING.tt self = ps.get_property_string(id,'description') -%]
 [%- END -%]

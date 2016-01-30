@@ -9,7 +9,9 @@ library => an SML::Library object
 -%]
 [%-
 
-index = library.get_index
+index    = library.get_index
+ps       = library.get_property_store
+ontology = library.get_ontology
 
 -%]
 [%- WRAPPER library_page.tt -%]
@@ -23,19 +25,26 @@ index = library.get_index
 [%- FOREACH group IN index.get_group_list -%]
 <tr id="[%group%]"><td colspan="2"><span style="font-size:20pt;">[%group%]</span></td></tr>
 
+[%- bgcolor = '#eeeeee' -%]
+
 [%- FOREACH entry IN index.get_group_entry_list(group) -%]
+  [%- IF bgcolor == '#eeeeee' -%]
+    [%- bgcolor = '#ffffff' -%]
+  [%- ELSE -%]
+    [%- bgcolor = '#eeeeee' -%]
+  [%- END -%]
 <tr>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:20%;">
 <div style="text-indent:0pt;">[%- INCLUDE STRING.tt self = entry.get_term_string -%]</div>
 </td>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:80%;">
 <div style="text-indent:0pt;">
   [%- FOREACH locator IN entry.get_locator_list -%]
     [%-
     division    = entry.get_location(locator)
     document    = division.get_containing_document
     document_id = document.get_id
-    abbr        = library.get_first_property_value(document_id,'abbreviation')
+    abbr        = ps.get_property_text(document_id,'abbreviation')
     division_id = division.get_id
     name        = division.get_name
     ucfname     = name.lower.ucfirst
@@ -43,28 +52,38 @@ index = library.get_index
     section     = division.get_containing_section
     secnum      = section.get_number
     -%]
-[%abbr%] <b>[%ucfname%]&nbsp;[%number%]</b>&nbsp;&nbsp;
-<a href="[%document_id%]/[%document_id%].[%secnum%].html#[%locator%]">
-[%- INCLUDE element.tt element = library.get_first_property_value_element(division_id,'title') -%]
-</a>&nbsp;&nbsp;
+    [%- IF ontology.is_entity(name) -%]
+    [%- location_string = division_id -%]
+    [%- ELSE -%]
+    [%- location_string = ucfname _ ' ' _ number -%]
+    [%- END -%]
+[%abbr%] [%location_string%]
+<a href="../[%document_id%]/[%document_id%].[%secnum%].html#[%name%].[%number%]">
+[%- ps.get_property_text(division_id,'title') -%]
+</a><br/>
   [%- END -%]
 </div>
 </td>
 </tr>
   [%- IF entry.has_subentries -%]
     [%- FOREACH subentry IN entry.get_subentry_list -%]
+      [%- IF bgcolor == '#eeeeee' -%]
+        [%- bgcolor = '#ffffff' -%]
+      [%- ELSE -%]
+        [%- bgcolor = '#eeeeee' -%]
+      [%- END -%]
 <tr>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:20%;">
 <div style="text-indent:10pt;">[%- INCLUDE STRING.tt self = subentry.get_term_string -%]</div>
 </td>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:80%;">
 <div style="text-indent:10pt;">
       [%- FOREACH locator IN subentry.get_locator_list -%]
         [%-
 	division    = subentry.get_location(locator)
         document    = division.get_containing_document
         document_id = document.get_id
-        abbr        = library.get_first_property_value(document_id,'abbreviation')
+        abbr        = ps.get_property_text(document_id,'abbreviation')
         division_id = division.get_id
         name        = division.get_name
         ucfname     = name.lower.ucfirst
@@ -72,28 +91,38 @@ index = library.get_index
         section     = division.get_containing_section
         secnum      = section.get_number
 	-%]
-[%abbr%] <b>[%ucfname%]&nbsp;[%number%]</b>&nbsp;&nbsp;
-<a href="[%document_id%]/[%document_id%].[%secnum%].html#[%locator%]">
-[%- INCLUDE element.tt element = library.get_first_property_value_element(division_id,'title') -%]
-</a>&nbsp;&nbsp;
+        [%- IF ontology.is_entity(name) -%]
+        [%- location_string = division_id -%]
+        [%- ELSE -%]
+        [%- location_string = ucfname _ ' ' _ number -%]
+        [%- END -%]
+[%abbr%] [%location_string%]
+<a href="../[%document_id%]/[%document_id%].[%secnum%].html#[%name%].[%number%]">
+[%- ps.get_property_text(division_id,'title') -%]
+</a><br/>
       [%- END -%]
 </div>
 </td>
 </tr>
       [%- IF subentry.has_subentries -%]
         [%- FOREACH subsubentry IN subentry.get_subentry_list -%]
+          [%- IF bgcolor == '#eeeeee' -%]
+            [%- bgcolor = '#ffffff' -%]
+          [%- ELSE -%]
+            [%- bgcolor = '#eeeeee' -%]
+          [%- END -%]
 <tr>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:20%;">
 <div style="text-indent:20pt;">[%- INCLUDE STRING.tt self = subsubentry.get_term_string -%]</div>
 </td>
-<td class="index">
+<td class="index" style="background-color:[%bgcolor%];width:80%;">
 <div style="text-indent:20pt;">
           [%- FOREACH locator IN subsubentry.get_locator_list -%]
             [%-
 	    division    = subsubentry.get_location(locator)
             document    = division.get_containing_document
             document_id = document.get_id
-            abbr        = library.get_first_property_value(document_id,'abbreviation')
+            abbr        = ps.get_property_text(document_id,'abbreviation')
             division_id = division.get_id
             name        = division.get_name
             ucfname     = name.lower.ucfirst
@@ -101,10 +130,15 @@ index = library.get_index
             section     = division.get_containing_section
             secnum      = section.get_number
 	    -%]
-[%abbr%] <b>[%ucfname%]&nbsp;[%number%]</b>&nbsp;&nbsp;
-<a href="[%document_id%]/[%document_id%].[%secnum%].html#[%locator%]">
-[%- INCLUDE element.tt element = library.get_first_property_value_element(division_id,'title') -%]
-</a>&nbsp;&nbsp;
+            [%- IF ontology.is_entity(name) -%]
+            [%- location_string = division_id -%]
+            [%- ELSE -%]
+            [%- location_string = ucfname _ ' ' _ number -%]
+            [%- END -%]
+[%abbr%] [%location_string%]
+<a href="../[%document_id%]/[%document_id%].[%secnum%].html#[%name%].[%number%]">
+[%- ps.get_property_text(division_id,'title') -%]
+</a><br/>
           [%- END -%]
 </div>
 </td>

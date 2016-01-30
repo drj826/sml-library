@@ -19,7 +19,7 @@ $library->get_all_documents;
 $library->store_sha_digest_file;
 
 my $parser = $library->get_parser;
-$parser->parse_library_index_terms($library);
+$parser->parse_library_index_terms;
 
 my $publisher = $library->get_publisher;
 $publisher->publish_all_documents($rendition,$style);

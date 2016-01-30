@@ -23,7 +23,7 @@ document presentation.  Modern documents are often published to
 multiple formats and authors often do not control how their content is
 presented to readers.
 
-review::2015-12-12:rq-000005:yellow: In my opioniion, this requirement
+review::2015-12-12:rq-000005:yellow: In my opinion, this requirement
 is complete and understandable (Don Johnson).
 
 review::2015-12-13:rq-000005:red: I've changed my mind.  Now I think

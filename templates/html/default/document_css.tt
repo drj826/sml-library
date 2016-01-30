@@ -31,7 +31,7 @@ TD P { padding: 0px; margin: 0px; }
 P.title { font-weight: bold; text-align: center; }
 P.source { font-style: italic; margin-left: 30pt; }
 PRE { margin-left: 20pt; margin-right: 20pt; }
-A { text-decoration: none; }
+A { text-decoration: none; color: #002266;}
 TT { font-size: 11pt; }
 UL { margin-left: 20pt; }
 UL UL { margin-left: 10pt; }
@@ -113,6 +113,7 @@ DIV.slide { background-color: #fdfdaa; margin: 10pt 20pt 10pt 20pt; padding: 10p
 DIV.sidebar { float: right; width: 40%; font-size: 8pt; background-color: #eeeeee; margin: 10pt 20pt 10pt 20pt; padding: 5pt; border-style: solid; border-width: 1px; border-color: #cccccc; margin-left: 0pt; margin-right: 0pt; }
 DIV.quotation { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.requirement { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
+DIV.role { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.allocation { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.configuration_item { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.assignment { background-color: #ffffff; }
@@ -120,7 +121,6 @@ DIV.section { background-color: #ffffff; }
 DIV.test { background-color: #ffffff; }
 DIV.task { background-color: #ffffff; }
 DIV.result { background-color: #ffffff; }
-DIV.role { background-color: #ffffff; }
 DIV.demo { background-color: #ddddff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.exercise { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.listing { background-color: #ddffdd; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
@@ -135,4 +135,6 @@ SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; ba
 .metadata { background-color: #ffffff; padding: 5pt; font-size: 8pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 .attachment { background-color: #FFFFFF; padding: 4px; font-size: 8pt; }
 P.num { color: #aaaaaa; text-align: right; font-size: 8pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt; }
+DIV.table { margin: auto; width: 95%; }
+DIV.tableRule { width: 100%; background-color: #888888; height: 2px; margin-top: 6px; margin-bottom: 6px; }
 </style>

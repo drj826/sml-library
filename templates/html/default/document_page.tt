@@ -8,17 +8,14 @@ self    => document part represented by content
 content => content to be wrapped by the page
 
 -%]
-[%-
-
-library = self.get_library
-id      = self.get_id
-
--%]
 [%- UNLESS document -%]
 [%- document = self.get_containing_document -%]
 [%- END -%]
 [%-
 
+library     = self.get_library
+id          = self.get_id
+ps          = library.get_property_store
 document_id = document.get_id
 
 -%]
@@ -42,7 +39,7 @@ document_id = document.get_id
 <html>
 <head>
 
-<title>[%- library.get_first_property_value(id,'title') -%]</title>
+<title>[%- INCLUDE STRING.tt self = ps.get_property_string(id,'title') -%]</title>
 
 [% INCLUDE js_popimage.tt -%]
 [% INCLUDE js_gotoa.tt -%]

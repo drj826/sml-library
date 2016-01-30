@@ -9,11 +9,11 @@ document => an SML::Document object
 -%]
 [%-
 
-self                   = document
-library                = document.get_library
-document_id            = document.get_id
-document_title_element = library.get_first_property_value_element(document_id,'title')
-section_list           = document.get_list_of_divisions_with_name('SECTION')
+self         = document
+library      = document.get_library
+document_id  = document.get_id
+section_list = document.get_list_of_divisions_with_name('SECTION')
+ps           = library.get_property_store
 
 -%]
 [%- page_navigation_block = BLOCK  -%]
@@ -40,7 +40,7 @@ page           = document_id _ '.' _ section_number _ '.html'
 [%- IF section_depth == 1 -%]
 <h4>Chapter [%section_number%]&nbsp;&nbsp;
 <a href="[%page%]">
-[%- INCLUDE element.tt element = library.get_first_property_value_element(section_id,'title') -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(section_id,'title') -%]
 </a></h4>
 [%- END %]
 
@@ -54,7 +54,7 @@ bookmark      = 'FIGURE.' _ figure_number
 -%]
 <div style="text-indent: 60pt; font-size: 8pt;">Figure [%figure_number%] -
 <a href="[%page%]#[%bookmark%]">
-[%- INCLUDE element.tt element = library.get_first_property_value_element(figure_id,'title') -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(figure_id,'title') -%]
 </a>
 </div>
 

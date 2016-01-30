@@ -11,7 +11,7 @@ self => an SML::Entity object (name = 'role')
 
 [%- INCLUDE entity_metadata_table.tt -%]
 
-<table>
+<table style="width:100%;">
 
 [% INCLUDE entity_property_row.tt property_name = 'title'          label = 'title:'          %]
 [% INCLUDE entity_property_row.tt property_name = 'description'    label = 'description:'    %]

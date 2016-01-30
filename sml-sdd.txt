@@ -240,6 +240,8 @@ include:: sources-ieee
 
 include:: sources-cmmi
 
+plugin:: BuildAllocationTitles
+
 ######################################################################
 # Local Emacs Variables
 #

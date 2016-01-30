@@ -15,7 +15,7 @@ document               = self.get_containing_document
 previous               = document.get_page_before(pagename)
 next                   = document.get_page_after(pagename)
 document_id            = document.get_id
-document_title_element = library.get_first_property_value_element(document_id,'title')
+ps                     = library.get_property_store
 
 -%]
 <table style="width:100%;">
@@ -41,7 +41,7 @@ document_title_element = library.get_first_property_value_element(document_id,'t
 [%# LINK TO TABLE OF CONTENTS %]
 <td style="width:60%;text-align:center;" class="navigation">
 <a href="contents.html">
-[%- INCLUDE element.tt element = document_title_element -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(document_id,'title') -%]
 </a>
 </td>
 

@@ -23,27 +23,28 @@ status_or_id = self.get_entity_id
 [%- ELSE -%]
 [%-
 
-status = 'grey'
+status  = 'grey'
 library = self.get_library
+ps      = library.get_property_store
 
 -%]
   [%- IF library.has_entity(status_or_id) -%]
     [%-
     entity_id = status_or_id
     entity    = library.get_entity(entity_id)
-    status    = library.get_first_property_value(entity_id'status')
+    status    = ps.get_property_text(entity_id'status')
     -%]
   [%- ELSIF library.has_document(status_or_id) -%]
     [%-
     document_id = status_or_id
     document    = library.get_document(document_id)
-    status      = library.get_first_property_value(document_id,'status')
+    status      = ps.get_property_text(document_id,'status')
     -%]
   [%- ELSIF library.has_division(status_or_id) -%]
     [%-
     division_id = status_or_id
     division    = library.get_division(division_id)
-    status      = library.get_first_property_value(division_id,'status')
+    status      = ps.get_property_text(division_id,'status')
     -%]
   [%- END -%]
 

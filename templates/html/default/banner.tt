@@ -10,8 +10,9 @@ document => an SML::Document object
 
 document_id = document.get_id
 library     = document.get_library
+ps          = library.get_property_store
 
 ~%]
-[% IF library.has_property(document_id,'header_center') %]
-[%- library.get_first_property_value(document_id,'header_center') -%]
+[% IF ps.has_property(document_id,'header_center') %]
+[%- INCLUDE STRING.tt self = ps.get_property_string(document_id,'header_center') -%]
 [% END %]

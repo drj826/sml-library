@@ -84,6 +84,7 @@
         <COMPID name="TitleReference" mc="Standard.Class" uid="0237e8d1-3a10-4239-b6b7-fb7a70c2ad44"/>
         <COMPID name="URLReference" mc="Standard.Class" uid="ec8a2daa-bd93-4ee2-8700-aa5eb4ca22c2"/>
         <COMPID name="VariableReference" mc="Standard.Class" uid="a45198a0-c0e1-45c3-9a1b-60a925386cf5"/>
+        <COMPID name="PropertyStore" mc="Standard.Class" uid="69892439-986a-49fa-aa74-e80324b353a6"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
@@ -151,6 +152,7 @@
         <COMPID name="URLReference Class diagram" mc="Standard.ClassDiagram" uid="9412c254-be66-43c0-b321-607752f0da39"/>
         <COMPID name="Value Class diagram" mc="Standard.ClassDiagram" uid="3fa9c39a-ee7c-4605-854b-0d28e1442d52"/>
         <COMPID name="VariableReference Class diagram" mc="Standard.ClassDiagram" uid="cab19978-9c87-4bef-8c7d-5f57ef2c885a"/>
+        <COMPID name="PropertyStore Class diagram" mc="Standard.ClassDiagram" uid="306bad72-11e4-4c54-bdcb-b7d1b931d13d"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

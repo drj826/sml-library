@@ -9,11 +9,11 @@ document => an SML::Document object
 -%]
 [%-
 
-self                   = document
-document_id            = document.get_id
-library                = document.get_library
-document_title_element = library.get_first_property_value_element(document_id,'title')
-section_list           = document.get_list_of_divisions_with_name('SECTION')
+self         = document
+document_id  = document.get_id
+library      = document.get_library
+section_list = document.get_list_of_divisions_with_name('SECTION')
+ps           = library.get_property_store
 
 -%]
 
@@ -28,10 +28,9 @@ section_list           = document.get_list_of_divisions_with_name('SECTION')
 [%- FOREACH section IN section_list -%]
 [%-
 
-section_id            = section.get_id
-section_number        = section.get_number
-section_depth         = section.get_depth
-section_title_element = library.get_first_property_value_element(section_id,'title')
+section_id     = section.get_id
+section_number = section.get_number
+section_depth  = section.get_depth
 
 -%]
 
@@ -39,7 +38,7 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 
 <h4>Chapter [%section_number%] &nbsp;&nbsp;
 <a href="[%document_id%].[%section_number%].html">
-[%- INCLUDE element.tt element = section_title_element -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(section_id,'title') -%]
 </a>
 </h4>
 
@@ -48,7 +47,7 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 <div style="text-indent:60pt;font-size:8pt;">
 [%section_number%] &nbsp;&nbsp;
 <a href="[%document_id%].[%section_number%].html">
-[%- INCLUDE element.tt element = section_title_element -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(section_id,'title') -%]
 </a>
 </div>
 
@@ -57,7 +56,7 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 <div style="text-indent:90pt;font-size:8pt;">
 [%section_number%] &nbsp;&nbsp;
 <a href="[%document_id%].[%section_number%].html">
-[%- INCLUDE element.tt element = section_title_element -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(section_id,'title') -%]
 </a>
 </div>
 
@@ -66,13 +65,10 @@ section_title_element = library.get_first_property_value_element(section_id,'tit
 <div style="text-indent:120pt;font-size:8pt;">
 [%section_number%] &nbsp;&nbsp;
 <a href="[%document_id%].[%section_number%].html">
-[%- INCLUDE element.tt element = section_title_element -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(section_id,'title') -%]
 </a>
 </div>
 
 [%- END -%] [%#end of IF section_depth == '1' -%]
-[%- END -%] [%#endof FOREACH section IN section_list -%]
-
-
-
-[%- END -%]
+[%- END -%] [%#end of FOREACH section IN section_list -%]
+[%- END -%] [%#end of WRAPPER -%]

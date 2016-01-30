@@ -9,10 +9,10 @@ document => an SML::Document object
 -%]
 [%-
 
-self                   = document
-library                = document.get_library
-document_id            = document.get_id
-document_title_element = library.get_first_property_value_element(document_id,'title')
+self        = document
+library     = document.get_library
+document_id = document.get_id
+ps          = library.get_property_store
 
 -%]
 [%- page_navigation_block = BLOCK  -%]
@@ -55,8 +55,8 @@ delete_count     = document.get_delete_count
   filename      = file.get_filename
   -%]
 
-  [%- IF library.has_property(division_id,'title') -%]
-  [%- title = library.get_first_property_value(division_id,'title') -%]
+  [%- IF ps.has_property(division_id,'title') -%]
+  [%- title_string = ps.get_property_string(division_id,'title') -%]
   [%- END -%]
 
   [%- IF bgcolor == '#eeeeee' -%]
@@ -69,7 +69,7 @@ delete_count     = document.get_delete_count
 <td style="background-color:[%bgcolor%]">[%action%]</td>
 <td style="background-color:[%bgcolor%]">[%division_name%]</td>
 <td style="background-color:[%bgcolor%]">[% INCLUDE id_link.tt id = division_id %]</td>
-<td style="background-color:[%bgcolor%]">[%title%]</td>
+<td style="background-color:[%bgcolor%]">[%- INCLUDE STRING.tt self = title_string -%]</td>
 <td style="background-color:[%bgcolor%]">in [%filename%]</td>
 </tr>
 

@@ -9,11 +9,8 @@ document => an SML::Document object
 -%]
 [%-
 
-self                   = document
-library                = document.get_library
-document_id            = document.get_id
-document_title_element = library.get_first_property_value_element(document_id,'title')
-section_list           = document.get_list_of_divisions_with_name('SECTION')
+self         = document
+section_list = document.get_list_of_divisions_with_name('SECTION')
 
 -%]
 
