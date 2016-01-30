@@ -31,10 +31,10 @@ bgcolor          = '#eeeeee'
 <table>
 
 <tr>
-<td style="background-color:[%grey%];font-weight:bold;width:55%;" colspan="3">Document</td>
-<td style="background-color:[%orange%];font-weight:bold;width:15%;text-align:center;" colspan="2">DRAFT</td>
-<td style="background-color:[%green%];font-weight:bold;width:15%;text-align:center;" colspan="2">REVIEW</td>
-<td style="background-color:[%blue%];font-weight:bold;width:15%;text-align:center;" colspan="2">APPROVED</td>
+<td style="background-color:[%grey%];font-weight:bold;width:40%;" colspan="3">Document</td>
+<td style="background-color:[%orange%];font-weight:bold;width:20%;text-align:center;" colspan="2">DRAFT</td>
+<td style="background-color:[%green%];font-weight:bold;width:20%;text-align:center;" colspan="2">REVIEW</td>
+<td style="background-color:[%blue%];font-weight:bold;width:20%;text-align:center;" colspan="2">APPROVED</td>
 </tr>
 
 [%- FOREACH document_id IN document_id_list -%]
@@ -68,12 +68,20 @@ num               = num + 1
 [%-
 
 version             = library.get_version
+change_count        = library.get_published_document_property_value('DRAFT',document_id,'changes')
 document_sha_digest = library.get_published_document_property_value('DRAFT',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
-<td style="background-color:[%lite_orange%];width:5%;">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+<td style="background-color:[%lite_orange%];width:10%;">
+<span style="color:#888888;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+no change
+[%- ELSIF change_count == 1 -%]
+<a href="DRAFT/[%document_id%]/change.html">1 change</a>
+[%- ELSE -%]
+<a href="DRAFT/[%document_id%]/change.html">[%change_count%] changes</a>
+[%- END -%]
 </td>
 
 <td style="background-color:[%lite_orange%];">
@@ -90,7 +98,7 @@ sha                 = document_sha_digest.substr(0,7)
 </td>
 
 [%- ELSE -%]
-<td style="background-color:[%lite_orange%];width:5%;"></td>
+<td style="background-color:[%lite_orange%];width:10%;"></td>
 <td style="background-color:[%lite_orange%];"></td>
 
 [%- END -%]
@@ -99,12 +107,20 @@ sha                 = document_sha_digest.substr(0,7)
 [%-
 
 version             = library.get_published_document_property_value('REVIEW',document_id,'version')
+change_count        = library.get_published_document_property_value('REVIEW',document_id,'changes')
 document_sha_digest = library.get_published_document_property_value('REVIEW',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
-<td style="background-color:[%lite_green%];width:5%;">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+<td style="background-color:[%lite_green%];width:10%;">
+<span style="color:#888888;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+no change
+[%- ELSIF change_count == 1 -%]
+<a href="REVIEW/[%document_id%]/change.html">1 change</a>
+[%- ELSE -%]
+<a href="REVIEW/[%document_id%]/change.html">[%change_count%] changes</a>
+[%- END -%]
 </td>
 
 <td style="background-color:[%lite_green%];">
@@ -121,7 +137,7 @@ sha                 = document_sha_digest.substr(0,7)
 </td>
 
 [%- ELSE -%]
-<td style="background-color:[%lite_green%];width:5%;"></td>
+<td style="background-color:[%lite_green%];width:10%;"></td>
 <td style="background-color:[%lite_green%];"></td>
 
 [%- END -%]
@@ -130,12 +146,20 @@ sha                 = document_sha_digest.substr(0,7)
 [%-
 
 version             = library.get_published_document_property_value('APPROVED',document_id,'version')
+change_count        = library.get_published_document_property_value('APPROVED',document_id,'changes')
 document_sha_digest = library.get_published_document_property_value('APPROVED',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
-<td style="background-color:[%lite_blue%];width:5%;">
-[%version%] <span style="color:#888888;"><br/>[%sha%]</span>
+<td style="background-color:[%lite_blue%];width:10%;">
+<span style="color:#888888;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+no change
+[%- ELSIF change_count == 1 -%]
+<a href="APPROVED/[%document_id%]/change.html">1 change</a>
+[%- ELSE -%]
+<a href="APPROVED/[%document_id%]/change.html">[%change_count%] changes</a>
+[%- END -%]
 </td>
 
 <td style="background-color:[%lite_blue%];">
@@ -152,7 +176,7 @@ sha                 = document_sha_digest.substr(0,7)
 </td>
 
 [%- ELSE -%]
-<td style="background-color:[%lite_blue%];width:5%;"></td>
+<td style="background-color:[%lite_blue%];width:10%;"></td>
 <td style="background-color:[%lite_blue%];"></td>
 
 [%- END -%]
