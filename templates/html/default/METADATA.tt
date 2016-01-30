@@ -18,6 +18,9 @@ publisher      = library.get_publisher
 date_time      = publisher.get_publish_date_time
 utility        = library.get_util
 version        = library.get_version
+previous       = library.get_previous_version
+change_list    = document.get_change_list
+change_count   = change_list.size
 
 -%]
 >>>METADATA.[%id%]
@@ -29,6 +32,10 @@ sha_digest:: [%sha_digest%]
 contains_error:: [%contains_error%]
 
 version:: [%version%]
+
+previous_version:: [%previous%]
+
+changes:: [%change_count%]
 
 
 [%- FOREACH property_name IN ps.get_property_name_list(id) -%]
