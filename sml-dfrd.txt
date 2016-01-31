@@ -1,6 +1,6 @@
 >>>DOCUMENT.sml-dfrd
 
-title:: Data Format Requirements Document (DFRD)
+title:: Data Format Requirements Document
 
 subtitle:: Semantic Manuscript Language (SML)
 

@@ -1,0 +1,32 @@
+[%#
+
+library_METADATA.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+[%-
+
+date_time      = publisher.get_publish_date_time
+contains_error = library.contains_error
+version        = library.get_version
+previous       = library.get_previous_version
+change_list    = library.get_change_list
+change_count   = change_list.size
+
+-%]
+>>>METADATA
+
+published:: [%date_time%]
+
+contains_error:: [%contains_error%]
+
+version:: [%version%]
+
+previous_version:: [%previous%]
+
+changes:: [%change_count%]
+
+<<<METADATA
