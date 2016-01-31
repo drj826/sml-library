@@ -28,7 +28,8 @@ bgcolor          = '#eeeeee'
 <h1 style="text-align:center;">[%name%]</h1>
 
 <div align="center">
-<table>
+
+<table style="width:95%;">
 
 [%- FOREACH document_id IN document_id_list -%]
 [%-
@@ -56,7 +57,7 @@ num                 = num + 1
 
 <td style="background-color:[%bgcolor%];width:2%;">[%num%]</td>
 
-<td style="background-color:[%bgcolor%];width:5%;">[%document_abbr%]</td>
+<td style="background-color:[%bgcolor%];width:8%;">[%document_abbr%]</td>
 
 <td style="background-color:[%bgcolor%];width:50%;">
 <a href="../[%document_id%]/titlepage.html">
@@ -74,7 +75,7 @@ document_sha_digest = library.get_published_document_property_value('DRAFT',docu
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
-<td style="background-color:[%bgcolor%];width:10%;">
+<td style="background-color:[%bgcolor%];width:12%;">
 <span style="color:#aaaaaa;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
 no change

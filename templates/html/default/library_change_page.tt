@@ -11,6 +11,7 @@ library => an SML::Library object
 
 change_list      = library.get_change_list
 change_count     = change_list.size
+version          = library.get_version
 previous_version = library.get_previous_version
 add_count        = library.get_add_count
 update_count     = library.get_update_count
@@ -21,10 +22,10 @@ ps               = library.get_property_store
 [%- WRAPPER library_page.tt -%]
 
 [%- IF change_count == 1 -%]
-<h1 align="center">One Change Since [%previous_version%]</h1>
+<h1 align="center">One change between [%previous_version%] and [%version%]</h1>
 
 [%- ELSE -%]
-<h1 align="center">[%change_count%] Changes Since [%previous_version%]</h1>
+<h1 align="center">[%change_count%] changes between [%previous_version%] and [%version%]</h1>
 
 [%- END -%]
 
@@ -60,9 +61,9 @@ ps               = library.get_property_store
   [%- END -%]
 
   [%- IF bgcolor == '#eeeeee' -%]
-    [%- bgcolor = '#ffffff' -%]
+  [%- bgcolor = '#ffffff' -%]
   [%- ELSE -%]
-    [%- bgcolor = '#eeeeee' -%]
+  [%- bgcolor = '#eeeeee' -%]
   [%- END -%]
 
 <tr>
