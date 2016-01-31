@@ -18,7 +18,9 @@ target_name = target_part.get_name
 target_num  = target_part.get_number
 
 -%]
-[%- IF document -%]
+[%- IF target_name == 'DOCUMENT' -%]
+<a href="../[%docid%]/titlepage.html">[%id%]</a>
+[%- ELSIF document -%]
   [%- IF document.contains_division_with_name('SECTION') -%]
     [%-
     section     = target_part.get_containing_section
