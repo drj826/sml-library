@@ -1,4 +1,4 @@
->>>RAW.glossary-ieee
+>>>FRAGMENT.glossary-ieee
 
 # IEEE Vocabulary
 
@@ -1856,4 +1856,4 @@ possibly with overlap but with little or no iteration. Contrast with:
 [g:IEEE:incremental development]; [g:IEEE:rapid prototyping];
 [g:IEEE:spiral model]. [cite:ieee-std-610-12-1990]
 
-<<<RAW
+<<<FRAGMENT

@@ -1,4 +1,4 @@
->>>RAW.sources-ieee
+>>>FRAGMENT.sources-ieee
 
 # IEEE SOURCES
 
@@ -239,4 +239,4 @@ validation of software and software-based system products.
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

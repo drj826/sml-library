@@ -1,4 +1,4 @@
->>>RAW.glossary-cmmi
+>>>FRAGMENT.glossary-cmmi
 
 # CMMI Vocabulary
 
@@ -1550,4 +1550,4 @@ complexity, weight, form, fit, and function. They are typically used
 as one input to deriving other project and resource estimates (e.g.,
 effort, cost, and schedule) [cite:cmmi]
 
-<<<RAW
+<<<FRAGMENT

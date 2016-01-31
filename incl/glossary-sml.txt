@@ -1,4 +1,4 @@
->>>RAW.glossary-sml
+>>>FRAGMENT.glossary-sml
 
 >>>COMMENT
 
@@ -862,4 +862,4 @@ block of text
 glossary:: video {SML} = A [g:SML2:structure] that instructs the
 publishing application to insert a video clip into the document
 
-<<<RAW
+<<<FRAGMENT
