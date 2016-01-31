@@ -1,4 +1,4 @@
->>>RAW.acronyms-cmmi
+>>>FRAGMENT.acronyms-cmmi
 
 # CMMI Acronyms
 
@@ -44,4 +44,4 @@ acronym:: NDI {CMMI} = [g:CMMI:nondevelopmental item]
 
 acronym:: WBS {CMMI} = [g:CMMI:Work Breakdown Structure]
 
-<<<RAW
+<<<FRAGMENT

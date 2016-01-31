@@ -1,4 +1,4 @@
->>>RAW.acronyms-ieee
+>>>FRAGMENT.acronyms-ieee
 
 # IEEE Acronyms
 
@@ -86,4 +86,4 @@ acronym:: VDD {IEEE} = [g:IEEE:Version Description Document]
 # X
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

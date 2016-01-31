@@ -1,4 +1,4 @@
->>>RAW.sml-structure-summary
+>>>FRAGMENT.sml-structure-summary
 
 : !!Paragraphs.!! ([ref:paragraphs]) A paragraph is simply a block of
 text, not indented, terminated with a blank line.  Paragraphs are
@@ -403,4 +403,4 @@ index:: index; gophers
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

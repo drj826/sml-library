@@ -1,4 +1,4 @@
->>>RAW.sources-cmmi
+>>>FRAGMENT.sources-cmmi
 
 # CMMI SOURCES
 
@@ -30,4 +30,4 @@ note:: CMU/SEI-2006-TR-008, ESC-TR-2006-008
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT
