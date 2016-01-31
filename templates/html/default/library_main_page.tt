@@ -60,9 +60,9 @@ num                 = num + 1
 
 <td style="background-color:[%bgcolor%];width:50%;">
 <a href="../[%document_id%]/titlepage.html">
-<span style="font-weight:bold;">[%document_title%]</span>
+<span style="font-weight:bold;">[%document_title%]</span><br/>
 [%- IF document_subtitle -%]
- - [%document_subtitle%]
+[%document_subtitle%]
 [%- END -%]
 </a>
 </td>

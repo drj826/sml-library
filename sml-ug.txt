@@ -1,8 +1,8 @@
 >>>DOCUMENT.sml-ug
 
-title:: Semantic Manuscript Language (SML)
+title:: User Guide
 
-subtitle:: User Guide
+subtitle:: Semantic Manuscript Language (SML)
 
 abbreviation:: UG
 

@@ -1,6 +1,6 @@
 >>>DOCUMENT.sml-sdd
 
-title:: Software Design Document (SDD)
+title:: Software Design Document
 
 subtitle:: SML Data Format [linebreak] and [linebreak] SML Software
 Library

@@ -21,8 +21,24 @@ lite_green       = '#aae7aa'
 lite_blue        = '#cce1ff'
 num              = 0
 bgcolor          = '#eeeeee'
+draft_version    = library.get_published_library_property_value('DRAFT','version')
+review_version   = library.get_published_library_property_value('REVIEW','version')
+approved_version = library.get_published_library_property_value('APPROVED','version')
 
 -%]
+
+[%- UNLESS draft_version -%]
+[%- draft_version = '' -%]
+[%- END -%]
+
+[%- UNLESS review_version -%]
+[%- review_version = '' -%]
+[%- END -%]
+
+[%- UNLESS approved_version -%]
+[%- approved_version = '' -%]
+[%- END -%]
+
 [%- WRAPPER overall_page.tt -%]
 
 <h1 style="text-align:center;">[%name%]</h1>
@@ -32,9 +48,9 @@ bgcolor          = '#eeeeee'
 
 <tr>
 <td style="background-color:[%grey%];font-weight:bold;width:40%;" colspan="3">Document</td>
-<td style="background-color:[%orange%];font-weight:bold;width:20%;text-align:center;" colspan="2">DRAFT</td>
-<td style="background-color:[%green%];font-weight:bold;width:20%;text-align:center;" colspan="2">REVIEW</td>
-<td style="background-color:[%blue%];font-weight:bold;width:20%;text-align:center;" colspan="2">APPROVED</td>
+<td style="background-color:[%orange%];font-weight:bold;width:20%;text-align:center;" colspan="2">DRAFT [%draft_version%]</td>
+<td style="background-color:[%green%];font-weight:bold;width:20%;text-align:center;" colspan="2">REVIEW [%review_version%]</td>
+<td style="background-color:[%blue%];font-weight:bold;width:20%;text-align:center;" colspan="2">APPROVED [%approved_version%]</td>
 </tr>
 
 [%- FOREACH document_id IN document_id_list -%]
@@ -58,9 +74,9 @@ num               = num + 1
 <td style="background-color:[%bgcolor%];">[%document_abbr%]</td>
 
 <td style="background-color:[%bgcolor%];">
-<span style="font-weight:bold;">[%document_title%]</span>
+<span style="font-weight:bold;">[%document_title%]</span><br/>
 [%- IF document_subtitle -%]
- - [%document_subtitle%]
+[%document_subtitle%]
 [%- END -%]
 </td>
 
