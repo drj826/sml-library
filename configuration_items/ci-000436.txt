@@ -25,6 +25,14 @@ image:: files/images/class-diagram-part.png
 
 <<<FIGURE
 
+>>>LISTING.lis-part-pod
+
+title:: SML::Part POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Part.pm
+
+<<<LISTING
+
 >>>LISTING.lis-part-pm
 
 title:: Part.pm Code Listing

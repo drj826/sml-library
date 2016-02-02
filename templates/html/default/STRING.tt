@@ -9,16 +9,59 @@ self => an SML::String object
 -%]
 [%- IF self.contains_parts -%]
   [%- INCLUDE part_list.tt -%]
-[%- ELSIF self.isa('SML::GlossaryTermReference') -%]
-  [%- INCLUDE GLOSS_TERM_REF.tt -%]
-[%- ELSIF self.isa('SML::GlossaryDefinitionReference') -%]
-  [%- INCLUDE GLOSS_DEF_REF.tt -%]
+
 [%- ELSIF self.isa('SML::AcronymTermReference') -%]
   [%- INCLUDE ACRONYM_TERM_REF.tt -%]
+
+[%- ELSIF self.isa('SML::CitationReference') -%]
+  [%- INCLUDE CITATION_REF.tt -%]
+
+[%- ELSIF self.isa('SML::CrossReference') -%]
+  [%- INCLUDE CROSS_REF.tt -%]
+
+[%- ELSIF self.isa('SML::EmailAddress') -%]
+  [%- INCLUDE EMAIL_ADDR.tt -%]
+
+[%- ELSIF self.isa('SML::FileReference') -%]
+  [%- INCLUDE FILE_REF.tt -%]
+
+[%- ELSIF self.isa('SML::FootnoteReference') -%]
+  [%- INCLUDE FOOTNOTE_REF.tt -%]
+
+[%- ELSIF self.isa('SML::GlossaryDefinitionReference') -%]
+  [%- INCLUDE GLOSS_DEF_REF.tt -%]
+
+[%- ELSIF self.isa('SML::GlossaryTermReference') -%]
+  [%- INCLUDE GLOSS_TERM_REF.tt -%]
+
 [%- ELSIF self.isa('SML::IDReference') -%]
   [%- INCLUDE ID_REF.tt -%]
+
+[%- ELSIF self.isa('SML::IndexReference') -%]
+  [%- INCLUDE INDEX_REF.tt -%]
+
+[%- ELSIF self.isa('SML::LookupReference') -%]
+  [%- INCLUDE LOOKUP_REF.tt -%]
+
+[%- ELSIF self.isa('SML::PageReference') -%]
+  [%- INCLUDE PAGE_REF.tt -%]
+
+[%- ELSIF self.isa('SML::PathReference') -%]
+  [%- INCLUDE PATH_REF.tt -%]
+
+[%- ELSIF self.isa('SML::StatusReference') -%]
+  [%- INCLUDE STATUS_REF.tt -%]
+
+[%- ELSIF self.isa('SML::TitleReference') -%]
+  [%- INCLUDE TITLE_REF.tt -%]
+
 [%- ELSIF self.isa('SML::URLReference') -%]
   [%- INCLUDE URL_REF.tt -%]
+
+[%- ELSIF self.isa('SML::VariableReference') -%]
+  [%- INCLUDE VARIABLE_REF.tt -%]
+
 [%- ELSE -%]
   [%-FILTER html-%][%-self.get_content-%][%-END-%]
+
 [%- END -%]

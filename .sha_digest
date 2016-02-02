@@ -370,7 +370,7 @@ f96b80ac420204fe87b38d6e219b61ddee842f51 ci-000429
 31d84420d5264de5d1eb9be5e081d3c3f8b18b42 ci-000432
 c761a631506916979f24b6113253de4eea6016c4 ci-000433
 923d545ad567386456ef08878d56b75fa5709918 ci-000435
-eed069ded77faa4e18e3d3b1e3a146d23ecc4301 ci-000436
+af543f79f1edee31ff60e3ce21cac6da4b44ae60 ci-000436
 669c39b3313f2529a793d15b0a62bebe2c70a885 ci-000437
 8b9e14b2348c8a7316fdcd7aad2a6fe494ac8d6a ci-000438
 d6fdb0bc12dcc95e1de9aaa8864d4db6a8dbff3e ci-000439
@@ -407,6 +407,7 @@ bf8072aff2d581fd8627698c860c2c1f625df83e ci-000468
 ccd44b986d9cf67954d7564d15f83b632e23ebf6 ci-000470
 3ee566f6b95bcb685f82e42494a5e3203ead9a1c ci-000471
 6b55fcce13d460b7e9f10dc92fbb4ad0226ba7f5 ci-000472
+4541df531c7f2a5eeaaa2c61b7a3eac5aa554457 ci-000473
 b96fbbe3891054f7d61cd479161b10c3aab84724 cmmi
 24c1344155fdfea8b4a489bc45abd155e4ab531d cms15
 4963549123b4b3497a9d81c0e7a9bccba92d21fe comments
@@ -470,6 +471,7 @@ b257669160476de429ead3501109629f25c3906c fig-class-diagram-parser
 38ccb0879947be6a2daa04901307814adf9cb900 fig-class-diagram-part
 4050061354de7a4ef1ff31ed289a105567ef6d39 fig-class-diagram-path-reference
 3f5aaea81d3f1c152bf39ec93a8b406917ffc74b fig-class-diagram-preformatted-block
+7086f680bc3fcd9033ea6c0f0125145b7fbc9112 fig-class-diagram-property_store
 71253a393beedc7efdf913ea453976e748c3f4ac fig-class-diagram-publisher
 f3c0a02b7d800e6a87321f13c993329b8ea89392 fig-class-diagram-reasoner
 64c347b95a799edfb9899a69dc5c5052e17b1ed8 fig-class-diagram-references
@@ -551,7 +553,7 @@ f35d784cf42a461c1ae62d749a9e27e5e456c2b8 lis-definitionlistitem-pm-unit-test-res
 e9dbd2b5287d5e879e97a984778a8cb4ff805a14 lis-division-pm
 38cbcb9b50400bf219d613b88a93a81aa7916698 lis-division-pm-unit-test-case
 19b3fd670658234df6b0307327be1da9e8abff55 lis-division-pm-unit-test-results
-5658832f2e27e899e867e303f657f0ddd01a3daa lis-document-pm
+6e00925a71c9d39449d19a3f9febe20f3192708d lis-document-pm
 621712624f7a67b883f841db8be6f889b0fe56e4 lis-document-pm-unit-test-case
 bdada471c162fe1a8ad6e26469284baec23e68b4 lis-document-pm-unit-test-results
 e9dde82286e82633cd04b0722e7b4cf29bab7077 lis-element-pm
@@ -581,7 +583,7 @@ c0a03450b9af7b415c6e66246e09d27265a522cb lis-indexentry-pm
 70a33e04388b06ef7477fa665c0d65759b585043 lis-item-pm-unit-test-case
 b01173ba1725a433ae59b64b1fdbcc5e5e13cfd8 lis-item-pm-unit-test-results
 9363492da501f8e0e6148b5975ec172b42967d2e lis-lib-ontology-config
-c5cb4db07b475d133eeefa85c3c1f34db19a6f8b lis-library-pm
+0ab702eed1593e2a0bfcc045a08eade6037b4ee7 lis-library-pm
 aec29f828e1295ab79f7b4eafac657b6dd02170e lis-library-pm-unit-test-case
 b710ba9db35d456cf135c81973ae0415be969997 lis-library-pm-unit-test-results
 da0aa070aa7d57e6b0860ca14831b2d60cf068a0 lis-line-pm
@@ -608,11 +610,13 @@ ac22bc26abc8b8ad525cd2da6a617e6d8191fd7d lis-paragraph-pm-unit-test-case
 ab1e550cf7efdaf483c3bc1535fe48d8d9433e96 lis-parser-pm
 1c85e1d777342dfdf5ecff310f1eb271eeda0f51 lis-parser-pm-unit-test-case
 9b82916c62b67f1bf6e37f85423627330d5ce324 lis-parser-pm-unit-test-results
-c5404b661815b935bdba61524471a397b1e9ea2b lis-part-pm
+910809b7239b5488e7cc3ab4b053b9ae193d982a lis-part-pm
+af4910bf6a66748387695784152e1da4650a104d lis-part-pod
 561c78a8611dd86740abd93c1db2c8f3d25817d6 lis-pathreference-pm
 23e450aeb3161541df8f506bcea42e3a5c48a987 lis-preformatted-block-pm
 87f01728aa637cbbbacf74c4601b8d8f11e64184 lis-preformattedblock-pm-unit-test-case
 b0cf3aa50cfc7911467c3aa6d7b9713c3bb184c7 lis-preformattedblock-pm-unit-test-results
+ba98f291aa31de03ad03a5bbc5f2721d51394675 lis-propertystore-pm
 731ec6ff833ee43d7d44af4e8cf144e26f44f5f9 lis-publisher-pm
 14ee31f813de8fd0a0434d01566c5afcc96d7a83 lis-reasoner-pm
 093ed9c587411dbdb484cb436cfedb519c1fabad lis-reasoner-pm-unit-test-case
@@ -1064,7 +1068,7 @@ a2b9a132954ab2a0f5f4f9cd47c1810aa3270f73 sml-content-summary
 e4ac5976b165782fc87665f62309cf6f0091b2f2 sml-forward
 388e9fb86bfb5299835bf292a1d0ea1fd30a921b sml-language
 8996e9cfa81b0b59669f7a93c9b076a6934f6cc2 sml-presentation-summary
-18286a47551b7ee42710b0d6afd9685286a6afe1 sml-sdd
+c35607ce51d8718d6f763024aa75e2621b7a83c7 sml-sdd
 95c2d9cc063a8d5a350ba20952db08a199b6e197 sml-special-summary
 fe4d52530010586c275e81189043ab51d8f2b7cd sml-srd
 371b4f82d544517b008479b26a4b65b57d8c1ad7 sml-structure-summary

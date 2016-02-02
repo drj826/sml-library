@@ -22,7 +22,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 
 <h1 align="center">Ontology</h1>
 
-<p align="center">([%count%] rules)</p>
+<p align="center">([%count%] rules: [%div_ct%] div, [%prp_ct%] prp, [%cmp_ct%] cmp, [%enu_ct%] enu, [%def_ct%] def)</p>
 
 [%- INCLUDE ontology_button_bar.tt -%]
 
