@@ -1,17 +1,10 @@
 >>>allocation.al-000008
 
-configuration_item:: ci-000001 # SML
+configuration_item:: ci-000433 # SML::Syntax
 
-requirement::  rq-000008 # Represent Document Presentation
+requirement:: rq-000008        # Represent Document Presentation
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2011-11-27:al-000008:yellow: This is yellow because I don't
-have a way to represent a horizontal rule ([id:rq-000061]).
+test:: tc-000040               # Analysis
 
 index:: [id:al-000008]
 

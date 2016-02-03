@@ -207,7 +207,7 @@ whole [g:SML:line]s of [g:SML:text].  Blocks are parsed into
 
 ######################################################################
 
-# SML Software Library
+# Core SML Software Library
 
 * plugin:: Parts2Sections ci-000004
 

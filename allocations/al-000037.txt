@@ -1,13 +1,10 @@
 >>>allocation.al-000037
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000114 # Publish To Plain Text
+requirement:: rq-000114         # Publish To Plain Text
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2011-11-27:al-000037:red: I have not bothered to implement a
-plain text publishing capability because I haven't needed it.
+test:: tc-000043                # Test
 
 index:: [id:al-000037]
 

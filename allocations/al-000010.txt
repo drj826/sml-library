@@ -1,14 +1,10 @@
 >>>allocation.al-000010
 
-configuration_item:: ci-000006 # Ontology Configuration File
+configuration_item:: ci-000006 # Ontology Configuration
 
-requirement::  rq-000118 # Implement SML Semantics
+requirement:: rq-000118        # Implement Core SML Semantics
 
-test::     tc-000040 # Analysis
-
-outcome::2011-11-27:al-000010:green: The SML semantics is formally
-specified in a ||HASH|| in the publish.pl script and in the
-[file:ontology.conf] file for the v2 implementation.
+test:: tc-000040               # Analysis
 
 index:: [id:al-000010]
 

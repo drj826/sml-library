@@ -1,0 +1,16 @@
+>>>configuration_item.ci-000474
+
+title:: Template System
+
+type:: software
+
+description:: The template system defines how document renditions are
+produced.  Templates correspond to part names and define the format
+for each part.  Document content is first parsed from SML text into an
+object model and then is merged with the formats defined in the
+templates to produce final document renditions.  Templates are
+organized by rendition and style.
+
+index:: [i:ci-000474]; template system
+
+<<<configuration_item

@@ -1,6 +1,6 @@
 >>>requirement.rq-000118
 
-title:: Implement SML Semantics
+title:: Implement Core SML Semantics
 
 is_part_of:: rq-000170
 
@@ -9,9 +9,14 @@ priority:: routine
 type:: technical
 
 description:: The software shall implement data structures that define
-SML semantics. The purpose of this requirement is to enable automatic
-validation of document semantics.
+core SML semantics. The purpose of this requirement is to enable
+automatic validation of document semantics.
 
 index:: [id:rq-000118]; semantics!SML
+
+Core semantics are those that would apply to ~~any~~ document as
+opposed to specialized semantics that would apply to entities in a
+special purpose library. Core semantics pertain only to document
+[g:SML2:structure]s.
 
 <<<requirement

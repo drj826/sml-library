@@ -1,17 +1,10 @@
 >>>allocation.al-000001
 
-configuration_item:: ci-000001  # SML
+configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000005         # Minimize Presentation Markup
 
 test:: tc-000040                # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2011-10-20:al-000001:green: The SML data format does a good
-job of minimizing document presentation markup.
 
 index:: [id:al-000001]
 

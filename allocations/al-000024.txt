@@ -1,12 +1,10 @@
 >>>allocation.al-000024
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000004  # SML Software Library
 
-requirement::  rq-000175 # Process Multiple Documents Without Restarting
+requirement:: rq-000175         # Process Multiple Documents Without Restarting
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000024:green: OK
+test:: tc-000043                # Test
 
 index:: [id:al-000024]
 

@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000006
 
-title:: SML Semantics
+title:: Core Ontology Configuration
 
 type:: configuration file
 
@@ -15,9 +15,6 @@ one or more ontology configuration files.
 
 index:: [id:ci-000006]; ontology
 
-[ref:lis-sml-ontology-config] shows the [file:ontology_rules_sml.conf]
-file.
-
 >>>LISTING.lis-sml-ontology-config
 
 title:: ontology_rules_sml.conf
@@ -29,23 +26,6 @@ fontsize:: footnotesize
 orientation:: landscape
 
 file:: ontology/ontology_rules_sml.conf
-
-<<<LISTING
-
-[ref:lis-lib-ontology-config] shows the [file:ontology_rules_lib.conf]
-file.
-
->>>LISTING.lis-lib-ontology-config
-
-title:: ontology_rules_lib.conf
-
-numbers:: left
-
-fontsize:: footnotesize
-
-orientation:: landscape
-
-file:: ontology/ontology_rules_lib.conf
 
 <<<LISTING
 

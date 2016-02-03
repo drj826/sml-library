@@ -1,16 +1,10 @@
 >>>allocation.al-000009
 
-configuration_item:: ci-000002 # SML.pm Perl Module
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000112 # Implement SML Syntax
+requirement:: rq-000112         # Implement SML Syntax
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000004
-
-outcome::2012-03-31:al-000009:green: OK
+test:: tc-000040                # Analysis
 
 index:: [id:al-000009]
 

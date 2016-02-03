@@ -1,17 +1,10 @@
 >>>allocation.al-000004
 
-configuration_item:: ci-000379 # SML Syntax
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000086 # Represent Specified Data Types
+requirement:: rq-000086         # Represent Specified Data Types
 
-test::     tc-000043 # Test
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2012-03-31:al-000004:yellow: The current SML syntax does not
-enforce the specified data types.
+test:: tc-000043                # Test
 
 index:: [id:al-000004]
 

@@ -1,12 +1,10 @@
 >>>allocation.al-000011
 
-configuration_item:: ci-000002 # SML.pm Perl Module
+configuration_item:: ci-000437  # SML::Ontology
 
-requirement::  rq-000184 # List Allowed Entity Properties
+requirement:: rq-000184         # List Allowed Entity Properties
 
-test::     tc-000004 # SML.pm Unit Test Case
-
-outcome::2012-03-31:al-000011:green: OK
+test:: tc-000004                # SML.pm Unit Test Case
 
 index:: [id:al-000011]
 

@@ -1,12 +1,10 @@
 >>>allocation.al-000022
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000384  # SML::File
 
-requirement::  rq-000156 # Read Files
+requirement:: rq-000156         # Read Files
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000022:green: OK
+test:: tc-000009                # File.pm Unit Test Case
 
 index:: [id:al-000022]
 

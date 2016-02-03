@@ -1,12 +1,10 @@
 >>>allocation.al-000019
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000474  # Template System
 
-requirement::  rq-000131 # Resolve Lookups
+requirement:: rq-000131         # Resolve Lookups
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000019:green: OK
+test:: tc-000043                # Test
 
 index:: [id:al-000019]
 

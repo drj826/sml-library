@@ -1,12 +1,10 @@
 >>>allocation.al-000031
 
-configuration_item:: ci-000004 # SML Software Library
+configuration_item:: ci-000004  # SML Software Library
 
-requirement::  rq-000110 # Be Reusable
+requirement:: rq-000110         # Be Reusable
 
-test::     tc-000040 # Analysis
-
-outcome::2012-04-01:al-000031:green: OK
+test:: tc-000040                # Analysis
 
 index:: [id:al-000031]
 

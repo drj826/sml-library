@@ -1,12 +1,10 @@
 >>>allocation.al-000018
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000474  # Template System
 
-requirement::  rq-000130 # Substitute Variables
+requirement:: rq-000130         # Substitute Variables
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000018:green: OK
+test:: tc-000043                # Test
 
 index:: [id:al-000018]
 
