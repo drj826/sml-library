@@ -1,14 +1,10 @@
 >>>allocation.al-000152
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000140 # Generate a Title Page
+requirement:: rq-000140         # Publish a Document Title Page
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2012-04-01:al-000152:red: The Document.pm module doesn't
-generate a title page, and I think I'll create a title page class to
-do this.
+test:: tc-000043                # Test
 
 index:: [id:al-000152]
 

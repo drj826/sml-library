@@ -1,6 +1,6 @@
 >>>requirement.rq-000141
 
-title:: Generate a Copyright Page
+title:: Publish a Document Copyright Page
 
 is_part_of:: rq-000139
 
@@ -8,15 +8,15 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a copyright
-page.  The copyright page displays a biographical note, publisher's
-address, copyright notice, copyright owner versus publisher, year of
-publication, subsequent editions, additional copyright information,
-publishing history, edition number, country of printing, impression,
-translation, international standard book number (ISBN), International
-Standard Serial Number (ISSN), acknowledgments, permissions, other
-credits, grants, Cataloging-in-Publication (CIP) data, and paper
-durability statement.
+description:: The software shall enable a user to generate a document
+copyright page.  The copyright page displays a biographical note,
+publisher's address, copyright notice, copyright owner versus
+publisher, year of publication, subsequent editions, additional
+copyright information, publishing history, edition number, country of
+printing, impression, translation, international standard book number
+(ISBN), International Standard Serial Number (ISSN), acknowledgments,
+permissions, other credits, grants, Cataloging-in-Publication (CIP)
+data, and paper durability statement.
 
 index:: [id:rq-000141]; copyright page
 

@@ -1,12 +1,12 @@
 >>>configuration_item.ci-000479
 
-title:: Applications
+title:: SML Applications
 
 type:: software
 
-description:: An application uses the SML Software Library to perform
-a specific function for a user like publishing a single document,
-publishing an entire library, or publishing special views of
+description:: An SML application uses the SML Software Library to
+perform a specific function for a user like publishing a single
+document, publishing an entire library, or publishing special views of
 information in a library.
 
 index:: [id:ci-000479]; applications

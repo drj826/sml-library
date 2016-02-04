@@ -1,13 +1,14 @@
 >>>configuration_item.ci-000004
 
-title:: SML Software Library
+title:: SML Core Software Library
 
 type:: software
 
 attr:: language = perl
 
-description:: The SML Software Library is a library of object-oriented
-classes that provide software for processing SML documents.
+description:: The SML Core Software Library is a library of
+object-oriented classes that provide software for processing SML
+documents.
 
 index:: [id:ci-000004]; SML Software Library
 

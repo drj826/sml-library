@@ -1,13 +1,10 @@
 >>>allocation.al-000126
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000094 # Represent the Result of a Review
+requirement:: rq-000094         # Represent the Result of a Review
 
-test::     tc-000041 # Demonstration
-
-outcome::2011-11-27:al-000126:red: See status explanation in
-[id:al-000069].
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000126]
 

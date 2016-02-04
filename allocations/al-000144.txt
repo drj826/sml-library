@@ -1,14 +1,10 @@
 >>>allocation.al-000144
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000124 # Represent Special Symbols
+requirement:: rq-000124         # Represent Special Symbols
 
-test::     tc-000041 # Demonstration
-
-outcome::2011-11-24:al-000144:yellow: This is yellow because the only
-way to represent a horizontal rule ([id:rq-000061]) is to use a long
-fill-in-the-blank ([id:rq-000134]).
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000144]
 

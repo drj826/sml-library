@@ -9,6 +9,6 @@ is_part_of:: ci-000474
 description:: HTML templates are files that define how to produce HTML
 renditions of documents.
 
-index:: [i:ci-000475]; HTML templates; templates!HTML
+index:: [id:ci-000475]; HTML templates; templates!HTML
 
 <<<configuration_item

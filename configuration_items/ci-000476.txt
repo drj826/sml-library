@@ -10,6 +10,6 @@ description:: LaTeX templates are files that define how to produce LaTeX
 renditions of documents.  LaTeX renditions are then rendered by the
 [cmd:PDFLatex] program into PDF documents.
 
-index:: [i:ci-000476]; LaTeX templates; templates!LaTeX
+index:: [id:ci-000476]; LaTeX templates; templates!LaTeX
 
 <<<configuration_item

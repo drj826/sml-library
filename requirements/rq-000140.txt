@@ -1,6 +1,6 @@
 >>>requirement.rq-000140
 
-title:: Generate a Title Page
+title:: Publish a Document Title Page
 
 is_part_of:: rq-000139
 

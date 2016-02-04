@@ -1,18 +1,18 @@
 >>>configuration_item.ci-000474
 
-title:: Template System
+title:: SML Template System
 
 type:: software
 
-description:: The template system uses the Perl Template Toolkit to
-define how document renditions are produced.  Templates are files.
+description:: The SML template system uses the Perl Template Toolkit
+to define how document renditions are produced.  Templates are files.
 Template filenames correspond to part names.  Each template defines
 the format for a part.  After document content is parsed from SML text
 into an object model it is merged with the formats defined in the
 templates to produce final document renditions.  Template files are
 organized into subdirectories by rendition and style.
 
-index:: [i:ci-000474]; template system
+index:: [id:ci-000474]; template system
 
 The SML::Publisher uses the Perl Template Toolkit to render
 documents. For detailed information about the Perl Template Toolkit

@@ -1,12 +1,10 @@
 >>>allocation.al-000156
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000144 # Generate a List of Tables
+requirement:: rq-000144         # Publish a Document List of Tables
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2012-04-01:al-000156:red: not OK
+test:: tc-000043                # Test
 
 index:: [id:al-000156]
 

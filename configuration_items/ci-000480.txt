@@ -1,13 +1,12 @@
 >>>configuration_item.ci-000480
 
-title:: Library Plugins
+title:: SML Library Plugins
 
 type:: software
 
-description:: A library plugin is a piece of code that performs a
-document rendering function specific to the library to which it
-belongs.  Library plugins are ~~not~~ part of the core SML Software
-Library.
+description:: An SML library plugin is a Perl module that performs a
+document rendering function specific to the library.  Library plugins
+are ~~not~~ part of the core SML Software Library.
 
 index:: [id:ci-000480]; library plugins; plugins
 

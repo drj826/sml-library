@@ -1,13 +1,10 @@
 >>>allocation.al-000127
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000095 # Represent a Formal Outcome
+requirement:: rq-000095         # Represent a Formal Outcome
 
-test:: tc-000041 # Demonstration
-
-outcome::2011-11-27:al-000127:red: See status explanation in
-[id:al-000069].
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000127]
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000143
 
-title:: Generate a List of Figures (Illustrations)
+title:: Publish a Document List of Figures (Illustrations)
 
 is_part_of:: rq-000139
 
@@ -8,10 +8,10 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
-figures (illustrations). The list of figures should match the table of
-contents in type size and general style. Titles given in the list of
-figures may be shortened. [cite:cms15, [section]1.45]
+description:: The software shall enable a user to generate a document
+list of figures (illustrations). The list of figures should match the
+table of contents in type size and general style. Titles given in the
+list of figures may be shortened. [cite:cms15, [section]1.45]
 
 index:: [id:rq-000143]; list of figures
 

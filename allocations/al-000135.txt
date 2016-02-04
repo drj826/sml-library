@@ -1,13 +1,10 @@
 >>>allocation.al-000135
 
-configuration_item:: ci-000004 # SML Software Library
+configuration_item:: ci-000004  # SML Software Library
 
-requirement::  rq-000113 # Be Interoperable
+requirement:: rq-000113         # Be Interoperable
 
-test::     tc-000040 # Analysis
-
-outcome::2011-11-27:al-000135:green: I think the SML library's
-interoperability rates green because SML documents are 7-bit ASCII.
+test:: tc-000040                # Analysis
 
 index:: [id:al-000135]
 

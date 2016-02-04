@@ -62,8 +62,6 @@ references:
 
 - templates ([id:rq-000077])
 
-- generated content persisted in a file ([id:rq-000163])
-
 NOTE: This requirement does ~~not~~ apply to inline file path
 references ([id:rq-000062]) because those files are not required to
 exist; they may be files unrelated to the document.

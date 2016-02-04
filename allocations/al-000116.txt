@@ -1,6 +1,6 @@
 >>>allocation.al-000116
 
-configuration_item:: ci-000001  # SML::Syntax
+configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000084         # Represent an Ordered List
 
