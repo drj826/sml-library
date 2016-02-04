@@ -57,6 +57,12 @@ sub render {
 
   $logger->info("Pod2Txt $filespec");
 
+  unless (-d "$published_dir" )
+    {
+      mkdir "$published_dir", 0755;
+      $logger->debug("made directory $published_dir");
+    }
+
   unless (-d "$published_dir/tmp" )
     {
       mkdir "$published_dir/tmp", 0755;
