@@ -1,12 +1,10 @@
 >>>allocation.al-000087
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000054 # Represent a Section Sign
+requirement:: rq-000054         # Represent a Section Sign
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000087:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000087]
 

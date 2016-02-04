@@ -1,6 +1,6 @@
 >>>requirement.rq-000036
 
-title:: Represent Tasks
+title:: Represent a Task
 
 priority:: routine
 
@@ -8,8 +8,8 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as the description of tasks.  A task
+description:: The data format shall have the capability to identify
+and represent document content as the description of a task.  A task
 describes work to be performed.  The purpose of identifying content as
 a task is to make that task semantically traceable to other elements
 of content (like roles and problems), to make the content re-usable,

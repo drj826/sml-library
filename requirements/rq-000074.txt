@@ -8,20 +8,13 @@ is_part_of:: rq-000073
 
 type:: data format
 
-associated:: rq-000078
-
 description:: The data format shall have the capability to represent a
 variable declaration.  A variable consists of a name and a value.  The
 purpose of this requirement is to maximize document maintainability by
 enabling authors to define a variable in a single location and use the
-value of that variable in multiple locations.
+value of that variable in multiple locations. The value of a variable
+is a single [g:SML:block] of text.
 
 index:: [id:rq-000074]; variables
-
-Variables are meant to represent ~~inline~~ elements of content; that
-is, content that potentially consists of ~~partial~~ lines of text.
-Inserts, on the other hand, are meant to represent ~~blocks~~ of
-content; that is, content that consists of one or more ~~whole~~ lines
-of text.
 
 <<<requirement

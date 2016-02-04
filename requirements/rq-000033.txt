@@ -1,6 +1,6 @@
 >>>requirement.rq-000033
 
-title:: Represent Solutions
+title:: Represent a Solution
 
 priority:: routine
 
@@ -8,13 +8,13 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as the description of a solution.  A
-solution describes something that solves a problem.  The purpose of
-identifying content as a solution description is to make the solution
-semantically traceable to other elements of content (like problems and
-tests), to make the content re-usable, and to enable special listings
-of solutions.
+description:: The data format shall have the capability to identify
+and represent document content as the description of a solution.  A
+solution describes something that solves a requirement.  The purpose
+of identifying content as a solution description is to make the
+solution semantically traceable to other elements of content (like
+requirementss and tests), to make the content re-usable, and to enable
+special listings of solutions.
 
 index:: [id:rq-000033]; solutions
 

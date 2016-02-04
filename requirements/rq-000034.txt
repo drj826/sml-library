@@ -1,6 +1,6 @@
 >>>requirement.rq-000034
 
-title:: Represent Tests
+title:: Represent a Test
 
 priority:: routine
 
@@ -8,14 +8,14 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as the description of a test.  A test
+description:: The data format shall have the capability to identify
+and represent document content as the description of a test.  A test
 describes a method of verifying a problem has been solved or
-validating that a solution works correctly.  Tests are often called
-``test cases.'' The purpose of identifying content as a test is to
-make that test semantically traceable to other elements of content
-(like problems and solutions), to make the content re-usable, and to
-enable special listings of tests.
+validating that a solution works correctly.  Individual tests are
+often called ``test cases.'' The purpose of identifying content as a
+test is to make that test semantically traceable to other elements of
+content (like problems and solutions), to make the content re-usable,
+and to enable special listings of tests.
 
 index:: [id:rq-000034]; tests
 

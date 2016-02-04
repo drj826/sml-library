@@ -1,6 +1,6 @@
 >>>requirement.rq-000080
 
-title:: Represent an `Em Dash'
+title:: Represent an `Em Dash' Symbol
 
 priority:: routine
 

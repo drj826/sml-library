@@ -10,8 +10,8 @@ type:: data format
 
 description:: The data format shall have the capability to represent
 an unordered list.  Unordered lists are often called ``bulletized''
-lists.
+(or ``bullet'') lists.
 
-index:: [id:rq-000083]; unordered lists
+index:: [id:rq-000083]; unordered list; bulletized list; bullet list
 
 <<<requirement

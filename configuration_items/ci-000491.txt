@@ -1,0 +1,30 @@
+>>>configuration_item.ci-000491
+
+title:: update_sha_digests.pl
+
+type:: software
+
+is_part_of:: ci-000485
+
+description:: This Perl application updates the [file:.sha_digest]
+file that contains a SHA1 digest for every identified division in the
+library.  This file is used to detect which divisions have changed
+between different versions of the library.
+
+index:: ci-000491
+
+>>>LISTING.lis-update_sha_digests-pl
+
+title:: update_sha_digests.pl Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: lib/update_sha_digests.pl
+
+<<<LISTING
+
+<<<configuration_item

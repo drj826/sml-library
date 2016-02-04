@@ -41,6 +41,10 @@ ps               = library.get_property_store
   division_id   = change.1
   -%]
 
+  [%- IF ps.has_property(division_id,'title') -%]
+  [%- title_string = ps.get_property_string(division_id,'title') -%]
+  [%- END -%]
+
   [%- IF (action == 'ADDED') OR (action == 'UPDATED') -%]
     [%-
     division_name = library.get_division_name_for_id(division_id)
@@ -52,12 +56,8 @@ ps               = library.get_property_store
     division_name = ''
     file          = ''
     filename      = ''
+    title_string  = ''
     -%]
-  [%- END -%]
-  
-
-  [%- IF ps.has_property(division_id,'title') -%]
-  [%- title_string = ps.get_property_string(division_id,'title') -%]
   [%- END -%]
 
   [%- IF bgcolor == '#eeeeee' -%]

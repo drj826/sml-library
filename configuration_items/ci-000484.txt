@@ -1,0 +1,31 @@
+>>>configuration_item.ci-000484
+
+title:: Pod2Txt
+
+type:: software
+
+is_part_of:: ci-000480
+
+description:: The Pod2Txt plugin renders the ``Plain Old
+Documentation'' (POD) from a Perl file into plain text.  POD is
+typically used to document the API of a Perl module.  This plugin
+enables authors to insert a plain text listing of the POD into an SML
+document.
+
+index:: [id:ci-000484]; Pod2Txt
+
+>>>LISTING.lis-pod2txt-pm
+
+title:: Pod2Txt.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: plugins/Pod2Txt.pm
+
+<<<LISTING
+
+<<<configuration_item

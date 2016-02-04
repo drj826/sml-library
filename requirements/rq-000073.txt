@@ -9,15 +9,13 @@ is_part_of:: rq-000009
 type:: data format
 
 description:: The data format shall have the capability to represent
-re-usable elements of document content.  The purpose of this
-requirement is to maximize document maintainability by enabling a
-single definitive location for an element of document content and
-providing ways to re-use that content in other places within a
-document.  An ``element'' of document content may either be a
-~~block~~ of content which consists of one or more ~~whole~~ lines of
-text, or an ~~inline~~ element of content which may consist of
-~~partial~~ lines of text.  This requirement serves as a container for
-more specific document content reuse data format requirements.
+re-usable parts of document content.  The purpose of this requirement
+is to maximize document maintainability by enabling authors to capture
+content in one and only one place and providing ways to re-use that
+content in other places within a document.  A ``part'' of document
+content may be a [g:SML:division], [g:SML:block], or
+[g:SML:string]. This requirement serves as a container for more
+specific document content reuse data format requirements.
 
 index:: [id:rq-000073]; reusable content
 

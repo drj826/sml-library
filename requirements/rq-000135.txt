@@ -8,8 +8,6 @@ is_part_of:: rq-000073
 
 type:: data format
 
-associated:: rq-000078
-
 description:: The data format shall have the capability to represent a
 `lookup' statement.  A lookup retrieves and inserts any division
 property defined anywhere in the document.  The purpose of this

@@ -1,0 +1,15 @@
+>>>configuration_item.ci-000486
+
+title:: Windows Batch Files
+
+type:: software
+
+is_part_of:: ci-000479
+
+description:: Windows batch files are end-user applications that
+perform specific functions for users.  They may either be invoked
+directly by the user or by other applications.
+
+index:: ci-000486
+
+<<<configuration_item

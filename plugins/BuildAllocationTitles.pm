@@ -38,6 +38,15 @@ sub render {
 
   my $self = shift;
 
+  my $library  = $self->_get_library;
+  my $ontology = $library->get_ontology;
+
+  unless ( $ontology->allows_division_name('allocation') )
+    {
+      $logger->fatal("ONTOLOGY DOES NOT ALLOW allocations");
+      return [];
+    }
+
   $self->_build_allocation_titles;
 
   return [];                            # return an empty list

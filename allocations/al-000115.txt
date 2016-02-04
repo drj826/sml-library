@@ -1,12 +1,10 @@
 >>>allocation.al-000115
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000001  # SML::Syntax
 
-requirement::  rq-000083 # Represent an Unordered List
+requirement:: rq-000083         # Represent an Unordered List
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000115:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000115]
 

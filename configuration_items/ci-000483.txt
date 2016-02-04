@@ -1,0 +1,30 @@
+>>>configuration_item.ci-000483
+
+title:: BuildAllocationTitles
+
+type:: software
+
+is_part_of:: ci-000480
+
+description:: The BuildAllocationTitles plugin computes a title for
+each [g:SML:allocation] entity in the [g:SML:library].  This plugin
+does not insert any content in the containing document.  The computed
+allocation titles are added to the library property store.
+
+index:: [id:ci-000483]; BuildAllocationTitles
+
+>>>LISTING.lis-buildallocationtitles-pm
+
+title:: BuildAllocationTitles.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: plugins/BuildAllocationTitles.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,0 +1,32 @@
+>>>configuration_item.ci-000495
+
+title:: publish_sml_brd.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000487
+
+description:: This windows batch file invokes the
+[cmd:publish_document.pl] Perl application to publish the SML Business
+Requirements Document. This batch file is provided to make it easy for
+windows users to simply double-click on the batch file to publish the
+BRD.  It can also be invoked from other batch files.
+
+index:: [id:ci-000495]; publish_sml_brd.bat; BRD; Business
+Requirements Document
+
+>>>LISTING.lis-publish_sml_brd-bat
+
+title:: publish_sml_brd.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/publish_sml_brd.bat
+
+<<<LISTING
+
+<<<configuration_item

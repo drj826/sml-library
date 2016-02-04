@@ -4,13 +4,20 @@ title:: Template System
 
 type:: software
 
-description:: The template system defines how document renditions are
-produced.  Templates correspond to part names and define the format
-for each part.  Document content is first parsed from SML text into an
-object model and then is merged with the formats defined in the
-templates to produce final document renditions.  Templates are
-organized by rendition and style.
+description:: The template system uses the Perl Template Toolkit to
+define how document renditions are produced.  Templates are files.
+Template filenames correspond to part names.  Each template defines
+the format for a part.  After document content is parsed from SML text
+into an object model it is merged with the formats defined in the
+templates to produce final document renditions.  Template files are
+organized into subdirectories by rendition and style.
 
 index:: [i:ci-000474]; template system
+
+The SML::Publisher uses the Perl Template Toolkit to render
+documents. For detailed information about the Perl Template Toolkit
+see: [url:http://template-toolkit.org/].
+
+image:: files/images/template-toolkit.gif
 
 <<<configuration_item

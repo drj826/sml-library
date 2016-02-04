@@ -1,0 +1,29 @@
+>>>configuration_item.ci-000488
+
+title:: publish_library.pl
+
+type:: software
+
+is_part_of:: ci-000485
+
+description:: This Perl application publishes an entire library.  This
+includes all library documents, library special pages, the library
+main page, and the overall main page.
+
+index:: ci-000488
+
+>>>LISTING.lis-publish_library-pl
+
+title:: publish_library.pl Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: lib/publish_library.pl
+
+<<<LISTING
+
+<<<configuration_item

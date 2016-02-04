@@ -1,6 +1,6 @@
 >>>requirement.rq-000030
 
-title:: Represent Instructional Demonstrations
+title:: Represent an Instructional Demonstration
 
 priority:: routine
 
@@ -9,7 +9,7 @@ is_part_of:: rq-000195
 type:: data format
 
 description:: The data format shall have the capability to identify
-and represent document content as instructional demonstrations.
+and represent document content as an instructional demonstration.
 Instructional demonstrations are descriptions of a series of tasks
 that reinforce and illustrate documented concepts.  The purpose of
 identifying content as a demonstration is to make the content

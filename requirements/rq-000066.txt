@@ -1,6 +1,6 @@
 >>>requirement.rq-000066
 
-title:: Represent Comments
+title:: Represent a Comment
 
 priority:: routine
 
@@ -8,11 +8,11 @@ is_part_of:: rq-000009
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-comments.  Comments are text that appear in the source data format but
+description:: The data format shall have the capability to represent a
+comment.  Comments are text that appear in the source data format but
 not in published renditions.  Comments are designed to serve multiple
-purposes including: (1) allow explanations of document content that do
-not appear in published documents, (2) allow authors to temporarily
+purposes: (1) allow explanations of document content that do not
+appear in published documents, (2) allow authors to temporarily
 ``comment out'' document content.  This requirement serves as a
 container for various data format comment representation requirements.
 

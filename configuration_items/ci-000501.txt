@@ -1,0 +1,32 @@
+>>>configuration_item.ci-000501
+
+title:: update_sha_digests.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000491
+
+description:: This windows batch file invokes the
+[cmd:update_sha_digests.pl] Perl application to update the
+[file:.sha_digest] file used to detect changes between library
+versions. This batch file is provided to make it easy for windows
+users to simply double-click on the batch file to update the file.  It
+can also be invoked from other batch files.
+
+index:: ci-000501; update_sha_digests.bat
+
+>>>LISTING.lis-update_sha_digests-bat
+
+title:: update_sha_digests.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/update_sha_digests.bat
+
+<<<LISTING
+
+<<<configuration_item

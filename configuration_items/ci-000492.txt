@@ -1,0 +1,31 @@
+>>>configuration_item.ci-000492
+
+title:: publish_library.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000488
+
+description:: This windows batch file invokes the
+[cmd:publish_library.pl] Perl application to publish an entire
+[g:SML:library]. This batch file is provided to make it easy for
+windows users to simply double-click on the batch file to publish an
+entire library.  It can also be invoked from other batch files.
+
+index:: ci-000492; publish_library.bat
+
+>>>LISTING.lis-publish_library-bat
+
+title:: publish_library.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/publish_library.bat
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,6 +1,6 @@
 >>>requirement.rq-000035
 
-title:: Represent Results
+title:: Represent a Result
 
 priority:: routine
 
@@ -8,13 +8,13 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as the description of results.  A result
-describes the outcome of a review, test, or audit.  The purpose of
-identifying content as a result is to make that result semantically
-traceable to other elements of content (like problems, solutions, and
-tests), to make the content re-usable, and to enable special listings
-of results.
+description:: The data format shall have the capability to identify
+and represent document content as the description of a result.  A
+result describes the outcome of a review, test, or audit.  The purpose
+of identifying content as a result is to make that result semantically
+traceable to other elements of content (like requirements, solutions,
+and tests), to make the content re-usable, and to enable special
+listings of results.
 
 index:: [id:rq-000035]; results
 

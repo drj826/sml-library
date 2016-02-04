@@ -4,7 +4,9 @@ title:: SML::Publisher Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000004          # SML Software Library
+
+uses:: ci-000474                # Template system
 
 description:: An SML::Publisher publishes object model content to
 finished documents and other products such as library glossaries and

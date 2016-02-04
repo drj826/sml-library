@@ -1,0 +1,31 @@
+>>>configuration_item.ci-000500
+
+title:: publish_sml_ug.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000487
+
+description:: This windows batch file invokes the
+[cmd:publish_document.pl] Perl application to publish the SML User
+Guide. This batch file is provided to make it easy for windows users
+to simply double-click on the batch file to publish the user guide.
+It can also be invoked from other batch files.
+
+index:: ci-000500; publish_sml_ug.bat; UG; user guide
+
+>>>LISTING.lis-publish_sml_ug-bat
+
+title:: publish_sml_ug.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/publish_sml_ug.bat
+
+<<<LISTING
+
+<<<configuration_item

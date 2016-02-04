@@ -1,13 +1,10 @@
 >>>allocation.al-000118
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000086 # Represent Specified Data Types
+requirement:: rq-000086         # Represent Specified Data Types
 
-test::     tc-000041 # Demonstration
-
-outcome::2011-06-21:al-000118:green: SML represents all specified data
-types.
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000118]
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000079
 
-title:: Represent Glossary References
+title:: Represent a Glossary Reference
 
 priority:: routine
 
@@ -8,11 +8,10 @@ is_part_of:: rq-000009
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-glossary references.  In other words, the data format must have the
-capability to indicate an acronym, word, or phrase is in the
-glossary.  The data format must allow glossary references to span
-newline characters.
+description:: The data format shall have the capability to represent a
+glossary reference.  In other words, the data format must have the
+capability to indicate that a word or phrase is in the glossary.  The
+data format must allow glossary references to span newline characters.
 
 index:: [id:rq-000079]; glossary references
 

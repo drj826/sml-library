@@ -1,6 +1,6 @@
 >>>requirement.rq-000076
 
-title:: Represent Traceability Relationships
+title:: Represent a Traceability Relationship
 
 priority:: routine
 
@@ -8,10 +8,10 @@ is_part_of:: rq-000009
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-traceability relationships between specified elements of content.
-``Traces'' between content elements are simple
-subject-predicate-object assertions that declare something to be true.
+description:: The data format shall have the capability to represent a
+traceability relationship between specified parts of content.
+``Traces'' between parts are simple subject-predicate-object
+assertions that declare something to be true.
 
 index:: [id:rq-000076]; traceability
 
@@ -37,7 +37,7 @@ title:: Required Assertions Where Subject = Problem
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: is solved by
 : a
@@ -46,7 +46,7 @@ title:: Required Assertions Where Subject = Problem
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: is verified by
 : a
@@ -55,25 +55,25 @@ title:: Required Assertions Where Subject = Problem
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: is part of
 : another
-:grey: Problem
+:grey: Requirement
 
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: has as a part
 : another
-:grey: Problem
+:grey: Requirement
 
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: is owned by
 : a
@@ -82,7 +82,7 @@ title:: Required Assertions Where Subject = Problem
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: is assigned to
 : a
@@ -91,7 +91,7 @@ title:: Required Assertions Where Subject = Problem
 ---
 
 : A
-:grey: Problem
+:grey: Requirement
 :
 :grey: has a stakeholder of
 : a
@@ -119,7 +119,7 @@ title:: Required Assertions Where Subject = Solution
 :
 :grey: solves
 : a
-:grey: Problem
+:grey: Requirement
 
 ---
 

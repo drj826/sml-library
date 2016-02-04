@@ -201,15 +201,33 @@ whole [g:SML:line]s of [g:SML:text].  Blocks are parsed into
 
 ######################################################################
 
-# Semantic Manuscript Language
+# Application Scripts
 
-* plugin:: Parts2Sections ci-000001
+* plugin:: Parts2Sections ci-000479
+
+######################################################################
+
+# Library Plugins
+
+* plugin:: Parts2Sections ci-000480
 
 ######################################################################
 
 # Core SML Software Library
 
 * plugin:: Parts2Sections ci-000004
+
+######################################################################
+
+# Template System
+
+* plugin:: Parts2Sections ci-000474
+
+######################################################################
+
+# Semantic Manuscript Language
+
+* plugin:: Parts2Sections ci-000001
 
 ######################################################################
 
