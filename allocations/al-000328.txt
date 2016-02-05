@@ -1,13 +1,10 @@
 >>>allocation.al-000328
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000249 # Render an HTML Command
+requirement:: rq-000249         # Render an HTML Command
 
-test::     tc-000014 # Block.pm Unit Test Case
-
-
-
+test:: tc-000043                # Test
 
 index:: [id:al-000328]
 

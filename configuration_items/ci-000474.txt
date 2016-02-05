@@ -4,6 +4,8 @@ title:: SML Template System
 
 type:: software
 
+is_part_of:: ci-000503
+
 description:: The SML template system uses the Perl Template Toolkit
 to define how document renditions are produced.  Templates are files.
 Template filenames correspond to part names.  Each template defines
@@ -16,7 +18,8 @@ index:: [id:ci-000474]; template system
 
 The SML::Publisher uses the Perl Template Toolkit to render
 documents. For detailed information about the Perl Template Toolkit
-see: [url:http://template-toolkit.org/].
+see: [url:http://template-toolkit.org/]. The templates for the SML
+Library are maintained in the [path:sml-library/templates] directory.
 
 image:: files/images/template-toolkit.gif
 

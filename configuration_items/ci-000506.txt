@@ -1,0 +1,22 @@
+>>>configuration_item.ci-000506
+
+title:: Default HTML URL_REF Template
+
+type:: software
+
+is_part_of:: ci-000505
+
+description:: The default HTML URL_REF template renders a hyperlink to
+a URL.
+
+index:: ci-000506
+
+>>>LISTING.lis-html-default-URL_REF-tt
+
+title:: Default HTML URL_REF Template
+
+file:: templates/html/default/URL_REF.tt
+
+<<<LISTING
+
+<<<configuration_item

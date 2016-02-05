@@ -1,10 +1,16 @@
 >>>allocation.al-000287
 
-configuration_item:: ci-000379 # SML Syntax
+configuration_item:: ci-000006  # Core Ontology Configuration
 
-requirement::  rq-000208 # Distinguish Reserved Words
+requirement:: rq-000208         # Distinguish Reserved Words
 
-test::     tc-000041 # Demonstration
+test:: tc-000041                # Demonstration
+
+outcome::2016-02-05:al-000287:green: By convention, division names
+that are all uppercase are reserved words.  Structure divisions
+declared in the core ontology configuration ([id:ci-000006]) have
+names which are all uppercase.  Entity divisions declared in the SML
+Library ontology configuration ([id:ci-000477]) are all lowercase.
 
 outcome::2012-03-31:al-000287:red: The SML-EBNF.txt does not yet
 define reserved words and require them to be ALL UPPER CASE.  I have

@@ -1,13 +1,13 @@
 >>>requirement.rq-000303
 
-title:: Format a LaTeX `LaTeX' Symbol
+title:: Render a LaTeX `LaTeX' Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX `LateX' symbol.
+description:: The software shall render a LaTeX `LateX' symbol.
 
-index:: [id:rq-000303]; `LateX' symbol!format LaTeX
+index:: [id:rq-000303]; `LateX' symbol!render LaTeX
 
 <<<requirement

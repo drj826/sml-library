@@ -1,13 +1,13 @@
 >>>requirement.rq-000222
 
-title:: Format an HTML Citation
+title:: Render an HTML Citation
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML citation.
+description:: The software shall render an HTML citation.
 
-index:: [id:rq-000222]; citation!format HTML
+index:: [id:rq-000222]; citation!render HTML
 
 <<<requirement

@@ -1,13 +1,13 @@
 >>>requirement.rq-000310
 
-title:: Format a LaTeX Open Single Quote
+title:: Render a LaTeX Open Single Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX open single quote.
+description:: The software shall render a LaTeX open single quote.
 
-index:: [id:rq-000310]; single quote!format LaTeX
+index:: [id:rq-000310]; single quote!render LaTeX
 
 <<<requirement

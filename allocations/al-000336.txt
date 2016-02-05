@@ -1,11 +1,10 @@
 >>>allocation.al-000336
 
-configuration_item:: ci-000387 # Block.pm
+configuration_item:: ci-000474  # SML Template System
 
-requirement::  rq-000205 # Render a Block According to a Style
+requirement:: rq-000205         # Render a Block According to a Style
 
-test::     tc-000014 # Block.pm Unit Test Case
-
+test:: tc-000043                # Test
 
 index:: [id:al-000336]
 

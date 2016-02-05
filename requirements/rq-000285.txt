@@ -1,6 +1,6 @@
 >>>requirement.rq-000285
 
-title:: Format a LaTeX Footnote Reference
+title:: Render a LaTeX Footnote Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000019
 
-description:: The software shall format a LaTeX footnote reference.
+description:: The software shall render a LaTeX footnote reference.
 
-index:: [id:rq-000285]; footnote reference!format LaTeX
+index:: [id:rq-000285]; footnote reference!render LaTeX
 
 <<<requirement

@@ -1,13 +1,10 @@
 >>>allocation.al-000275
 
-configuration_item:: ci-000001
+configuration_item:: ci-000477  # Library Ontology Configuration
 
-requirement::  rq-000197
+requirement:: rq-000197         # Declare and Entity Type
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-03-20:al-000275:red: The Structured Manuscript Language
-does not have the capability to declare entity types.
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000275]
 

@@ -1,13 +1,13 @@
 >>>requirement.rq-000218
 
-title:: Format an HTML Version Reference
+title:: Render an HTML Version Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML version reference.
+description:: The software shall render an HTML version reference.
 
-index:: [id:rq-000218]; version reference!format HTML
+index:: [id:rq-000218]; version reference!render HTML
 
 <<<requirement

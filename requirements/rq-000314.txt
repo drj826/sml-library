@@ -1,13 +1,13 @@
 >>>requirement.rq-000314
 
-title:: Format LaTeX Underlined Text
+title:: Render LaTeX Underlined Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX underlined text.
+description:: The software shall render LaTeX underlined text.
 
-index:: [id:rq-000314]; underlined text!format LaTeX
+index:: [id:rq-000314]; underlined text!render LaTeX
 
 <<<requirement

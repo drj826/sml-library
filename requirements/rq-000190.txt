@@ -1,19 +1,16 @@
 >>>requirement.rq-000190
 
-title:: Validate a Document Contains No Redundant Allocations
+title:: Validate a Library Contains No Redundant Allocations
 
-is_part_of:: rq-000116
+is_part_of:: rq-000200
 
 priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to validate that a
-document contains no redundant allocations.  An allocation is
-redundant if it pairs the same problem and solution of another
-allocation.  This requirement is part of the requirement to validate
-design documents because allocation of problems to solutions is a
-design activity.
+description:: The software shall validate that a library contains no
+redundant allocations.  An allocation is redundant if it pairs the
+same problem and solution of another allocation.
 
 index:: [id:rq-000190]; redundant allocation; allocation!redundant
 

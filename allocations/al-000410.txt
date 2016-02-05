@@ -1,12 +1,10 @@
 >>>allocation.al-000410
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000351 # Ignore Markup Inside Literal Text
+requirement:: rq-000351         # Ignore Markup Inside Literal Text
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2013-03-13:al-000410:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000410]
 

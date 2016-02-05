@@ -1,13 +1,13 @@
 >>>requirement.rq-000251
 
-title:: Format an HTML E-mail Address
+title:: Render an HTML E-mail Address
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML e-mail address.
+description:: The software shall render an HTML e-mail address.
 
-index:: [id:rq-000251]; e-mail address!format HTML
+index:: [id:rq-000251]; e-mail address!render HTML
 
 <<<requirement

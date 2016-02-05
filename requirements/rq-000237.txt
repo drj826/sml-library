@@ -1,13 +1,13 @@
 >>>requirement.rq-000237
 
-title:: Format an HTML Close Single Quote
+title:: Render an HTML Close Single Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML close single quote.
+description:: The software shall render an HTML close single quote.
 
-index:: [id:rq-000237]; single quote!format HTML
+index:: [id:rq-000237]; single quote!render HTML
 
 <<<requirement

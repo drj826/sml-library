@@ -1,13 +1,13 @@
 >>>requirement.rq-000324
 
-title:: Format a LaTeX Literal XML Tag
+title:: Render a LaTeX Literal XML Tag
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX literal XML tag.
+description:: The software shall render a LaTeX literal XML tag.
 
-index:: [id:rq-000324]; XML tag!format LaTeX
+index:: [id:rq-000324]; XML tag!render LaTeX
 
 <<<requirement

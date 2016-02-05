@@ -1,13 +1,13 @@
 >>>requirement.rq-000242
 
-title:: Format HTML Subscripted Text
+title:: Render HTML Subscripted Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format HTML subscripted text.
+description:: The software shall render HTML subscripted text.
 
-index:: [id:rq-000242]; subscripted text!format HTML
+index:: [id:rq-000242]; subscripted text!render HTML
 
 <<<requirement

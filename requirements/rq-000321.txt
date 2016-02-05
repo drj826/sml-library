@@ -1,13 +1,13 @@
 >>>requirement.rq-000321
 
-title:: Format a LaTeX Path Name
+title:: Render a LaTeX Path Name
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX path name.
+description:: The software shall render a LaTeX path name.
 
-index:: [id:rq-000321]; path name!format LaTeX
+index:: [id:rq-000321]; path name!render LaTeX
 
 <<<requirement

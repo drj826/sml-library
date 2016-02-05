@@ -1,13 +1,13 @@
 >>>requirement.rq-000302
 
-title:: Format a LaTeX Right Arrow Symbol
+title:: Render a LaTeX Right Arrow Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX right arrow symbol.
+description:: The software shall render a LaTeX right arrow symbol.
 
-index:: [id:rq-000302]; right arrow symbol!format LaTeX
+index:: [id:rq-000302]; right arrow symbol!render LaTeX
 
 <<<requirement

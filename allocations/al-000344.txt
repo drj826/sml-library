@@ -1,11 +1,10 @@
 >>>allocation.al-000344
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000264 # Render HTML List of Recent Updates
+requirement:: rq-000264         # Render HTML List of Changes
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000344]
 

@@ -6,6 +6,8 @@ type:: software
 
 is_part_of:: ci-000485
 
+depends_on:: ci-000004
+
 description:: This Perl application publishes a library main page
 which lists all the documents in the library.
 

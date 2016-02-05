@@ -192,42 +192,15 @@ footnote::1: These definitions are also in the glossary.
 
 ######################################################################
 
-*.data-format-design Data Format Design
+# SML Library
 
-An [a:SML] [g:SML:DOCUMENT] is composed of [g:SML:division]s,
-divisions are composed of [g:SML:block]s, and blocks are composed of
-whole [g:SML:line]s of [g:SML:text].  Blocks are parsed into
-[g:SML:string]s.
-
-######################################################################
-
-# Application Scripts
-
-* plugin:: Parts2Sections ci-000479
-
-######################################################################
-
-# Library Plugins
-
-* plugin:: Parts2Sections ci-000480
+* plugin:: Parts2Sections ci-000503
 
 ######################################################################
 
 # Core SML Software Library
 
 * plugin:: Parts2Sections ci-000004
-
-######################################################################
-
-# Template System
-
-* plugin:: Parts2Sections ci-000474
-
-######################################################################
-
-# Semantic Manuscript Language
-
-* plugin:: Parts2Sections ci-000001
 
 ######################################################################
 

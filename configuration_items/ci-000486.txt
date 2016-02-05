@@ -12,4 +12,7 @@ directly by the user or by other applications.
 
 index:: ci-000486
 
+The windows batch files for the SML Library are maintained in the
+[path:sml-library/bin] directory.
+
 <<<configuration_item

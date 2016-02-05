@@ -1,13 +1,13 @@
 >>>requirement.rq-000291
 
-title:: Format a LaTeX Page Reference
+title:: Render a LaTeX Page Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX page reference.
+description:: The software shall render a LaTeX page reference.
 
-index:: [id:rq-000291]; page reference!format LaTeX
+index:: [id:rq-000291]; page reference!render LaTeX
 
 <<<requirement

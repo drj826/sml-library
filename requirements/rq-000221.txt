@@ -1,13 +1,13 @@
 >>>requirement.rq-000221
 
-title:: Format an HTML Status Reference
+title:: Render an HTML Status Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML status reference.
+description:: The software shall render an HTML status reference.
 
-index:: [id:rq-000221]; status reference!format HTML
+index:: [id:rq-000221]; status reference!render HTML
 
 <<<requirement

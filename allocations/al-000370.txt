@@ -1,11 +1,10 @@
 >>>allocation.al-000370
 
-configuration_item:: ci-000387
+configuration_item:: ci-000387  # Default LaTeX Templates
 
-requirement::  rq-000290
+requirement:: rq-000290         # Render a LaTeX `thepage' Reference
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000370]
 

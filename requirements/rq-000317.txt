@@ -1,13 +1,13 @@
 >>>requirement.rq-000317
 
-title:: Format LaTeX Italicized Text
+title:: Render LaTeX Italicized Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX italicized text.
+description:: The software shall render LaTeX italicized text.
 
-index:: [id:rq-000317]; italicized text!format LaTeX
+index:: [id:rq-000317]; italicized text!render LaTeX
 
 <<<requirement

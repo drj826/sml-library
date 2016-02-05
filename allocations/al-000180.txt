@@ -1,12 +1,10 @@
 >>>allocation.al-000180
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000169 # Represent Option `Include and Hide'
+requirement:: rq-000169         # Represent an Option to `Include and Hide'
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000180:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000180]
 

@@ -1,11 +1,10 @@
 >>>allocation.al-000335
 
-configuration_item:: ci-000003 # Parser.pm
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000257 # Notify User of Uncommitted Changes
+requirement:: rq-000257         # Notify User of Uncommitted Changes
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000335]
 

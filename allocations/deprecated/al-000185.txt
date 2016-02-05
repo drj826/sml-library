@@ -1,8 +1,8 @@
 >>>allocation.al-000185
 
-configuration_item:: ci-000003 # Parser.pm Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000183 # Permit Library Ontology Configuration
+requirement:: rq-000183         # Permit Library Ontology Configuration
 
 test::     tc-000042 # Inspection
 

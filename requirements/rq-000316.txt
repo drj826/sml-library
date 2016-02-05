@@ -1,13 +1,13 @@
 >>>requirement.rq-000316
 
-title:: Format LaTeX Subscripted Text
+title:: Render LaTeX Subscripted Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX subscripted text.
+description:: The software shall render LaTeX subscripted text.
 
-index:: [id:rq-000316]; subscripted text!format LaTeX
+index:: [id:rq-000316]; subscripted text!render LaTeX
 
 <<<requirement

@@ -1,11 +1,10 @@
 >>>allocation.al-000365
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000285
+requirement:: rq-000285         # Render a LaTeX Footnote Reference
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000365]
 

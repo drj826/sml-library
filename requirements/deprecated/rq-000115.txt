@@ -1,0 +1,17 @@
+>>>requirement.rq-000115
+
+title:: Validate Documents
+
+is_part_of:: rq-000200
+
+priority:: routine
+
+type:: functional
+
+description:: The software shall validate documents.  Validation means
+checking the document to ensure it conforms to a specified set of
+rules.
+
+index:: [id:rq-000115]; validation
+
+<<<requirement

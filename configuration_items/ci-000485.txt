@@ -13,4 +13,7 @@ applications.
 
 index:: ci-000485
 
+The Perl applications for the SML Library are maintained in the
+[path:sml-library/lib] directory.
+
 <<<configuration_item

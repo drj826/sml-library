@@ -6,6 +6,8 @@ type:: software
 
 is_part_of:: ci-000485
 
+depends_on:: ci-000004
+
 description:: This Perl application publishes an entire library.  This
 includes all library documents, library special pages, the library
 main page, and the overall main page.

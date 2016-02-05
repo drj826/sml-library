@@ -1,13 +1,13 @@
 >>>requirement.rq-000244
 
-title:: Format HTML Bold Text
+title:: Render HTML Bold Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format HTML bold text.
+description:: The software shall render HTML bold text.
 
-index:: [id:rq-000244]; bold text!format HTML
+index:: [id:rq-000244]; bold text!render HTML
 
 <<<requirement

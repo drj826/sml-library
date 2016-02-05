@@ -50,10 +50,68 @@ bgcolor          = '#eeeeee'
 <table style="width:100%;">
 
 <tr>
-<td style="background-color:[%grey%];font-weight:bold;width:40%;" colspan="3">Document</td>
-<td style="background-color:[%orange%];font-weight:bold;width:20%;text-align:center;" colspan="2">DRAFT [%draft_version%]</td>
-<td style="background-color:[%green%];font-weight:bold;width:20%;text-align:center;" colspan="2">REVIEW [%review_version%]</td>
-<td style="background-color:[%blue%];font-weight:bold;width:20%;text-align:center;" colspan="2">APPROVED [%approved_version%]</td>
+<td style="font-weight:bold;width:40%;" colspan="3"></td>
+
+[%# DRAFT COLUMN HEADER %]
+<td style="background-color:[%orange%];width:20%;text-align:center;" colspan="2">
+<span style="font-weight:bold;">DRAFT [%draft_version%]</span>
+[%- IF library.has_published_library_property_value('DRAFT','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('DRAFT','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('DRAFT','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('DRAFT','changes') -%]
+[%- IF draft_change_count == 0 -%]
+no changes
+[%- ELSIF draft_change_count == 1 -%]
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+[%- END -%]
+[%- END -%]
+</td>
+
+[%# REVIEW COLUMN HEADER %]
+<td style="background-color:[%green%];width:20%;text-align:center;" colspan="2">
+<span style="font-weight:bold;">REVIEW [%review_version%]</span>
+[%- IF library.has_published_library_property_value('REVIEW','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('REVIEW','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('REVIEW','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('REVIEW','changes') -%]
+[%- IF draft_change_count == 0 -%]
+no changes
+[%- ELSIF draft_change_count == 1 -%]
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+[%- END -%]
+[%- END -%]
+</td>
+
+[%# APPROVED COLUMN HEADER %]
+<td style="background-color:[%blue%];width:20%;text-align:center;" colspan="2">
+<span style="font-weight:bold;">APPROVED [%approved_version%]</span>
+[%- IF library.has_published_library_property_value('APPROVED','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('APPROVED','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('APPROVED','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('APPROVED','changes') -%]
+[%- IF draft_change_count == 0 -%]
+no changes
+[%- ELSIF draft_change_count == 1 -%]
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+[%- END -%]
+[%- END -%]
+</td>
+
 </tr>
 
 [%- FOREACH document_id IN document_id_list -%]
@@ -93,13 +151,13 @@ sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_orange%];width:10%;">
-<span style="color:#888888;">[%sha%]</span><br/>
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
-no change
+<span style="font-size:8pt;">no change</a>
 [%- ELSIF change_count == 1 -%]
-<a href="DRAFT/[%document_id%]/change.html">1 change</a>
+<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="DRAFT/[%document_id%]/change.html">[%change_count%] changes</a>
+<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
 [%- END -%]
 </td>
 
@@ -132,13 +190,13 @@ sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_green%];width:10%;">
-<span style="color:#888888;">[%sha%]</span><br/>
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
 no change
 [%- ELSIF change_count == 1 -%]
-<a href="REVIEW/[%document_id%]/change.html">1 change</a>
+<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="REVIEW/[%document_id%]/change.html">[%change_count%] changes</a>
+<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
 [%- END -%]
 </td>
 
@@ -171,13 +229,13 @@ sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_blue%];width:10%;">
-<span style="color:#888888;">[%sha%]</span><br/>
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
 no change
 [%- ELSIF change_count == 1 -%]
-<a href="APPROVED/[%document_id%]/change.html">1 change</a>
+<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="APPROVED/[%document_id%]/change.html">[%change_count%] changes</a>
+<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
 [%- END -%]
 </td>
 

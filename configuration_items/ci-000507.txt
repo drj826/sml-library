@@ -1,0 +1,14 @@
+>>>configuration_item.ci-000507
+
+title:: Default LaTeX Templates
+
+type:: package
+
+is_part_of:: ci-000476
+
+description:: This is a set of default LaTeX templates.  ``Default'' is
+the name of the style.
+
+index:: ci-000507
+
+<<<configuration_item

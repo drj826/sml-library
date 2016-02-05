@@ -1,13 +1,13 @@
 >>>requirement.rq-000301
 
-title:: Format a LaTeX Left Arrow Symbol
+title:: Render a LaTeX Left Arrow Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX left arrow symbol.
+description:: The software shall render a LaTeX left arrow symbol.
 
-index:: [id:rq-000301]; left arrow symbol!format LaTeX
+index:: [id:rq-000301]; left arrow symbol!render LaTeX
 
 <<<requirement

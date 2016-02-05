@@ -1,13 +1,13 @@
 >>>requirement.rq-000315
 
-title:: Format LaTeX Superscripted Text
+title:: Render LaTeX Superscripted Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX superscripted text.
+description:: The software shall render LaTeX superscripted text.
 
-index:: [id:rq-000315]; superscripted text!format LaTeX
+index:: [id:rq-000315]; superscripted text!render LaTeX
 
 <<<requirement

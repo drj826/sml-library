@@ -2,8 +2,10 @@
 
 configuration_item:: ci-000
 
-requirement::  rq-000
+requirement:: rq-000
 
-test::     tc-000
+test:: tc-000
+
+index:: [id:al-000]
 
 <<<allocation

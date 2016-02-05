@@ -1,0 +1,18 @@
+>>>configuration_item.ci-000503
+
+title:: SML Library
+
+type:: software
+
+depends_on:: ci-000004
+
+description:: The SML Library is a library of documentation about the
+Semantic Manuscript Language (SML). It contains user documentation as
+well as information about requirements, design and test.
+
+index:: ci-000503; SML Library
+
+This configuration item is managed as a project on GitHub at
+[url:https://github.com/drj826/sml-library]
+
+<<<configuration_item

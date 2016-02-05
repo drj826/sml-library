@@ -1,13 +1,13 @@
 >>>requirement.rq-000323
 
-title:: Format a LaTeX Command
+title:: Render a LaTeX Command
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX command.
+description:: The software shall render a LaTeX command.
 
-index:: [id:rq-000323]; command!format LaTeX
+index:: [id:rq-000323]; command!render LaTeX
 
 <<<requirement

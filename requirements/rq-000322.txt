@@ -1,14 +1,14 @@
 >>>requirement.rq-000322
 
-title:: Format a LaTeX User-Entered Text String
+title:: Render a LaTeX User-Entered Text String
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX user-entered text
+description:: The software shall render a LaTeX user-entered text
 string.
 
-index:: [id:rq-000322]; user-entered text string!format LaTeX
+index:: [id:rq-000322]; user-entered text string!render LaTeX
 
 <<<requirement

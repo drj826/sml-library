@@ -1,12 +1,10 @@
 >>>allocation.al-000182
 
-configuration_item:: ci-000003 # Parser.pm Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000171 # Validate Imply-Only Properties
+requirement:: rq-000171         # Validate Imply-Only Properties
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000182:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000182]
 

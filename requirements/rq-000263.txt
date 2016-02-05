@@ -1,6 +1,6 @@
 >>>requirement.rq-000263
 
-title:: Generate HTML List of Revisions
+title:: Render HTML version history
 
 is_part_of:: rq-000001
 
@@ -8,14 +8,14 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML list of revisions.
-The purpose of this listing is to enable readers to quickly understand
-why each version of the document was released. The content for the
-list of revisions comes from the author-maintained list of revisions
-in the document.  These are notes about each published version that
-provide readers a summary updates in each version.
+description:: The software shall render an HTML version history.  The
+purpose of this listing is to enable readers to quickly understand why
+each version of the document was released. The content for the version
+history comes from the author-maintained version history in the
+document.  These are notes about each published version that provide
+readers a summary updates in each version.
 
-index:: [id:rq-000263]; list of revisions!HTML; HTML list of revisions
+index:: [id:rq-000263]; version history!HTML; HTML version history
 
 = [g:SML:revisions] = [def:SML:revisions]
 

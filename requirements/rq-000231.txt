@@ -1,13 +1,13 @@
 >>>requirement.rq-000231
 
-title:: Format an HTML Copyright Symbol
+title:: Render an HTML Copyright Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML copyright symbol.
+description:: The software shall render an HTML copyright symbol.
 
-index:: [id:rq-000231]; copyright symbol!format HTML
+index:: [id:rq-000231]; copyright symbol!render HTML
 
 <<<requirement

@@ -1,12 +1,10 @@
 >>>allocation.al-000283
 
-configuration_item:: ci-000006 # SML Semantics
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000195 # Represent Semantic Entities
+requirement:: rq-000195         # Represent Semantic Entities
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000283:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000283]
 

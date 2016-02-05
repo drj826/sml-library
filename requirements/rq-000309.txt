@@ -1,13 +1,13 @@
 >>>requirement.rq-000309
 
-title:: Format a LaTeX Close Double Quote
+title:: Render a LaTeX Close Double Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX close double quote.
+description:: The software shall render a LaTeX close double quote.
 
-index:: [id:rq-000309]; double quote!format LaTeX
+index:: [id:rq-000309]; double quote!render LaTeX
 
 <<<requirement

@@ -1,6 +1,6 @@
 >>>requirement.rq-000282
 
-title:: Generate HTML Copyright Page
+title:: Render HTML Copyright Page
 
 is_part_of:: rq-000001
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML copyright page.  The
+description:: The software shall render an HTML copyright page.  The
 copyright page shall present the: (1) optional biographical note, (2)
 publisher's address, (3) copyright notice, (4) year of publication,
 (5) subsequent editions, (6) any additional copyright information, (7)

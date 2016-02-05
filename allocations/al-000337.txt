@@ -1,11 +1,10 @@
 >>>allocation.al-000337
 
-configuration_item:: ci-000381 # Division.pm
+configuration_item:: ci-000474  # SML Template System
 
-requirement::  rq-000206 # Render a Division According to a Style
+requirement:: rq-000206         # Render a Division According to a Style
 
-test::     tc-000015 # Division.pm Unit Test Case
-
+test:: tc-000043                # Test
 
 index:: [id:al-000337]
 

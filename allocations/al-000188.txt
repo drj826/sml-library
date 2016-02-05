@@ -1,13 +1,10 @@
 >>>allocation.al-000188
 
-configuration_item:: ci-000003 # Parser.pm Module
+configuration_item:: ci-000436 # SML::Part
 
-requirement::  rq-000188 # Remember Document Division Order
+requirement:: rq-000188        # Preserve Division Order
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-02-21:al-000188:yellow: This is partially implemented in
-publish.pl.  There is no implementation yet in Parser.pm.
+test:: tc-000043               # Test
 
 index:: [id:al-000188]
 

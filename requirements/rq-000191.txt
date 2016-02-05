@@ -1,18 +1,15 @@
 >>>requirement.rq-000191
 
-title:: Emit ~~Error~~ Message On Finding ~~Major~~ Invalid
-First-Order Document Semantics
+title:: Emit Error on Invalid Semantics
 
 is_part_of:: rq-000203
 
 type:: technical
 
 description:: The software shall emit an ~~error~~ message upon
-finding ~~major~~ invalid first-order document semantics.  A ~~major~~
-invalid semantics problem is one that prevents the production of
-meaningful document output. First-order document semantics are
-expressed as rules (axioms) in a [g:SML:library]'s [g:SML:ontology].
+finding invalid document semantics.  Document semantics are expressed
+as rules (axioms) in a [g:SML:library]'s [g:SML:ontology].
 
-index:: [id:rq-000191]; error!emit; first-order semantics
+index:: [id:rq-000191]; error!emit; semantics
 
 <<<requirement

@@ -1,6 +1,6 @@
 >>>requirement.rq-000274
 
-title:: Generate HTML List of Attachments
+title:: Render HTML List of Attachments
 
 is_part_of:: rq-000001
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML list of
+description:: The software shall render an HTML list of
 [g:SML:ATTACHMENT]s.  The purpose of this attachment is to enable
 readers to quickly navigate to any attachment in the document.
 

@@ -1,13 +1,13 @@
 >>>requirement.rq-000219
 
-title:: Format an HTML Revision Reference
+title:: Render an HTML Revision Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML revision reference.
+description:: The software shall render an HTML revision reference.
 
-index:: [id:rq-000219]; revision reference!format HTML
+index:: [id:rq-000219]; revision reference!render HTML
 
 <<<requirement

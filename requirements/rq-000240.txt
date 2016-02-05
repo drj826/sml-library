@@ -1,13 +1,13 @@
 >>>requirement.rq-000240
 
-title:: Format HTML Underlined Text
+title:: Render HTML Underlined Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format HTML underlined text.
+description:: The software shall render HTML underlined text.
 
-index:: [id:rq-000240]; underlined text!format HTML
+index:: [id:rq-000240]; underlined text!render HTML
 
 <<<requirement

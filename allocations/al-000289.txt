@@ -1,13 +1,10 @@
 >>>allocation.al-000289
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000506  # Default HTML URL_REF Template
 
-requirement::  rq-000210 # Render an HTML External References
+requirement:: rq-000210         # Render an HTML URL Reference
 
-test::     tc-000014 # Block.pm Unit Test Case
-
-
-
+test:: tc-000043                # Test
 
 index:: [id:al-000289]
 

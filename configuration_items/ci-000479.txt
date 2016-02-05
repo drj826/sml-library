@@ -4,6 +4,8 @@ title:: SML Applications
 
 type:: software
 
+is_part_of:: ci-000503
+
 description:: An SML application uses the SML Software Library to
 perform a specific function for a user like publishing a single
 document, publishing an entire library, or publishing special views of

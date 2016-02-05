@@ -1,10 +1,10 @@
 >>>allocation.al-000385
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000305
+requirement:: rq-000305         # Render a LaTeX Copyright Symbol
 
-test:: tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000385]
 

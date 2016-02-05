@@ -1,0 +1,11 @@
+>>>allocation.al-000241
+
+configuration_item:: ci-000003  # SML::Parser
+
+requirement:: rq-000115         # Validate Documents
+
+test:: tc-000041                # Demonstration
+
+index:: [id:al-000241]
+
+<<<allocation

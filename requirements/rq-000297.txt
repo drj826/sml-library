@@ -1,13 +1,13 @@
 >>>requirement.rq-000297
 
-title:: Format a LaTeX `Take Note' Indicator
+title:: Render a LaTeX `Take Note' Indicator
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX `take note' indicator.
+description:: The software shall render a LaTeX `take note' indicator.
 
-index:: [id:rq-000297]; `take note' indicator!format LaTeX
+index:: [id:rq-000297]; `take note' indicator!render LaTeX
 
 <<<requirement

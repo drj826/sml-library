@@ -1,11 +1,10 @@
 >>>allocation.al-000334
 
-configuration_item:: ci-000003 # Parser.pm
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000258 # Notify Users of Syntax Errors
+requirement:: rq-000258         # Warn Users of Syntax Errors
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000334]
 

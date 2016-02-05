@@ -1,13 +1,13 @@
 >>>requirement.rq-000300
 
-title:: Format a LaTeX Keystroke Symbol
+title:: Render a LaTeX Keystroke Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX keystroke symbol.
+description:: The software shall render a LaTeX keystroke symbol.
 
-index:: [id:rq-000300]; keystroke symbol!format LaTeX
+index:: [id:rq-000300]; keystroke symbol!render LaTeX
 
 <<<requirement

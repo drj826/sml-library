@@ -1,13 +1,13 @@
 >>>requirement.rq-000216
 
-title:: Format an HTML `thepage' Reference
+title:: Render an HTML `thepage' Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML `thepage' reference.
+description:: The software shall render an HTML `thepage' reference.
 
-index:: [id:rq-000216]; `thepage' reference!format HTML
+index:: [id:rq-000216]; `thepage' reference!render HTML
 
 <<<requirement

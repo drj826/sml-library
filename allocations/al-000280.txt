@@ -1,13 +1,10 @@
 >>>allocation.al-000280
 
-configuration_item:: ci-000004 # SML Software Library
+configuration_item:: ci-000004  # SML Core Software
 
-requirement::  rq-000199 # Satisfy Technical Requirements
+requirement:: rq-000199         # Satisfy Technical Requirements
 
-test::     tc-000040 # Analysis
-
-outcome::2012-03-25:al-000280:yellow: Many software functions are not
-yet implemented.
+test:: tc-000040                # Analysis
 
 index:: [id:al-000280]
 

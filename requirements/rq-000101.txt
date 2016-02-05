@@ -1,6 +1,6 @@
 >>>requirement.rq-000101
 
-title:: Parse SML Comment Divisions
+title:: Parse an SML Comment Division
 
 is_part_of:: rq-000099
 
@@ -10,7 +10,7 @@ type:: functional
 
 associated:: rq-000100
 
-description:: The software shall parse SML comment divisions.  The
+description:: The software shall parse an SML comment division.  The
 purpose of a comment division is to ``comment out'' a sequence of
 lines so they are ignored by processing applications.  A comment
 division directs the processing application to unconditionally ignore

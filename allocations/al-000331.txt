@@ -1,10 +1,10 @@
 >>>allocation.al-000331
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000252 # Represent an Index Reference
+requirement:: rq-000252         # Represent an Index Reference
 
-test::     tc-000041 # Demonstration
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000331]
 

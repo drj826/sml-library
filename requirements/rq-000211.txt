@@ -1,6 +1,6 @@
 >>>requirement.rq-000211
 
-title:: Format an HTML Footnote Reference
+title:: Render an HTML Footnote Reference
 
 is_part_of:: rq-000205
 

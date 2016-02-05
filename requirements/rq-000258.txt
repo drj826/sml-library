@@ -1,20 +1,20 @@
 >>>requirement.rq-000258
 
-title:: Notify Users of Syntax Errors
+title:: Warn Users of Syntax Errors
 
 is_part_of:: rq-000119
 
 type:: technical
 
-description:: The software shall notify users of syntax errors.  The
+description:: The software shall warn users of syntax errors.  The
 purpose of this requirement is to make it easy for users to find and
 fix syntax errors in SML document files.  Syntax error notifications
 should specify the file and line number of the syntax error so the
 user knows exactly where to look for the problem.  Syntax error
-notifications should also provide an informative message that
-describes the syntax error.
+warnings should also provide an informative message that describes the
+syntax error.
 
-index:: [id:rq-000258]; notification!syntax error
+index:: [id:rq-000258]; warning!syntax error
 
 Examples of possible syntax errors include:
 

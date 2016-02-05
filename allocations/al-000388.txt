@@ -1,10 +1,10 @@
 >>>allocation.al-000388
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000308
+requirement:: rq-000308         # Render a LaTeX Open Double Quote
 
-test:: tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000388]
 

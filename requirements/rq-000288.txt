@@ -1,6 +1,6 @@
 >>>requirement.rq-000288
 
-title:: Format a LaTeX Index Reference
+title:: Render a LaTeX Index Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000252
 
-description:: The software shall format a LaTeX index reference.
+description:: The software shall render a LaTeX index reference.
 
-index:: [id:rq-000288]; index reference!format LaTeX
+index:: [id:rq-000288]; index reference!render LaTeX
 
 <<<requirement

@@ -1,13 +1,13 @@
 >>>requirement.rq-000238
 
-title:: Format an HTML Section Sign
+title:: Render an HTML Section Sign
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML section sign.
+description:: The software shall render an HTML section sign.
 
-index:: [id:rq-000238]; section sign!format HTML
+index:: [id:rq-000238]; section sign!render HTML
 
 <<<requirement

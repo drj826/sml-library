@@ -1,6 +1,6 @@
 >>>requirement.rq-000286
 
-title:: Format a LaTeX Glossary Reference
+title:: Render a LaTeX Glossary Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000025
 
-description:: The software shall format a LaTeX glossary reference.
+description:: The software shall render a LaTeX glossary reference.
 
-index:: [id:rq-000286]; glossary reference!format LaTeX
+index:: [id:rq-000286]; glossary reference!render LaTeX
 
 <<<requirement

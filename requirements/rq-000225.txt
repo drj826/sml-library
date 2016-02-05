@@ -1,13 +1,13 @@
 >>>requirement.rq-000225
 
-title:: Format an HTML Frowny Symbol
+title:: Render an HTML Frowny Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML frowny symbol. :-(
+description:: The software shall render an HTML frowny symbol. :-(
 
-index:: [id:rq-000225]; frowny symbol!format HTML
+index:: [id:rq-000225]; frowny symbol!render HTML
 
 <<<requirement

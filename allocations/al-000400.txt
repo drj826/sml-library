@@ -1,10 +1,10 @@
 >>>allocation.al-000400
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000320
+requirement:: rq-000320         # Render a LaTeX File Name
 
-test:: tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000400]
 

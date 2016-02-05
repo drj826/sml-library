@@ -1,6 +1,6 @@
 >>>requirement.rq-000214
 
-title:: Format an HTML Index Reference
+title:: Render an HTML Index Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000252
 
-description:: The software shall format an HTML index reference.
+description:: The software shall render an HTML index reference.
 
-index:: [id:rq-000214]; index reference!format HTML
+index:: [id:rq-000214]; index reference!render HTML
 
 <<<requirement

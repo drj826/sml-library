@@ -1,13 +1,13 @@
 >>>requirement.rq-000235
 
-title:: Format an HTML Close Double Quote
+title:: Render an HTML Close Double Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML close double quote.
+description:: The software shall render an HTML close double quote.
 
-index:: [id:rq-000235]; double quote!format HTML
+index:: [id:rq-000235]; double quote!render HTML
 
 <<<requirement
