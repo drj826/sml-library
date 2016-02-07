@@ -9,6 +9,10 @@ self => an SML::Listing object
 -%]
 [%-
 
+id             = self.get_id
+library        = self.get_library
+ps             = library.get_property_store
+util           = library.get_util
 listing_number = self.get_number
 anchor         = 'LISTING.' _ listing_number
 
@@ -19,8 +23,25 @@ anchor         = 'LISTING.' _ listing_number
 
 [%- INCLUDE division_heading.tt label = 'Listing' -%]
 
+[%- IF ps.has_property(id,'language') -%]
+[%- language = ps.get_property_text(id,'language') -%]
+[%- ELSE -%]
+[%- language = '' -%]
+[%- END -%]
+
+[%# PERL %]
+[%- IF language == 'perl' OR language == 'Perl' -%]
+[%- code = self.get_content -%]
+<div class="syntax_highlight_perl">
+[%- util.syntax_highlight_perl(code) -%]
+</div>
+
+[%# ANYTHING ELSE %]
+[%- ELSE -%]
 <pre>
 [%-FILTER html-%][%-self.get_content-%][%-END-%]
 </pre>
+
+[%- END -%]
 
 </div>

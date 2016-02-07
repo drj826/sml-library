@@ -328,7 +328,7 @@ a1e9c133ca38852f7ae3e5cdd79ba69a0156f2d6 ci-000396
 f67b4cca9ec4bd11b3a47d6e70d6d55577272555 ci-000397
 884cd9ff8c1934e9f48e5b5bd5514664fed8efaf ci-000400
 08e249a4952b862fac4d698e98099251265fa54e ci-000401
-a74b3df4ca553b289cf3b34efd3a81fd9f2bc5f7 ci-000410
+e5a3a747f3a20f04c00764380217c09741e7cec9 ci-000410
 279bf2fa2962a9a8b57afd601f360864ee46e5b5 ci-000415
 48f0054f2523076a141afe988225103c58da73af ci-000416
 22878ab7681bc384c5ea899bf3441b06c973f1d2 ci-000420
@@ -340,7 +340,7 @@ f96b80ac420204fe87b38d6e219b61ddee842f51 ci-000429
 31d84420d5264de5d1eb9be5e081d3c3f8b18b42 ci-000432
 c761a631506916979f24b6113253de4eea6016c4 ci-000433
 923d545ad567386456ef08878d56b75fa5709918 ci-000435
-b80733b835f7f520bf60d86a0fc7fd082b6e0834 ci-000436
+5b21dacb0b275e98cc7f2cac0ba1fd2b2877e79c ci-000436
 669c39b3313f2529a793d15b0a62bebe2c70a885 ci-000437
 8b9e14b2348c8a7316fdcd7aad2a6fe494ac8d6a ci-000438
 d6fdb0bc12dcc95e1de9aaa8864d4db6a8dbff3e ci-000439
@@ -412,6 +412,7 @@ b39db98dd251b72e322662399d26b9eafbadf7ef ci-000503
 7008697bb7df8d355e4dafa739ff568d512a3207 ci-000505
 b207792da1fd8c0896045b314d48bc4b2da4809a ci-000506
 a49f4dc779ae6346aa88b8bba8ee2fa2c5a82fdd ci-000507
+766a217f5d879d5e52e9ead0e6c4d5320874dff5 ci-000508
 b96fbbe3891054f7d61cd479161b10c3aab84724 cmmi
 24c1344155fdfea8b4a489bc45abd155e4ab531d cms15
 4963549123b4b3497a9d81c0e7a9bccba92d21fe comments
@@ -547,6 +548,7 @@ e904ed954d33e24fec923abbea5e281c215ed207 lis-buildallocationtitles-pm
 8f9957b9cacd41489521c85d08e164a3ec2b0f3b lis-bulletlist-pm
 127eac410d5c6e44171a5b2af2beb84fe4cab676 lis-citationreference-pm
 26d2f672601e3cbc8e2ca1e5f345e6d2251b78a7 lis-computer-joke
+29431b94c9e655d0de7c9cae4160ec52309d29b0 lis-continuously_publish_library-bat
 904a465ee053e4ea49abfc7efb67c5591ea69d2a lis-crossreference-pm
 f234d2cb9dab2b04c04e0cbb44726e4bdb8c40fb lis-definition-list-item-pm
 22f7e31adad631a93e9878bf9f153a5535bc72ef lis-definition-pm
@@ -590,9 +592,10 @@ c0a03450b9af7b415c6e66246e09d27265a522cb lis-indexentry-pm
 70a33e04388b06ef7477fa665c0d65759b585043 lis-item-pm-unit-test-case
 b01173ba1725a433ae59b64b1fdbcc5e5e13cfd8 lis-item-pm-unit-test-results
 351a11a184d2cc260d330a6bffeac929ce61bab1 lis-lib-ontology-config
-64bd5b34588cd6bac9dcdd9c1d3c33ee39db556c lis-library-pm
+f2dbd8d32c677c47d49a0eaeb7d0d21986cd1bdd lis-library-pm
 aec29f828e1295ab79f7b4eafac657b6dd02170e lis-library-pm-unit-test-case
 b710ba9db35d456cf135c81973ae0415be969997 lis-library-pm-unit-test-results
+e08b7f879c529ac969866f4a336db6d7da101700 lis-library-pod
 da0aa070aa7d57e6b0860ca14831b2d60cf068a0 lis-line-pm
 d1ef3132586267f935e908e9c2067fea56569284 lis-line-pm-unit-test-case
 b3657615921df1f9eb12587442948e2d48628959 lis-line-pm-unit-test-results
@@ -614,11 +617,11 @@ df3bbdf4def1a3965d2070594b72e43c7a840ea0 lis-options-pm
 8d4eaea7630ddb4505930cd751b134d50df75b77 lis-paragraph-pm
 ac22bc26abc8b8ad525cd2da6a617e6d8191fd7d lis-paragraph-pm-unit-test-case
 86a40241b278b3baffb2a4bb1377ffe2860ab173 lis-paragraph-pm-unit-test-results
-ab1e550cf7efdaf483c3bc1535fe48d8d9433e96 lis-parser-pm
+79a868f2b61a5be7d2019f788a41dde848948cf5 lis-parser-pm
 1c85e1d777342dfdf5ecff310f1eb271eeda0f51 lis-parser-pm-unit-test-case
 9b82916c62b67f1bf6e37f85423627330d5ce324 lis-parser-pm-unit-test-results
-a6ec3a6a0de4c2669b6d7250fdbbcf1de99bd9a8 lis-part-pm
-be1af9b05b81eaa9d9144c0f68c0f61d48b212f5 lis-part-pod
+7e3a63e8f1b7c65e567814b2660689553f55a7ec lis-part-pm
+f8380aae65351dcb2832b9628f4b7d6e3dc9e8ba lis-part-pod
 de8612827e6ccbe6567a25afc7b3232e4bca1147 lis-parts2sections-pm
 561c78a8611dd86740abd93c1db2c8f3d25817d6 lis-pathreference-pm
 c05557674e53e077402a044ab4f84e4c43593ccd lis-pod2txt-pm
@@ -681,7 +684,7 @@ d5cb9dcd1bc12c266611e7bcfb4a9e21416e0910 lis-titlereference-pm
 c01ee6ebdcb2a30ab61a7fb05f71202e7eb9d809 lis-update_sha_digests-bat
 c5c737f0e3f80bd525268bbc060f593e280e0f4e lis-update_sha_digests-pl
 40b7affedd82dfe0199125f41bf4e3a137b3eff8 lis-urlreference-pm
-a8df6b7872b442593ead54cf5c64b74666939b34 lis-util-pm
+2e6997c355ad03a1f0e87d984b961bbf85f4b65e lis-util-pm
 9e483a897d5e75036e66f34f3c066d62fb4c8898 lis-util-pm-unit-test-case
 6c69b657d384c7112962c087073b33ba21a97d4c lis-util-pm-unit-test-results
 17abbd4502122e9a02e3ff5f0fc4f12c583943bb lis-value-pm
@@ -1068,7 +1071,7 @@ a2b9a132954ab2a0f5f4f9cd47c1810aa3270f73 sml-content-summary
 e4ac5976b165782fc87665f62309cf6f0091b2f2 sml-forward
 388e9fb86bfb5299835bf292a1d0ea1fd30a921b sml-language
 8996e9cfa81b0b59669f7a93c9b076a6934f6cc2 sml-presentation-summary
-4b28348797e599d0a87e7a9fded824c11f5bb467 sml-sdd
+e32ac6640e01edf21ee5f4c1b44c8f44e1ce1a68 sml-sdd
 95c2d9cc063a8d5a350ba20952db08a199b6e197 sml-special-summary
 49cdfbe25acc92adccd195023e19d49240d49998 sml-srd
 371b4f82d544517b008479b26a4b65b57d8c1ad7 sml-structure-summary

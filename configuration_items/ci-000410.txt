@@ -28,6 +28,14 @@ image:: files/images/class-diagram-library.png
 
 <<<FIGURE
 
+>>>LISTING.lis-library-pod
+
+title:: SML::Library POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Library.pm
+
+<<<LISTING
+
 >>>LISTING.lis-library-pm
 
 title:: Library.pm Code Listing

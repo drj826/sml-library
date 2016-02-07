@@ -139,4 +139,18 @@ SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; ba
 P.num { color: #aaaaaa; text-align: right; font-size: 8pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt; }
 DIV.table { margin: auto; width: 95%; }
 DIV.tableRule { width: 100%; background-color: #888888; height: 2px; margin-top: 6px; margin-bottom: 6px; }
+.syntax_highlight_perl {
+    margin-left: 10px;
+    margin-top:5px;
+    margin-bottom: 5px;
+    white-space: pre;
+    background: #0a0a0a;
+    color: #cccccc;
+    font-family: monospace;
+    font-size: 93%;
+    border: 1px solid #555555;
+    overflow: auto;
+    padding: 10px;
+    width: 700px;
+}
 </style>
