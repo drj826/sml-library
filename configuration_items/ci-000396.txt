@@ -4,7 +4,9 @@ title:: SML::Figure Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510                  # SML Perl Modules
+
+specializes:: ci-000466                 # SML::Structure Class
 
 description:: An SML::Figure represents a figure.  A figure could be
 an image file or ascii art.

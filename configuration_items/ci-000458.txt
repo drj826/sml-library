@@ -4,7 +4,7 @@ title:: SML::OntologyRule Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::OntologyRule declares an axiom about the
 ontology. An ontology is composed of a collection of ontology rules.

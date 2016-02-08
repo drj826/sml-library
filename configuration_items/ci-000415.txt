@@ -4,7 +4,9 @@ title:: SML::Definition Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000386         # SML::Element Class
 
 description:: The SML::Definition class represents a term/definition
 pair.  The defined term may also belong to a namespace to disambiguate

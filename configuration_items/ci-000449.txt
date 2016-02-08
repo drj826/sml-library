@@ -4,7 +4,9 @@ title:: SML::GlossaryDefinitionReference Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
 
 description:: An SML::GlossaryDefinitionReference represents a
 reference to a glossary definition.  The referenced glossary

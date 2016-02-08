@@ -4,7 +4,7 @@ title:: SML::Options Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: The SML::Options class remembers numerous options that
 affect software operation.

@@ -4,7 +4,7 @@ title:: SML::AcronymList Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::AcronymList represents a list of acronym entries
 each consisting of an acronym and a definition.

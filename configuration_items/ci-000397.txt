@@ -4,7 +4,9 @@ title:: SML::Listing Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000466         # SML::Structure Class
 
 description:: An SML::Listing represents a listing of textual content
 such as a code listing.

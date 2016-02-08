@@ -4,7 +4,9 @@ title:: SML::Entity Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000381         # SML::Division Class
 
 description:: The SML::Entity class represents an [g:SML1:entity]. The
 [g:SML:library] [g:SML:ontology] declares the entities allowed in the

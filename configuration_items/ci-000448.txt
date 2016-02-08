@@ -4,7 +4,9 @@ title:: SML::FootnoteReference Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String
 
 description:: An SML::FootnoteReference represents a reference to a
 footnote.  The referenced footnote may be anywhere in the current

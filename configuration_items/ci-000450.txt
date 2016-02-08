@@ -4,7 +4,9 @@ title:: SML::GlossaryTermReference Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
 
 description:: An SML::GlossaryTermReference represents a reference to
 a glossary term.  The referenced glossary term must be somewhere in

@@ -4,7 +4,9 @@ title:: SML::Listitem Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000387         # SML::Block Class
 
 description:: An SML::Listitem represents an item in some type of list
 like a bullet list, enumerated list, or definition list.

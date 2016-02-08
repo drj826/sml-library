@@ -52,8 +52,8 @@ self => an SML::Entity object (name = 'configuration_item')
 [% INCLUDE entity_property_row.tt property_name = 'version'      label = 'version:'      %]
 [% INCLUDE entity_property_row.tt property_name = 'allocation'   label = 'allocations:'  %]
 [% INCLUDE entity_property_row.tt property_name = 'order'        label = 'order:'        %]
-[% INCLUDE entity_property_row.tt property_name = 'generalizes'  label = 'generalizes:'  %]
 [% INCLUDE entity_property_row.tt property_name = 'specializes'  label = 'specializes:'  %]
+[% INCLUDE entity_property_row.tt property_name = 'generalizes'  label = 'generalizes:'  %]
 [% INCLUDE entity_property_row.tt property_name = 'review'       label = 'review:'       %]
 [% INCLUDE entity_property_row.tt property_name = 'outcome'      label = 'outcome:'      %]
 

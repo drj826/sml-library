@@ -4,7 +4,9 @@ title:: SML::CitationReference Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
 
 description:: An SML::CitationReference represents a reference to a
 source citation.  The cited source must exist in the list of

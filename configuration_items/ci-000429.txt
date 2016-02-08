@@ -4,7 +4,9 @@ title:: SML::TableRow Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000466         # SML::Structure Class
 
 description:: An SML::TableRow represents a single row in a table.
 
@@ -31,7 +33,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/TableRow.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

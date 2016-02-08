@@ -4,7 +4,7 @@ title:: SML::References Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::References object contains source references
 that may be cited in document text.

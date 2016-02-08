@@ -4,7 +4,7 @@ title:: SML::Value Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::Value represents a sequence of characters.
 

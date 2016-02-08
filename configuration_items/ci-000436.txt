@@ -4,7 +4,7 @@ title:: SML::Part Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::Part is an abstract class for a document part
 (like a paragrah, section, table, list item, glossary entry, bold

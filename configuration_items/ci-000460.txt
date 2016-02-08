@@ -4,7 +4,9 @@ title:: SML::PageReference Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
 
 description:: An SML::PageReference represents a reference to any
 division ID which should be presented as the page on which the

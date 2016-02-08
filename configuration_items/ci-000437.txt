@@ -4,7 +4,7 @@ title:: SML::Ontology Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: The SML::Ontology class represents an [g:SML:ontology].
 

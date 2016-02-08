@@ -4,7 +4,9 @@ title:: SML::DefinitionListItem Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000424         # SML::ListItem Class
 
 description:: An SML::DefinitionListItem represents an entry in a
 definition list.  This is a list of term/definition pairs.

@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000510
 
-title:: Perl Modules
+title:: SML Perl Modules
 
 type:: package
 

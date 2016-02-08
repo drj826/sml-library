@@ -4,7 +4,9 @@ title:: SML::Element Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Module
+
+specializes:: ci-000387         # SML::Block Class
 
 description:: An SML::Element represents a name/value pair where the
 value can be no more complicated than a paragraph.

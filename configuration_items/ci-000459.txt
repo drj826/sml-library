@@ -4,7 +4,9 @@ title:: SML::Outcome Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000386         # SML::Element Class
 
 description:: An SML::Outcome represents the result of some sort of
 test, audit, review, or inspection event.  The subject of the test is

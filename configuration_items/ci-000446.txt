@@ -4,7 +4,7 @@ title:: SML::Error Class
 
 type:: software
 
-is_part_of:: ci-000510
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::Error represents an error encountered during
 parsing, reasoning about, or publishing of SML text.
