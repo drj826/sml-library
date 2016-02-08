@@ -18,6 +18,14 @@ image:: files/images/class-diagram-block.png
 
 <<<FIGURE
 
+>>>LISTING.lis-block-pod
+
+title:: SML::Block POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Block.pm
+
+<<<LISTING
+
 >>>LISTING.lis-block-pm
 
 title:: Block.pm Code Listing

@@ -25,21 +25,39 @@ bgcolor          = '#eeeeee'
 -%]
 
 [%- IF library.has_published_library_property_value('DRAFT','version') -%]
-[%- draft_version = library.get_published_library_property_value('DRAFT','version') -%]
+  [%-
+  draft_version          = library.get_published_library_property_value('DRAFT','version')
+  draft_previous_version = library.get_published_library_property_value('DRAFT','previous_version')
+  -%]
 [%- ELSE -%]
-[%- draft_version = '' -%]
+  [%-
+  draft_version          = ''
+  draft_previous_version = ''
+  -%]
 [%- END -%]
 
 [%- IF library.has_published_library_property_value('REVIEW','version') -%]
-[%- review_version = library.get_published_library_property_value('REVIEW','version') -%]
+  [%-
+  review_version          = library.get_published_library_property_value('REVIEW','version')
+  review_previous_version = library.get_published_library_property_value('REVIEW','previous_version')
+  -%]
 [%- ELSE -%]
-[%- review_version = '' -%]
+  [%-
+  review_version          = ''
+  review_previous_version = ''
+  -%]
 [%- END -%]
 
 [%- IF library.has_published_library_property_value('APPROVED','version') -%]
-[%- approved_version = library.get_published_library_property_value('APPROVED','version') -%]
+  [%-
+  approved_version          = library.get_published_library_property_value('APPROVED','version')
+  approved_previous_version = library.get_published_library_property_value('APPROVED','previous_version')
+  -%]
 [%- ELSE -%]
-[%- approved_version = '' -%]
+  [%-
+  approved_version          = ''
+  approved_previous_version = ''
+  -%]
 [%- END -%]
 
 [%- WRAPPER overall_page.tt -%]
@@ -54,7 +72,11 @@ bgcolor          = '#eeeeee'
 
 [%# DRAFT COLUMN HEADER %]
 <td style="background-color:[%lite_orange%];width:20%;text-align:center;" colspan="2">
-<span style="font-weight:bold;">DRAFT [%draft_version%]</span>
+[%- IF library.has_published_file('DRAFT','index.html') -%]
+<span style="font-weight:bold;"><a href="DRAFT/LIBRARY/index.html">DRAFT [%draft_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">DRAFT</span>
+[%- END -%]
 [%- IF library.has_published_library_property_value('DRAFT','published') -%]
 <br/>
 <span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('DRAFT','published') %]</span>
@@ -65,16 +87,20 @@ bgcolor          = '#eeeeee'
 [%- IF draft_change_count == 0 -%]
 no changes
 [%- ELSIF draft_change_count == 1 -%]
-<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">1 change since [%draft_previous_version%]</a>
 [%- ELSE -%]
-<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%draft_previous_version%]</a>
 [%- END -%]
 [%- END -%]
 </td>
 
 [%# REVIEW COLUMN HEADER %]
 <td style="background-color:[%lite_green%];width:20%;text-align:center;" colspan="2">
-<span style="font-weight:bold;">REVIEW [%review_version%]</span>
+[%- IF library.has_published_file('REVIEW','index.html') -%]
+<span style="font-weight:bold;"><a href="REVIEW/LIBRARY/index.html">REVIEW [%review_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">REVIEW</span>
+[%- END -%]
 [%- IF library.has_published_library_property_value('REVIEW','published') -%]
 <br/>
 <span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('REVIEW','published') %]</span>
@@ -85,16 +111,20 @@ no changes
 [%- IF draft_change_count == 0 -%]
 no changes
 [%- ELSIF draft_change_count == 1 -%]
-<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change since [%review_previous_version%]</a>
 [%- ELSE -%]
-<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%review_previous_version%]</a>
 [%- END -%]
 [%- END -%]
 </td>
 
 [%# APPROVED COLUMN HEADER %]
 <td style="background-color:[%lite_blue%];width:20%;text-align:center;" colspan="2">
-<span style="font-weight:bold;">APPROVED [%approved_version%]</span>
+[%- IF library.has_published_file('APPROVED','index.html') -%]
+<span style="font-weight:bold;"><a href="APPROVED/LIBRARY/index.html">APPROVED [%approved_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">APPROVED</span>
+[%- END -%]
 [%- IF library.has_published_library_property_value('APPROVED','published') -%]
 <br/>
 <span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('APPROVED','published') %]</span>
@@ -105,9 +135,9 @@ no changes
 [%- IF draft_change_count == 0 -%]
 no changes
 [%- ELSIF draft_change_count == 1 -%]
-<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change</a>
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change since [%approved_previous_version%]</a>
 [%- ELSE -%]
-<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%approved_previous_version%]</a>
 [%- END -%]
 [%- END -%]
 </td>

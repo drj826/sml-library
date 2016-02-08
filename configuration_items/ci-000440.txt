@@ -21,6 +21,14 @@ image:: files/images/class-diagram-acronym-term-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-acronymtermreference-pod
+
+title:: SML::AcronymTermReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Acronymtermreference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-acronymtermreference-pm
 
 title:: AcronymTermReference.pm Code Listing

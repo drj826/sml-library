@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000509
 
-title:: Configuration Files
+title:: SML Core Software Configuration Files
 
 type:: package
 
