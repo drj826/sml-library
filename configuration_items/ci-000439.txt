@@ -4,7 +4,7 @@ title:: SML::AcronymList Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::AcronymList represents a list of acronym entries
 each consisting of an acronym and a definition.
@@ -18,6 +18,14 @@ title:: SML::AcronymList Class Diagram
 image:: files/images/class-diagram-acronym-list.png
 
 <<<FIGURE
+
+>>>LISTING.lis-acronymlist-pod
+
+title:: SML::AcronymList POD
+
+plugin:: Pod2Txt ../SML/lib/SML/AcronymList.pm
+
+<<<LISTING
 
 >>>LISTING.lis-acronymlist-pm
 

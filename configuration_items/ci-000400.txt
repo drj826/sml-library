@@ -4,7 +4,7 @@ title:: SML::Source Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Source represents a bibliographic source
 referenced in the text.

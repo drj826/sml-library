@@ -4,7 +4,7 @@ title:: SML::Element Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Element represents a name/value pair where the
 value can be no more complicated than a paragraph.

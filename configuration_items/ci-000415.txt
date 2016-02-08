@@ -4,7 +4,7 @@ title:: SML::Definition Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML::Definition class represents a term/definition
 pair.  The defined term may also belong to a namespace to disambiguate

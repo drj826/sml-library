@@ -1,0 +1,13 @@
+>>>configuration_item.ci-000509
+
+title:: Configuration Files
+
+type:: package
+
+is_part_of:: ci-000004
+
+description:: This is a package for SML Core Software configuration files.
+
+index:: ci-000509; configuration files
+
+<<<configuration_item

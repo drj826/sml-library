@@ -4,7 +4,7 @@ title:: SML::Structure Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Structure is a part of a document such as a
 section, table, figure, or list.

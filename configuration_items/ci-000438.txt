@@ -4,7 +4,7 @@ title:: SML::String Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::String represents a sequence of characters.
 

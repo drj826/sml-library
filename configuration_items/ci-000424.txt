@@ -4,7 +4,7 @@ title:: SML::Listitem Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Listitem represents an item in some type of list
 like a bullet list, enumerated list, or definition list.

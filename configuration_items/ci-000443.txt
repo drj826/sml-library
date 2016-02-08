@@ -4,7 +4,7 @@ title:: SML::CrossReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::CrossReference represents a reference to any
 other division ID in the library. The cited division must exist in the

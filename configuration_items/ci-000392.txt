@@ -4,7 +4,7 @@ title:: SML::Section Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML::Section class represents a document section.
 Sections exist in sequences and cannot be nested.  This may seem

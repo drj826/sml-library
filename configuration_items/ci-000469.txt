@@ -4,7 +4,7 @@ title:: SML::Triple Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Triple represents a subject, predicate, object
 triple.

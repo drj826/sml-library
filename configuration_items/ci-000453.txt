@@ -4,7 +4,7 @@ title:: SML::Index Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML::Index class represents a collection of index
 entries with their locations in the text.

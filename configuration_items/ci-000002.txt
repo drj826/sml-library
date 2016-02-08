@@ -4,7 +4,7 @@ title:: SML Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML class provides a convenient mechanism for
 application writers pull SML functionality into their application.
@@ -17,6 +17,14 @@ title:: SML Class Diagram
 image:: files/images/class-diagram-sml.png
 
 <<<FIGURE
+
+>>>LISTING.lis-sml-pod
+
+title:: SML POD
+
+plugin:: Pod2Txt ../SML/lib/SML.pm
+
+<<<LISTING
 
 >>>LISTING.lis-sml-pm
 

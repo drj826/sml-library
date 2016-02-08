@@ -4,7 +4,7 @@ title:: SML::EnumeratedList Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::EnumeratedList represents a list of enumerated
 items each consisting of at most paragraph of text.  Enumerated lists

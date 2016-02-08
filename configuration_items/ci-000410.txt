@@ -4,7 +4,7 @@ title:: SML::Library Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: SML::Library is the central class in the design. A
 library contains a collection of related [g:SML:DOCUMENT]s.  These

@@ -4,7 +4,7 @@ title:: SML::Reasoner Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The Reasoner.pm module implements the SML::Reasoner
 class (a semantic reasoner).  A semantic reasoner, reasoning engine,

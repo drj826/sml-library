@@ -4,7 +4,7 @@ title:: SML::Figure Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Figure represents a figure.  A figure could be
 an image file or ascii art.

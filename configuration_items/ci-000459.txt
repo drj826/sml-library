@@ -4,7 +4,7 @@ title:: SML::Outcome Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::Outcome represents the result of some sort of
 test, audit, review, or inspection event.  The subject of the test is

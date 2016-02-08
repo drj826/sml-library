@@ -4,7 +4,7 @@ title:: SML::EmailAddress Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::EmailAddress represents a reference to an Email
 Address.

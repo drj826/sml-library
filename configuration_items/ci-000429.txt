@@ -4,7 +4,7 @@ title:: SML::TableRow Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::TableRow represents a single row in a table.
 

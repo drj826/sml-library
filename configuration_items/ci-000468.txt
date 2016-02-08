@@ -4,7 +4,7 @@ title:: SML::TitleReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::TitleReference represents a reference to any
 title in the library.

@@ -4,7 +4,7 @@ title:: SML::Parser Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML::Parser class parses raw text lines into
 [g:SML:division] objects.  A parser object parses according to the

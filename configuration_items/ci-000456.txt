@@ -4,7 +4,7 @@ title:: SML::LookupReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::LookupReference represents a reference to any
 property value.  The reference specifies the division ID and property

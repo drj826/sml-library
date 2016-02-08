@@ -4,7 +4,7 @@ title:: SML::FileReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::FileReference represents a reference to any
 file.  The referenced file ~~does not~~ need to be in the library.

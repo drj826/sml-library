@@ -4,7 +4,7 @@ title:: SML::FootnoteReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::FootnoteReference represents a reference to a
 footnote.  The referenced footnote may be anywhere in the current

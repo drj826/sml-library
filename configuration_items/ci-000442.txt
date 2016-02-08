@@ -4,7 +4,7 @@ title:: SML::CitationReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::CitationReference represents a reference to a
 source citation.  The cited source must exist in the list of

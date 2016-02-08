@@ -4,7 +4,7 @@ title:: SML::PathReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::PathReference represents a reference to any
 path.  The referenced path ~~does not~~ need to be in the library.

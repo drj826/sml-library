@@ -53,7 +53,7 @@ bgcolor          = '#eeeeee'
 <td style="font-weight:bold;width:40%;" colspan="3"></td>
 
 [%# DRAFT COLUMN HEADER %]
-<td style="background-color:[%orange%];width:20%;text-align:center;" colspan="2">
+<td style="background-color:[%lite_orange%];width:20%;text-align:center;" colspan="2">
 <span style="font-weight:bold;">DRAFT [%draft_version%]</span>
 [%- IF library.has_published_library_property_value('DRAFT','published') -%]
 <br/>
@@ -73,7 +73,7 @@ no changes
 </td>
 
 [%# REVIEW COLUMN HEADER %]
-<td style="background-color:[%green%];width:20%;text-align:center;" colspan="2">
+<td style="background-color:[%lite_green%];width:20%;text-align:center;" colspan="2">
 <span style="font-weight:bold;">REVIEW [%review_version%]</span>
 [%- IF library.has_published_library_property_value('REVIEW','published') -%]
 <br/>
@@ -93,7 +93,7 @@ no changes
 </td>
 
 [%# APPROVED COLUMN HEADER %]
-<td style="background-color:[%blue%];width:20%;text-align:center;" colspan="2">
+<td style="background-color:[%lite_blue%];width:20%;text-align:center;" colspan="2">
 <span style="font-weight:bold;">APPROVED [%approved_version%]</span>
 [%- IF library.has_published_library_property_value('APPROVED','published') -%]
 <br/>

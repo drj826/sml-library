@@ -4,7 +4,7 @@ title:: SML::BulletList Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::BulletList represents a list of bullet items
 each consisting of at most paragraph of text.  Bullet lists may be

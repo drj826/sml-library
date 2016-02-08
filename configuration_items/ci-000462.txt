@@ -4,7 +4,7 @@ title:: SML::Publisher Class
 
 type:: software
 
-is_part_of:: ci-000004          # SML Software Library
+is_part_of:: ci-000510          # SML Software Library
 
 uses:: ci-000474                # Template system
 

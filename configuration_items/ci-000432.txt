@@ -4,7 +4,7 @@ title:: SML::DefinitionListItem Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::DefinitionListItem represents an entry in a
 definition list.  This is a list of term/definition pairs.

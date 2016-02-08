@@ -4,7 +4,7 @@ title:: SML::AcronymTermReference Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: An SML::AcronymTermReference represents a reference to
 an acronym.  Such a reference is used by an author to point to an
