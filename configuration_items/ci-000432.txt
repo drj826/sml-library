@@ -21,6 +21,14 @@ image:: files/images/class-diagram-definition-list-item.png
 
 <<<FIGURE
 
+>>>LISTING.lis-definitionlistitem-pod
+
+title:: SML::DefinitionListItem POD
+
+plugin:: Pod2Txt ../SML/lib/SML/DefinitionListItem.pm
+
+<<<LISTING
+
 >>>LISTING.lis-definition-list-item-pm
 
 title:: DefinitionListItem.pm
@@ -34,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/DefinitionListItem.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

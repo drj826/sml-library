@@ -25,6 +25,14 @@ image:: files/images/class-diagram-citation-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-citationreference-pod
+
+title:: SML::CitationReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/CitationReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-citationreference-pm
 
 title:: CitationReference.pm Code Listing

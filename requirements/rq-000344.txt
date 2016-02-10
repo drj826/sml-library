@@ -1,6 +1,6 @@
 >>>requirement.rq-000344
 
-title:: Return Term of Definition List Item
+title:: Return the Term of a Definition List Item
 
 is_part_of:: rq-000340
 

@@ -23,6 +23,14 @@ image:: files/images/class-diagram-cross-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-crossreference-pod
+
+title:: SML::CrossReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/CrossReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-crossreference-pm
 
 title:: CrossReference.pm Code Listing
