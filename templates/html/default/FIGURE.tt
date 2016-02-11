@@ -15,12 +15,12 @@ anchor = 'FIGURE.' _ number
 -%]
 <div class="figure" id="[%anchor%]">
 
-<div style="text-align:center;">
-[%- INCLUDE division_heading.tt label = 'Figure' -%]
-</div>
+[%- INCLUDE narrative_part_list.tt -%]
 
 <br/><br/>
 
-[%- INCLUDE narrative_part_list.tt -%]
+<div style="text-align:center;">
+[%- INCLUDE division_heading.tt label = 'Figure' -%]
+</div>
 
 </div>
