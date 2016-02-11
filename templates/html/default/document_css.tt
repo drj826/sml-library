@@ -153,4 +153,29 @@ DIV.tableRule { width: 100%; background-color: #888888; height: 2px; margin-top:
     padding: 10px;
     width: 700px;
 }
+.syntax_highlight_perl_Variable_Scalar  {color:#FFFFFF;}
+.syntax_highlight_perl_Variable_Array  {color:#FFFFFF;}
+.syntax_highlight_perl_Variable_Hash  {color:#FFFFFF;}
+.syntax_highlight_perl_Variable_Typeglob  {color:#f03;}
+.syntax_highlight_perl_Subroutine  {color:#FFFFFF;}
+.syntax_highlight_perl_Quote  {color:#DEDE73;}
+.syntax_highlight_perl_String  {color:#DEDE73;}
+.syntax_highlight_perl_Comment_Normal  {color:#ACAEAC;font-style:italic;}
+.syntax_highlight_perl_Comment_POD  {color:#ACAEAC;font-style:italic;}
+.syntax_highlight_perl_Bareword  {color:#FFFFFF;}
+.syntax_highlight_perl_Package  {color:#FFFFFF;}
+.syntax_highlight_perl_Number  {color:#4AAEAC;}
+.syntax_highlight_perl_Operator  {color:#7BE283;}
+.syntax_highlight_perl_Symbol  {color:#7BE283;}
+.syntax_highlight_perl_Keyword  {color:#7BE283;}
+.syntax_highlight_perl_Builtin_Operator  {color:#7BE283;}
+.syntax_highlight_perl_Builtin_Function  {color:#7BE283;}
+.syntax_highlight_perl_Character  {color:#DEDE73;}
+.syntax_highlight_perl_Directive  {color:#ACAEAC;font-style:italic;}
+.syntax_highlight_perl_Label  {color:#939;font-style:italic;}
+.syntax_highlight_perl_Line  {color:#000;}
+.syntax_highlight_perl_Print  {color:#7BE283;}
+.syntax_highlight_perl_Hash  {color:#FFFFFF;}
+.syntax_highlight_perl_Translation_Operation  {color:#3199FF;}
+
 </style>
