@@ -23,6 +23,14 @@ image:: files/images/class-diagram-entity.png
 
 <<<FIGURE
 
+>>>LISTING.lis-entity-pod
+
+title:: SML::Entity POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Entity.pm
+
+<<<LISTING
+
 >>>LISTING.lis-entity-pm
 
 title:: Entity.pm Code Listing

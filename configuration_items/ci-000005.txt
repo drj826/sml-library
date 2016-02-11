@@ -23,6 +23,14 @@ image:: files/images/class-diagram-document.png
 
 <<<FIGURE
 
+>>>LISTING.lis-document-pod
+
+title:: SML::Document POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Document.pm
+
+<<<LISTING
+
 >>>LISTING.lis-document-pm
 
 title:: Document.pm Code Listing

@@ -21,6 +21,14 @@ image:: files/images/class-diagram-email-address.png
 
 <<<FIGURE
 
+>>>LISTING.lis-emailaddress-pod
+
+title:: SML::EmailAddress POD
+
+plugin:: Pod2Txt ../SML/lib/SML/EmailAddress.pm
+
+<<<LISTING
+
 >>>LISTING.lis-email-address-pm
 
 title:: EmailAddress.pm Code Listing

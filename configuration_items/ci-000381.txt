@@ -26,6 +26,14 @@ image:: files/images/class-diagram-division.png
 
 <<<FIGURE
 
+>>>LISTING.lis-division-pod
+
+title:: SML::Division POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Division.pm
+
+<<<LISTING
+
 >>>LISTING.lis-division-pm
 
 title:: Division.pm
@@ -39,7 +47,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Division.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

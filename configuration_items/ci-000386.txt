@@ -21,6 +21,14 @@ image:: files/images/class-diagram-element.png
 
 <<<FIGURE
 
+>>>LISTING.lis-element-pod
+
+title:: SML::Element POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Element.pm
+
+<<<LISTING
+
 >>>LISTING.lis-element-pm
 
 title:: Element.pm Code Listing
