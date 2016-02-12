@@ -22,6 +22,14 @@ image:: files/images/class-diagram-file-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-filereference-pod
+
+title:: SML::FileReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/FileReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-filereference-pm
 
 title:: FileReference.pm Code Listing

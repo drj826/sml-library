@@ -23,6 +23,14 @@ image:: files/images/class-diagram-footnote-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-footnotereference-pod
+
+title:: SML::FootnoteReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/FootnoteReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-footnotereference-pm
 
 title:: FootnoteReference.pm Code Listing

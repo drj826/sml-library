@@ -17,12 +17,6 @@ listing_number = self.get_number
 anchor         = 'LISTING.' _ listing_number
 
 -%]
-<div class="listing" id="[%anchor%]">
-
-<!-- put listing navigation link table here -->
-
-[%- INCLUDE division_heading.tt label = 'Listing' -%]
-
 [%- IF ps.has_property(id,'language') -%]
 [%- language = ps.get_property_text(id,'language') -%]
 [%- ELSE -%]
@@ -32,16 +26,22 @@ anchor         = 'LISTING.' _ listing_number
 [%# PERL %]
 [%- IF language == 'perl' OR language == 'Perl' -%]
 [%- code = self.get_content -%]
-<div class="syntax_highlight_perl">
-[%- util.syntax_highlight_perl(code) -%]
+<br/>
+<div class="syntax_highlight_perl" id="[%anchor%]">
+[%- INCLUDE division_heading.tt label = 'Listing' %]
+
+
+[% util.syntax_highlight_perl(code) -%]
 </div>
 
 [%# ANYTHING ELSE %]
 [%- ELSE -%]
+<div class="listing" id="[%anchor%]">
+[% INCLUDE division_heading.tt label = 'Listing' -%]
 <pre>
 [%-FILTER html-%][%-self.get_content-%][%-END-%]
 </pre>
+</div>
 
 [%- END -%]
 
-</div>

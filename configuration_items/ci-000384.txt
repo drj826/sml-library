@@ -18,6 +18,14 @@ image:: files/images/class-diagram-file.png
 
 <<<FIGURE
 
+>>>LISTING.lis-file-pod
+
+title:: SML::File POD
+
+plugin:: Pod2Txt ../SML/lib/SML/File.pm
+
+<<<LISTING
+
 >>>LISTING.lis-file-pm
 
 title:: File.pm Code Listing
@@ -31,7 +39,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/File.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

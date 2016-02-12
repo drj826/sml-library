@@ -17,10 +17,12 @@ anchor = 'FIGURE.' _ number
 
 [%- INCLUDE narrative_part_list.tt -%]
 
-<br/><br/>
+<br/>
 
 <div style="text-align:center;">
 [%- INCLUDE division_heading.tt label = 'Figure' -%]
 </div>
+
+<br/><br/>
 
 </div>

@@ -18,6 +18,14 @@ image:: files/images/class-diagram-glossary.png
 
 <<<FIGURE
 
+>>>LISTING.lis-glossary-pod
+
+title:: SML::Glossary POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Glossary.pm
+
+<<<LISTING
+
 >>>LISTING.lis-glossary-pm
 
 title:: Glossary.pm Code Listing

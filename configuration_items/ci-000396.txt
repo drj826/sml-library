@@ -21,6 +21,14 @@ image:: files/images/class-diagram-figure.png
 
 <<<FIGURE
 
+>>>LISTING.lis-figure-pod
+
+title:: SML::Figure POD
+
+plugin:: Pod2Txt ../SML/lib/SML/Figure.pm
+
+<<<LISTING
+
 >>>LISTING.lis-figure-pm
 
 title:: Figure.pm
@@ -34,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Figure.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

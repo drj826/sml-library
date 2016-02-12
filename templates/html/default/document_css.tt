@@ -125,7 +125,6 @@ DIV.task { background-color: #ffffff; }
 DIV.result { background-color: #ffffff; }
 DIV.demo { background-color: #ddddff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.exercise { background-color: #ffffff; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
-DIV.listing { background-color: #ddffdd; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.todo { background-color: #ffcccc; margin: 10pt 20pt 10pt 20pt; padding: 10pt; border-style: solid; border-width: 1px; border-color: #cccccc; font-size: 8pt; }
 DIV.keypoints { background-color: #eeeeee; width: 50%; padding: 4pt; border-style: solid; border-width: 1px; border-color: #cccccc; }
 DIV.keypoints UL { margin-left: 0pt; }
@@ -139,19 +138,25 @@ SPAN.recent { border-style: outset; border-color: #666666; border-width: 1px; ba
 P.num { color: #aaaaaa; text-align: right; font-size: 8pt; margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt; }
 DIV.table { margin: auto; width: 95%; }
 DIV.tableRule { width: 100%; background-color: #888888; height: 2px; margin-top: 6px; margin-bottom: 6px; }
-.syntax_highlight_perl {
-    margin-left: 10px;
-    margin-top:5px;
-    margin-bottom: 5px;
-    white-space: pre;
+
+DIV.listing {
+    background-color: #ddffdd;
+    margin: 10pt 20pt 10pt 20pt;
+    padding: 10pt;
+    border: 1px solid #cccccc;
+    font-size: 93%;
+}
+
+DIV.syntax_highlight_perl {
     background: #0a0a0a;
+    margin: 0pt 20pt 10pt 20pt;
+    padding: 10pt;
+    border: 1px solid #555555;
+    font-size: 93%;
+    white-space: pre;
     color: #cccccc;
     font-family: monospace;
-    font-size: 93%;
-    border: 1px solid #555555;
     overflow: auto;
-    padding: 10px;
-    width: 700px;
 }
 .syntax_highlight_perl_Variable_Scalar  {color:#FFFFFF;}
 .syntax_highlight_perl_Variable_Array  {color:#FFFFFF;}

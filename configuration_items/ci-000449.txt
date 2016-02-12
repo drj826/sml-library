@@ -23,6 +23,14 @@ image:: files/images/class-diagram-glossary-definition-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-glossarydefinitionreference-pod
+
+title:: SML::GlossaryDefinitionReference POD
+
+plugin:: Pod2Txt ../SML/lib/SML/GlossaryDefinitionReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-glossarydefinitionreference-pm
 
 title:: GlossaryDefinitionReference.pm Code Listing
