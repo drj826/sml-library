@@ -25,7 +25,7 @@ image:: files/images/class-diagram-document.png
 
 >>>LISTING.lis-document-pod
 
-title:: SML::Document POD
+title:: SML::Document Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Document.pm
 

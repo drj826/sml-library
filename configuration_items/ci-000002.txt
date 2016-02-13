@@ -20,7 +20,7 @@ image:: files/images/class-diagram-sml.png
 
 >>>LISTING.lis-sml-pod
 
-title:: SML POD
+title:: SML Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML.pm
 

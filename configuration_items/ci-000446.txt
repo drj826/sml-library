@@ -21,7 +21,7 @@ image:: files/images/class-diagram-error.png
 
 >>>LISTING.lis-error-pod
 
-title:: SML::Error POD
+title:: SML::Error Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Error.pm
 

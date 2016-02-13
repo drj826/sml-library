@@ -85,7 +85,7 @@ bgcolor          = '#eeeeee'
 <br/>
 [%- draft_change_count = library.get_published_library_property_value('DRAFT','changes') -%]
 [%- IF draft_change_count == 0 -%]
-no changes
+<span style="font-size:8pt;">no changes</span>
 [%- ELSIF draft_change_count == 1 -%]
 <a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">1 change since [%draft_previous_version%]</a>
 [%- ELSE -%]
@@ -109,7 +109,7 @@ no changes
 <br/>
 [%- draft_change_count = library.get_published_library_property_value('REVIEW','changes') -%]
 [%- IF draft_change_count == 0 -%]
-no changes
+<span style="font-size:8pt;">no changes</span>
 [%- ELSIF draft_change_count == 1 -%]
 <a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change since [%review_previous_version%]</a>
 [%- ELSE -%]
@@ -133,7 +133,7 @@ no changes
 <br/>
 [%- draft_change_count = library.get_published_library_property_value('APPROVED','changes') -%]
 [%- IF draft_change_count == 0 -%]
-no changes
+<span style="font-size:8pt;">no changes</span>
 [%- ELSIF draft_change_count == 1 -%]
 <a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change since [%approved_previous_version%]</a>
 [%- ELSE -%]
@@ -183,7 +183,7 @@ sha                 = document_sha_digest.substr(0,7)
 <td style="background-color:[%lite_orange%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
-<span style="font-size:8pt;">no change</a>
+<span style="font-size:8pt;">no change</span>
 [%- ELSIF change_count == 1 -%]
 <a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
@@ -222,7 +222,7 @@ sha                 = document_sha_digest.substr(0,7)
 <td style="background-color:[%lite_green%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
-no change
+<span style="font-size:8pt;">no change</span>
 [%- ELSIF change_count == 1 -%]
 <a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
@@ -261,7 +261,7 @@ sha                 = document_sha_digest.substr(0,7)
 <td style="background-color:[%lite_blue%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
 [%- IF change_count == 0 -%]
-no change
+<span style="font-size:8pt;">no change</span>
 [%- ELSIF change_count == 1 -%]
 <a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]

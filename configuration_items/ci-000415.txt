@@ -24,7 +24,7 @@ image:: files/images/class-diagram-definition.png
 
 >>>LISTING.lis-definition-pod
 
-title:: SML::Definition POD
+title:: SML::Definition Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Definition.pm
 

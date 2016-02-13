@@ -28,7 +28,7 @@ image:: files/images/class-diagram-division.png
 
 >>>LISTING.lis-division-pod
 
-title:: SML::Division POD
+title:: SML::Division Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Division.pm
 

@@ -21,6 +21,14 @@ image:: files/images/class-diagram-index-entry.png
 
 <<<FIGURE
 
+>>>LISTING.lis-indexentry-pod
+
+title:: SML::IndexEntry Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IndexEntry.pm
+
+<<<LISTING
+
 >>>LISTING.lis-indexentry-pm
 
 title:: IndexEntry.pm Code Listing

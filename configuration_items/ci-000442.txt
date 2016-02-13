@@ -27,7 +27,7 @@ image:: files/images/class-diagram-citation-reference.png
 
 >>>LISTING.lis-citationreference-pod
 
-title:: SML::CitationReference POD
+title:: SML::CitationReference Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/CitationReference.pm
 

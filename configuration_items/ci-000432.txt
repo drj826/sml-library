@@ -23,7 +23,7 @@ image:: files/images/class-diagram-definition-list-item.png
 
 >>>LISTING.lis-definitionlistitem-pod
 
-title:: SML::DefinitionListItem POD
+title:: SML::DefinitionListItem Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/DefinitionListItem.pm
 

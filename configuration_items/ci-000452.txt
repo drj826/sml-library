@@ -21,6 +21,14 @@ image:: files/images/class-diagram-image.png
 
 <<<FIGURE
 
+>>>LISTING.lis-image-pod
+
+title:: SML::Image Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Image.pm
+
+<<<LISTING
+
 >>>LISTING.lis-image-pm
 
 title:: Image.pm Code Listing

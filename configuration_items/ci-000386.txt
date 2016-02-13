@@ -23,7 +23,7 @@ image:: files/images/class-diagram-element.png
 
 >>>LISTING.lis-element-pod
 
-title:: SML::Element POD
+title:: SML::Element Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Element.pm
 
@@ -42,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Element.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

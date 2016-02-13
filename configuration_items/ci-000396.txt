@@ -23,7 +23,7 @@ image:: files/images/class-diagram-figure.png
 
 >>>LISTING.lis-figure-pod
 
-title:: SML::Figure POD
+title:: SML::Figure Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Figure.pm
 

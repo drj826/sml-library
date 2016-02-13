@@ -25,7 +25,7 @@ image:: files/images/class-diagram-enumerated-list.png
 
 >>>LISTING.lis-enumeratedlist-pod
 
-title:: SML::EnumeratedList POD
+title:: SML::EnumeratedList Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/EnumeratedList.pm
 

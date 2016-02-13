@@ -23,7 +23,7 @@ image:: files/images/class-diagram-list-item.png
 
 >>>LISTING.lis-listitem-pod
 
-title:: SML::ListItem POD
+title:: SML::ListItem Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/ListItem.pm
 

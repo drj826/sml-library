@@ -27,7 +27,7 @@ image:: files/images/class-diagram-part.png
 
 >>>LISTING.lis-part-pod
 
-title:: SML::Part POD
+title:: SML::Part Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Part.pm
 

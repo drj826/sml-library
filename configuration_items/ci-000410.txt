@@ -30,7 +30,7 @@ image:: files/images/class-diagram-library.png
 
 >>>LISTING.lis-library-pod
 
-title:: SML::Library POD
+title:: SML::Library Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Library.pm
 
@@ -49,7 +49,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Library.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

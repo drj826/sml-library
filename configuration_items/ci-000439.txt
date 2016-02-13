@@ -21,7 +21,7 @@ image:: files/images/class-diagram-acronym-list.png
 
 >>>LISTING.lis-acronymlist-pod
 
-title:: SML::AcronymList POD
+title:: SML::AcronymList Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/AcronymList.pm
 

@@ -19,6 +19,14 @@ image:: files/images/class-diagram-index.png
 
 <<<FIGURE
 
+>>>LISTING.lis-index-pod
+
+title:: SML::Index Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Index.pm
+
+<<<LISTING
+
 >>>LISTING.lis-index-pm
 
 title:: Index.pm Code Listing

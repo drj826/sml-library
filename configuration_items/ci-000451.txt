@@ -22,6 +22,14 @@ image:: files/images/class-diagram-id-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-idreference-pod
+
+title:: SML::IDReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IDReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-idreference-pm
 
 title:: IDReference.pm Code Listing

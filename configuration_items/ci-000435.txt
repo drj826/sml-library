@@ -20,7 +20,7 @@ image:: files/images/class-diagram-glossary.png
 
 >>>LISTING.lis-glossary-pod
 
-title:: SML::Glossary POD
+title:: SML::Glossary Documentation
 
 plugin:: Pod2Txt ../SML/lib/SML/Glossary.pm
 
