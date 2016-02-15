@@ -65,12 +65,12 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 <td style="font-weight:bold;">object</td>
 <td style="font-weight:bold;">allowed values</td>
 <td style="font-weight:bold;">inverse rule</td>
-<td style="font-weight:bold;">cardinality</td>
+<td style="font-weight:bold;">multiplicity</td>
 <td style="font-weight:bold;">required?</td>
 <td style="font-weight:bold;">imply only?</td>
 </tr>
 
-[%- property_name_list = ontology.get_list_of_allowed_property_names_for_division_name(entity_name) -%]
+[%- property_name_list = ontology.get_allowed_property_name_list(entity_name) -%]
 
 [%- FOREACH property_name IN property_name_list -%]
   [%-
@@ -78,7 +78,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
   object_name_list   = ontology.get_allowed_property_object_name_list(entity_name,property_name)
   is_required        = ontology.property_is_required(entity_name,property_name)
   is_imply_only      = ontology.property_is_imply_only(entity_name,property_name)
-  cardinality        = ontology.property_allows_cardinality(entity_name,property_name)
+  multiplicity       = ontology.property_allows_multiplicity(entity_name,property_name)
   -%]
   [%- FOREACH object_name IN object_name_list -%]
     [%-
@@ -101,7 +101,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 
 <td>[%allowed_value_list.join(', ')%]</td>
 <td><a href="#[%inverse_rule_id%]">[%inverse_rule_id%]</a></td>
-<td style="text-align:center;">[%cardinality%]</td>
+<td style="text-align:center;">[%multiplicity%]</td>
 <td style="text-align:center;">[%is_required%]</td>
 <td style="text-align:center;">[%is_imply_only%]</td>
 </tr>
@@ -153,12 +153,12 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 <td style="font-weight:bold;">object</td>
 <td style="font-weight:bold;">allowed values</td>
 <td style="font-weight:bold;">inverse rule</td>
-<td style="font-weight:bold;">cardinality</td>
+<td style="font-weight:bold;">multiplicity</td>
 <td style="font-weight:bold;">required?</td>
 <td style="font-weight:bold;">imply only?</td>
 </tr>
 
-[%- property_name_list = ontology.get_list_of_allowed_property_names_for_division_name(structure_name) -%]
+[%- property_name_list = ontology.get_allowed_property_name_list(structure_name) -%]
 
 [%- FOREACH property_name IN property_name_list -%]
   [%-
@@ -166,7 +166,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
   object_name_list   = ontology.get_allowed_property_object_name_list(structure_name,property_name)
   is_required        = ontology.property_is_required(structure_name,property_name)
   is_imply_only      = ontology.property_is_imply_only(structure_name,property_name)
-  cardinality        = ontology.property_allows_cardinality(structure_name,property_name)
+  multiplicity       = ontology.property_allows_multiplicity(structure_name,property_name)
   -%]
   [%- FOREACH object_name IN object_name_list -%]
     [%-
@@ -188,7 +188,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 
 <td>[%allowed_value_list.join(', ')%]</td>
 <td><a href="#[%inverse_rule_id%]">[%inverse_rule_id%]</a></td>
-<td style="text-align:center;">[%cardinality%]</td>
+<td style="text-align:center;">[%multiplicity%]</td>
 <td style="text-align:center;">[%is_required%]</td>
 <td style="text-align:center;">[%is_imply_only%]</td>
 </tr>

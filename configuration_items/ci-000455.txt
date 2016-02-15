@@ -21,6 +21,14 @@ image:: files/images/class-diagram-index-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-indexreference-pod
+
+title:: SML::IndexReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IndexReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-indexreference-pm
 
 title:: IndexReference.pm Code Listing

@@ -27,7 +27,7 @@ Elements of listing meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

@@ -28,7 +28,7 @@ Elements of solution meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

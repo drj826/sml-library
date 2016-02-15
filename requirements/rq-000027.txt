@@ -27,7 +27,7 @@ Elements of exercise meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

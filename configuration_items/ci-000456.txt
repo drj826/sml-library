@@ -23,6 +23,14 @@ image:: files/images/class-diagram-lookup-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-lookupreference-pod
+
+title:: SML::LookupReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/LookupReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-lookupreference-pm
 
 title:: LookupReference.pm Code Listing

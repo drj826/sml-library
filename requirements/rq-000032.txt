@@ -28,7 +28,7 @@ Elements of problem meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

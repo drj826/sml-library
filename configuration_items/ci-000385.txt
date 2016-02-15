@@ -18,6 +18,14 @@ image:: files/images/class-diagram-line.png
 
 <<<FIGURE
 
+>>>LISTING.lis-line-pod
+
+title:: SML::Line Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Line.pm
+
+<<<LISTING
+
 >>>LISTING.lis-line-pm
 
 title:: Line.pm Code Listing

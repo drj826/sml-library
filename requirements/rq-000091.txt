@@ -28,7 +28,7 @@ Elements of audio clip meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

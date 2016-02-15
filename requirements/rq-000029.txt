@@ -28,7 +28,7 @@ Elements of quotation meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

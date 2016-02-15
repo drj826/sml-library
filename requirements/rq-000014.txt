@@ -36,7 +36,7 @@ Elements of table meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

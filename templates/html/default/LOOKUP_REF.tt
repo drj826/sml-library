@@ -11,7 +11,7 @@ self => an SML::LookupReference object
 
 ps                   = self.get_library.get_property_store
 target_id            = self.get_target_id
-target_property_name = self.get_target_property
+target_property_name = self.get_target_property_name
 
 -%]
 [% INCLUDE STRING.tt self = ps.get_property_string(target_id,target_property_name) %]

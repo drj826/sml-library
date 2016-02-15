@@ -27,7 +27,7 @@ ways:
 
 + Declare inverse entity property implication rules
 
-+ Declare the cardinality of an entity property
++ Declare the multiplicity of an entity property
 
 + Declare whether an entity property is an 'imply only' property
 

@@ -27,7 +27,7 @@ Elements of presentation slide meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

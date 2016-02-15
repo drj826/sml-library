@@ -2,7 +2,7 @@
 
 configuration_item:: ci-000003  # SML::Parser
 
-requirement:: rq-000173         # Validate Property Cardinality
+requirement:: rq-000173         # Validate Property Multiplicity
 
 test:: tc-000005                # Parser.pm Unit Test Case
 

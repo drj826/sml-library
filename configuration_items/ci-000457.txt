@@ -20,6 +20,14 @@ image:: files/images/class-diagram-note.png
 
 <<<FIGURE
 
+>>>LISTING.lis-note-pod
+
+title:: SML::Note Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Note.pm
+
+<<<LISTING
+
 >>>LISTING.lis-note-pm
 
 title:: Note.pm Code Listing

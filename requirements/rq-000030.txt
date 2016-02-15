@@ -27,7 +27,7 @@ Elements of demonstration meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

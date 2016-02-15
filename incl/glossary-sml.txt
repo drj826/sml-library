@@ -121,7 +121,7 @@ each line contains one ``record'' of data fields separated by commas
 
 ###
 
-glossary:: cardinality {SML} = The number of element in a set, as a
+glossary:: cardinality {SML} = The number of elements in a set, as a
 property of that set
 
 glossary:: compliance directive {SML} = A written authoritative
@@ -452,6 +452,10 @@ glossary:: mission directive {SML} = A written authoritative statute,
 regulation, or directive that allocates a mission to an organization.
 [G:SML:business requirement]s are often derived from mission
 directives.  See also [g:SML:compliance directive]
+
+glossary:: multiplicity {SML} = A specification of the range of
+allowable [g:SML:cardinality] values - the size - that a set may
+assume.
 
 ######################################################################
 # N

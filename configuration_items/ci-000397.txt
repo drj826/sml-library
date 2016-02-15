@@ -21,6 +21,14 @@ image:: files/images/class-diagram-listing.png
 
 <<<FIGURE
 
+>>>LISTING.lis-listing-pod
+
+title:: SML::Listing Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Listing.pm
+
+<<<LISTING
+
 >>>LISTING.lis-listing-pm
 
 title:: Listing.pm
@@ -34,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Listing.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item
