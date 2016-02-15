@@ -20,6 +20,14 @@ image:: files/images/class-diagram-paragraph.png
 
 <<<FIGURE
 
+>>>LISTING.lis-paragraph-pod
+
+title:: SML::Paragraph Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Paragraph.pm
+
+<<<LISTING
+
 >>>LISTING.lis-paragraph-pm
 
 title:: Paragraph.pm Code Listing

@@ -37,6 +37,14 @@ image:: files/images/activity-diagram-parse.png
 
 <<<FIGURE
 
+>>>LISTING.lis-parser-pod
+
+title:: SML::Parser Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Parser.pm
+
+<<<LISTING
+
 >>>LISTING.lis-parser-pm
 
 title:: Parser.pm Code Listing

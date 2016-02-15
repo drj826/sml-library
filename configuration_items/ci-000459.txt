@@ -24,6 +24,14 @@ image:: files/images/class-diagram-outcome.png
 
 <<<FIGURE
 
+>>>LISTING.lis-outcome-pod
+
+title:: SML::Outcome Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Outcome.pm
+
+<<<LISTING
+
 >>>LISTING.lis-outcome-pm
 
 title:: Outcome.pm Code Listing

@@ -19,6 +19,14 @@ image:: files/images/class-diagram-options.png
 
 <<<FIGURE
 
+>>>LISTING.lis-options-pod
+
+title:: SML::Options Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Options.pm
+
+<<<LISTING
+
 >>>LISTING.lis-options-pm
 
 title:: Options.pm
@@ -32,7 +40,5 @@ fontsize::  footnotesize
 file:: ../SML/lib/SML/Options.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item
