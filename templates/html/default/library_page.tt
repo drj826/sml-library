@@ -51,11 +51,19 @@ library => an SML::Library object
     [%#      INCLUDE xxlibrary_header.tt -%]
     [%#		</div>  %]
     [%#      END -%]
-[%- IF page_navigation != '' -%]
-<div class="page_navigation">
-[%- page_navigation -%]
-</div>
-[%- END -%]
+
+    [%- IF page_navigation != '' -%]
+    <div class="page_navigation">
+    [%- page_navigation -%]
+    </div>
+    [%- END -%]
+    
+    [%- IF button_bar != '' -%]
+    <div class="page_navigation">
+    [%- button_bar -%]
+    </div>
+    [%- END -%]
+
     <div class="page_content">
       [%- content -%]
       <div class="pad2"></div>

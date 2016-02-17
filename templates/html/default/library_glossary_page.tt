@@ -14,10 +14,14 @@ glossary = library.get_glossary
 -%]
 
 [%- page_navigation_block = BLOCK  -%]
+[%# future may have nav options to put here-%]
+[%- END -%]
+[%- page_button_block = BLOCK -%]
 [%- INCLUDE glossary_button_bar.tt -%]
 [%- END -%]
 
-[%- WRAPPER library_page.tt page_navigation = page_navigation_block -%]
+[%- WRAPPER library_page.tt page_navigation = page_navigation_block ,
+                                                                button_bar = page_button_block -%]
 
 <h1 style="text-align:center;">Library Glossary</h1>
 
