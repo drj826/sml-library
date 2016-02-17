@@ -1,6 +1,6 @@
 >>>DOCUMENT.sml-ted
 
-title:: Test and Evaluation Document (TED)
+title:: Test and Evaluation Document
 
 subtitle:: SML Data Format [linebreak] and [linebreak] SML Software
 Library

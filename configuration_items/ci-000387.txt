@@ -1,16 +1,18 @@
 >>>configuration_item.ci-000387
 
-title:: SML/Block.pm Module
+title:: SML::Block Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/Block.pm Module...
+specializes:: ci-000436         # SML::Part Class
+
+description:: An SML::Block represents a block of text.
 
 index:: [id:ci-000387]; Block.pm; SML::Block
 
->>>FIGURE.fig-block-class-diagram
+>>>FIGURE.fig-class-diagram-block
 
 title:: SML::Block Class Diagram
 
@@ -18,9 +20,17 @@ image:: files/images/class-diagram-block.png
 
 <<<FIGURE
 
+>>>LISTING.lis-block-pod
+
+title:: SML::Block Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Block.pm
+
+<<<LISTING
+
 >>>LISTING.lis-block-pm
 
-title:: Block.pm
+title:: Block.pm Code Listing
 
 numbers:: left
 
@@ -31,7 +41,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Block.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

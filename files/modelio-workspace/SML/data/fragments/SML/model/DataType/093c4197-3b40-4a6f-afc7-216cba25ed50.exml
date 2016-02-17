@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CodeRef" version="4">
+  <OBJECT>
+    <ID name="CodeRef" mc="Standard.DataType" uid="093c4197-3b40-4a6f-afc7-216cba25ed50"/>
+    <PID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CodeRef]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

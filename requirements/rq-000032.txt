@@ -1,6 +1,6 @@
 >>>requirement.rq-000032
 
-title:: Represent Problems
+title:: Represent a Requirement
 
 priority:: routine
 
@@ -8,13 +8,13 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as the description of a problem.  A problem
-describes something to be solved.  Problems are often called
-requirements.  The purpose of identifying content as a problem
-description is to make the problem semantically traceable to other
+description:: The data format shall have the capability to identify
+and represent document content as the description of a requirement.  A
+requirement describes something to be solved.  Requirements are often
+called problems.  The purpose of identifying content as a requirement
+description is to make the requirement semantically traceable to other
 elements of content (like tests and solutions), to make the content
-re-usable, and to enable special listings of problems.
+re-usable, and to enable special listings of requirements.
 
 index:: [id:rq-000032]; problems
 
@@ -28,7 +28,7 @@ Elements of problem meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

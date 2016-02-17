@@ -1,12 +1,10 @@
 >>>allocation.al-000020
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000132 # Resolve Templates
+requirement:: rq-000132         # Resolve Templates
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000020:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000020]
 

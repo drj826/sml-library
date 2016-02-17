@@ -1,14 +1,33 @@
 >>>configuration_item.ci-000397
 
-title:: SML/Listing.pm Module
+title:: SML::Listing Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/Listing.pm Module...
+specializes:: ci-000466         # SML::Structure Class
 
-index:: [id:ci-000397]; Listing.pm; SML::Listing
+description:: An SML::Listing represents a listing of textual content
+such as a code listing.
+
+index:: [id:ci-000397]; Listing.pm; SML::Listing; listing
+
+>>>FIGURE.fig-class-diagram-listing
+
+title:: SML::Listing Class Diagram
+
+image:: files/images/class-diagram-listing.png
+
+<<<FIGURE
+
+>>>LISTING.lis-listing-pod
+
+title:: SML::Listing Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Listing.pm
+
+<<<LISTING
 
 >>>LISTING.lis-listing-pm
 
@@ -23,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Listing.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

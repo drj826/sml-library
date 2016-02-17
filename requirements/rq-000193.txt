@@ -1,7 +1,6 @@
 >>>requirement.rq-000193
 
-title:: Emit an ~~Information~~ Message On Activation of an Inference
-Rule
+title:: Emit an ~~Info~~ Message On Activation of an Inference Rule
 
 is_part_of:: rq-000203
 

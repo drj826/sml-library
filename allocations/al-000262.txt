@@ -1,13 +1,10 @@
 >>>allocation.al-000262
 
-configuration_item:: ci-000003
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000099
+requirement:: rq-000099         # Parse SML Special Features
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000262:yellow: The [file:Parser.pm] class only
-partially implements required SML special features.
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000262]
 

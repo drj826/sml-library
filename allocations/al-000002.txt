@@ -1,18 +1,10 @@
 >>>allocation.al-000002
 
-configuration_item:: ci-000001 # SML Grammar
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000082 # Be Human Readable
+requirement:: rq-000082         # Be Human Readable
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2011-06-21:al-000002:green: SML is human readable.  In my
-opinion it is more human readable than other languages designed to be
-human readable like XML and HTML (Don Johnson).
+test:: tc-000040                # Analysis
 
 index:: [id:al-000002]
 

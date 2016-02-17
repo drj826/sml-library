@@ -1,12 +1,10 @@
 >>>allocation.al-000285
 
-configuration_item:: ci-000003 # Parser.pm module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000201 # Validate Allowed Entity Properties
+requirement:: rq-000201         # Validate Allowed Entity Properties
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000285:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000285]
 

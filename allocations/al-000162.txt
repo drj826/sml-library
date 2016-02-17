@@ -1,12 +1,10 @@
 >>>allocation.al-000162
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000150 # Generate a List of Contributors
+requirement:: rq-000150         # Publish a Document List of Contributors
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2012-04-01:al-000162:red: not OK
+test:: tc-000043                # Test
 
 index:: [id:al-000162]
 

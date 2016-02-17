@@ -1,0 +1,11 @@
+>>>allocation.al-000181
+
+configuration_item:: ci-000433 # SML::Syntax
+
+requirement:: rq-000170        # Implement SML Data Format
+
+test:: tc-000042               # Inspection
+
+index:: [id:al-000181]
+
+<<<allocation

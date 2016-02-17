@@ -9,11 +9,10 @@ document => an SML::Document object
 -%]
 [%-
 
-self                   = document
-library                = document.get_library
-document_id            = document.get_id
-document_title_element = library.get_first_property_value_element(document_id,'title')
-references             = document.get_references
+self        = document
+library     = document.get_library
+document_id = document.get_id
+references  = document.get_references
 
 -%]
 [%- page_navigation_block = BLOCK  -%]

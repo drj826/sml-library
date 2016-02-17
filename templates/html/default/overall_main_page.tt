@@ -1,0 +1,298 @@
+[%#
+
+overall_index_page.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+[%-
+
+id               = library.get_id
+name             = library.get_name
+document_id_list = library.get_document_presentation_id_list
+grey             = '#dddddd'
+orange           = '#ff9933'
+green            = '#33cc33'
+blue             = '#4d96ff'
+lite_orange      = '#ffcc99'
+lite_green       = '#aae7aa'
+lite_blue        = '#cce1ff'
+num              = 0
+bgcolor          = '#eeeeee'
+
+-%]
+
+[%- IF library.has_published_library_property_value('DRAFT','version') -%]
+  [%-
+  draft_version          = library.get_published_library_property_value('DRAFT','version')
+  draft_previous_version = library.get_published_library_property_value('DRAFT','previous_version')
+  -%]
+[%- ELSE -%]
+  [%-
+  draft_version          = ''
+  draft_previous_version = ''
+  -%]
+[%- END -%]
+
+[%- IF library.has_published_library_property_value('REVIEW','version') -%]
+  [%-
+  review_version          = library.get_published_library_property_value('REVIEW','version')
+  review_previous_version = library.get_published_library_property_value('REVIEW','previous_version')
+  -%]
+[%- ELSE -%]
+  [%-
+  review_version          = ''
+  review_previous_version = ''
+  -%]
+[%- END -%]
+
+[%- IF library.has_published_library_property_value('APPROVED','version') -%]
+  [%-
+  approved_version          = library.get_published_library_property_value('APPROVED','version')
+  approved_previous_version = library.get_published_library_property_value('APPROVED','previous_version')
+  -%]
+[%- ELSE -%]
+  [%-
+  approved_version          = ''
+  approved_previous_version = ''
+  -%]
+[%- END -%]
+
+[%- WRAPPER overall_page.tt -%]
+
+<h1 style="text-align:center;">[%name%]</h1>
+
+<div align="center">
+<table style="width:100%;">
+
+<tr>
+<td style="font-weight:bold;width:40%;" colspan="3"></td>
+
+[%# DRAFT COLUMN HEADER %]
+<td style="background-color:[%lite_orange%];width:20%;text-align:center;" colspan="2">
+[%- IF library.has_published_file('DRAFT','index.html') -%]
+<span style="font-weight:bold;"><a href="DRAFT/LIBRARY/index.html">DRAFT [%draft_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">DRAFT</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('DRAFT','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('DRAFT','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('DRAFT','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('DRAFT','changes') -%]
+[%- IF draft_change_count == 0 -%]
+<span style="font-size:8pt;">no changes</span>
+[%- ELSIF draft_change_count == 1 -%]
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">1 change since [%draft_previous_version%]</a>
+[%- ELSE -%]
+<a href="DRAFT/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%draft_previous_version%]</a>
+[%- END -%]
+[%- END -%]
+</td>
+
+[%# REVIEW COLUMN HEADER %]
+<td style="background-color:[%lite_green%];width:20%;text-align:center;" colspan="2">
+[%- IF library.has_published_file('REVIEW','index.html') -%]
+<span style="font-weight:bold;"><a href="REVIEW/LIBRARY/index.html">REVIEW [%review_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">REVIEW</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('REVIEW','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('REVIEW','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('REVIEW','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('REVIEW','changes') -%]
+[%- IF draft_change_count == 0 -%]
+<span style="font-size:8pt;">no changes</span>
+[%- ELSIF draft_change_count == 1 -%]
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change since [%review_previous_version%]</a>
+[%- ELSE -%]
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%review_previous_version%]</a>
+[%- END -%]
+[%- END -%]
+</td>
+
+[%# APPROVED COLUMN HEADER %]
+<td style="background-color:[%lite_blue%];width:20%;text-align:center;" colspan="2">
+[%- IF library.has_published_file('APPROVED','index.html') -%]
+<span style="font-weight:bold;"><a href="APPROVED/LIBRARY/index.html">APPROVED [%approved_version%]</a></span>
+[%- ELSE -%]
+<span style="font-weight:bold;">APPROVED</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('APPROVED','published') -%]
+<br/>
+<span style="font-size:8pt;color:#444444;">[% library.get_published_library_property_value('APPROVED','published') %]</span>
+[%- END -%]
+[%- IF library.has_published_library_property_value('APPROVED','changes') -%]
+<br/>
+[%- draft_change_count = library.get_published_library_property_value('APPROVED','changes') -%]
+[%- IF draft_change_count == 0 -%]
+<span style="font-size:8pt;">no changes</span>
+[%- ELSIF draft_change_count == 1 -%]
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change since [%approved_previous_version%]</a>
+[%- ELSE -%]
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%approved_previous_version%]</a>
+[%- END -%]
+[%- END -%]
+</td>
+
+</tr>
+
+[%- FOREACH document_id IN document_id_list -%]
+[%-
+
+document_title    = library.get_published_document_property_value('DRAFT',document_id,'title')
+document_subtitle = library.get_published_document_property_value('DRAFT',document_id,'subtitle')
+document_abbr     = library.get_published_document_property_value('DRAFT',document_id,'abbreviation')
+num               = num + 1
+
+-%]
+[%- IF bgcolor == '#eeeeee' -%]
+[%- bgcolor = '#ffffff' -%]
+[%- ELSE -%]
+[%- bgcolor = '#eeeeee' -%]
+[%- END -%]
+<tr>
+
+<td style="background-color:[%bgcolor%];">[%num%]</td>
+
+<td style="background-color:[%bgcolor%];">[%document_abbr%]</td>
+
+<td style="background-color:[%bgcolor%];">
+<span style="font-weight:bold;">[%document_title%]</span><br/>
+[%- IF document_subtitle -%]
+[%document_subtitle%]
+[%- END -%]
+</td>
+
+[%- IF library.has_published_document('DRAFT',document_id) -%]
+[%-
+
+version             = library.get_version
+change_count        = library.get_published_document_property_value('DRAFT',document_id,'changes')
+document_sha_digest = library.get_published_document_property_value('DRAFT',document_id,'sha_digest')
+sha                 = document_sha_digest.substr(0,7)
+
+-%]
+<td style="background-color:[%lite_orange%];width:10%;">
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+<span style="font-size:8pt;">no change</span>
+[%- ELSIF change_count == 1 -%]
+<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+[%- END -%]
+</td>
+
+<td style="background-color:[%lite_orange%];">
+[%- IF library.has_published_document_rendition('DRAFT',document_id,'html') -%]
+<a href="DRAFT/[%document_id%]/titlepage.html">
+<img src="images/html_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+[%- IF library.has_published_document_rendition('DRAFT',document_id,'pdf') -%]
+<a href="DRAFT/[%document_id%]/[%document_id%].pdf">
+<img src="images/pdf_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+</td>
+
+[%- ELSE -%]
+<td style="background-color:[%lite_orange%];width:10%;"></td>
+<td style="background-color:[%lite_orange%];"></td>
+
+[%- END -%]
+
+[%- IF library.has_published_document('REVIEW',document_id) -%]
+[%-
+
+version             = library.get_published_document_property_value('REVIEW',document_id,'version')
+change_count        = library.get_published_document_property_value('REVIEW',document_id,'changes')
+document_sha_digest = library.get_published_document_property_value('REVIEW',document_id,'sha_digest')
+sha                 = document_sha_digest.substr(0,7)
+
+-%]
+<td style="background-color:[%lite_green%];width:10%;">
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+<span style="font-size:8pt;">no change</span>
+[%- ELSIF change_count == 1 -%]
+<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+[%- END -%]
+</td>
+
+<td style="background-color:[%lite_green%];">
+[%- IF library.has_published_document_rendition('REVIEW',document_id,'html') -%]
+<a href="REVIEW/[%document_id%]/titlepage.html">
+<img src="images/html_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+[%- IF library.has_published_document_rendition('REVIEW',document_id,'pdf') -%]
+<a href="REVIEW/[%document_id%]/[%document_id%].pdf">
+<img src="images/pdf_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+</td>
+
+[%- ELSE -%]
+<td style="background-color:[%lite_green%];width:10%;"></td>
+<td style="background-color:[%lite_green%];"></td>
+
+[%- END -%]
+
+[%- IF library.has_published_document('APPROVED',document_id) -%]
+[%-
+
+version             = library.get_published_document_property_value('APPROVED',document_id,'version')
+change_count        = library.get_published_document_property_value('APPROVED',document_id,'changes')
+document_sha_digest = library.get_published_document_property_value('APPROVED',document_id,'sha_digest')
+sha                 = document_sha_digest.substr(0,7)
+
+-%]
+<td style="background-color:[%lite_blue%];width:10%;">
+<span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
+[%- IF change_count == 0 -%]
+<span style="font-size:8pt;">no change</span>
+[%- ELSIF change_count == 1 -%]
+<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
+[%- ELSE -%]
+<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+[%- END -%]
+</td>
+
+<td style="background-color:[%lite_blue%];">
+[%- IF library.has_published_document_rendition('APPROVED',document_id,'html') -%]
+<a href="APPROVED/[%document_id%]/titlepage.html">
+<img src="images/html_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+[%- IF library.has_published_document_rendition('APPROVED',document_id,'pdf') -%]
+<a href="APPROVED/[%document_id%]/[%document_id%].pdf">
+<img src="images/pdf_icon.png" height="27" width="28">
+</a>
+[%- END -%]
+</td>
+
+[%- ELSE -%]
+<td style="background-color:[%lite_blue%];width:10%;"></td>
+<td style="background-color:[%lite_blue%];"></td>
+
+[%- END -%]
+
+</tr>
+
+[%- END -%]
+
+</table>
+</div>
+
+[%- END -%]

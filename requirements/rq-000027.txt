@@ -1,6 +1,6 @@
 >>>requirement.rq-000027
 
-title:: Represent Exercises
+title:: Represent an Exercise
 
 priority:: routine
 
@@ -8,14 +8,14 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as exercises.  Exercises are instructions
-to students to perform a series of tasks or solve one or problems to
-reinforce learned concepts.  The purpose of identifying content as an
-exercise is to make the content re-usable and to enable special
-listings of exercises.
+description:: The data format shall have the capability to identify
+and represent document content as an exercise.  Exercises are
+instructions to students to perform a series of tasks or solve one or
+problems to reinforce learned concepts.  The purpose of identifying
+content as an exercise is to make the content re-usable and to enable
+special listings of exercises.
 
-index:: [id:rq-000027]; exercises
+index:: [id:rq-000027]; exercise
 
 Elements of exercise meta data include:
 
@@ -27,7 +27,7 @@ Elements of exercise meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000173
 
-title:: Validate Property Cardinality
+title:: Validate Property Multiplicity
 
 priority:: routine
 
@@ -9,11 +9,11 @@ is_part_of:: rq-000106
 type:: data format
 
 description:: The software shall enable a user to validate that
-properties do not violate cardinality rules.  Cardinality rules are
+properties do not violate multiplicity rules.  Multiplicity rules are
 declared in the ontology and specify whether a property can have one
 or many values.
 
-index:: [id:rq-000173]; property cardinality!validate; validate property
-cardinality; cardinality!property
+index:: [id:rq-000173]; property multiplicity!validate; validate property
+multiplicity; multiplicity!property
 
 <<<requirement

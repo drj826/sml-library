@@ -1,11 +1,10 @@
 >>>allocation.al-000351
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000271 # Render HTML List of To Do Items
+requirement:: rq-000271         # Render HTML List of To Do Items
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000351]
 

@@ -1,17 +1,18 @@
 >>>requirement.rq-000077
 
-title:: Represent Templates
+title:: Represent an Option to `Include as a Template'
 
 priority:: routine
 
-is_part_of:: rq-000009
+is_part_of:: rq-000065
 
 type:: data format
 
 description:: The data format shall have the capability to represent
-templates.  Templates enable an author to create reusable blocks of
-document structure and format that get filled in with reusable block
-or inline elements of content.
+templates.  A template is like a form that gets filled in when the
+document is published. Templates enable an author to create reusable
+blocks of document structure and format that get filled in with
+reusable block or inline elements of content.
 
 index:: [id:rq-000077]; templates
 

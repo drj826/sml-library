@@ -1,13 +1,13 @@
 >>>requirement.rq-000241
 
-title:: Format HTML Superscripted Text
+title:: Render HTML Superscripted Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format HTML superscripted text.
+description:: The software shall render HTML superscripted text.
 
-index:: [id:rq-000241]; superscripted text!format HTML
+index:: [id:rq-000241]; superscripted text!render HTML
 
 <<<requirement

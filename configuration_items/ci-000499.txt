@@ -1,0 +1,32 @@
+>>>configuration_item.ci-000499
+
+title:: publish_sml_ted.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000487
+
+description:: This windows batch file invokes the
+[cmd:publish_document.pl] Perl application to publish the SML Test and
+Evaluation Document. This batch file is provided to make it easy for
+windows users to simply double-click on the batch file to publish the
+TED.  It can also be invoked from other batch files.
+
+index:: ci-000499; publish_sml_ted.bat; TED; Test and Evaluation
+Document
+
+>>>LISTING.lis-publish_sml_ted-bat
+
+title:: publish_sml_ted.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/publish_sml_ted.bat
+
+<<<LISTING
+
+<<<configuration_item

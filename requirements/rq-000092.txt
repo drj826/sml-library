@@ -28,7 +28,7 @@ Elements of video clip meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

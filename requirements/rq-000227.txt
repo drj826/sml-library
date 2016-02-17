@@ -1,13 +1,13 @@
 >>>requirement.rq-000227
 
-title:: Format an HTML Left Arrow Symbol
+title:: Render an HTML Left Arrow Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML left arrow symbol.
+description:: The software shall render an HTML left arrow symbol.
 
-index:: [id:rq-000227]; left arrow symbol!format HTML
+index:: [id:rq-000227]; left arrow symbol!render HTML
 
 <<<requirement

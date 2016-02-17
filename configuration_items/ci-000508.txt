@@ -1,0 +1,32 @@
+>>>configuration_item.ci-000508
+
+title:: continuously_publish_library.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000488
+
+description:: This windows batch file invokes the
+[cmd:publish_library.pl] Perl application in an infinite loop to
+continuously publish the [g:SML:library]. This batch file is provided
+to make it easy for windows users to simply double-click on the batch
+file to publish the library.  It can also be invoked from other batch
+files.
+
+index:: ci-000508; continuously_publish_library.bat
+
+>>>LISTING.lis-continuously_publish_library-bat
+
+title:: continuously_publish_library.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/continuously_publish_library.bat
+
+<<<LISTING
+
+<<<configuration_item

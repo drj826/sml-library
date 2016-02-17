@@ -13,48 +13,79 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="parse" mc="Standard.Activity" uid="7f8ec936-e2ec-458e-b79b-5eb528b72eef"/>
+      </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Library" mc="Standard.Class" uid="c3ec73fc-be31-4f85-a3cf-4d3051d15ae4"/>
-        <COMPID name="Util" mc="Standard.Class" uid="f44e85ea-7e7f-4ec7-bbec-718267d4bee6"/>
-        <COMPID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
-        <COMPID name="Ontology" mc="Standard.Class" uid="06e774fe-70a9-4a81-881b-8640cdc8b970"/>
-        <COMPID name="Reasoner" mc="Standard.Class" uid="8a097b14-5ad2-4083-bfc3-df3ce6224adc"/>
-        <COMPID name="Publisher" mc="Standard.Class" uid="b495f2db-f8c0-4090-99cb-3b24bb631658"/>
-        <COMPID name="Glossary" mc="Standard.Class" uid="82ef5942-c569-4d77-891c-31e6827e4548"/>
+        <COMPID name="SML" mc="Standard.Class" uid="841dfaa8-cbe0-4734-ba28-6e5d5ee2c41a"/>
         <COMPID name="AcronymList" mc="Standard.Class" uid="143e0e22-cae1-498a-9004-85b4794a04e0"/>
-        <COMPID name="References" mc="Standard.Class" uid="7ba43bf9-0ce1-4496-ad37-624003e2a5ee"/>
-        <COMPID name="File" mc="Standard.Class" uid="37c4cba4-9f71-4406-8b6b-d139dd9ec232"/>
-        <COMPID name="Parser" mc="Standard.Class" uid="7ac49d8f-7a83-4e31-8da1-bf7d33374b2c"/>
-        <COMPID name="Document" mc="Standard.Class" uid="56ae6694-f960-47ef-823e-b8f0fb87cc6d"/>
-        <COMPID name="Entity" mc="Standard.Class" uid="5d218311-5ce6-441e-a223-627c87a7d1fd"/>
-        <COMPID name="Division" mc="Standard.Class" uid="11fa3fd6-b1c4-46af-b516-520db9c654e8"/>
-        <COMPID name="Definition" mc="Standard.Class" uid="6abb2097-768b-4f29-b994-654d0b3ff1cc"/>
-        <COMPID name="Outcome" mc="Standard.Class" uid="8afc138d-8741-4ebe-aa93-17cc676b15ff"/>
-        <COMPID name="Value" mc="Standard.Class" uid="3560d4bc-5ac8-4d9f-9db3-cdde83079a46"/>
-        <COMPID name="Triple" mc="Standard.Class" uid="4a4935b1-7926-4094-a09f-e55c9b6b8981"/>
-        <COMPID name="Error" mc="Standard.Class" uid="93f477f5-9669-44df-85b6-720f1ca87ffd"/>
-        <COMPID name="Part" mc="Standard.Class" uid="01156f52-f3fd-470e-a1e5-45b531a318ff"/>
+        <COMPID name="AcronymTermReference" mc="Standard.Class" uid="df6bf6e4-973e-47ac-8452-a1d86559b465"/>
         <COMPID name="Block" mc="Standard.Class" uid="91875e60-bf7c-4ac3-a488-5858cc87b1db"/>
+        <COMPID name="BulletList" mc="Standard.Class" uid="7a7ae867-6006-4480-9a76-06a0469b5d2d"/>
+        <COMPID name="CitationReference" mc="Standard.Class" uid="ea478afe-86d1-48df-b247-54315572b7fe"/>
+        <COMPID name="CrossReference" mc="Standard.Class" uid="81470cae-192f-4375-be04-4936c873740e"/>
+        <COMPID name="Definition" mc="Standard.Class" uid="6abb2097-768b-4f29-b994-654d0b3ff1cc"/>
+        <COMPID name="DefinitionListItem" mc="Standard.Class" uid="9a26978c-640a-478f-86cb-50c8a15349e0"/>
+        <COMPID name="Division" mc="Standard.Class" uid="11fa3fd6-b1c4-46af-b516-520db9c654e8"/>
+        <COMPID name="Document" mc="Standard.Class" uid="56ae6694-f960-47ef-823e-b8f0fb87cc6d"/>
+        <COMPID name="Element" mc="Standard.Class" uid="88c61f12-4d6a-4d10-abbd-2e3d68b7ecec"/>
+        <COMPID name="EmailAddress" mc="Standard.Class" uid="90ae7b8c-4798-4064-a509-b1a8e8743f51"/>
+        <COMPID name="Entity" mc="Standard.Class" uid="5d218311-5ce6-441e-a223-627c87a7d1fd"/>
+        <COMPID name="EnumeratedList" mc="Standard.Class" uid="f30adcb9-5aca-44c2-b13b-999a1d4d51cd"/>
+        <COMPID name="Error" mc="Standard.Class" uid="93f477f5-9669-44df-85b6-720f1ca87ffd"/>
+        <COMPID name="Figure" mc="Standard.Class" uid="2063606c-d73a-4aef-b2ac-e6b2114c4f48"/>
+        <COMPID name="File" mc="Standard.Class" uid="37c4cba4-9f71-4406-8b6b-d139dd9ec232"/>
+        <COMPID name="FileReference" mc="Standard.Class" uid="18daef74-0447-4fd6-8e1d-b809dbee3959"/>
+        <COMPID name="FootnoteReference" mc="Standard.Class" uid="4aa1b943-1737-455d-8afa-e8e08983669d"/>
+        <COMPID name="Glossary" mc="Standard.Class" uid="82ef5942-c569-4d77-891c-31e6827e4548"/>
+        <COMPID name="GlossaryDefinitionReference" mc="Standard.Class" uid="7c6a5d70-f2b6-4a32-93c4-6c110bacf702"/>
+        <COMPID name="GlossaryTermReference" mc="Standard.Class" uid="c99d21a3-6911-4a5a-bbdb-48a2153e5a15"/>
+        <COMPID name="IDReference" mc="Standard.Class" uid="0943b3e4-bc91-4037-952d-61480e12c8be"/>
+        <COMPID name="Image" mc="Standard.Class" uid="3e50bd78-2a49-4e7f-b5d5-1ca4a70a24ad"/>
+        <COMPID name="Index" mc="Standard.Class" uid="f091a239-fcc3-44d5-82b2-16d3a81c0359"/>
+        <COMPID name="IndexEntry" mc="Standard.Class" uid="37588ebc-43ab-4ef9-9da8-e1e9bd100b47"/>
+        <COMPID name="IndexReference" mc="Standard.Class" uid="dc45ec20-1382-4251-8ec5-563be35b599b"/>
+        <COMPID name="Library" mc="Standard.Class" uid="c3ec73fc-be31-4f85-a3cf-4d3051d15ae4"/>
+        <COMPID name="Line" mc="Standard.Class" uid="bd644a44-2547-447f-b65a-551367a354aa"/>
+        <COMPID name="ListItem" mc="Standard.Class" uid="2053949b-241c-4b09-80c6-29684f10a457"/>
+        <COMPID name="Listing" mc="Standard.Class" uid="63221b18-49aa-457b-87cc-6446695a5e6d"/>
+        <COMPID name="LookupReference" mc="Standard.Class" uid="6a2d7f10-cfef-4923-ad7c-7096639f66c5"/>
+        <COMPID name="Note" mc="Standard.Class" uid="f125146c-4fe1-4321-b184-542e779e42b0"/>
+        <COMPID name="Ontology" mc="Standard.Class" uid="06e774fe-70a9-4a81-881b-8640cdc8b970"/>
+        <COMPID name="OntologyRule" mc="Standard.Class" uid="d084b18e-7763-4081-8030-86d6aa6a4266"/>
+        <COMPID name="Options" mc="Standard.Class" uid="00ee6088-39c3-41ec-bd2a-f73a7074bb14"/>
+        <COMPID name="Outcome" mc="Standard.Class" uid="8afc138d-8741-4ebe-aa93-17cc676b15ff"/>
+        <COMPID name="PageReference" mc="Standard.Class" uid="dd1b1b82-e826-4693-8678-e1f4d8b164b7"/>
+        <COMPID name="Paragraph" mc="Standard.Class" uid="9d0ee385-32b2-48b2-80e0-b0452f1a9cf8"/>
+        <COMPID name="Parser" mc="Standard.Class" uid="7ac49d8f-7a83-4e31-8da1-bf7d33374b2c"/>
+        <COMPID name="Part" mc="Standard.Class" uid="01156f52-f3fd-470e-a1e5-45b531a318ff"/>
+        <COMPID name="PathReference" mc="Standard.Class" uid="d64efbb6-77f5-4b2a-9649-78266cfc7c66"/>
+        <COMPID name="PreformattedBlock" mc="Standard.Class" uid="2cf43af3-f32f-499f-b32b-a28b854054e8"/>
+        <COMPID name="PropertyStore" mc="Standard.Class" uid="69892439-986a-49fa-aa74-e80324b353a6"/>
+        <COMPID name="Publisher" mc="Standard.Class" uid="b495f2db-f8c0-4090-99cb-3b24bb631658"/>
+        <COMPID name="Reasoner" mc="Standard.Class" uid="8a097b14-5ad2-4083-bfc3-df3ce6224adc"/>
+        <COMPID name="References" mc="Standard.Class" uid="7ba43bf9-0ce1-4496-ad37-624003e2a5ee"/>
+        <COMPID name="Section" mc="Standard.Class" uid="5e960082-59ca-4c99-9676-878e7f48477b"/>
+        <COMPID name="Source" mc="Standard.Class" uid="9368d514-2738-4de3-96e9-bf8b866cf5a7"/>
+        <COMPID name="StatusReference" mc="Standard.Class" uid="3565afa1-b15a-4417-b729-f58f9fbca224"/>
+        <COMPID name="Step" mc="Standard.Class" uid="f41af89b-b01f-401a-829a-486e8c5dc24f"/>
         <COMPID name="String" mc="Standard.Class" uid="24d24ebc-0ede-475b-abce-623bfd1ae755"/>
         <COMPID name="Structure" mc="Standard.Class" uid="3cf85972-dd42-45b9-b049-dc3031efe8a1"/>
-        <COMPID name="Section" mc="Standard.Class" uid="5e960082-59ca-4c99-9676-878e7f48477b"/>
+        <COMPID name="Svninfo" mc="Standard.Class" uid="cc2b373b-737e-4e3c-a03e-2c4b052e7fce"/>
+        <COMPID name="Symbol" mc="Standard.Class" uid="86046908-1148-4e40-b3c5-eaf95dfaaf9f"/>
+        <COMPID name="Syntax" mc="Standard.Class" uid="9b1db437-8cda-4b1b-bbfd-ef93dd9c12aa"/>
         <COMPID name="Table" mc="Standard.Class" uid="516ad75c-1144-4008-b890-7ca76eb93d1f"/>
-        <COMPID name="Figure" mc="Standard.Class" uid="2063606c-d73a-4aef-b2ac-e6b2114c4f48"/>
-        <COMPID name="Listing" mc="Standard.Class" uid="63221b18-49aa-457b-87cc-6446695a5e6d"/>
-        <COMPID name="BulletList" mc="Standard.Class" uid="7a7ae867-6006-4480-9a76-06a0469b5d2d"/>
-        <COMPID name="EnumeratedList" mc="Standard.Class" uid="30dff42a-0d5f-4b4f-913b-01f5a4649049"/>
-        <COMPID name="TableRow" mc="Standard.Class" uid="4fec7a91-856c-42ab-b169-31fef0a746ad"/>
         <COMPID name="TableCell" mc="Standard.Class" uid="3ea5ad04-021c-4429-8567-eaa8284f78b8"/>
-        <COMPID name="Source" mc="Standard.Class" uid="9368d514-2738-4de3-96e9-bf8b866cf5a7"/>
-        <COMPID name="Paragraph" mc="Standard.Class" uid="9d0ee385-32b2-48b2-80e0-b0452f1a9cf8"/>
-        <COMPID name="ListItem" mc="Standard.Class" uid="2053949b-241c-4b09-80c6-29684f10a457"/>
-        <COMPID name="PreformattedBlock" mc="Standard.Class" uid="2cf43af3-f32f-499f-b32b-a28b854054e8"/>
-        <COMPID name="Element" mc="Standard.Class" uid="88c61f12-4d6a-4d10-abbd-2e3d68b7ecec"/>
-        <COMPID name="Line" mc="Standard.Class" uid="bd644a44-2547-447f-b65a-551367a354aa"/>
-        <COMPID name="OntologyRule" mc="Standard.Class" uid="d084b18e-7763-4081-8030-86d6aa6a4266"/>
+        <COMPID name="TableRow" mc="Standard.Class" uid="4fec7a91-856c-42ab-b169-31fef0a746ad"/>
+        <COMPID name="TitleReference" mc="Standard.Class" uid="0237e8d1-3a10-4239-b6b7-fb7a70c2ad44"/>
+        <COMPID name="Triple" mc="Standard.Class" uid="4a4935b1-7926-4094-a09f-e55c9b6b8981"/>
+        <COMPID name="URLReference" mc="Standard.Class" uid="ec8a2daa-bd93-4ee2-8700-aa5eb4ca22c2"/>
+        <COMPID name="Util" mc="Standard.Class" uid="f44e85ea-7e7f-4ec7-bbec-718267d4bee6"/>
+        <COMPID name="Value" mc="Standard.Class" uid="3560d4bc-5ac8-4d9f-9db3-cdde83079a46"/>
+        <COMPID name="VariableReference" mc="Standard.Class" uid="a45198a0-c0e1-45c3-9a1b-60a925386cf5"/>
+        <COMPID name="Perl5" mc="Standard.Component" uid="ddad86a3-6aa5-47d0-8e9c-a9ef024d1e76"/>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="overview diagram" mc="Standard.ClassDiagram" uid="ad2e92fb-7452-4322-85bf-94a0f485785f"/>
         <COMPID name="Library Class diagram" mc="Standard.ClassDiagram" uid="b0ec456b-54a7-4535-996d-b63ffcf076fa"/>
         <COMPID name="Part Class diagram" mc="Standard.ClassDiagram" uid="f14ec78a-ee18-4346-9931-08447d62f41e"/>
         <COMPID name="Parser Class diagram" mc="Standard.ClassDiagram" uid="99fdf11e-6c2f-4bf3-aa14-65a8e85ad3de"/>
@@ -62,6 +93,65 @@
         <COMPID name="Block Class diagram" mc="Standard.ClassDiagram" uid="28187b15-d592-4e8c-ac2c-3dd0875b4742"/>
         <COMPID name="Line Class diagram" mc="Standard.ClassDiagram" uid="083ebd92-93a4-47dd-a7ec-399cb31c6004"/>
         <COMPID name="Ontology Class diagram" mc="Standard.ClassDiagram" uid="37a9eb6c-80f8-4bcd-b504-9ad1df69df48"/>
+        <COMPID name="Document Class diagram" mc="Standard.ClassDiagram" uid="07c89cf5-a079-4fc1-bbac-8fc19edc58d6"/>
+        <COMPID name="Publisher Class diagram" mc="Standard.ClassDiagram" uid="4cee19c6-9497-400b-8d11-04ca55fb878e"/>
+        <COMPID name="Reasoner Class diagram" mc="Standard.ClassDiagram" uid="bf5738bb-de36-4354-8f22-bab854279e95"/>
+        <COMPID name="Util Class diagram" mc="Standard.ClassDiagram" uid="313726ae-f732-4780-a933-e9985573f841"/>
+        <COMPID name="Glossary Class diagram" mc="Standard.ClassDiagram" uid="c8529f77-9277-4556-b0aa-8512656d1661"/>
+        <COMPID name="Section Class diagram" mc="Standard.ClassDiagram" uid="61e58ce2-6b1c-4de6-aa1e-7a42fb4f71ae"/>
+        <COMPID name="Options Class diagram" mc="Standard.ClassDiagram" uid="c0473e77-0edf-4df7-a9c4-5c7d4d3cff35"/>
+        <COMPID name="Entity Class diagram" mc="Standard.ClassDiagram" uid="07dde3f3-160f-4297-b443-16438543c1a9"/>
+        <COMPID name="String Class diagram" mc="Standard.ClassDiagram" uid="adf61e33-9e3c-49f5-bbf6-b1d8087a7198"/>
+        <COMPID name="AcronymList Class diagram" mc="Standard.ClassDiagram" uid="0cee83d2-118c-4675-89f1-551d9ffe2ca6"/>
+        <COMPID name="AcronymTermReference Class diagram" mc="Standard.ClassDiagram" uid="1d5056d0-f9e1-4a13-88e1-fecde5114e5a"/>
+        <COMPID name="BulletList Class diagram" mc="Standard.ClassDiagram" uid="60e9ad29-269d-4f6c-b51b-3fa7131ac46b"/>
+        <COMPID name="CitationReference Class diagram" mc="Standard.ClassDiagram" uid="e4f32190-731f-4010-949b-ee6181de508f"/>
+        <COMPID name="Cross Reference Class diagram" mc="Standard.ClassDiagram" uid="43275ffa-8fb0-40bc-828b-effb3d060529"/>
+        <COMPID name="Definition Class diagram" mc="Standard.ClassDiagram" uid="130873f5-613b-4e8f-a4e8-ea3fa5845703"/>
+        <COMPID name="DefinitionListItem Class diagram" mc="Standard.ClassDiagram" uid="633c7f83-0f22-4226-93a9-59c729536b25"/>
+        <COMPID name="SML Class diagram" mc="Standard.ClassDiagram" uid="3eb6762d-91ab-47ab-88a2-0ca63eb9a16b"/>
+        <COMPID name="Element Class diagram" mc="Standard.ClassDiagram" uid="df363ae2-e8c3-4340-8c21-d367b641b206"/>
+        <COMPID name="EmailAddress Class diagram" mc="Standard.ClassDiagram" uid="4f8dc3f1-1d29-46fd-b938-17bf3bfa4c83"/>
+        <COMPID name="EnumeratedList Class diagram" mc="Standard.ClassDiagram" uid="495fa72b-f301-431e-a626-969e8f3ab7c9"/>
+        <COMPID name="Error Class diagram" mc="Standard.ClassDiagram" uid="c7e6a0fa-6ebf-4309-8a90-7ff747ada88c"/>
+        <COMPID name="Figure Class diagram" mc="Standard.ClassDiagram" uid="1af5a075-776c-49f7-8ae4-146760b6d90f"/>
+        <COMPID name="File Class diagram" mc="Standard.ClassDiagram" uid="76a7f18d-31e6-4000-9f49-12af584c112b"/>
+        <COMPID name="FileReference Class diagram" mc="Standard.ClassDiagram" uid="a11272ec-6923-431b-8b86-fb3102bba5f5"/>
+        <COMPID name="FootnoteReference Class diagram" mc="Standard.ClassDiagram" uid="9cbc0f2e-f8a1-442a-b02f-9a9e29929124"/>
+        <COMPID name="GlossaryDefinitionReference Class diagram" mc="Standard.ClassDiagram" uid="34b6a603-868c-4e0c-923a-bec2d2b47636"/>
+        <COMPID name="GlossaryTermReference Class diagram" mc="Standard.ClassDiagram" uid="0d26a731-d456-466d-8c2f-50a59728b7b2"/>
+        <COMPID name="IDReference Class diagram" mc="Standard.ClassDiagram" uid="25d30583-b76f-4dc2-9abd-580ca273273d"/>
+        <COMPID name="Image Class diagram" mc="Standard.ClassDiagram" uid="d7866e6f-190b-465f-b0fb-750be080e286"/>
+        <COMPID name="Index Class diagram" mc="Standard.ClassDiagram" uid="f5e7182f-f960-495d-aa65-8a1203f56969"/>
+        <COMPID name="IndexEntry Class diagram" mc="Standard.ClassDiagram" uid="2ac784a5-1927-4a28-801e-93ea8df5000c"/>
+        <COMPID name="IndexReference Class diagram" mc="Standard.ClassDiagram" uid="5c40ac6f-f70e-477c-bf34-ff9ae86205ba"/>
+        <COMPID name="ListItem Class diagram" mc="Standard.ClassDiagram" uid="111b3b9f-dc7d-4a00-bd30-66aff77abb3b"/>
+        <COMPID name="Listing Class diagram" mc="Standard.ClassDiagram" uid="66cf390b-9b0b-4cf1-bb81-83c2d7520cad"/>
+        <COMPID name="LookupReference Class diagram" mc="Standard.ClassDiagram" uid="9041be2a-dd90-4785-b90b-0fee0ea18124"/>
+        <COMPID name="Note Class diagram" mc="Standard.ClassDiagram" uid="1987aa81-08af-4954-9dfb-de00c5899387"/>
+        <COMPID name="OntologyRule Class diagram" mc="Standard.ClassDiagram" uid="3f35d408-9300-4510-91d9-33c25a839bce"/>
+        <COMPID name="Outcome Class diagram" mc="Standard.ClassDiagram" uid="0cc28665-2e5f-4221-8ccd-e073855d6a00"/>
+        <COMPID name="PageReference Class diagram" mc="Standard.ClassDiagram" uid="6a30a212-3c92-4fac-b340-781da1327505"/>
+        <COMPID name="Paragraph Class diagram" mc="Standard.ClassDiagram" uid="3a1561a3-b396-492f-a1c4-50ae48ebc444"/>
+        <COMPID name="PathReference Class diagram" mc="Standard.ClassDiagram" uid="637f15bc-1936-4363-829e-d726a685587e"/>
+        <COMPID name="PreformattedBlock Class diagram" mc="Standard.ClassDiagram" uid="77695105-4ef1-4d86-8e65-a89ab12e46d0"/>
+        <COMPID name="References Class diagram" mc="Standard.ClassDiagram" uid="44d7ec60-bd66-4438-a9f7-a8301bc17eff"/>
+        <COMPID name="Source Class diagram" mc="Standard.ClassDiagram" uid="d3ec2e5a-f502-4750-b835-74a192923d22"/>
+        <COMPID name="StatusReference Class diagram" mc="Standard.ClassDiagram" uid="1cc0c8d9-0c9d-4be4-b99c-3b5496214319"/>
+        <COMPID name="Step Class diagram" mc="Standard.ClassDiagram" uid="1d7c988f-2764-4202-8a4e-0546777e88b3"/>
+        <COMPID name="Structure Class diagram" mc="Standard.ClassDiagram" uid="a61fb87a-6e28-47a8-9d31-5fb2e554a665"/>
+        <COMPID name="Svninfo Class diagram" mc="Standard.ClassDiagram" uid="12709852-67ad-477f-959f-934200a76b2f"/>
+        <COMPID name="Symbol Class diagram" mc="Standard.ClassDiagram" uid="10161482-da29-47b5-90b5-9fa924c8d37f"/>
+        <COMPID name="Syntax Class diagram" mc="Standard.ClassDiagram" uid="5050f1a4-0346-428b-a779-573cc217d59b"/>
+        <COMPID name="Table Class diagram" mc="Standard.ClassDiagram" uid="de378ab2-1426-45cc-8d3d-b5f580a7d10e"/>
+        <COMPID name="TableCell Class diagram" mc="Standard.ClassDiagram" uid="28a7b232-32e1-4d5f-b0d9-47210fb72ac1"/>
+        <COMPID name="TableRow Class diagram" mc="Standard.ClassDiagram" uid="debeeb67-bd91-44c8-9b72-2a0ea3bdb8c0"/>
+        <COMPID name="TitleReference Class diagram" mc="Standard.ClassDiagram" uid="0cef47e2-d7ea-4b3f-8b1b-5ad88e10f3ee"/>
+        <COMPID name="Triple Class diagram" mc="Standard.ClassDiagram" uid="f3c7034e-ae80-47b2-a9a7-10e962bd1688"/>
+        <COMPID name="URLReference Class diagram" mc="Standard.ClassDiagram" uid="9412c254-be66-43c0-b321-607752f0da39"/>
+        <COMPID name="Value Class diagram" mc="Standard.ClassDiagram" uid="3fa9c39a-ee7c-4605-854b-0d28e1442d52"/>
+        <COMPID name="VariableReference Class diagram" mc="Standard.ClassDiagram" uid="cab19978-9c87-4bef-8c7d-5f57ef2c885a"/>
+        <COMPID name="PropertyStore Class diagram" mc="Standard.ClassDiagram" uid="306bad72-11e4-4c54-bdcb-b7d1b931d13d"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

@@ -1,6 +1,6 @@
 >>>requirement.rq-000276
 
-title:: Generate HTML Glossary
+title:: Render HTML Glossary
 
 is_part_of:: rq-000001
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML [g:SML:glossary].  The
+description:: The software shall render an HTML [g:SML:glossary].  The
 purpose of the glossary is to enable readers to quickly navigate to
 definitions of key terms used in the document.
 

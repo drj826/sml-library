@@ -1,0 +1,47 @@
+>>>configuration_item.ci-000451
+
+title:: SML::IDReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::IDReference represents a reference to any
+division ID.  The referenced ID must exist in the library.
+
+index:: ci-000451; SML::IDReference; IDReference.pm;
+ID reference
+
+>>>FIGURE.fig-class-diagram-id-reference
+
+title:: SML::IDReference Class Diagram
+
+image:: files/images/class-diagram-id-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-idreference-pod
+
+title:: SML::IDReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IDReference.pm
+
+<<<LISTING
+
+>>>LISTING.lis-idreference-pm
+
+title:: IDReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/IDReference.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,6 +1,6 @@
 >>>requirement.rq-000198
 
-title:: Represent Allocations
+title:: Represent an Allocation
 
 priority:: routine
 
@@ -9,13 +9,13 @@ is_part_of:: rq-000195
 type:: data format
 
 description:: The data format shall have the capability to identify
-and represent document content as allocations.  An allocation is a
-pairing of a problem and a solution.  It is an assertion that the
-solution shall solve the problem.  Allocations are limited to a single
-problem and a single solution. The purpose of identifying content as
-an allocation is to make the content re-usable, to enable special
-listings of allocations, and to enable automatic reasoning about
-allocations.
+and represent document content as an allocation.  An allocation is a
+pairing of a requirement and a solution.  It is an assertion that the
+solution shall solve the requirement.  Allocations are limited to a
+single requirement and a single solution. The purpose of identifying
+content as an allocation is to make the content re-usable, to enable
+special listings of allocations, and to enable automatic reasoning
+about allocations.
 
 index:: [id:rq-000198]; allocations
 

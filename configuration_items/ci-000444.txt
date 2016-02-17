@@ -1,0 +1,46 @@
+>>>configuration_item.ci-000444
+
+title:: SML::EmailAddress Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::EmailAddress represents a reference to an Email
+Address.
+
+index:: ci-000444; SML::EmailAddress; EmailAddress.pm; email address
+
+>>>FIGURE.fig-class-diagram-email-address
+
+title:: SML::EmailAddress Class Diagram
+
+image:: files/images/class-diagram-email-address.png
+
+<<<FIGURE
+
+>>>LISTING.lis-emailaddress-pod
+
+title:: SML::EmailAddress Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/EmailAddress.pm
+
+<<<LISTING
+
+>>>LISTING.lis-email-address-pm
+
+title:: EmailAddress.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/EmailAddress.pm
+
+<<<LISTING
+
+<<<configuration_item

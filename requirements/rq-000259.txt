@@ -24,7 +24,7 @@ Examples of possible first order semantics errors include:
 
 + Unknown division property
 
-+ Invalid property cardinality
++ Invalid property multiplicity
 
 + Invalid entity relationship
 

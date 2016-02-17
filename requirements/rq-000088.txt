@@ -32,7 +32,7 @@ Section epigraphs may have the following meta data elements:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

@@ -1,13 +1,13 @@
 >>>requirement.rq-000245
 
-title:: Format HTML Fixed-Width Text
+title:: Render HTML Fixed-Width Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format HTML fixed-width text.
+description:: The software shall render HTML fixed-width text.
 
-index:: [id:rq-000245]; fixed-width text!format HTML
+index:: [id:rq-000245]; fixed-width text!render HTML
 
 <<<requirement

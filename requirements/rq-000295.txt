@@ -1,13 +1,13 @@
 >>>requirement.rq-000295
 
-title:: Format a LaTeX Status Reference
+title:: Render a LaTeX Status Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX status reference.
+description:: The software shall render a LaTeX status reference.
 
-index:: [id:rq-000295]; status reference!format LaTeX
+index:: [id:rq-000295]; status reference!render LaTeX
 
 <<<requirement

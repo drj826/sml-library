@@ -1,13 +1,13 @@
 >>>requirement.rq-000249
 
-title:: Format an HTML Command
+title:: Render an HTML Command
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML command.
+description:: The software shall render an HTML command.
 
-index:: [id:rq-000249]; command!format HTML
+index:: [id:rq-000249]; command!render HTML
 
 <<<requirement

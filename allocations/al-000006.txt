@@ -1,17 +1,10 @@
 >>>allocation.al-000006
 
-configuration_item:: ci-000001 # SML
+configuration_item:: ci-000433 # SML::Syntax
 
-requirement::  rq-000006 # Represent Document Structures
+requirement:: rq-000006        # Represent Document Structures
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2011-06-21:al-000006:green: SML represents all required
-document structures.
+test:: tc-000040               # Analysis
 
 index:: [id:al-000006]
 

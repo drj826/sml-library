@@ -1,0 +1,48 @@
+>>>configuration_item.ci-000441
+
+title:: SML::BulletList Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000466         # SML::Structure Class
+
+description:: An SML::BulletList represents a list of bullet items
+each consisting of at most paragraph of text.  Bullet lists may be
+nested within other bullet lists or within enumerated lists. Nesting
+level is indicated by leading whitespace (indentation).
+
+index:: ci-000441; SML::BulletList; BulletList.pm; bullet list
+
+>>>FIGURE.fig-class-diagram-bullet-list
+
+title:: SML::BulletList Class Diagram
+
+image:: files/images/class-diagram-bullet-list.png
+
+<<<FIGURE
+
+>>>LISTING.lis-bulletlist-pod
+
+title:: SML::BulletList Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/BulletList.pm
+
+<<<LISTING
+
+>>>LISTING.lis-bulletlist-pm
+
+title:: BulletList.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/BulletList.pm
+
+<<<LISTING
+
+<<<configuration_item

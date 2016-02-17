@@ -1,11 +1,10 @@
 >>>allocation.al-000377
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000297
+requirement:: rq-000297         # Render a LaTeX `Take Note' Indicator
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000377]
 

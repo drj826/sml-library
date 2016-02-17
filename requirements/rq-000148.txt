@@ -1,6 +1,6 @@
 >>>requirement.rq-000148
 
-title:: Generate a Glossary
+title:: Publish a Document Glossary
 
 is_part_of:: rq-000139
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a
+description:: The software shall enable a user to generate a document
 glossary. Terms should be arranged in alphabetical order, each on a
 separate line and followed by its definition. [cite:cms15,
 [section]1.87]

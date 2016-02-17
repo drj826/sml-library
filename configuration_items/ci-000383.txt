@@ -1,18 +1,27 @@
 >>>configuration_item.ci-000383
 
-title:: SML/Util.pm Module
+title:: SML::Util Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/Util.pm Module...
+description:: The SML::Util class provides a collection of utility
+methods used by other classes.
 
-index:: [id:ci-000383]; Util.pm; SML::Util
+index:: [id:ci-000383]; Util.pm; SML::Util; utility methods
+
+>>>FIGURE.fig-class-diagram-util
+
+title:: SML::Util Class Diagram
+
+image:: files/images/class-diagram-util.png
+
+<<<FIGURE
 
 >>>LISTING.lis-util-pm
 
-title:: Util.pm
+title:: Util.pm Code Listing
 
 numbers:: left
 

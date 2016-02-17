@@ -1,10 +1,10 @@
 >>>allocation.al-000311
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000232 # Render an HTML Trademark Symbol
+requirement:: rq-000232         # Render an HTML Trademark Symbol
 
-test::     tc-000014 # Block.pm Unit Test Case
+test:: tc-000043                # Test
 
 
 

@@ -1,14 +1,10 @@
 >>>allocation.al-000070
 
-#----------------------------------------------------------------------
+configuration_item:: ci-000433  # SML::Syntax
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+requirement:: rq-000036         # Represent a Task
 
-requirement::  rq-000036 # Represent Tasks
-
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000070:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000070]
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000076
 
-title:: Represent Traceability Relationships
+title:: Represent a Traceability Relationship
 
 priority:: routine
 
@@ -8,10 +8,10 @@ is_part_of:: rq-000009
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-traceability relationships between specified elements of content.
-``Traces'' between content elements are simple
-subject-predicate-object assertions that declare something to be true.
+description:: The data format shall have the capability to represent a
+traceability relationship between specified parts of content.
+``Traces'' between parts are simple subject-predicate-object
+assertions that declare something to be true.
 
 index:: [id:rq-000076]; traceability
 
@@ -28,113 +28,73 @@ enumerate the assertions the data format must represent for each item.
 title:: Required Assertions Where Subject = Problem
 
 ::
-
 ::grey: Subject
-
 ::
-
 ::grey: Predicate
-
 ::
-
 ::grey: Object
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: is solved by
-
 : a
-
 :grey: Solution
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: is verified by
-
 : a
-
 :grey: Test
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: is part of
-
 : another
-
-:grey: Problem
+:grey: Requirement
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: has as a part
-
 : another
-
-:grey: Problem
+:grey: Requirement
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: is owned by
-
 : a
-
 :grey: Role
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: is assigned to
-
 : a
-
 :grey: Role
 
 ---
 
 : A
-
-:grey: Problem
-
+:grey: Requirement
 :
-
 :grey: has a stakeholder of
-
 : a
-
 :grey: Role
 
 <<<TABLE
@@ -145,35 +105,39 @@ title:: Required Assertions Where Subject = Problem
 
 title:: Required Assertions Where Subject = Solution
 
+::
 :: Subject
-
+::
 :: Predicate
-
+::
 :: Object
 
 ---
 
-: Solution
-
-: solves
-
-: Problem
-
----
-
-: Solution
-
-: is validated by
-
-: Test
+: A
+:grey: Solution
+:
+:grey: solves
+: a
+:grey: Requirement
 
 ---
 
-: Solution
+: A
+:grey: Solution
+:
+:grey: is validated by
+: a
+:grey: Test
 
-: is owned by
+---
 
-: Role
+: A
+:grey: Solution
+:
+:grey: is owned by
+: a
+:grey: Role
 
 <<<TABLE
 

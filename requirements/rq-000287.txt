@@ -1,6 +1,6 @@
 >>>requirement.rq-000287
 
-title:: Format a LaTeX Acronym Reference
+title:: Render a LaTeX Acronym Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000090
 
-description:: The software shall format a LaTeX acronym reference.
+description:: The software shall render a LaTeX acronym reference.
 
-index:: [id:rq-000287]; acronym reference!format LaTeX
+index:: [id:rq-000287]; acronym reference!render LaTeX
 
 <<<requirement

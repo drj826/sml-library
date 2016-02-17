@@ -1,13 +1,13 @@
 >>>requirement.rq-000228
 
-title:: Format an HTML Right Arrow Symbol
+title:: Render an HTML Right Arrow Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML right arrow symbol.
+description:: The software shall render an HTML right arrow symbol.
 
-index:: [id:rq-000228]; right arrow symbol!format HTML
+index:: [id:rq-000228]; right arrow symbol!render HTML
 
 <<<requirement

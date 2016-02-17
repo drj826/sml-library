@@ -1,13 +1,13 @@
 >>>requirement.rq-000318
 
-title:: Format LaTeX Bold Text
+title:: Render LaTeX Bold Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX bold text.
+description:: The software shall render LaTeX bold text.
 
-index:: [id:rq-000318]; bold text!format LaTeX
+index:: [id:rq-000318]; bold text!render LaTeX
 
 <<<requirement

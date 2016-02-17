@@ -1,4 +1,4 @@
->>>RAW.sml-presentation-summary
+>>>FRAGMENT.sml-presentation-summary
 
 : !!Page Break.!! Insert a forced page break. Pagebreaks should be
 used sparingly and only to make final adjustments before printing.
@@ -333,4 +333,4 @@ index:: literal text
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

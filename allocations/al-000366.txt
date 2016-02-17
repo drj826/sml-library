@@ -1,11 +1,10 @@
 >>>allocation.al-000366
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000286
+requirement:: rq-000286         # Render a LaTeX Glossary Reference
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000366]
 

@@ -1,13 +1,13 @@
 >>>requirement.rq-000294
 
-title:: Format a LaTeX Date Reference
+title:: Render a LaTeX Date Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX date reference.
+description:: The software shall render a LaTeX date reference.
 
-index:: [id:rq-000294]; date reference!format LaTeX
+index:: [id:rq-000294]; date reference!render LaTeX
 
 <<<requirement

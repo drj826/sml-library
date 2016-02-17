@@ -1,0 +1,14 @@
+>>>configuration_item.ci-000505
+
+title:: Default HTML Templates
+
+type:: package
+
+is_part_of:: ci-000475
+
+description:: This is a set of default HTML templates.  ``Default'' is
+the name of the style.
+
+index:: ci-000505
+
+<<<configuration_item

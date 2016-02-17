@@ -1,10 +1,10 @@
 >>>allocation.al-000382
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000302
+requirement:: rq-000302         # Render a LaTeX Right Arrow Symbol
 
-test:: tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000382]
 

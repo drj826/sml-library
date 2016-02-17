@@ -1,0 +1,49 @@
+>>>configuration_item.ci-000459
+
+title:: SML::Outcome Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000386         # SML::Element Class
+
+description:: An SML::Outcome represents the result of some sort of
+test, audit, review, or inspection event.  The subject of the test is
+always an entity in the library.  The result of the test is expressed
+as a status with a description.  The status is a color: green, yellow,
+red, or grey.
+
+index:: [id:ci-000459]; Outcome.pm; SML::Outcome; outcome
+
+>>>FIGURE.fig-class-diagram-outcome
+
+title:: SML::Outcome Class Diagram
+
+image:: files/images/class-diagram-outcome.png
+
+<<<FIGURE
+
+>>>LISTING.lis-outcome-pod
+
+title:: SML::Outcome Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Outcome.pm
+
+<<<LISTING
+
+>>>LISTING.lis-outcome-pm
+
+title:: Outcome.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Outcome.pm
+
+<<<LISTING
+
+<<<configuration_item

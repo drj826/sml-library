@@ -4,7 +4,7 @@ title:: SML::Library Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: SML::Library is the central class in the design. A
 library contains a collection of related [g:SML:DOCUMENT]s.  These
@@ -28,6 +28,14 @@ image:: files/images/class-diagram-library.png
 
 <<<FIGURE
 
+>>>LISTING.lis-library-pod
+
+title:: SML::Library Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Library.pm
+
+<<<LISTING
+
 >>>LISTING.lis-library-pm
 
 title:: Library.pm Code Listing
@@ -41,7 +49,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Library.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

@@ -1,13 +1,13 @@
 >>>requirement.rq-000224
 
-title:: Format an HTML Smiley Symbol
+title:: Render an HTML Smiley Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML smiley symbol. :-)
+description:: The software shall render an HTML smiley symbol. :-)
 
-index:: [id:rq-000224]; smiley symbol!format HTML
+index:: [id:rq-000224]; smiley symbol!render HTML
 
 <<<requirement

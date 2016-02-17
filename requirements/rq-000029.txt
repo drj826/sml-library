@@ -1,6 +1,6 @@
 >>>requirement.rq-000029
 
-title:: Represent Quotations
+title:: Represent a Quotation
 
 priority:: routine
 
@@ -8,15 +8,15 @@ is_part_of:: rq-000195
 
 type:: data format
 
-description:: The data format shall have the capability to identify and
-represent document content as quotations.  Quotations are verbatim
-replications of what another person said or wrote.  The purpose of
-identifying content as a quotation is to make the content re-usable
-and to enable special listings of quotations.  Furthermore, the data
-format must provide the capability to capture specific elements of
-meta data.
+description:: The data format shall have the capability to identify
+and represent document content as a quotation.  Quotations are
+verbatim replications of what another person said or wrote.  The
+purpose of identifying content as a quotation is to make the content
+re-usable and to enable special listings of quotations.  Furthermore,
+the data format must provide the capability to capture specific
+elements of meta data.
 
-index:: [id:rq-000029]; quotations
+index:: [id:rq-000029]; quotation
 
 Elements of quotation meta data include:
 
@@ -28,7 +28,7 @@ Elements of quotation meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

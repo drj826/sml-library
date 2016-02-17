@@ -1,11 +1,10 @@
 >>>allocation.al-000340
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000260 # Render Common Navigation Pane for Each HTML Page
+requirement:: rq-000260         # Render Common Navigation Pane for Each HTML Page
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000340]
 

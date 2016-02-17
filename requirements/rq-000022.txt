@@ -161,7 +161,7 @@ Elements of bibliography entry meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

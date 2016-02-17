@@ -1,13 +1,13 @@
 >>>requirement.rq-000239
 
-title:: Format an HTML Emdash
+title:: Render an HTML Emdash
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML emdash.
+description:: The software shall render an HTML emdash.
 
-index:: [id:rq-000239]; emdash!format HTML
+index:: [id:rq-000239]; emdash!render HTML
 
 <<<requirement

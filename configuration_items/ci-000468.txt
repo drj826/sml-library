@@ -1,0 +1,39 @@
+>>>configuration_item.ci-000468
+
+title:: SML::TitleReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::TitleReference represents a reference to any
+title in the library.
+
+index:: ci-000468; SML::TitleReference; TitleReference.pm;
+title reference
+
+>>>FIGURE.fig-class-diagram-title-reference
+
+title:: SML::TitleReference Class Diagram
+
+image:: files/images/class-diagram-title-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-titlereference-pm
+
+title:: TitleReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/TitleReference.pm
+
+<<<LISTING
+
+<<<configuration_item

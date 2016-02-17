@@ -1,11 +1,10 @@
 >>>allocation.al-000357
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000277 # Render HTML List of Acronyms
+requirement:: rq-000277         # Render HTML List of Acronyms
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000357]
 

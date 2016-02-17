@@ -1,6 +1,6 @@
 >>>requirement.rq-000210
 
-title:: Format an HTML URL Reference
+title:: Render an HTML URL Reference
 
 is_part_of:: rq-000205
 

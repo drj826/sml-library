@@ -4,13 +4,13 @@ title:: SML::Ontology Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: The SML::Ontology class represents an [g:SML:ontology].
 
-index:: [id:ci-000437]; SML::Ontology; ontology
+index:: [id:ci-000437]; SML::Ontology; Ontology.pm; ontology
 
->>>FIGURE.fig-ontology-class-diagram
+>>>FIGURE.fig-class-diagram-ontology
 
 title:: SML::Ontology Class Diagram
 
@@ -18,9 +18,17 @@ image:: files/images/class-diagram-ontology.png
 
 <<<FIGURE
 
+>>>LISTING.lis-ontology-pod
+
+title:: SML::Ontology Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Ontology.pm
+
+<<<LISTING
+
 >>>LISTING.lis-ontology-pm
 
-title:: Ontology.pm
+title:: Ontology.pm Code Listing
 
 numbers:: left
 

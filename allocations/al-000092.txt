@@ -1,12 +1,10 @@
 >>>allocation.al-000092
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000059 # Represent Superscripted Text
+requirement:: rq-000059         # Represent Superscripted Text
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000092:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000092]
 

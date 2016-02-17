@@ -1,13 +1,13 @@
 >>>requirement.rq-000299
 
-title:: Format a LaTeX Frowny Symbol
+title:: Render a LaTeX Frowny Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX frowny symbol. :-(
+description:: The software shall render a LaTeX frowny symbol. :-(
 
-index:: [id:rq-000299]; frowny symbol!format LaTeX
+index:: [id:rq-000299]; frowny symbol!render LaTeX
 
 <<<requirement

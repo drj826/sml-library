@@ -1,14 +1,45 @@
 >>>configuration_item.ci-000425
 
-title:: SML/Paragraph.pm Module
+title:: SML::Paragraph Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/Paragraph.pm module implements the Paragraph
-class.
+specializes:: ci-000387         # SML::Block Class
 
-index:: [id:ci-000425]; Paragraph.pm; SML::Paragraph
+description:: An SML::Paragraph represents a paragraph of text.
+
+index:: [id:ci-000425]; Paragraph.pm; SML::Paragraph; paragraph
+
+>>>FIGURE.fig-class-diagram-paragraph
+
+title:: SML::Paragraph Class Diagram
+
+image:: files/images/class-diagram-paragraph.png
+
+<<<FIGURE
+
+>>>LISTING.lis-paragraph-pod
+
+title:: SML::Paragraph Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Paragraph.pm
+
+<<<LISTING
+
+>>>LISTING.lis-paragraph-pm
+
+title:: Paragraph.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Paragraph.pm
+
+<<<LISTING
 
 <<<configuration_item

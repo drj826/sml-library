@@ -1,6 +1,6 @@
 >>>requirement.rq-000153
 
-title:: Generate a List of Recent Changes
+title:: Publish a List of Changes Since Previous Version
 
 is_part_of:: rq-000139
 
@@ -8,8 +8,8 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
-recent changes based on the revision control change log.
+description:: The software shall publish a list of changes since the
+previous version.
 
 index:: [id:rq-000153]; list of recent changes
 

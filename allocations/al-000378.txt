@@ -1,10 +1,10 @@
 >>>allocation.al-000378
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000298
+requirement:: rq-000298         # Render a LaTeX Smiley Symbol
 
-test::     tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000378]
 

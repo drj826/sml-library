@@ -1,17 +1,30 @@
 >>>configuration_item.ci-000002
 
-title:: SML.pm Module
+title:: SML Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
-description:: The Publish.pm perl module implements the SML::Publish
-class.  [g:SML:Semantic Manuscript Language] ([a:SML]) is a
-minimalistic descriptive markup language designed to be human
-readable, simple to edit, able to express rich semantic relationships,
-and contain all information necessary to publish professional
-documentation.
+description:: The SML class provides a convenient mechanism for
+application writers pull SML functionality into their application.
+The SML class provides no public attributes or methods.
+
+>>>FIGURE.fig-class-diagram-sml
+
+title:: SML Class Diagram
+
+image:: files/images/class-diagram-sml.png
+
+<<<FIGURE
+
+>>>LISTING.lis-sml-pod
+
+title:: SML Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML.pm
+
+<<<LISTING
 
 >>>LISTING.lis-sml-pm
 

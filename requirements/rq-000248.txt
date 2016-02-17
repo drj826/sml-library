@@ -1,14 +1,14 @@
 >>>requirement.rq-000248
 
-title:: Format an HTML User-Entered Text String
+title:: Render an HTML User-Entered Text String
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML user-entered text
+description:: The software shall render an HTML user-entered text
 string.
 
-index:: [id:rq-000248]; user-entered text string!format HTML
+index:: [id:rq-000248]; user-entered text string!render HTML
 
 <<<requirement

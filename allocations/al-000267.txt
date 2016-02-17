@@ -1,13 +1,10 @@
 >>>allocation.al-000267
 
-configuration_item:: ci-000380
+configuration_item:: ci-000380  # SML::Reasoner
 
-requirement::  rq-000193
+requirement:: rq-000193         # Emit an Info Message on Activation of an Inference Rule
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000267:red: The [file:Reasoner.pm] class is not
-designed or implemented.
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000267]
 

@@ -1,4 +1,4 @@
->>>RAW.sml-content-summary
+>>>FRAGMENT.sml-content-summary
 
 : !!Exercises.!! ([ref:exercises]) Specify training exercises. A
 ~~list of exercises~~ is automatically generated for the front matter
@@ -98,4 +98,4 @@ index:: keypoints
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

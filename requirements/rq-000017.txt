@@ -28,7 +28,7 @@ Elements of attachment meta data include:
 
 :: required?
 
-:: cardinality
+:: multiplicity
 
 ---
 

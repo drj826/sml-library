@@ -1,18 +1,10 @@
 >>>allocation.al-000007
 
-configuration_item:: ci-000006 # SML Semantics
+configuration_item:: ci-000433 # SML::Syntax
 
-requirement::  rq-000007 # Represent Semantic Content
+requirement:: rq-000007        # Represent Semantic Content
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2011-11-27:al-000007:yellow: This is yellow because I'm not
-satisfied with the current capability to represent reviews
-([id:rq-000094]) or outcomes ([id:rq-000095]).
+test:: tc-000040               # Analysis
 
 index:: [id:al-000007]
 

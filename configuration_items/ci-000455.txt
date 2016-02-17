@@ -1,0 +1,46 @@
+>>>configuration_item.ci-000455
+
+title:: SML::IndexReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: The SML::IndexReference class represents a term to be
+placed in the index.
+
+index:: [id:ci-000455]; IndexReference.pm; SML::IndexReference; index reference
+
+>>>FIGURE.fig-class-diagram-index-reference
+
+title:: SML::IndexReference Class Diagram
+
+image:: files/images/class-diagram-index-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-indexreference-pod
+
+title:: SML::IndexReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IndexReference.pm
+
+<<<LISTING
+
+>>>LISTING.lis-indexreference-pm
+
+title:: IndexReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/IndexReference.pm
+
+<<<LISTING
+
+<<<configuration_item

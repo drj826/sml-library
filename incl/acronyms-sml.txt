@@ -1,4 +1,4 @@
->>>RAW.acronyms-sml
+>>>FRAGMENT.acronyms-sml
 
 ######################################################################
 # B
@@ -100,4 +100,4 @@ acronym:: UML {OMG} = [g:OMG:Unified Modeling Language]
 
 acronym:: XML = [g:eXtensible markup Language]
 
-<<<RAW
+<<<FRAGMENT

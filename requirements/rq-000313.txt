@@ -1,13 +1,13 @@
 >>>requirement.rq-000313
 
-title:: Format a LaTeX Emdash
+title:: Render a LaTeX Emdash
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX emdash.
+description:: The software shall render a LaTeX emdash.
 
-index:: [id:rq-000313]; emdash!format LaTeX
+index:: [id:rq-000313]; emdash!render LaTeX
 
 <<<requirement

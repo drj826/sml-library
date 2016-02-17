@@ -1,4 +1,4 @@
->>>RAW.sources
+>>>FRAGMENT.sources
 
 # SOURCES (BIBLIOGRAPHY)
 
@@ -118,4 +118,4 @@ note:: [url:https://en.wikipedia.org/wiki/Unified_Modeling_Language]
 
 ######################################################################
 
-<<<RAW
+<<<FRAGMENT

@@ -1,13 +1,13 @@
 >>>requirement.rq-000298
 
-title:: Format a LaTeX Smiley Symbol
+title:: Render a LaTeX Smiley Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX smiley symbol. :-)
+description:: The software shall render a LaTeX smiley symbol. :-)
 
-index:: [id:rq-000298]; smiley symbol!format LaTeX
+index:: [id:rq-000298]; smiley symbol!render LaTeX
 
 <<<requirement

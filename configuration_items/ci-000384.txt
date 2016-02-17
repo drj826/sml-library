@@ -1,18 +1,34 @@
 >>>configuration_item.ci-000384
 
-title:: SML/File.pm Module
+title:: SML::File Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/File.pm Module...
+description:: An SML::File represents a file in the filesystem.
 
-index:: [id:ci-000384]; File.pm; SML::File
+index:: [id:ci-000384]; File.pm; SML::File; file
+
+>>>FIGURE.fig-class-diagram-file
+
+title:: SML::File Class Diagram
+
+image:: files/images/class-diagram-file.png
+
+<<<FIGURE
+
+>>>LISTING.lis-file-pod
+
+title:: SML::File Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/File.pm
+
+<<<LISTING
 
 >>>LISTING.lis-file-pm
 
-title:: File.pm
+title:: File.pm Code Listing
 
 numbers:: left
 
@@ -23,7 +39,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/File.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

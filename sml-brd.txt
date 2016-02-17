@@ -1,6 +1,6 @@
 >>>DOCUMENT.sml-brd
 
-title:: Business Requirements Document (BRD)
+title:: Business Requirements Document
 
 subtitle:: Semantic Manuscript Language (SML)
 

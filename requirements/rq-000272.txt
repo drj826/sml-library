@@ -1,6 +1,6 @@
 >>>requirement.rq-000272
 
-title:: Generate HTML List of Tables
+title:: Render HTML List of Tables
 
 is_part_of:: rq-000001
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML list of
+description:: The software shall render an HTML list of
 [g:SML:TABLE]s.  The purpose of this table is to enable readers to
 quickly navigate to any table in the document.
 

@@ -1,0 +1,48 @@
+>>>configuration_item.ci-000440
+
+title:: SML::AcronymTermReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::AcronymTermReference represents a reference to
+an acronym.  Such a reference is used by an author to point to an
+acronym in the acronym list.
+
+index:: ci-000440; SML::AcronymTermReference; AcronymTermReference.pm;
+acronym term reference
+
+>>>FIGURE.fig-class-diagram-acronym-term-reference
+
+title:: SML::AcronymTermReference Class Diagram
+
+image:: files/images/class-diagram-acronym-term-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-acronymtermreference-pod
+
+title:: SML::AcronymTermReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Acronymtermreference.pm
+
+<<<LISTING
+
+>>>LISTING.lis-acronymtermreference-pm
+
+title:: AcronymTermReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/AcronymTermReference.pm
+
+<<<LISTING
+
+<<<configuration_item

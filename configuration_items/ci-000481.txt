@@ -1,0 +1,29 @@
+>>>configuration_item.ci-000481
+
+title:: Parts2Sections
+
+type:: software
+
+is_part_of:: ci-000480
+
+description:: The Parts2Sections plugin renders a collection of
+entities into a document section structure.  The entities must be
+related by `is_part_of' and `has_part' properties.
+
+index:: [id:ci-000481]; Parts2Sections
+
+>>>LISTING.lis-parts2sections-pm
+
+title:: Parts2Sections.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: plugins/Parts2Sections.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,13 +1,13 @@
 >>>requirement.rq-000305
 
-title:: Format a LaTeX Copyright Symbol
+title:: Render a LaTeX Copyright Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX copyright symbol.
+description:: The software shall render a LaTeX copyright symbol.
 
-index:: [id:rq-000305]; copyright symbol!format LaTeX
+index:: [id:rq-000305]; copyright symbol!render LaTeX
 
 <<<requirement

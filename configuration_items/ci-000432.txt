@@ -1,16 +1,33 @@
 >>>configuration_item.ci-000432
 
-title:: SML/DefinitionListItem.pm Module
+title:: SML::DefinitionListItem Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/DefinitionListItem.pm Module implements the
-{lit:SML::DefinitionListItem} class which represents definition list
-items.
+specializes:: ci-000424         # SML::ListItem Class
+
+description:: An SML::DefinitionListItem represents an entry in a
+definition list.  This is a list of term/definition pairs.
 
 index:: [id:ci-000432]; definition list item; DefinitionListItem.pm; SML::DefinitionListItem
+
+>>>FIGURE.fig-class-diagram-definition-list-item
+
+title:: SML::DefinitionListItem Class Diagram
+
+image:: files/images/class-diagram-definition-list-item.png
+
+<<<FIGURE
+
+>>>LISTING.lis-definitionlistitem-pod
+
+title:: SML::DefinitionListItem Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/DefinitionListItem.pm
+
+<<<LISTING
 
 >>>LISTING.lis-definition-list-item-pm
 
@@ -25,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/DefinitionListItem.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

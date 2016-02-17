@@ -1,6 +1,6 @@
 >>>requirement.rq-000138
 
-title:: Represent a `Status' Statement
+title:: Represent a `Status' Reference
 
 priority:: routine
 

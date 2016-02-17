@@ -1,16 +1,10 @@
 >>>allocation.al-000003
 
-configuration_item:: ci-000379 # SML Syntax
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000048 # Be Encodable Using 7-Bit ASCII
+requirement:: rq-000048         # Be Encodable Using 7-Bit ASCII
 
-test::     tc-000040 # Analysis
-
-release:: 2.0
-
-rel_component:: ci-000001
-
-outcome::2012-03-31:al-000003:green: OK
+test:: tc-000040                # Analysis
 
 index:: [id:al-000003]
 

@@ -1,13 +1,13 @@
 >>>requirement.rq-000246
 
-title:: Format an HTML File Name
+title:: Render an HTML File Name
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML file name.
+description:: The software shall render an HTML file name.
 
-index:: [id:rq-000246]; file name!format HTML
+index:: [id:rq-000246]; file name!render HTML
 
 <<<requirement

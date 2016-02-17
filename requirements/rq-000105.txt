@@ -1,6 +1,6 @@
 >>>requirement.rq-000105
 
-title:: Parse SML Files
+title:: Parse SML Divisions
 
 is_part_of:: rq-000199
 
@@ -8,8 +8,8 @@ priority:: routine
 
 type:: technical
 
-description:: The software shall parse [a:SML] files.  This means the
-software shall perform a syntactic analysis of text to check for
+description:: The software shall parse [a:SML] divisions.  This means
+the software shall perform a syntactic analysis of text to check for
 correct syntax and to build a data structure implicit in the input
 tokens.  It includes the function of resolving specified statements
 that implement special features defined by the SML data format. The

@@ -1,13 +1,13 @@
 >>>requirement.rq-000234
 
-title:: Format an HTML Open Double Quote
+title:: Render an HTML Open Double Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML open double quote.
+description:: The software shall render an HTML open double quote.
 
-index:: [id:rq-000234]; double quote!format HTML
+index:: [id:rq-000234]; double quote!render HTML
 
 <<<requirement

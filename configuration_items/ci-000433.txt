@@ -1,14 +1,36 @@
 >>>configuration_item.ci-000433
 
-title:: SML/Syntax.pm
+title:: SML::Syntax Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
 description:: The SML::Syntax class describes the allowed syntax of
 SML.
 
-index:: [id:ci-000433]; Syntax.pm; SML::Syntax
+index:: [id:ci-000433]; Syntax.pm; SML::Syntax; syntax
+
+>>>FIGURE.fig-class-diagram-syntax
+
+title:: SML::Syntax Class Diagram
+
+image:: files/images/class-diagram-syntax.png
+
+<<<FIGURE
+
+>>>LISTING.lis-syntax-pm
+
+title:: Syntax.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Syntax.pm
+
+<<<LISTING
 
 <<<configuration_item

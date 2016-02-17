@@ -1,14 +1,31 @@
 >>>configuration_item.ci-000382
 
-title:: SML/Options.pm Module
+title:: SML::Options Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/Options.pm Module...
+description:: The SML::Options class remembers numerous options that
+affect software operation.
 
-index:: [id:ci-000382]; Options.pm; SML::Options
+index:: [id:ci-000382]; Options.pm; SML::Options; options
+
+>>>FIGURE.fig-class-diagram-options
+
+title:: SML::Options Class Diagram
+
+image:: files/images/class-diagram-options.png
+
+<<<FIGURE
+
+>>>LISTING.lis-options-pod
+
+title:: SML::Options Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Options.pm
+
+<<<LISTING
 
 >>>LISTING.lis-options-pm
 
@@ -23,7 +40,5 @@ fontsize::  footnotesize
 file:: ../SML/lib/SML/Options.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

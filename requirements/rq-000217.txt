@@ -1,13 +1,13 @@
 >>>requirement.rq-000217
 
-title:: Format an HTML Page Reference
+title:: Render an HTML Page Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML page reference.
+description:: The software shall render an HTML page reference.
 
-index:: [id:rq-000217]; page reference!format HTML
+index:: [id:rq-000217]; page reference!render HTML
 
 <<<requirement

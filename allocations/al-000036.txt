@@ -1,12 +1,10 @@
 >>>allocation.al-000036
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000004 # Publish To XML
+requirement:: rq-000004         # Publish To XML
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2012-04-01:al-000036:red: Not OK
+test:: tc-000043                # Test
 
 index:: [id:al-000036]
 

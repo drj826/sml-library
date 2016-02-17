@@ -17,7 +17,7 @@ for users.  This requirement serves as a container for all functional
 requirements. A functional requirement is one that describes what a
 system or system component must do for a user.  Functional
 requirements begin with the phrase, `The system shall enable the user
-to...' Functional requirements are independent of system
+to...' Functional requirements are ~~independent~~ of system
 implementation.
 
 index:: [id:rq-000104]; software functions

@@ -1,13 +1,12 @@
 >>>allocation.al-000284
 
-configuration_item:: ci-000006 # SML Semantics
+configuration_item:: ci-000477  # SML Library Ontology Configuration
 
-requirement::  rq-000194 # Represent Inference Rules
+requirement:: rq-000194         # Represent Inference Rules
 
-test::     tc-000041 # Demonstration
+test:: tc-000041                # Demonstration
 
-outcome::2012-03-25:al-000284:red: At this time SML does not represent
-inference rules.
+index:: [id:al-000284]
 
 ######################################################################
 
@@ -56,7 +55,5 @@ requirement.  Reserved words are in all UPPERCASE.
 <<<COMMENT
 
 This is a start.
-
-index:: [id:al-000284]
 
 <<<allocation

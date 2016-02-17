@@ -12,64 +12,65 @@ label         => entity property name label (i.e. 'is part of:')
 [%-
 
 library   = self.get_library
+ps        = library.get_property_store
 entity_id = self.get_id
 
 -%]
-[%- IF library.has_property(entity_id,property_name) -%]
+[%- IF ps.has_property(entity_id,property_name) -%]
 <tr>
-<td>[%label%]</td>
-<td>
-  [%- FOREACH value IN library.get_property_value_list(entity_id,property_name) -%]
+<td style="width:20%;">[%label%]</td>
+<td style="width:80%;">
 
-    [%# TITLE PROPERTY %]
+  [%- FOREACH value IN ps.get_property_value_list(entity_id,property_name) -%]
+
     [%- IF property_name == 'title' -%]
-<b>[%- INCLUDE element.tt element = library.get_first_property_value_element(entity_id,property_name) -%]</b>
+<b>[%- INCLUDE STRING.tt self = ps.get_property_string(entity_id,'title') -%]</b>
 
-    [%# ALLOCATION PROPERTY %]
-    [%- ELSIF property_name == 'allocation' AND library.has_division_id(value) -%]
+    [%- ELSIF property_name == 'allocation' -%]
       [%- id = value -%]
-      [%- IF library.has_property(id,'status') -%]
-      [%- status = library.get_first_property_value(id,'status') -%]
+      [%- IF ps.has_property(id,'status') -%]
+      [%- status = ps.get_property_text(id,'status') -%]
       [%- ELSE -%]
       [%- status = 'grey' -%]
       [%- END -%]
-[%- INCLUDE status_icon.tt -%]&nbsp;[%- INCLUDE id_link.tt -%] - [%- INCLUDE allocation_title.tt -%]<br/>
+      [%- INCLUDE status_icon.tt -%]&nbsp;[%- INCLUDE id_link.tt -%] - [%- INCLUDE STRING.tt self = ps.get_property_string(id,'title') -%]<br/>
 
-    [%# PROPERTY VALUE IS AN EXISTING DIVISION ID %]
     [%- ELSIF library.has_division_id(value) -%]
-      [%-
-      id            = value
-      title_element = library.get_first_property_value_element(id,'title')
-      -%]
-      [%- IF library.has_property(id,'status') -%]
-      [%- status = library.get_first_property_value(id,'status') -%]
+      [%- id = value -%]
+      [%- IF ps.has_property(id,'status') -%]
+      [%- status = ps.get_property_text(id,'status') -%]
       [%- ELSE -%]
       [%- status = 'grey' -%]
       [%- END -%]
-[%- INCLUDE status_icon.tt -%]&nbsp;[%- INCLUDE id_link.tt -%] - [%- INCLUDE element.tt element = title_element -%]<br/>
+      [%- INCLUDE status_icon.tt -%]&nbsp;[%- INCLUDE id_link.tt -%] - [%- INCLUDE STRING.tt self = ps.get_property_string(id,'title') -%]<br/>
 
-    [%# OUTCOME PROPERTY %]
     [%- ELSIF property_name == 'outcome' -%]
-    [%-
-    outcome = library.get_property_value_element(entity_id,'outcome',value)
-    status  = outcome.get_status
-    -%]
-[%- INCLUDE status_icon.tt -%]&nbsp;[%value%]<br/>
+      [%-
+      string      = ps.get_property_string_for_value(entity_id,property_name,value)
+      outcome     = ps.get_element(entity_id,'outcome',value)
+      status      = outcome.get_status
+      date        = outcome.get_date
+      description = outcome.get_description
+      -%]
+      [%- INCLUDE status_icon.tt -%]&nbsp;[% INCLUDE STRING.tt self = string %]<br/>
 
-    [%# REVIEW PROPERTY %]
     [%- ELSIF property_name == 'review' -%]
-    [%-
-    review = library.get_property_value_element(entity_id,'review',value)
-    status = review.get_status
-    -%]
-[%- INCLUDE status_icon.tt -%]&nbsp;[%value%]<br/>
+      [%-
+      string      = ps.get_property_string_for_value(entity_id,property_name,value)
+      review      = ps.get_element(entity_id,'review',value)
+      status      = review.get_status
+      date        = review.get_date
+      description = review.get_description
+      -%]
+      [%- INCLUDE status_icon.tt -%]&nbsp;[% INCLUDE STRING.tt self = string %]<br/>
 
-    [%# ALL OTHER PROPERTIES%]
     [%- ELSE -%]
-[%- INCLUDE element.tt element = library.get_first_property_value_element(entity_id,property_name) -%]
+      [%- INCLUDE STRING.tt self = ps.get_property_string(entity_id,property_name) -%]
 
-    [%- END -%]
-  [%- END -%]
+    [%- END -%] [%# end of if-elsif-else %]
+
+  [%- END -%] [%# end of foreach%]
+
 </td>
 </tr>
-[%- END -%]
+[%- END -%] [%# end of if %]

@@ -1,0 +1,40 @@
+>>>configuration_item.ci-000473
+
+title:: SML::PropertyStore Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+description:: An SML::PropertyStore represents a storage container for
+properties.  Each library object has a property store which serves as
+the central repository of all document and entity properties.  A
+property store provides methods to access properties and property
+lists in various forms.
+
+index:: ci-000473; SML::PropertyStore; PropertyStore.pm; property
+store
+
+>>>FIGURE.fig-class-diagram-property_store
+
+title:: SML::PropertyStore Class Diagram
+
+image:: files/images/class-diagram-property-store.png
+
+<<<FIGURE
+
+>>>LISTING.lis-propertystore-pm
+
+title:: PropertyStore.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/PropertyStore.pm
+
+<<<LISTING
+
+<<<configuration_item

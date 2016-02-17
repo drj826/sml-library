@@ -1,13 +1,13 @@
 >>>requirement.rq-000306
 
-title:: Format a LaTeX Trademark Symbol
+title:: Render a LaTeX Trademark Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX trademark symbol.
+description:: The software shall render a LaTeX trademark symbol.
 
-index:: [id:rq-000306]; trademark symbol!format LaTeX
+index:: [id:rq-000306]; trademark symbol!render LaTeX
 
 <<<requirement

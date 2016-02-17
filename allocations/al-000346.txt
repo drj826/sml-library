@@ -1,11 +1,10 @@
 >>>allocation.al-000346
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000266 # Render HTML List of Sidebars
+requirement:: rq-000266         # Render HTML List of Sidebars
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000346]
 

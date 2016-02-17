@@ -1,12 +1,10 @@
 >>>allocation.al-000123
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000091 # Represent an Audio Clip
+requirement:: rq-000091         # Represent an Audio Clip
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000123:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000123]
 

@@ -1,11 +1,10 @@
 >>>allocation.al-000376
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000296
+requirement:: rq-000296         # Render a LaTeX Citation
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000376]
 

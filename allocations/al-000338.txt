@@ -1,11 +1,10 @@
 >>>allocation.al-000338
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000474  # SML Template System
 
-requirement::  rq-000207 # Render a Document According to a Style
+requirement:: rq-000207         # Render a Document According to a Style
 
-test::     tc-000006 # Document.pm Unit Test Case
-
+test:: tc-000043                # Test
 
 index:: [id:al-000338]
 

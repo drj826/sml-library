@@ -1,6 +1,6 @@
 >>>requirement.rq-000215
 
-title:: Format an HTML ID Reference
+title:: Render an HTML ID Reference
 
 is_part_of:: rq-000205
 
@@ -8,10 +8,10 @@ type:: technical
 
 associated:: rq-000253
 
-description:: The software shall format an HTML ID reference.  An ID
+description:: The software shall render an HTML ID reference.  An ID
 reference links to a division within the document by that division's
 ID.
 
-index:: [id:rq-000215]; ID reference!format HTML
+index:: [id:rq-000215]; ID reference!render HTML
 
 <<<requirement

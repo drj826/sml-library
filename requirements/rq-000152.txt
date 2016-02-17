@@ -1,6 +1,6 @@
 >>>requirement.rq-000152
 
-title:: Generate a Prioritized List of Entities
+title:: Publish a Prioritized List of Library Entities
 
 is_part_of:: rq-000139
 
@@ -8,8 +8,8 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
-priorities by urgency rank.  Urgency rank is computed based on item
+description:: The software shall publish a list of library entities
+prioritized by urgency rank.  Urgency rank is computed based on item
 priority and status.  The purpose of this requirement is to produce a
 listing of items that require attention in order of importance.
 

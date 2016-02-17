@@ -1,6 +1,6 @@
 >>>requirement.rq-000150
 
-title:: Generate a List of Contributors
+title:: Publish a Document List of Contributors
 
 is_part_of:: rq-000139
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
+description:: The software shall publish a document list of
 contributors. In a work by many authors in which only the volume
 editor's name appears on the title page, a list of contributors often
 appears in the back matter, immediately before the index.  Names are

@@ -11,6 +11,8 @@ self => an SML::Symbol object
 
 document    = self.get_containing_document
 document_id = document.get_id
+library     = document.get_library
+ps          = library.get_property_store
 
 -%]
-[% library.get_first_property_value(document_id,'date') %]
+[% ps.get_property_text(document_id,'date') %]

@@ -1,15 +1,24 @@
 >>>configuration_item.ci-000429
 
-title:: SML/TableRow.pm Module
+title:: SML::TableRow Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
 
-description:: The SML/TableRow.pm Module implements the SML::TableRow
-class.
+specializes:: ci-000466         # SML::Structure Class
+
+description:: An SML::TableRow represents a single row in a table.
 
 index:: [id:ci-000429]; table row; TableRow.pm; SML::TableRow
+
+>>>FIGURE.fig-class-diagram-table-row
+
+title:: SML::TableRow Class Diagram
+
+image:: files/images/class-diagram-table-row.png
+
+<<<FIGURE
 
 >>>LISTING.lis-table-row-pm
 
@@ -24,7 +33,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/TableRow.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

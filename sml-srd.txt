@@ -1,6 +1,6 @@
 >>>DOCUMENT.sml-srd
 
-title:: Software Requirements Document (SRD)
+title:: Software Requirements Document
 
 subtitle:: Semantic Manuscript Language (SML)
 

@@ -33,6 +33,7 @@ sub render {
   my $self = shift;
 
   my $library = $self->_get_library;
+  my $ps      = $library->get_property_store;
 
   unless ( $self->_has_args )
     {
@@ -67,9 +68,9 @@ sub render {
 
   my $depth = 2;
 
-  if ( $library->has_property($division_id,'has_part') )
+  if ( $ps->has_property($division_id,'has_part') )
     {
-      my $part_id_list = $library->get_property_value_list($division_id,'has_part');
+      my $part_id_list = $ps->get_property_text_list($division_id,'has_part');
 
       foreach my $part_id (@{ $part_id_list })
 	{
@@ -148,13 +149,14 @@ sub _render_subsection_include_element {
   push(@{ $output_line_list }, $text);
 
   my $library  = $self->_get_library;
+  my $ps       = $library->get_property_store;
   my $division = $library->get_division($division_id);
 
-  if ( $library->has_property($division_id,'has_part') )
+  if ( $ps->has_property($division_id,'has_part') )
     {
       $depth = $depth + 1;
 
-      my $part_id_list = $library->get_property_value_list($division_id,'has_part');
+      my $part_id_list = $ps->get_property_text_list($division_id,'has_part');
 
       foreach my $part_id (@{ $part_id_list })
 	{

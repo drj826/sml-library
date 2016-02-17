@@ -1,0 +1,11 @@
+>>>allocation.al-000010
+
+configuration_item:: ci-000006 # Ontology Configuration
+
+requirement:: rq-000118        # Implement Core SML Semantics
+
+test:: tc-000040               # Analysis
+
+index:: [id:al-000010]
+
+<<<allocation

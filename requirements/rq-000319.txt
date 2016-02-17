@@ -1,13 +1,13 @@
 >>>requirement.rq-000319
 
-title:: Format LaTeX Fixed-Width Text
+title:: Render LaTeX Fixed-Width Text
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format LaTeX fixed-width text.
+description:: The software shall render LaTeX fixed-width text.
 
-index:: [id:rq-000319]; fixed-width text!format LaTeX
+index:: [id:rq-000319]; fixed-width text!render LaTeX
 
 <<<requirement

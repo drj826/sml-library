@@ -1,0 +1,13 @@
+>>>allocation.al-000185
+
+configuration_item:: ci-000003  # SML::Parser
+
+requirement:: rq-000183         # Permit Library Ontology Configuration
+
+test::     tc-000042 # Inspection
+
+outcome::2012-04-01:al-000185:green: OK
+
+index:: [id:al-000185]
+
+<<<allocation

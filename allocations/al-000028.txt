@@ -1,12 +1,10 @@
 >>>allocation.al-000028
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000179 # Resolve Included Raw Text
+requirement:: rq-000179         # Resolve Included Raw Text
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000028:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000028]
 

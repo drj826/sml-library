@@ -1,11 +1,10 @@
 >>>allocation.al-000354
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000274 # Render HTML List of Attachments
+requirement:: rq-000274         # Render HTML List of Attachments
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000354]
 

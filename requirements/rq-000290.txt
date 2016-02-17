@@ -1,13 +1,13 @@
 >>>requirement.rq-000290
 
-title:: Format a LaTeX `thepage' Reference
+title:: Render a LaTeX `thepage' Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX `thepage' reference.
+description:: The software shall render a LaTeX `thepage' reference.
 
-index:: [id:rq-000290]; `thepage' reference!format LaTeX
+index:: [id:rq-000290]; `thepage' reference!render LaTeX
 
 <<<requirement

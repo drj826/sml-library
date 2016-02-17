@@ -1,6 +1,6 @@
 >>>requirement.rq-000271
 
-title:: Generate HTML List of To Do Items
+title:: Render HTML List of To Do Items
 
 is_part_of:: rq-000001
 
@@ -8,7 +8,7 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall generate an HTML list of ``to do''
+description:: The software shall render an HTML list of ``to do''
 items.  The purpose of this listing is to enable readers to quickly
 navigate to any ``to do'' item in the document.
 

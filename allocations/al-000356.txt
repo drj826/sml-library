@@ -1,11 +1,10 @@
 >>>allocation.al-000356
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000276 # Render HTML Glossary
+requirement:: rq-000276         # Render HTML Glossary
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000356]
 

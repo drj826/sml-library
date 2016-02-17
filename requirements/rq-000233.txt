@@ -1,14 +1,14 @@
 >>>requirement.rq-000233
 
-title:: Format an HTML Registered Trademark Symbol
+title:: Render an HTML Registered Trademark Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML registered trademark
+description:: The software shall render an HTML registered trademark
 symbol.
 
-index:: [id:rq-000233]; registered trademark symbol!format HTML
+index:: [id:rq-000233]; registered trademark symbol!render HTML
 
 <<<requirement

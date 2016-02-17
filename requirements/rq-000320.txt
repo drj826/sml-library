@@ -1,13 +1,13 @@
 >>>requirement.rq-000320
 
-title:: Format a LaTeX File Name
+title:: Render a LaTeX File Name
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX file name.
+description:: The software shall render a LaTeX file name.
 
-index:: [id:rq-000320]; file name!format LaTeX
+index:: [id:rq-000320]; file name!render LaTeX
 
 <<<requirement

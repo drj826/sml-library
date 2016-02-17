@@ -1,12 +1,10 @@
 >>>allocation.al-000039
 
-configuration_item:: ci-000006 # Ontology Configuration File (ontology.conf)
+configuration_item:: ci-000477  # LibraryOntology Configuration
 
-requirement::  rq-000183 # Permit Library Ontology Configuration
+requirement:: rq-000183         # Permit Library Ontology Configuration
 
-test::     tc-000042 # Inspection
-
-outcome::2012-04-01:al-000039:green: OK
+test:: tc-000042                # Inspection
 
 index:: [id:al-000039]
 

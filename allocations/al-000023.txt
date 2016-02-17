@@ -1,12 +1,10 @@
 >>>allocation.al-000023
 
-configuration_item:: ci-000003 # Parser.pm Perl Module
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000174 # Validate External File References
+requirement:: rq-000174         # Validate External File References
 
-test::     tc-000005 # Parser.pm Unit Test Case
-
-outcome::2012-04-01:al-000023:green: OK
+test:: tc-000005                # Parser.pm Unit Test Case
 
 index:: [id:al-000023]
 

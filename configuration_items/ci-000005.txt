@@ -1,10 +1,12 @@
 >>>configuration_item.ci-000005
 
-title:: SML/Document.pm Module
+title:: SML::Document Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000466         # SML::Structure Class
 
 description:: The Document.pm perl module implements the
 [g:SML:DOCUMENT] class.
@@ -13,22 +15,25 @@ index:: [id:ci-000005]; Document.pm; SML::Document
 
 = [g:SML:DOCUMENT] = [def:SML:DOCUMENT]
 
-[ref:fig-class-diagram-document] shows the composition of an SML
-[g:SML:DOCUMENT].
-
 >>>FIGURE.fig-class-diagram-document
 
-title:: SML Document Composition
+title:: SML::Document Class Diagram
 
 image:: files/images/class-diagram-document.png
 
-width:: 2.25in
-
 <<<FIGURE
+
+>>>LISTING.lis-document-pod
+
+title:: SML::Document Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Document.pm
+
+<<<LISTING
 
 >>>LISTING.lis-document-pm
 
-title:: Document.pm
+title:: Document.pm Code Listing
 
 numbers:: left
 

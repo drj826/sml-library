@@ -46,7 +46,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 required:: 1
 
@@ -68,7 +68,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 required:: 1
 
@@ -89,7 +89,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 required:: 1
 
@@ -110,7 +110,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `priority' represents the criticality of
 the requirement to the stakeholder organization.
@@ -168,7 +168,7 @@ object_name:: requirement
 
 inverse_rule:: req008
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `is_part_of' property represents the
 requirement of which this one is a part.  Requirements may be arranged
@@ -191,7 +191,7 @@ object_name:: requirement
 
 inverse_rule:: req007
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -218,7 +218,7 @@ object_name:: role
 
 inverse_rule:: rol024
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `validated_by' property represents the
 role that validates the need expressed by the requirement.
@@ -239,7 +239,7 @@ object_name:: role
 
 inverse_rule:: rol009
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `owner' represents the role that needs
 this requirement satisfied.  Only ~~one~~ role can be identified as
@@ -261,7 +261,7 @@ object_name:: role
 
 inverse_rule:: rol014
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `stakeholder' represents any role that
 holds a stake in the satisfaction of this requirement.  Any number of
@@ -283,7 +283,7 @@ object_name:: role
 
 inverse_rule::rol019
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `asignee' represents any role assigned
 responsibility for satisfying this requirement.
@@ -302,7 +302,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `request' represents any request that
 identified the need described by the requirement.  This is often a
@@ -328,7 +328,7 @@ object_name:: requirement
 
 inverse_rule:: req019
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `class_of' property represents that the
 requirement inherits the characteristics of another requirement.
@@ -349,7 +349,7 @@ object_name:: requirement
 
 inverse_rule:: req018
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `instance_of' property represents that
 the requirement inherits the characteristics of another requirement.
@@ -370,7 +370,7 @@ object_name:: requirement
 
 inverse_rule:: req021
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `derived_from' property represents that
 the need represented by this requirement logically follows from
@@ -393,7 +393,7 @@ object_name:: requirement
 
 inverse_rule:: req020
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `derived' property represents other
 requirements that have been derived from this one.  Many requirements
@@ -415,7 +415,7 @@ object_name:: requirement
 
 inverse_rule:: req027
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -461,7 +461,7 @@ object_name:: requirement
 
 inverse_rule:: req029
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `directed_by' property may represent that
 one requirement is authoritatively directed to be fulfilled by another
@@ -484,7 +484,7 @@ object_name:: requirement
 
 inverse_rule:: req028
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -507,7 +507,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `directed_by' property may represent that
 a requirement is authoritatively directed to be fulfilled by something
@@ -529,7 +529,7 @@ object_name:: configuration_item
 
 inverse_rule:: ci017
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -555,7 +555,7 @@ object_name:: test
 
 inverse_rule:: tst020
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -580,7 +580,7 @@ object_name:: task
 
 inverse_rule:: tsk021
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -605,7 +605,7 @@ object_name:: role
 
 inverse_rule:: rol031
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -628,7 +628,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `work_product' property may identify a
 work product that must be produced to satisfy the requirement.  Many
@@ -651,7 +651,7 @@ object_name:: requirement
 
 inverse_rule:: req037
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `next' property identifies the next
 requirement in a sequence of requirements.  Many requirements may be
@@ -674,7 +674,7 @@ object_name:: requirement
 
 inverse_rule:: req036
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `previous' property identifies the
 previous requirement in a sequence of requirements.  Many requirements
@@ -697,7 +697,7 @@ object_name:: requirement
 
 inverse_rule:: req038
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `associated' property identifies a
 requirement that is somehow (often loosely) associated with the
@@ -720,7 +720,7 @@ object_name:: requirement
 
 inverse_rule:: req040
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -744,7 +744,7 @@ object_name:: requirement
 
 inverse_rule:: req039
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `specializes' property represents that the
 requirement is the specialization of another requirement.  One
@@ -764,7 +764,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `state' property represents the location
 of the requirement in a workflow.  For instance, the state may be
@@ -785,7 +785,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `revision' property represents the
 automatically assigned revision identifier of the requirement.  This
@@ -808,7 +808,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `date_created' property represents the
 date the requirement was originally created.  A requirement may have
@@ -828,7 +828,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `date_changed' property represents the
 date the requirement was last modified.  A requirement may have only
@@ -848,7 +848,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `created_by' property represents the name
 of the individual who first created the requirement.  A requirement
@@ -868,7 +868,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `changed_by' property represents the name
 of the indivisdual who last changed the requirement.  A requirement
@@ -888,7 +888,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `attr' (attribute) property may represent
 any arbitrary property name/value pair not otherwise declared in the
@@ -911,7 +911,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `copyright' property represents a
 copyright assertion over the content of the requirement. The
@@ -931,7 +931,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `date' property represents the date the
 requirement was last modified.  A requirement may have only one value
@@ -952,7 +952,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `author' property represents the name of
 the indivisdual who last changed the requirement.  A requirement may
@@ -973,7 +973,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: 1
+multiplicity:: 1
 
 description:: A requirement `version' property represents a version
 number assigned by a person.  This is often a decimal number, which,
@@ -998,7 +998,7 @@ object_name:: allocation
 
 inverse_rule:: all007
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -1025,7 +1025,7 @@ object_name:: assignment
 
 inverse_rule:: asn007
 
-cardinality:: many
+multiplicity:: many
 
 infer_only:: 1
 
@@ -1051,7 +1051,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `review' property represents the outcome
 of an informal review of the requirement to determine its status
@@ -1074,7 +1074,7 @@ object_type:: Str
 
 object_name:: STRING
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement `outcome' property represents the outcome
 of formal evaluation of the requirement to determine its status
@@ -1095,7 +1095,7 @@ containee_name:: COMMENT
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple COMMENT divisions.
 
@@ -1111,7 +1111,7 @@ containee_name:: CONDITIONAL
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple CONDITIONAL divisions.
 
@@ -1127,7 +1127,7 @@ containee_name:: QUOTATION
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple QUOTATION divisions.
 
@@ -1143,7 +1143,7 @@ containee_name:: ATTACHMENT
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple ATTACHMENT divisions.
 
@@ -1159,7 +1159,7 @@ containee_name:: FIGURE
 
 containee_class:: SML::Figure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple FIGURE divisions.
 
@@ -1175,7 +1175,7 @@ containee_name:: PREFORMATTED
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple PREFORMATTED divisions.
 
@@ -1191,7 +1191,7 @@ containee_name:: LISTING
 
 containee_class:: SML::Listing
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple LISTING divisions.
 
@@ -1207,7 +1207,7 @@ containee_name:: SOURCE
 
 containee_class:: SML::Source
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple SOURCE divisions.
 
@@ -1223,7 +1223,7 @@ containee_name:: TABLE
 
 containee_class:: SML::Table
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple TABLE divisions.
 
@@ -1239,7 +1239,7 @@ containee_name:: AUDIO
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple AUDIO divisions.
 
@@ -1255,7 +1255,7 @@ containee_name:: VIDEO
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple VIDEO divisions.
 
@@ -1271,7 +1271,7 @@ containee_name:: TRIPLE
 
 containee_class:: SML::Triple
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple TRIPLE divisions.
 
@@ -1287,7 +1287,7 @@ containee_name:: BARE_TABLE
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple BARE_TABLE divisions.
 
@@ -1303,7 +1303,7 @@ containee_name:: DEFINITION_LIST
 
 containee_class:: SML::Structure
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple DEFINITION_LIST divisions.
 
@@ -1319,7 +1319,7 @@ containee_name:: BULLET_LIST
 
 containee_class:: SML::BulletList
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple BULLET_LIST divisions.
 
@@ -1335,7 +1335,7 @@ containee_name:: ENUMERATED_LIST
 
 containee_class:: SML::EnumeratedList
 
-cardinality:: many
+multiplicity:: many
 
 description:: A requirement may contain multiple ENUMERATED_LIST divisions.
 

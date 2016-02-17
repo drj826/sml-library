@@ -1,12 +1,10 @@
 >>>allocation.al-000160
 
-configuration_item:: ci-000005 # Document.pm Perl Module
+configuration_item:: ci-000462  # SML::Publisher
 
-requirement::  rq-000148 # Generate a Glossary
+requirement:: rq-000148         # Publish a Document Glossary
 
-test::     tc-000006 # Document.pm Unit Test Case
-
-outcome::2012-04-01:al-000160:red: not OK
+test:: tc-000043                # Test
 
 index:: [id:al-000160]
 

@@ -1,13 +1,10 @@
 >>>allocation.al-000321
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000242 # Render HTML Subscripted Text
+requirement:: rq-000242         # Render HTML Subscripted Text
 
-test::     tc-000014 # Block.pm Unit Test Case
-
-
-
+test:: tc-000043                # Test
 
 index:: [id:al-000321]
 

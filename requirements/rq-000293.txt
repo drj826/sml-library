@@ -1,13 +1,13 @@
 >>>requirement.rq-000293
 
-title:: Format a LaTeX Revision Reference
+title:: Render a LaTeX Revision Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX revision reference.
+description:: The software shall render a LaTeX revision reference.
 
-index:: [id:rq-000293]; revision reference!format LaTeX
+index:: [id:rq-000293]; revision reference!render LaTeX
 
 <<<requirement

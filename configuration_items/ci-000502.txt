@@ -1,0 +1,15 @@
+>>>configuration_item.ci-000502
+
+title:: ValidateAllocationUniqueness
+
+type:: software
+
+is_part_of:: ci-000480         # SML Library Plugins
+
+description:: The ValidateAllocationUniqueness plugin examines all
+allocation entities in the library and throws an error if multiple
+allocations map the same requirement to the same configuration item.
+
+index:: ci-000502; ValidateAllocationUniqueness
+
+<<<configuration_item

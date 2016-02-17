@@ -1,0 +1,22 @@
+>>>configuration_item.ci-000504
+
+title:: Default HTML CROSS_REF Template
+
+type:: software
+
+is_part_of:: ci-000505
+
+description:: The default HTML CROSS_REF template renders a cross
+reference.
+
+index:: ci-000504
+
+>>>LISTING.lis-html-default-CROSS_REF-tt
+
+title:: Default HTML CROSS_REF Template
+
+file:: templates/html/default/CROSS_REF.tt
+
+<<<LISTING
+
+<<<configuration_item

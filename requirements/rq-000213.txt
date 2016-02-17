@@ -1,6 +1,6 @@
 >>>requirement.rq-000213
 
-title:: Format an HTML Acronym Reference
+title:: Render an HTML Acronym Reference
 
 is_part_of:: rq-000205
 
@@ -8,8 +8,8 @@ type:: technical
 
 associated:: rq-000090
 
-description:: The software shall format an HTML acronym reference.
+description:: The software shall render an HTML acronym reference.
 
-index:: [id:rq-000213]; acronym reference!format HTML
+index:: [id:rq-000213]; acronym reference!render HTML
 
 <<<requirement

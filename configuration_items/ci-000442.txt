@@ -1,0 +1,50 @@
+>>>configuration_item.ci-000442
+
+title:: SML::CitationReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::CitationReference represents a reference to a
+source citation.  The cited source must exist in the list of
+references (i.e. bibliography).  In addition to pointing to a specific
+source reference, the citation may contain other details such as page
+number or section number.
+
+index:: ci-000442; SML::CitationReference; CitationReference.pm;
+citation reference
+
+>>>FIGURE.fig-class-diagram-citation-reference
+
+title:: SML::CitationReference Class Diagram
+
+image:: files/images/class-diagram-citation-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-citationreference-pod
+
+title:: SML::CitationReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/CitationReference.pm
+
+<<<LISTING
+
+>>>LISTING.lis-citationreference-pm
+
+title:: CitationReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/CitationReference.pm
+
+<<<LISTING
+
+<<<configuration_item

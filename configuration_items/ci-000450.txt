@@ -1,0 +1,48 @@
+>>>configuration_item.ci-000450
+
+title:: SML::GlossaryTermReference Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000438         # SML::String Class
+
+description:: An SML::GlossaryTermReference represents a reference to
+a glossary term.  The referenced glossary term must be somewhere in
+the library.
+
+index:: ci-000450; SML::GlossaryTermReference;
+GlossaryTermReference.pm; glossary term reference
+
+>>>FIGURE.fig-class-diagram-glossary-term-reference
+
+title:: SML::GlossaryTermReference Class Diagram
+
+image:: files/images/class-diagram-glossary-term-reference.png
+
+<<<FIGURE
+
+>>>LISTING.lis-glossarytermreference-pod
+
+title:: SML::GlossaryTermReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/GlossaryTermReference.pm
+
+<<<LISTING
+
+>>>LISTING.lis-glossarytermreference-pm
+
+title:: GlossaryTermReference.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/GlossaryTermReference.pm
+
+<<<LISTING
+
+<<<configuration_item

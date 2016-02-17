@@ -1,0 +1,33 @@
+>>>configuration_item.ci-000494
+
+title:: publish_overall_main_page.bat
+
+type:: software
+
+is_part_of:: ci-000486
+
+depends_on:: ci-000490
+
+description:: This windows batch file invokes the
+[cmd:publish_overall_main_page.pl] Perl application to publish the
+overall main page that provides links to the DRAFT, REVIEW, and
+APPROVED versions of the library. This batch file is provided to make
+it easy for windows users to simply double-click on the batch file to
+publish an overall main page.  It can also be invoked from other batch
+files.
+
+index:: [id:ci-000494]; publish_overall_main_page.bat
+
+>>>LISTING.lis-publish_overall_main_page-bat
+
+title:: publish_overall_main_page.bat Code Listing
+
+numbers:: left
+
+fontsize:: footnotesize
+
+file:: bin/publish_overall_main_page.bat
+
+<<<LISTING
+
+<<<configuration_item

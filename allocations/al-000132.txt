@@ -1,15 +1,10 @@
 >>>allocation.al-000132
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000107 # Represent Document Content
+requirement:: rq-000107         # Represent Document Content
 
-test::     tc-000041 # Demonstration
-
-outcome::2011-11-27:al-000132:yellow: This is yellow because the data
-format does not yet enable specification of table column spanning
-[id:rq-000104] and there are problems with the representation of
-reviews [id:rq-000094] and outcomes [id:rq-000095].
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000132]
 

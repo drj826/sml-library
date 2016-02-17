@@ -17,10 +17,15 @@ anchor = 'TABLE.' _ number
 
 [%- INCLUDE division_heading.tt label = 'Table' -%]
 
+<div class="tableRule"></div>
+
 <table>
 
 [% INCLUDE narrative_part_list.tt %]
 
 </table>
+
+<div class="tableRule"></div>
+<div class="pad2"></div>
 
 </div>

@@ -1,0 +1,48 @@
+>>>configuration_item.ci-000445
+
+title:: SML::EnumeratedList Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000466         # SML::Structure Class
+
+description:: An SML::EnumeratedList represents a list of enumerated
+items each consisting of at most paragraph of text.  Enumerated lists
+may be nested within other enumerated lists or within bullet
+lists. Nesting level is indicated by leading whitespace (indentation).
+
+index:: ci-000445; SML::EnumeratedList; EnumeratedList.pm; enumerated list
+
+>>>FIGURE.fig-class-diagram-enumerated-list
+
+title:: SML::EnumeratedList Class Diagram
+
+image:: files/images/class-diagram-enumerated-list.png
+
+<<<FIGURE
+
+>>>LISTING.lis-enumeratedlist-pod
+
+title:: SML::EnumeratedList Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/EnumeratedList.pm
+
+<<<LISTING
+
+>>>LISTING.lis-enumeratedlist-pm
+
+title:: EnumeratedList.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/EnumeratedList.pm
+
+<<<LISTING
+
+<<<configuration_item

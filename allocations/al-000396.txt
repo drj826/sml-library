@@ -1,10 +1,10 @@
 >>>allocation.al-000396
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000316
+requirement:: rq-000316         # Render LaTeX Subscripted Text
 
-test:: tc-000014
+test:: tc-000043                # Test
 
 index:: [id:al-000396]
 

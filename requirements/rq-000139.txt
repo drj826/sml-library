@@ -1,6 +1,6 @@
 >>>requirement.rq-000139
 
-title:: Generate Document Front and Back Matter
+title:: Publish Document Front and Back Matter
 
 is_part_of:: rq-000199
 
@@ -268,7 +268,7 @@ column::3:width: 25
 
 : recto
 
-: automatically generated ([id:rq-000147])
+: automatically generated
 
 ---
 

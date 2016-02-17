@@ -1,13 +1,10 @@
 >>>allocation.al-000325
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000246 # Render an HTML File Name
+requirement:: rq-000246         # Render an HTML File Name
 
-test::     tc-000014 # Block.pm Unit Test Case
-
-
-
+test:: tc-000043                # Test
 
 index:: [id:al-000325]
 

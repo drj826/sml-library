@@ -1,12 +1,10 @@
 >>>allocation.al-000063
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000029 # Represent Quotations
+requirement:: rq-000029         # Represent a Quotation
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000063:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000063]
 

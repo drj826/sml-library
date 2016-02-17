@@ -1,12 +1,10 @@
 >>>allocation.al-000081
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000047 # Represent Underlined Text
+requirement:: rq-000047         # Represent Underlined Text
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000081:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000081]
 

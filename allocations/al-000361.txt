@@ -1,11 +1,10 @@
 >>>allocation.al-000361
 
-configuration_item:: ci-000005 # Document.pm
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000281 # Render An HTML Page For Each Document Section
+requirement:: rq-000281         # Render An HTML Page For Each Document Section
 
-test::     tc-000041 # Demonstration
-
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000361]
 

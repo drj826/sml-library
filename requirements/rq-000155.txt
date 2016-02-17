@@ -1,6 +1,6 @@
 >>>requirement.rq-000155
 
-title:: Generate a List of Attachments
+title:: Publish a Document List of Attachments
 
 is_part_of:: rq-000139
 
@@ -8,8 +8,8 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
-file attachments.  The listing should display the location of the
+description:: The software shall publish a document list of file
+attachments.  The listing should display the location of the
 attachment in the document and allow downloading the attachment
 directly from the listing.
 

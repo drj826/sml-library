@@ -9,11 +9,13 @@ priority:: routine
 type:: technical
 
 description:: The software shall resolve template statements.
-Templates are re-usable SML files containing variable tags.  The
-template statement passes values for those variables.  The software
-must replace the variable tags with the values and replace the
-template statement with the template containing the replaced
-variables.
+Template statements are a special type of include statement in which
+one or more variable name/value pairs are passed and substituted in
+the included division.  Templates are re-usable SML divisions
+containing variable tags.  The template statement passes values for
+those variables.  The software must replace the variable tags with the
+values and replace the template statement with the template containing
+the replaced variables.
 
 index:: [id:rq-000132]; resolve templates
 

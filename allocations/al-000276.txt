@@ -1,12 +1,10 @@
 >>>allocation.al-000276
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000198 # Represent Allocations
+requirement:: rq-000198         # Represent an Allocation
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000276:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000276]
 

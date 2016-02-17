@@ -1,0 +1,14 @@
+>>>configuration_item.ci-000510
+
+title:: SML Perl Modules
+
+type:: package
+
+is_part_of:: ci-000004
+
+description:: This is a package of Perl modules that implement SML
+Core Software.
+
+index:: ci-000510
+
+<<<configuration_item

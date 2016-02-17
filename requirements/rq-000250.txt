@@ -1,13 +1,13 @@
 >>>requirement.rq-000250
 
-title:: Format an HTML Literal XML Tag
+title:: Render an HTML Literal XML Tag
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML literal XML tag.
+description:: The software shall render an HTML literal XML tag.
 
-index:: [id:rq-000250]; XML tag!format HTML
+index:: [id:rq-000250]; XML tag!render HTML
 
 <<<requirement

@@ -1,14 +1,25 @@
 >>>configuration_item.ci-000400
 
-title:: SML/Source.pm Module
+title:: SML::Source Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510                  # SML Perl Modules
 
-description:: The SML/Source.pm Module...
+specializes:: ci-000466                 # SML::Structure Class
 
-index:: [id:ci-000400]; Source.pm; SML::Source
+description:: An SML::Source represents a bibliographic source
+referenced in the text.
+
+index:: [id:ci-000400]; Source.pm; SML::Source; source
+
+>>>FIGURE.fig-class-diagram-source
+
+title:: SML::Source Class Diagram
+
+image:: files/images/class-diagram-source.png
+
+<<<FIGURE
 
 >>>LISTING.lis-source-pm
 
@@ -23,7 +34,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Source.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

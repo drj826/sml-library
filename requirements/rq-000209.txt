@@ -1,6 +1,6 @@
 >>>requirement.rq-000209
 
-title:: Format an HTML Cross Reference
+title:: Render an HTML Cross Reference
 
 is_part_of:: rq-000205
 

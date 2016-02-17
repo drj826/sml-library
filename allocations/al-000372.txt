@@ -1,11 +1,10 @@
 >>>allocation.al-000372
 
-configuration_item:: ci-000387
+configuration_item:: ci-000507  # Default LaTeX Templates
 
-requirement::  rq-000292
+requirement:: rq-000292         # Render a LaTeX Version Reference
 
-test::     tc-000014
-
+test:: tc-000043                # Test
 
 index:: [id:al-000372]
 

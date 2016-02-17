@@ -9,11 +9,11 @@ self => an SML::Attachment object
 -%]
 [%-
 
-library = self.get_library
-number  = self.get_number
-id      = self.get_id
-file    = library.get_first_property_value(id,'file')
-anchor  = 'ATTACHMENT.' _ number
+ps     = self.get_library.get_property_store
+number = self.get_number
+id     = self.get_id
+file   = ps.get_property_text(id,'file')
+anchor = 'ATTACHMENT.' _ number
 
 -%]
 <div class="attachment" id="[%anchor%]">

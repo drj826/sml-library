@@ -1,13 +1,10 @@
 >>>allocation.al-000134
 
-configuration_item:: ci-000379 # SML Syntax Specification
+configuration_item:: ci-000379  # SML::Syntax
 
-requirement::  rq-000122 # Implement SML Syntax
+requirement:: rq-000122         # Implement SML Syntax
 
-test::     tc-000042 # Inspection
-
-outcome::2011-11-27:al-000134:green: The SML syntax is formally
-specified in an EBNF file.
+test:: tc-000042                # Inspection
 
 index:: [id:al-000134]
 

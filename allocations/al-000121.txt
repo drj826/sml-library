@@ -1,12 +1,10 @@
 >>>allocation.al-000121
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000089 # Represent an Acronym Definition
+requirement:: rq-000089         # Represent an Acronym List Entry
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000121:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000121]
 

@@ -1,13 +1,10 @@
 >>>allocation.al-000317
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000505  # Default HTML Templates
 
-requirement::  rq-000238 # Render an HTML Section Sign
+requirement:: rq-000238         # Render an HTML Section Sign
 
-test::     tc-000014 # Block.pm Unit Test Case
-
-
-
+test:: tc-000043                # Test
 
 index:: [id:al-000317]
 

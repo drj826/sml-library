@@ -1,0 +1,46 @@
+>>>configuration_item.ci-000454
+
+title:: SML::IndexEntry Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+description:: The SML::IndexEntry class represents an individual entry
+in an index.  The index entry contains all of the locations the term
+exists in the text.  Index entries may have sub-entries and
+sub-sub-entries.
+
+index:: [id:ci-000454]; IndexEntry.pm; SML::IndexEntry; index entry
+
+>>>FIGURE.fig-class-diagram-index-entry
+
+title:: SML::IndexEntry Class Diagram
+
+image:: files/images/class-diagram-index-entry.png
+
+<<<FIGURE
+
+>>>LISTING.lis-indexentry-pod
+
+title:: SML::IndexEntry Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/IndexEntry.pm
+
+<<<LISTING
+
+>>>LISTING.lis-indexentry-pm
+
+title:: IndexEntry.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/IndexEntry.pm
+
+<<<LISTING
+
+<<<configuration_item

@@ -1,11 +1,10 @@
 >>>allocation.al-000288
 
-configuration_item:: ci-000387 # SML/Block.pm Module
+configuration_item:: ci-000504  # Default HTML CROSS_REF Template
 
-requirement::  rq-000209 # Render an HTML Cross Reference
+requirement:: rq-000209         # Render an HTML Cross Reference
 
-test::     tc-000014 # Block.pm Unit Test Case
-
+test:: tc-000043                # Test
 
 index:: [id:al-000288]
 

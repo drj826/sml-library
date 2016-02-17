@@ -1,13 +1,13 @@
 >>>requirement.rq-000325
 
-title:: Format a LaTeX E-mail Address
+title:: Render a LaTeX E-mail Address
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format a LaTeX e-mail address.
+description:: The software shall render a LaTeX e-mail address.
 
-index:: [id:rq-000325]; e-mail address!format LaTeX
+index:: [id:rq-000325]; e-mail address!render LaTeX
 
 <<<requirement

@@ -1,6 +1,6 @@
 >>>requirement.rq-000146
 
-title:: Generate a List of Abbreviations
+title:: Publish a Document List of Abbreviations
 
 is_part_of:: rq-000139
 
@@ -8,13 +8,13 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a list of
-abbreviations. The list may go in either the front matter or the back
-matter.  If abbreviations are used in the text or in footnotes, the
-list should appear in the front matter. If they are only used in the
-back matter, the list should appear before the first part in which
-abbreviations are used, whether the appendixes, the end-notes, or the
-bibliography.
+description:: The software shall enable a user to generate a document
+list of abbreviations. The list may go in either the front matter or
+the back matter.  If abbreviations are used in the text or in
+footnotes, the list should appear in the front matter. If they are
+only used in the back matter, the list should appear before the first
+part in which abbreviations are used, whether the appendixes, the
+end-notes, or the bibliography.
 
 index:: [id:rq-000146]; list of abbreviations
 

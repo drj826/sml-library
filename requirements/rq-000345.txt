@@ -1,6 +1,6 @@
 >>>requirement.rq-000345
 
-title:: Return Definition of Definition List Item
+title:: Return the Definition of a Definition List Item
 
 is_part_of:: rq-000340
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000151
 
-title:: Generate an Index
+title:: Publish a Document Index
 
 is_part_of:: rq-000139
 
@@ -8,9 +8,9 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate an
-index. Indexes are normally set two columns to a page and in smaller
-type than the text. [cite:cms15, [section]1.91]
+description:: The software shall publish a document index. Indexes are
+normally set two columns to a page and in smaller type than the
+text. [cite:cms15, [section]1.91]
 
 index:: [id:rq-000151]; index
 

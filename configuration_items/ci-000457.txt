@@ -1,0 +1,45 @@
+>>>configuration_item.ci-000457
+
+title:: SML::Note Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+specializes:: ci-000386         # SML::Element Class
+
+description:: An SML::Note represents a document footnote or end note.
+
+index:: [id:ci-000457]; Note.pm; SML::Note; note
+
+>>>FIGURE.fig-class-diagram-note
+
+title:: SML::Note Class Diagram
+
+image:: files/images/class-diagram-note.png
+
+<<<FIGURE
+
+>>>LISTING.lis-note-pod
+
+title:: SML::Note Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Note.pm
+
+<<<LISTING
+
+>>>LISTING.lis-note-pm
+
+title:: Note.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/Note.pm
+
+<<<LISTING
+
+<<<configuration_item

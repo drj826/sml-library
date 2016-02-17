@@ -1,6 +1,6 @@
 >>>requirement.rq-000188
 
-title:: Remember Document Division Order
+title:: Preserve Division Order
 
 is_part_of:: rq-000128
 

@@ -1,18 +1,37 @@
 >>>configuration_item.ci-000386
 
-title:: SML/Element.pm Module
+title:: SML::Element Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510          # SML Perl Module
 
-description:: The SML/Element.pm Module...
+specializes:: ci-000387         # SML::Block Class
+
+description:: An SML::Element represents a name/value pair where the
+value can be no more complicated than a paragraph.
 
 index:: [id:ci-000386]; Element.pm; SML::Element
 
+>>>FIGURE.fig-class-diagram-element
+
+title:: SML::Element Class Diagram
+
+image:: files/images/class-diagram-element.png
+
+<<<FIGURE
+
+>>>LISTING.lis-element-pod
+
+title:: SML::Element Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Element.pm
+
+<<<LISTING
+
 >>>LISTING.lis-element-pm
 
-title:: Element.pm
+title:: Element.pm Code Listing
 
 numbers:: left
 
@@ -23,7 +42,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Element.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

@@ -1,13 +1,13 @@
 >>>requirement.rq-000220
 
-title:: Format an HTML Date Reference
+title:: Render an HTML Date Reference
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML date reference.
+description:: The software shall render an HTML date reference.
 
-index:: [id:rq-000220]; date reference!format HTML
+index:: [id:rq-000220]; date reference!render HTML
 
 <<<requirement

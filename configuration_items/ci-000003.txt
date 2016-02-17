@@ -4,7 +4,7 @@ title:: SML::Parser Class
 
 type:: software
 
-is_part_of:: ci-000004
+is_part_of:: ci-000510
 
 description:: The SML::Parser class parses raw text lines into
 [g:SML:division] objects.  A parser object parses according to the
@@ -21,7 +21,7 @@ Here is the definition of `parser' from the glossary:
 
 [ref:lis-parser-pm] shows the Parser.pm file.
 
->>>FIGURE.fig-parser-class-diagram
+>>>FIGURE.fig-class-diagram-parser
 
 title:: SML::Parser Class Diagram
 
@@ -29,9 +29,25 @@ image:: files/images/class-diagram-parser.png
 
 <<<FIGURE
 
+>>>FIGURE.fig-activity-diagram-parse
+
+title:: SML::Parser parse Activity Diagram
+
+image:: files/images/activity-diagram-parse.png
+
+<<<FIGURE
+
+>>>LISTING.lis-parser-pod
+
+title:: SML::Parser Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Parser.pm
+
+<<<LISTING
+
 >>>LISTING.lis-parser-pm
 
-title:: Parser.pm
+title:: Parser.pm Code Listing
 
 numbers:: left
 

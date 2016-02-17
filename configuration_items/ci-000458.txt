@@ -1,0 +1,46 @@
+>>>configuration_item.ci-000458
+
+title:: SML::OntologyRule Class
+
+type:: software
+
+is_part_of:: ci-000510          # SML Perl Modules
+
+description:: An SML::OntologyRule declares a fact about the
+ontology. An ontology is composed of a collection of ontology rules.
+Document semantics are validated against the set of ontology rules.
+
+index:: [id:ci-000458]; OntologyRule.pm; SML::OntologyRule; ontology
+rule
+
+>>>FIGURE.fig-class-diagram-ontology-rule
+
+title:: SML::OntologyRule Class Diagram
+
+image:: files/images/class-diagram-ontology-rule.png
+
+<<<FIGURE
+
+>>>LISTING.lis-ontologyrule-pod
+
+title:: SML::OntologyRule Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/OntologyRule.pm
+
+<<<LISTING
+
+>>>LISTING.lis-ontologyrule-pm
+
+title:: OntologyRule.pm Code Listing
+
+numbers:: left
+
+language:: Perl
+
+fontsize:: footnotesize
+
+file:: ../SML/lib/SML/OntologyRule.pm
+
+<<<LISTING
+
+<<<configuration_item

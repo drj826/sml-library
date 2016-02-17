@@ -1,13 +1,13 @@
 >>>requirement.rq-000236
 
-title:: Format an HTML Open Single Quote
+title:: Render an HTML Open Single Quote
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML open single quote.
+description:: The software shall render an HTML open single quote.
 
-index:: [id:rq-000236]; single quote!format HTML
+index:: [id:rq-000236]; single quote!render HTML
 
 <<<requirement

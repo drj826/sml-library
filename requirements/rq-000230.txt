@@ -1,13 +1,13 @@
 >>>requirement.rq-000230
 
-title:: Format an HTML `TeX' Symbol
+title:: Render an HTML `TeX' Symbol
 
 is_part_of:: rq-000205
 
 type:: technical
 
-description:: The software shall format an HTML `Tex' symbol.
+description:: The software shall render an HTML `Tex' symbol.
 
-index:: [id:rq-000230]; `TeX' symbol!format HTML
+index:: [id:rq-000230]; `TeX' symbol!render HTML
 
 <<<requirement

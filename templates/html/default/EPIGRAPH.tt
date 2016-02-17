@@ -9,38 +9,39 @@ self => an SML::Epigraph object
 -%]
 [%-
 
-epigraph_number = self.get_number
+ps              = self.get_library.get_property_store
 epigraph_id     = self.get_id
+epigraph_number = self.get_number
 anchor          = 'epigraph.' _ epigraph_number
 
 -%]
 <div class="epigraph" id="[%anchor%]">
 
-[%- IF library.has_property(epigraph_id,'text')  -%]
+[%- IF ps.has_property(epigraph_id,'text')  -%]
 <p align="right">
-<i>[% INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'text') %]</i>
+<i>[% INCLUDE STRING.tt self = ps.get_property_string(epigraph_id,'text') %]</i>
 </p>
 [%- END -%]
 
-[%- IF library.has_property(epigraph_id,'author') and library.has_property(epigraph_id,'source') -%]
+[%- IF ps.has_property(epigraph_id,'author') and ps.has_property(epigraph_id,'source') -%]
 <p align="right">
 <small>&mdash;
-[%- INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'author') -%],
-[%- INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'source') -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(epigraph_id,'author') -%],
+[%- INCLUDE STRING.tt self = ps.get_property_string(epigraph_id,'source') -%]
 </small>
 </p>
 
-[%- ELSIF library.has_property(epigraph_id,'source') -%]
+[%- ELSIF ps.has_property(epigraph_id,'source') -%]
 <p align="right">
 <small>&mdash;
-[%- INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'source') -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(epigraph_id,'source') -%]
 </small>
 </p>
 
-[%- ELSIF library.has_property(epigraph_id,'author')  -%]
+[%- ELSIF ps.has_property(epigraph_id,'author')  -%]
 <p align="right">
 <small>&mdash;
-[%- INCLUDE element.tt element = library.get_first_property_value_element(epigraph_id,'author') -%]
+[%- INCLUDE STRING.tt self = ps.get_property_string(epigraph_id,'author') -%]
 </small>
 </p>
 [%- END -%]

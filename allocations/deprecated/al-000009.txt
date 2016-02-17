@@ -1,0 +1,11 @@
+>>>allocation.al-000009
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000112         # Implement SML Syntax
+
+test:: tc-000040                # Analysis
+
+index:: [id:al-000009]
+
+<<<allocation

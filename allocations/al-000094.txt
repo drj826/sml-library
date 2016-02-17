@@ -1,14 +1,10 @@
 >>>allocation.al-000094
 
-configuration_item:: ci-000001 # Structured Manuscript Language (SML)
+configuration_item:: ci-000433  # SML::Syntax
 
-requirement::  rq-000061 # Represent a Horizontal Rule
+requirement:: rq-000061         # Represent a Horizontal Rule
 
-test::     tc-000041 # Demonstration
-
-outcome::2011-11-27:al-000094:yellow: You can represent a horizontal
-rule using a long fill-in-the-blank [id:rq-000134], but this is not
-truly a horizontal rule.
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000094]
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000154
 
-title:: Generate a Change Log
+title:: Publish a Version History Log
 
 is_part_of:: rq-000139
 
@@ -8,9 +8,8 @@ priority:: routine
 
 type:: functional
 
-description:: The software shall enable a user to generate a change
-log listing based on the revision control change log.
+description:: The software shall generate a version history log.
 
-index:: [id:rq-000154]; change log
+index:: [id:rq-000154]; version history
 
 <<<requirement

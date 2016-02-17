@@ -1,12 +1,10 @@
 >>>allocation.al-000263
 
-configuration_item:: ci-000003
+configuration_item:: ci-000003  # SML::Parser
 
-requirement::  rq-000191
+requirement:: rq-000191         # Emit Error on Invalid Semantics
 
-test::     tc-000041 # Demonstration
-
-outcome::2012-04-01:al-000263:green: OK
+test:: tc-000041                # Demonstration
 
 index:: [id:al-000263]
 
