@@ -20,12 +20,14 @@ ontology    = library.get_ontology
 [%- page_navigation_block = BLOCK  -%]
 [%- INCLUDE previous_and_next.tt pagename = 'index' -%]
 [%- END -%]
+[%- page_button_block = BLOCK -%]
+[%- INCLUDE index_button_bar.tt -%]
+[%- END -%]
 
-[%- WRAPPER document_page.tt page_navigation = page_navigation_block -%]
+[%- WRAPPER document_page.tt page_navigation = page_navigation_block ,
+                                                                button_bar = page_button_block -%]
 
 <h1 style="text-align:center;">Index</h1>
-
-[%- INCLUDE index_button_bar.tt -%]
 
 <table width="100%">
 
