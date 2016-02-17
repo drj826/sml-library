@@ -65,6 +65,12 @@ document_id = document.get_id
 </div>
 [%- END -%]
 
+[%- IF button_bar != '' -%]
+<div class="page_navigation">
+[%- button_bar -%]
+</div>
+[%- END -%]
+
 <div class="page_content">
 [%- content -%]
 <div class="pad2"></div>
