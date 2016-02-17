@@ -25,6 +25,14 @@ image:: files/images/class-diagram-section.png
 
 <<<FIGURE
 
+>>>LISTING.lis-section-pod
+
+title:: SML::Section Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Section.pm
+
+<<<LISTING
+
 >>>LISTING.lis-section-pm
 
 title:: Section.pm Code Listing
@@ -38,7 +46,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Section.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

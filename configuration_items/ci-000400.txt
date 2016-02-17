@@ -21,6 +21,14 @@ image:: files/images/class-diagram-source.png
 
 <<<FIGURE
 
+>>>LISTING.lis-source-pod
+
+title:: SML::Source Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Source.pm
+
+<<<LISTING
+
 >>>LISTING.lis-source-pm
 
 title:: Source.pm

@@ -22,6 +22,14 @@ image:: files/images/class-diagram-publisher.png
 
 <<<FIGURE
 
+>>>LISTING.lis-publisher-pod
+
+title:: SML::Publisher Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Publisher.pm
+
+<<<LISTING
+
 >>>LISTING.lis-publisher-pm
 
 title:: Publisher.pm Code Listing

@@ -31,6 +31,14 @@ image:: files/images/class-diagram-reasoner.png
 
 <<<FIGURE
 
+>>>LISTING.lis-reasoner-pod
+
+title:: SML::Reasoner Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Reasoner.pm
+
+<<<LISTING
+
 >>>LISTING.lis-reasoner-pm
 
 title:: Reasoner.pm Code Listing

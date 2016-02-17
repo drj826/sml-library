@@ -19,6 +19,14 @@ image:: files/images/class-diagram-references.png
 
 <<<FIGURE
 
+>>>LISTING.lis-references-pod
+
+title:: SML::References Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/References.pm
+
+<<<LISTING
+
 >>>LISTING.lis-references-pm
 
 title:: References.pm Code Listing

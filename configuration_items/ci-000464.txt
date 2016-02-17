@@ -23,6 +23,14 @@ image:: files/images/class-diagram-status-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-statusreference-pod
+
+title:: SML::StatusReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/StatusReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-statusreference-pm
 
 title:: StatusReference.pm Code Listing

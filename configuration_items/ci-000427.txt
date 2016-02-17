@@ -21,6 +21,14 @@ image:: files/images/class-diagram-preformatted-block.png
 
 <<<FIGURE
 
+>>>LISTING.lis-preformattedblock-pod
+
+title:: SML::PreformattedBlock Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/PreformattedBlock.pm
+
+<<<LISTING
+
 >>>LISTING.lis-preformatted-block-pm
 
 title:: PreformattedBlock.pm

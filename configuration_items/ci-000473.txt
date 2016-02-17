@@ -23,6 +23,14 @@ image:: files/images/class-diagram-property-store.png
 
 <<<FIGURE
 
+>>>LISTING.lis-propertystore-pod
+
+title:: SML::PropertyStore Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/PropertyStore.pm
+
+<<<LISTING
+
 >>>LISTING.lis-propertystore-pm
 
 title:: PropertyStore.pm Code Listing

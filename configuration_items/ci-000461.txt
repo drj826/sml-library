@@ -22,6 +22,14 @@ image:: files/images/class-diagram-path-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-pathreference-pod
+
+title:: SML::PathReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/PathReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-pathreference-pm
 
 title:: PathReference.pm Code Listing

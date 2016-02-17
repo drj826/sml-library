@@ -20,6 +20,14 @@ image:: files/images/class-diagram-step.png
 
 <<<FIGURE
 
+>>>LISTING.lis-step-pod
+
+title:: SML::Step Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Step.pm
+
+<<<LISTING
+
 >>>LISTING.lis-step-pm
 
 title:: Step.pm Code Listing
