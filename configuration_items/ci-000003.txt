@@ -13,7 +13,7 @@ and validates content according to that library's
 [g:SML:ontology]. The parser's parse method is invoked by the library
 object.
 
-index:: [id:ci-000003]; Parser.pm; SML::Parser
+index:: ci-000003; Parser.pm; SML::Parser
 
 Here is the definition of `parser' from the glossary:
 

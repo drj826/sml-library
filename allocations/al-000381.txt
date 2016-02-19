@@ -6,6 +6,6 @@ requirement:: rq-000301         # Render a LaTeX Left Arrow Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000381]
+index:: al-000381
 
 <<<allocation

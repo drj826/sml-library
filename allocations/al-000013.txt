@@ -6,6 +6,6 @@ requirement:: rq-000108         # Resolve `Include' Statements
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000013]
+index:: al-000013
 
 <<<allocation

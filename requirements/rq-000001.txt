@@ -15,7 +15,7 @@ HTML is to enable simple document sharing via storage devices like CD,
 DVD, or USB drives and by uploading to content management web
 services.
 
-index:: [id:rq-000001]; HTML!render static
+index:: rq-000001; HTML!render static
 
 Many SML documents are large and complex.  Rendering them to a single
 large HTML file would result in slow navigation because web browsers

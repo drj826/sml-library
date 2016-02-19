@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML section sign.
 
-index:: [id:rq-000238]; section sign!render HTML
+index:: rq-000238; section sign!render HTML
 
 <<<requirement

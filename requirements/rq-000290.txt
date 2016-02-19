@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX `thepage' reference.
 
-index:: [id:rq-000290]; `thepage' reference!render LaTeX
+index:: rq-000290; `thepage' reference!render LaTeX
 
 <<<requirement

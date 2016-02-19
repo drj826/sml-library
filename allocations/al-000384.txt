@@ -6,6 +6,6 @@ requirement:: rq-000304         # Render a LaTeX `TeX' Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000384]
+index:: al-000384
 
 <<<allocation

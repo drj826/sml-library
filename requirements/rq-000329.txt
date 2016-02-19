@@ -34,6 +34,6 @@ template should be a function of:
 
 ###comment
 
-index:: [id:rq-000329]; block
+index:: rq-000329; block
 
 <<<requirement

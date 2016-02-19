@@ -9,6 +9,6 @@ type:: technical
 description:: The software shall render an HTML user-entered text
 string.
 
-index:: [id:rq-000248]; user-entered text string!render HTML
+index:: rq-000248; user-entered text string!render HTML
 
 <<<requirement

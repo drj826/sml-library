@@ -6,6 +6,6 @@ requirement:: rq-000166         # Represent Option `Include Flat'
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000177]
+index:: al-000177
 
 <<<allocation

@@ -6,6 +6,6 @@ requirement:: rq-000345         # Return Definition of Definition List Item
 
 test:: tc-000067                # DefinitionListItem.pm Unit Test Case
 
-index:: [id:al-000409]
+index:: al-000409
 
 <<<allocation

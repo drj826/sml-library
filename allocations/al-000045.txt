@@ -6,6 +6,6 @@ requirement:: rq-000011         # Represent a Section
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000045]
+index:: al-000045
 
 <<<allocation

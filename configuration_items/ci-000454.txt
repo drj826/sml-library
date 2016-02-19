@@ -11,7 +11,7 @@ in an index.  The index entry contains all of the locations the term
 exists in the text.  Index entries may have sub-entries and
 sub-sub-entries.
 
-index:: [id:ci-000454]; IndexEntry.pm; SML::IndexEntry; index entry
+index:: ci-000454; IndexEntry.pm; SML::IndexEntry; index entry
 
 >>>FIGURE.fig-class-diagram-index-entry
 

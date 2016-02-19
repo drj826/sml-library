@@ -18,6 +18,6 @@ identifier.  An image, on the other hand, is simply a picture inserted
 as document content with no other meta-data.  Images have no meta data
 elements.
 
-index:: [id:rq-000013]; image
+index:: rq-000013; image
 
 <<<requirement

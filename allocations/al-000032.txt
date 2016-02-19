@@ -6,6 +6,6 @@ requirement:: rq-000098         # Publish SML Documents
 
 test:: tc-000043                # Test
 
-index:: [id:al-000032]
+index:: al-000032
 
 <<<allocation

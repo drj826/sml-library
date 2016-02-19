@@ -11,7 +11,7 @@ specializes:: ci-000387         # SML::Block Class
 description:: An SML::Element represents a name/value pair where the
 value can be no more complicated than a paragraph.
 
-index:: [id:ci-000386]; Element.pm; SML::Element
+index:: ci-000386; Element.pm; SML::Element
 
 >>>FIGURE.fig-class-diagram-element
 

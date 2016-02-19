@@ -15,6 +15,6 @@ file to a section heading at a specified section depth.  Make all
 sections and sub-sections from the external file relative to the
 specified section depth.
 
-index:: [id:rq-000165]; include!as section
+index:: rq-000165; include!as section
 
 <<<requirement

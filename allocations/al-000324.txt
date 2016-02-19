@@ -6,6 +6,6 @@ requirement:: rq-000245         # Render HTML Fixed-Width Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000324]
+index:: al-000324
 
 <<<allocation

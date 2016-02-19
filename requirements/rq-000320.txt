@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX file name.
 
-index:: [id:rq-000320]; file name!render LaTeX
+index:: rq-000320; file name!render LaTeX
 
 <<<requirement

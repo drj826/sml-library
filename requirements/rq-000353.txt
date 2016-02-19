@@ -16,7 +16,7 @@ signifies, (1) the words are a mistake and not meant for inclusion,
 (2) the author implies a change of thought but wants the reader to see
 the original thought, or (3) [g:SML:epanorthosis].
 
-index:: [id:rq-000060]; strikethrough text; strikeout text;
+index:: rq-000060; strikethrough text; strikeout text;
 epanorthosis
 
 <<<requirement

@@ -13,7 +13,7 @@ properties do not violate multiplicity rules.  Multiplicity rules are
 declared in the ontology and specify whether a property can have one
 or many values.
 
-index:: [id:rq-000173]; property multiplicity!validate; validate property
+index:: rq-000173; property multiplicity!validate; validate property
 multiplicity; multiplicity!property
 
 <<<requirement

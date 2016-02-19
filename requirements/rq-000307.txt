@@ -9,6 +9,6 @@ type:: technical
 description:: The software shall render a LaTeX registered trademark
 symbol.
 
-index:: [id:rq-000307]; registered trademark symbol!render LaTeX
+index:: rq-000307; registered trademark symbol!render LaTeX
 
 <<<requirement

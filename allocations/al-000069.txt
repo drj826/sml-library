@@ -22,6 +22,6 @@ tested.  Furthermore, I may need to capture the ~~version~~ of the
 tested item.  The current syntax provides no way to capture that.
 These same issues apply to reviews.
 
-index:: [id:al-000069]
+index:: al-000069
 
 <<<allocation

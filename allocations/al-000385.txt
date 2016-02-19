@@ -6,6 +6,6 @@ requirement:: rq-000305         # Render a LaTeX Copyright Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000385]
+index:: al-000385
 
 <<<allocation

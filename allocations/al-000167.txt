@@ -6,6 +6,6 @@ requirement:: rq-000155         # Publish a Document List of Attachments
 
 test:: tc-000043                # Test
 
-index:: [id:al-000167]
+index:: al-000167
 
 <<<allocation

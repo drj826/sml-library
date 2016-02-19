@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX section sign.
 
-index:: [id:rq-000312]; section sign!render LaTeX
+index:: rq-000312; section sign!render LaTeX
 
 <<<requirement

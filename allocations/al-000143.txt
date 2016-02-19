@@ -6,6 +6,6 @@ requirement:: rq-000123         # Represent Division-Specific Presentation Optio
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000143]
+index:: al-000143
 
 <<<allocation

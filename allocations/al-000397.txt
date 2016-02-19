@@ -6,6 +6,6 @@ requirement:: rq-000317         # Render LaTeX Italicized Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000397]
+index:: al-000397
 
 <<<allocation

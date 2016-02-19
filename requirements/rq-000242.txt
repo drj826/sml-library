@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML subscripted text.
 
-index:: [id:rq-000242]; subscripted text!render HTML
+index:: rq-000242; subscripted text!render HTML
 
 <<<requirement

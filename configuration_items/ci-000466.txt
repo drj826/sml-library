@@ -11,7 +11,7 @@ specializes:: ci-000381         # SML::Division Class
 description:: An SML::Structure is a part of a document such as a
 section, table, figure, or list.
 
-index:: [id:ci-000466]; Structure.pm; SML::Structure; structure
+index:: ci-000466; Structure.pm; SML::Structure; structure
 
 >>>FIGURE.fig-class-diagram-structure
 

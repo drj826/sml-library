@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Parser.pm Perl module
 that implements the SML::Parser class.
 
-index:: [id:tc-000005]; unit test case!Parser.pm
+index:: tc-000005; unit test case!Parser.pm
 
 [ref:lis-parser-pm-unit-test-case] shows the unit test case for
 [file:Parser.pm].

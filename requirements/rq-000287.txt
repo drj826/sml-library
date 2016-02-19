@@ -10,6 +10,6 @@ associated:: rq-000090
 
 description:: The software shall render a LaTeX acronym reference.
 
-index:: [id:rq-000287]; acronym reference!render LaTeX
+index:: rq-000287; acronym reference!render LaTeX
 
 <<<requirement

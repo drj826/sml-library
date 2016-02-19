@@ -6,6 +6,6 @@ requirement:: rq-000137         # Be Maintainable
 
 test:: tc-000042                # Inspection
 
-index:: [id:al-000149]
+index:: al-000149
 
 <<<allocation

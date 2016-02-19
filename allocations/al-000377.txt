@@ -6,6 +6,6 @@ requirement:: rq-000297         # Render a LaTeX `Take Note' Indicator
 
 test:: tc-000043                # Test
 
-index:: [id:al-000377]
+index:: al-000377
 
 <<<allocation

@@ -19,7 +19,7 @@ allow but not mandate it contain newline characters.  The data format
 must have the capability to represent the types of sections enumerated
 in the definition of the ``sectype'' data type ([id:rq-000086]).
 
-index:: [id:rq-000011]; sections
+index:: rq-000011; sections
 
 Sections may have the following meta data elements:
 

@@ -6,6 +6,6 @@ requirement:: rq-000124         # Represent Special Symbols
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000144]
+index:: al-000144
 
 <<<allocation

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML left arrow symbol.
 
-index:: [id:rq-000227]; left arrow symbol!render HTML
+index:: rq-000227; left arrow symbol!render HTML
 
 <<<requirement

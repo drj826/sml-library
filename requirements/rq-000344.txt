@@ -15,6 +15,6 @@ item.  The purpose of this function is to strip the markup and other
 content to return just the term being defined by the definition list
 item.
 
-index:: [id:rq-000344]
+index:: rq-000344
 
 <<<requirement

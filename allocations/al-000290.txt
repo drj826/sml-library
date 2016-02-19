@@ -6,6 +6,6 @@ requirement:: rq-000211         # Render an HTML Footnote Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000290]
+index:: al-000290
 
 <<<allocation

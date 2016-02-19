@@ -6,6 +6,6 @@ requirement:: rq-000246         # Render an HTML File Name
 
 test:: tc-000043                # Test
 
-index:: [id:al-000325]
+index:: al-000325
 
 <<<allocation

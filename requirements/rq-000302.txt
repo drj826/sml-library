@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX right arrow symbol.
 
-index:: [id:rq-000302]; right arrow symbol!render LaTeX
+index:: rq-000302; right arrow symbol!render LaTeX
 
 <<<requirement

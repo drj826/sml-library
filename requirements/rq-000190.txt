@@ -12,6 +12,6 @@ description:: The software shall validate that a library contains no
 redundant allocations.  An allocation is redundant if it pairs the
 same problem and solution of another allocation.
 
-index:: [id:rq-000190]; redundant allocation; allocation!redundant
+index:: rq-000190; redundant allocation; allocation!redundant
 
 <<<requirement

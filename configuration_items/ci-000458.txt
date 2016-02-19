@@ -10,7 +10,7 @@ description:: An SML::OntologyRule declares a fact about the
 ontology. An ontology is composed of a collection of ontology rules.
 Document semantics are validated against the set of ontology rules.
 
-index:: [id:ci-000458]; OntologyRule.pm; SML::OntologyRule; ontology
+index:: ci-000458; OntologyRule.pm; SML::OntologyRule; ontology
 rule
 
 >>>FIGURE.fig-class-diagram-ontology-rule

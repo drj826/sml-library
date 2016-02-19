@@ -6,6 +6,6 @@ requirement:: rq-000060         # Represent Subscripted Text
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000093]
+index:: al-000093
 
 <<<allocation

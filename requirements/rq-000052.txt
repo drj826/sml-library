@@ -12,6 +12,6 @@ description:: The data format shall have the capability to represent
 a keystroke symbol.  A keystroke symbol represents pressing a single
 key on a keyboard or keypad.
 
-index:: [id:rq-000052]; keystroke symbol; symbol!keystroke
+index:: rq-000052; keystroke symbol; symbol!keystroke
 
 <<<requirement

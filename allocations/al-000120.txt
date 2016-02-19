@@ -6,6 +6,6 @@ requirement:: rq-000088         # Represent a Section Epigraph
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000120]
+index:: al-000120
 
 <<<allocation

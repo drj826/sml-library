@@ -6,6 +6,6 @@ requirement:: rq-000197         # Declare and Entity Type
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000275]
+index:: al-000275
 
 <<<allocation

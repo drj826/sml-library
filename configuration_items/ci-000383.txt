@@ -9,7 +9,7 @@ is_part_of:: ci-000510          # SML Perl Modules
 description:: The SML::Util class provides a collection of utility
 methods used by other classes.
 
-index:: [id:ci-000383]; Util.pm; SML::Util; utility methods
+index:: ci-000383; Util.pm; SML::Util; utility methods
 
 >>>FIGURE.fig-class-diagram-util
 

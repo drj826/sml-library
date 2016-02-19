@@ -6,6 +6,6 @@ requirement:: rq-000307         # Render a LaTeX Registered Trademark Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000387]
+index:: al-000387
 
 <<<allocation

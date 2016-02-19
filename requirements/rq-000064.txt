@@ -12,6 +12,6 @@ description:: The data format shall have the capability to represent a
 literal text.  This capability is required to escape the special
 meaning of other markup.
 
-index:: [id:rq-000064]; literal text
+index:: rq-000064; literal text
 
 <<<requirement

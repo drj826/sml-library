@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX superscripted text.
 
-index:: [id:rq-000315]; superscripted text!render LaTeX
+index:: rq-000315; superscripted text!render LaTeX
 
 <<<requirement

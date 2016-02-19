@@ -9,7 +9,7 @@ type:: container
 description:: This test case serves as a container for all unit test
 cases in the SML software library.
 
-index:: [id:tc-000001]; unit test cases
+index:: tc-000001; unit test cases
 
 All unit tests can be executed by the single action of executing
 [cmd:test.bat] shown in [ref:lis-test-bat].

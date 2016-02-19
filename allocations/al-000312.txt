@@ -6,6 +6,6 @@ requirement:: rq-000233         # Render an HTML Registered Trademark Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000312]
+index:: al-000312
 
 <<<allocation

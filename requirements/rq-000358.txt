@@ -6,6 +6,6 @@ type:: activity
 
 description:: The organization shall perform engineering activities.
 
-index:: [id:rq-000358]
+index:: rq-000358
 
 <<<requirement

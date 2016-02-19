@@ -10,6 +10,6 @@ description:: The software shall emit an ~~error~~ message upon
 finding invalid document semantics.  Document semantics are expressed
 as rules (axioms) in a [g:SML:library]'s [g:SML:ontology].
 
-index:: [id:rq-000191]; error!emit; semantics
+index:: rq-000191; error!emit; semantics
 
 <<<requirement

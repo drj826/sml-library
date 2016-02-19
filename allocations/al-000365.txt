@@ -6,6 +6,6 @@ requirement:: rq-000285         # Render a LaTeX Footnote Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000365]
+index:: al-000365
 
 <<<allocation

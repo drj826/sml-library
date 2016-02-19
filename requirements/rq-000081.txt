@@ -15,7 +15,7 @@ use the data format to capture simple assertions that can be used by a
 reasoning application to automatically look for inconsistencies via
 formal logic.
 
-index:: [id:rq-000081]; assertions
+index:: rq-000081; assertions
 
 Elements of assertion meta data include:
 

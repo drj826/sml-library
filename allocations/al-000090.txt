@@ -6,6 +6,6 @@ requirement:: rq-000057         # Represent a Left Arrow
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000090]
+index:: al-000090
 
 <<<allocation

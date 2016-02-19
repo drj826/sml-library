@@ -12,6 +12,6 @@ user know there are uncommitted changes in any of the SML files that
 make up a document so the user can decide to either commit or discard
 those changes.
 
-index:: [id:rq-000257]; warning!uncommitted changes
+index:: rq-000257; warning!uncommitted changes
 
 <<<requirement

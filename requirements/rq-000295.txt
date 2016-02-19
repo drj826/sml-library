@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX status reference.
 
-index:: [id:rq-000295]; status reference!render LaTeX
+index:: rq-000295; status reference!render LaTeX
 
 <<<requirement

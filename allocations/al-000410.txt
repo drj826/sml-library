@@ -6,6 +6,6 @@ requirement:: rq-000351         # Ignore Markup Inside Literal Text
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000410]
+index:: al-000410
 
 <<<allocation

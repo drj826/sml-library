@@ -6,6 +6,6 @@ requirement:: rq-000271         # Render HTML List of To Do Items
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000351]
+index:: al-000351
 
 <<<allocation

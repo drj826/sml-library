@@ -6,6 +6,6 @@ requirement:: rq-000201         # Validate Allowed Entity Properties
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000285]
+index:: al-000285
 
 <<<allocation

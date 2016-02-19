@@ -12,6 +12,6 @@ description:: The data format shall have the capability to represent a
 fill-in-the-blank symbol.  Furthermore, data format shall allow
 authors to specify the width of the symbol.
 
-index:: [id:rq-000134]; fill-in-the-blank
+index:: rq-000134; fill-in-the-blank
 
 <<<requirement

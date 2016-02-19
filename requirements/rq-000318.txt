@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX bold text.
 
-index:: [id:rq-000318]; bold text!render LaTeX
+index:: rq-000318; bold text!render LaTeX
 
 <<<requirement

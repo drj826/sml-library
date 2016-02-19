@@ -6,6 +6,6 @@ requirement:: rq-000062         # Represent a File Path
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000095]
+index:: al-000095
 
 <<<allocation

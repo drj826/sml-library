@@ -6,6 +6,6 @@ requirement:: rq-000106        # Validate First-Order Document Semantics
 
 test:: tc-000005               # Parser.pm Unit Test Case
 
-index:: [id:al-000131]
+index:: al-000131
 
 <<<allocation

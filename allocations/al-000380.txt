@@ -6,6 +6,6 @@ requirement:: rq-000300         # Render a LaTeX Keystroke Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000380]
+index:: al-000380
 
 <<<allocation

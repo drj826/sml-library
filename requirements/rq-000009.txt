@@ -15,6 +15,6 @@ updating documents and to automatically generate specified elements of
 document content.  This requirement serves as a container for all
 document document special features.
 
-index:: [id:rq-000009]; document special features
+index:: rq-000009; document special features
 
 <<<requirement

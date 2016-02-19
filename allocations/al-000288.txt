@@ -6,6 +6,6 @@ requirement:: rq-000209         # Render an HTML Cross Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000288]
+index:: al-000288
 
 <<<allocation

@@ -6,6 +6,6 @@ requirement:: rq-000082         # Be Human Readable
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000002]
+index:: al-000002
 
 <<<allocation

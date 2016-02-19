@@ -11,6 +11,6 @@ perform a specific function for a user like publishing a single
 document, publishing an entire library, or publishing special views of
 information in a library.
 
-index:: [id:ci-000479]; applications
+index:: ci-000479; applications
 
 <<<configuration_item

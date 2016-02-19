@@ -11,7 +11,7 @@ specializes:: ci-000387         # SML::Block Class
 description:: An SML::Listitem represents an item in some type of list
 like a bullet list, enumerated list, or definition list.
 
-index:: [id:ci-000424]; Listitem.pm; SML::Listitem; list item
+index:: ci-000424; Listitem.pm; SML::Listitem; list item
 
 >>>FIGURE.fig-class-diagram-list-item
 

@@ -6,6 +6,6 @@ requirement:: rq-000091         # Represent an Audio Clip
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000123]
+index:: al-000123
 
 <<<allocation

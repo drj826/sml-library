@@ -6,6 +6,6 @@ requirement:: rq-000242         # Render HTML Subscripted Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000321]
+index:: al-000321
 
 <<<allocation

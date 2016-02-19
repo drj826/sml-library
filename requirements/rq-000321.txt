@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX path name.
 
-index:: [id:rq-000321]; path name!render LaTeX
+index:: rq-000321; path name!render LaTeX
 
 <<<requirement

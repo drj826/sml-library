@@ -13,7 +13,7 @@ associated:: rq-000050
 description:: The data format shall have the capability to represent
 a registered trademark symbol.
 
-index:: [id:rq-000051]; registered trademark symbol; symbol!registered
+index:: rq-000051; registered trademark symbol; symbol!registered
 trademark
 
 <<<requirement

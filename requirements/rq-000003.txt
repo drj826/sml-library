@@ -11,6 +11,6 @@ type:: functional
 description:: The system shall enable a user to render the
 [g:SML:element]s within [a:SML] [g:SML:DOCUMENT]s to [a:CSV] files.
 
-index:: [id:rq-000003]; CSV!render
+index:: rq-000003; CSV!render
 
 <<<requirement

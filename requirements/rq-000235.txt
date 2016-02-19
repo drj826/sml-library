@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML close double quote.
 
-index:: [id:rq-000235]; double quote!render HTML
+index:: rq-000235; double quote!render HTML
 
 <<<requirement

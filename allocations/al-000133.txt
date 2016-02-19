@@ -6,6 +6,6 @@ requirement:: rq-000111         # Satisfy Non-Functional Requirements
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000133]
+index:: al-000133
 
 <<<allocation

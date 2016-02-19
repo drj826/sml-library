@@ -6,6 +6,6 @@ requirement:: rq-000001         # Publish To HTML
 
 test:: tc-000043                # Test
 
-index:: [id:al-000033]
+index:: al-000033
 
 <<<allocation

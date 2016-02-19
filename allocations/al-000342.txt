@@ -6,6 +6,6 @@ requirement:: rq-000262         # Render HTML Table of Contents
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000342]
+index:: al-000342
 
 <<<allocation

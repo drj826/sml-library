@@ -12,6 +12,6 @@ description:: The data format shall represent division-specific
 presentation options.  This requirement serves as a container for
 those options.
 
-index:: [id:rq-000123]; division-specific presentation options
+index:: rq-000123; division-specific presentation options
 
 <<<requirement

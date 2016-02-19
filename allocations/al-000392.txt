@@ -6,6 +6,6 @@ requirement:: rq-000312         # Render a LaTeX Section Sign
 
 test:: tc-000043                # Test
 
-index:: [id:al-000392]
+index:: al-000392
 
 <<<allocation

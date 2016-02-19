@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Document.pm Perl
 module that implements the SML::Document class.
 
-index:: [id:tc-000006]; unit test case!Document.pm
+index:: tc-000006; unit test case!Document.pm
 
 [ref:lis-document-pm-unit-test-case] shows the unit test case for
 [file:Document.pm].

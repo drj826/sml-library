@@ -15,7 +15,7 @@ represent specified types of tables.  This requirement serves as a
 container for data format requirements for representing tabular
 content.
 
-index:: [id:rq-000014]; tables
+index:: rq-000014; tables
 
 The data format must have the capability to represent the following
 types of tables:

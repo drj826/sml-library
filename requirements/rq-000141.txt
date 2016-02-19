@@ -18,6 +18,6 @@ printing, impression, translation, international standard book number
 permissions, other credits, grants, Cataloging-in-Publication (CIP)
 data, and paper durability statement.
 
-index:: [id:rq-000141]; copyright page
+index:: rq-000141; copyright page
 
 <<<requirement

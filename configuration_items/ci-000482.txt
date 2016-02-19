@@ -11,7 +11,7 @@ statements for all allocation entities in a library.  The library
 ontology must declare ``allocation'' as an allowed entity for this
 plugin to work.
 
-index:: [id:ci-000482]; IncludeAllocations
+index:: ci-000482; IncludeAllocations
 
 >>>LISTING.lis-includeallocations-pm
 

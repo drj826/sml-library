@@ -6,6 +6,6 @@ requirement:: rq-000251         # Render an HTML E-mail Address
 
 test:: tc-000043                # Test
 
-index:: [id:al-000330]
+index:: al-000330
 
 <<<allocation

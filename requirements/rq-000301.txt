@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX left arrow symbol.
 
-index:: [id:rq-000301]; left arrow symbol!render LaTeX
+index:: rq-000301; left arrow symbol!render LaTeX
 
 <<<requirement

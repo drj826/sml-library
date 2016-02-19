@@ -6,6 +6,6 @@ requirement:: rq-000210         # Render an HTML URL Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000289]
+index:: al-000289
 
 <<<allocation

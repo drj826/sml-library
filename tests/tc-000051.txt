@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Definition.pm Perl
 module that implements the SML::Definition class.
 
-index:: [id:tc-000051]; unit test case!Definition.pm
+index:: tc-000051; unit test case!Definition.pm
 
 [ref:lis-definition-pm-unit-test-case] shows the unit test for
 [file:Definition.pm].

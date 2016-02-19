@@ -6,6 +6,6 @@ requirement:: rq-000069         # Represent an Inline Comment
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000102]
+index:: al-000102
 
 <<<allocation

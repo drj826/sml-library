@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Svninfo.pm Perl
 module that implements the SML::Svninfo class.
 
-index:: [id:tc-000062]; unit test case!Svninfo.pm
+index:: tc-000062; unit test case!Svninfo.pm
 
 [ref:lis-svninfo-pm-unit-test-case] shows the unit test for
 [file:Svninfo.pm].

@@ -6,6 +6,6 @@ requirement:: rq-000096         # Represent a `Strict Entity Status' Option
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000128]
+index:: al-000128
 
 <<<allocation

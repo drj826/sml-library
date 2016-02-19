@@ -10,7 +10,7 @@ specializes:: ci-000387         # SML::Block Class
 
 description:: An SML::Paragraph represents a paragraph of text.
 
-index:: [id:ci-000425]; Paragraph.pm; SML::Paragraph; paragraph
+index:: ci-000425; Paragraph.pm; SML::Paragraph; paragraph
 
 >>>FIGURE.fig-class-diagram-paragraph
 

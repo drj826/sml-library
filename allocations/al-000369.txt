@@ -6,6 +6,6 @@ requirement:: rq-000289         # Render a LaTeX ID Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000369]
+index:: al-000369
 
 <<<allocation

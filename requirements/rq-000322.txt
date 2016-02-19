@@ -9,6 +9,6 @@ type:: technical
 description:: The software shall render a LaTeX user-entered text
 string.
 
-index:: [id:rq-000322]; user-entered text string!render LaTeX
+index:: rq-000322; user-entered text string!render LaTeX
 
 <<<requirement

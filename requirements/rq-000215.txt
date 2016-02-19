@@ -12,6 +12,6 @@ description:: The software shall render an HTML ID reference.  An ID
 reference links to a division within the document by that division's
 ID.
 
-index:: [id:rq-000215]; ID reference!render HTML
+index:: rq-000215; ID reference!render HTML
 
 <<<requirement

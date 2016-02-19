@@ -6,6 +6,6 @@ requirement:: rq-000177         # Resolve Included Flat Text
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000026]
+index:: al-000026
 
 <<<allocation

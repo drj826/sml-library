@@ -6,6 +6,6 @@ requirement:: rq-000168         # Represent Option `Include Raw'
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000179]
+index:: al-000179
 
 <<<allocation

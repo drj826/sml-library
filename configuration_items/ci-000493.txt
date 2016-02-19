@@ -14,7 +14,7 @@ main page of a library. This batch file is provided to make it easy
 for windows users to simply double-click on the batch file to publish
 a library main page.  It can also be invoked from other batch files.
 
-index:: [id:ci-000493]; publish_library_main_page.bat
+index:: ci-000493; publish_library_main_page.bat
 
 >>>LISTING.lis-publish_library_main_page-bat
 

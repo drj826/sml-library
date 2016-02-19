@@ -9,6 +9,6 @@ test:: tc-000043                # Test
 
 
 
-index:: [id:al-000311]
+index:: al-000311
 
 <<<allocation

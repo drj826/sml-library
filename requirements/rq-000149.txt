@@ -13,6 +13,6 @@ description:: The software shall publish a document list of references
 set smaller than the text and in flush-and-hang style. [cite:cms15,
 [section]1.88]
 
-index:: [id:rq-000149]; bibliography; list of references
+index:: rq-000149; bibliography; list of references
 
 <<<requirement

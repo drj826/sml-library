@@ -10,7 +10,7 @@ specializes:: ci-000466         # SML::Structure Class
 
 description:: An SML::TableRow represents a single row in a table.
 
-index:: [id:ci-000429]; table row; TableRow.pm; SML::TableRow
+index:: ci-000429; table row; TableRow.pm; SML::TableRow
 
 >>>FIGURE.fig-class-diagram-table-row
 

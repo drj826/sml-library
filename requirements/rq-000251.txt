@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML e-mail address.
 
-index:: [id:rq-000251]; e-mail address!render HTML
+index:: rq-000251; e-mail address!render HTML
 
 <<<requirement

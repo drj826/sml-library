@@ -6,6 +6,6 @@ requirement:: rq-000121         # Represent a Presentation-Related Processing In
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000141]
+index:: al-000141
 
 <<<allocation

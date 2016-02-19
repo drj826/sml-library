@@ -6,6 +6,6 @@ requirement:: rq-000138         # Represent a `Status' Reference
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000150]
+index:: al-000150
 
 <<<allocation

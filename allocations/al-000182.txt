@@ -6,6 +6,6 @@ requirement:: rq-000171         # Validate Imply-Only Properties
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000182]
+index:: al-000182
 
 <<<allocation

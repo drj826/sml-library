@@ -15,7 +15,7 @@ problems to reinforce learned concepts.  The purpose of identifying
 content as an exercise is to make the content re-usable and to enable
 special listings of exercises.
 
-index:: [id:rq-000027]; exercise
+index:: rq-000027; exercise
 
 Elements of exercise meta data include:
 

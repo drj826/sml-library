@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML literal XML tag.
 
-index:: [id:rq-000250]; XML tag!render HTML
+index:: rq-000250; XML tag!render HTML
 
 <<<requirement

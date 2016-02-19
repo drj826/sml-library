@@ -6,6 +6,6 @@ requirement:: rq-000087         # Represent Document Metadata
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000119]
+index:: al-000119
 
 <<<allocation

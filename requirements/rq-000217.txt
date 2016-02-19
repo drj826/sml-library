@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML page reference.
 
-index:: [id:rq-000217]; page reference!render HTML
+index:: rq-000217; page reference!render HTML
 
 <<<requirement

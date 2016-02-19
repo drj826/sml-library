@@ -6,6 +6,6 @@ requirement:: rq-000029         # Represent a Quotation
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000063]
+index:: al-000063
 
 <<<allocation

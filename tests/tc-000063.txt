@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the TableCell.pm Perl
 module that implements the SML::TableCell class.
 
-index:: [id:tc-000063]; unit test case!TableCell.pm
+index:: tc-000063; unit test case!TableCell.pm
 
 [ref:lis-tablecell-pm-unit-test-case] shows the unit test for
 [file:TableCell.pm].

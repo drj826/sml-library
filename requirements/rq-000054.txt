@@ -11,6 +11,6 @@ type:: data format
 description:: The data format shall have the capability to represent a
 section sign (also called a ``double S'').
 
-index:: [id:rq-000054]; section sign; sign!section
+index:: rq-000054; section sign; sign!section
 
 <<<requirement

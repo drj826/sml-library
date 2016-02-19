@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML `LateX' symbol.
 
-index:: [id:rq-000229]; `LateX' symbol!render HTML
+index:: rq-000229; `LateX' symbol!render HTML
 
 <<<requirement

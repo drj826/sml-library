@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML bold text.
 
-index:: [id:rq-000244]; bold text!render HTML
+index:: rq-000244; bold text!render HTML
 
 <<<requirement

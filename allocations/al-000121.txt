@@ -6,6 +6,6 @@ requirement:: rq-000089         # Represent an Acronym List Entry
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000121]
+index:: al-000121
 
 <<<allocation

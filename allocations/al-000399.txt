@@ -6,6 +6,6 @@ requirement:: rq-000319         # Render LaTeX Fixed-Width Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000399]
+index:: al-000399
 
 <<<allocation

@@ -13,6 +13,6 @@ glossary reference.  In other words, the data format must have the
 capability to indicate that a word or phrase is in the glossary.  The
 data format must allow glossary references to span newline characters.
 
-index:: [id:rq-000079]; glossary references
+index:: rq-000079; glossary references
 
 <<<requirement

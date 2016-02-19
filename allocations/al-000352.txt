@@ -6,6 +6,6 @@ requirement:: rq-000272         # Render HTML List of Tables
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000352]
+index:: al-000352
 
 <<<allocation

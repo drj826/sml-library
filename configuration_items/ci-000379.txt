@@ -12,7 +12,7 @@ represent the content of an SML document. The SML syntax specification
 is a context free grammar implemented in [a:EBNF].  The SML syntax is
 not customizable and applies the same to all SML libraries.
 
-index:: [id:ci-000379]; SML syntax; EBNF
+index:: ci-000379; SML syntax; EBNF
 
 There is an online EBNF validator here:
 [url:http://www.icosaedro.it/bnf_chk/bnf_chk-on-line.html].

@@ -17,6 +17,6 @@ those variables.  The software must replace the variable tags with the
 values and replace the template statement with the template containing
 the replaced variables.
 
-index:: [id:rq-000132]; resolve templates
+index:: rq-000132; resolve templates
 
 <<<requirement

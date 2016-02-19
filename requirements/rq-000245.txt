@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML fixed-width text.
 
-index:: [id:rq-000245]; fixed-width text!render HTML
+index:: rq-000245; fixed-width text!render HTML
 
 <<<requirement

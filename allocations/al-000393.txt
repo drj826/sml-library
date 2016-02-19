@@ -6,6 +6,6 @@ requirement:: rq-000313         # Render a LaTeX Emdash
 
 test:: tc-000043                # Test
 
-index:: [id:al-000393]
+index:: al-000393
 
 <<<allocation

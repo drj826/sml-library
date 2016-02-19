@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX `take note' indicator.
 
-index:: [id:rq-000297]; `take note' indicator!render LaTeX
+index:: rq-000297; `take note' indicator!render LaTeX
 
 <<<requirement

@@ -6,6 +6,6 @@ requirement:: rq-000104         # Perform Specified Software Functions
 
 test:: tc-000043                # Test
 
-index:: [id:al-000130]
+index:: al-000130
 
 <<<allocation

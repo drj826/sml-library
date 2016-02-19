@@ -12,7 +12,7 @@ documents may describe entities, their properties, and how they relate
 to one another.  A library has an [g:SML:ontology], a set of rules
 that declares the entities that exist and how they may be related.
 
-index:: [id:ci-000410]; Library.pm; SML::Library
+index:: ci-000410; Library.pm; SML::Library
 
 = [g:SML:library] = [def:SML:library]
 

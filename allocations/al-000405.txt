@@ -6,6 +6,6 @@ requirement:: rq-000325         # Render a LaTeX E-mail Address
 
 test:: tc-000043                # Test
 
-index:: [id:al-000405]
+index:: al-000405
 
 <<<allocation

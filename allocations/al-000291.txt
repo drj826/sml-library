@@ -6,6 +6,6 @@ requirement:: rq-000212         # Render an HTML Glossary Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000291]
+index:: al-000291
 
 <<<allocation

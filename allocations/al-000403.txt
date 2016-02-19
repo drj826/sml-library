@@ -6,6 +6,6 @@ requirement:: rq-000323         # Render a LaTeX Command
 
 test:: tc-000043                # Test
 
-index:: [id:al-000403]
+index:: al-000403
 
 <<<allocation

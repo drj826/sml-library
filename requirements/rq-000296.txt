@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX citation.
 
-index:: [id:rq-000296]; citation!render LaTeX
+index:: rq-000296; citation!render LaTeX
 
 <<<requirement

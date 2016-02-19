@@ -6,6 +6,6 @@ requirement:: rq-000309         # Render a LaTeX Close Double Quote
 
 test:: tc-000043                # Test
 
-index:: [id:al-000389]
+index:: al-000389
 
 <<<allocation

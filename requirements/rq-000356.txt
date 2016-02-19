@@ -10,6 +10,6 @@ description:: The organization shall implement solutions.  The purpose
 of implementing a solution is to provide the actual capability to meet
 a need.
 
-index:: [id:rq-000356]; solution; implement;
+index:: rq-000356; solution; implement;
 
 <<<requirement

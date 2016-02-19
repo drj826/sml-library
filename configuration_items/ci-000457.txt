@@ -10,7 +10,7 @@ specializes:: ci-000386         # SML::Element Class
 
 description:: An SML::Note represents a document footnote or end note.
 
-index:: [id:ci-000457]; Note.pm; SML::Note; note
+index:: ci-000457; Note.pm; SML::Note; note
 
 >>>FIGURE.fig-class-diagram-note
 

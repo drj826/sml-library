@@ -6,6 +6,6 @@ requirement:: rq-000130         # Substitute Variables
 
 test:: tc-000043                # Test
 
-index:: [id:al-000018]
+index:: al-000018
 
 <<<allocation

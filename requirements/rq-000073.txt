@@ -17,6 +17,6 @@ content may be a [g:SML:division], [g:SML:block], or
 [g:SML:string]. This requirement serves as a container for more
 specific document content reuse data format requirements.
 
-index:: [id:rq-000073]; reusable content
+index:: rq-000073; reusable content
 
 <<<requirement

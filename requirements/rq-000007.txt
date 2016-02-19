@@ -16,6 +16,6 @@ semantic [g:SML:content].  Semantic [g:SML:content] features allow
 [g:SML:task]s, and [g:SML:role]s).  This requirement serves as a
 container for all [g:SML:content] representation requirements.
 
-index:: [id:rq-000007]; document content features
+index:: rq-000007; document content features
 
 <<<requirement

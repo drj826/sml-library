@@ -6,6 +6,6 @@ requirement:: rq-000277         # Render HTML List of Acronyms
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000357]
+index:: al-000357
 
 <<<allocation

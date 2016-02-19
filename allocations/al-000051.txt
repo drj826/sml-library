@@ -6,6 +6,6 @@ requirement:: rq-000017         # Represent an Attachment
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000051]
+index:: al-000051
 
 <<<allocation

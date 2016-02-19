@@ -6,6 +6,6 @@ requirement:: rq-000150         # Publish a Document List of Contributors
 
 test:: tc-000043                # Test
 
-index:: [id:al-000162]
+index:: al-000162
 
 <<<allocation

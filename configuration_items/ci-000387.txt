@@ -10,7 +10,7 @@ specializes:: ci-000436         # SML::Part Class
 
 description:: An SML::Block represents a block of text.
 
-index:: [id:ci-000387]; Block.pm; SML::Block
+index:: ci-000387; Block.pm; SML::Block
 
 >>>FIGURE.fig-class-diagram-block
 

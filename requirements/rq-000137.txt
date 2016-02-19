@@ -14,6 +14,6 @@ defects or their cause, correct defects or their cause, satisfy new
 requirements, make future maintenance easier, or, cope with a changed
 environment.
 
-index:: [id:rq-000137]; maintainability
+index:: rq-000137; maintainability
 
 <<<requirement

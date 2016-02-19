@@ -6,6 +6,6 @@ requirement:: rq-000223         # Render an HTML `Take Note' Indicator
 
 test:: tc-000043                # Test
 
-index:: [id:al-000302]
+index:: al-000302
 
 <<<allocation

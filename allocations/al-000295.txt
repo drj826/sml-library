@@ -6,6 +6,6 @@ requirement:: rq-000216         # Render an HTML `thepage' Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000295]
+index:: al-000295
 
 <<<allocation

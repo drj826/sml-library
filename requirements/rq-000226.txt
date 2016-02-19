@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML keystroke symbol.
 
-index:: [id:rq-000226]; keystroke symbol!render HTML
+index:: rq-000226; keystroke symbol!render HTML
 
 <<<requirement

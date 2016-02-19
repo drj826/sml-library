@@ -16,7 +16,7 @@ solution semantically traceable to other elements of content (like
 requirementss and tests), to make the content re-usable, and to enable
 special listings of solutions.
 
-index:: [id:rq-000033]; solutions
+index:: rq-000033; solutions
 
 Elements of solution meta data include:
 

@@ -6,6 +6,6 @@ requirement:: rq-000264         # Render HTML List of Changes
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000344]
+index:: al-000344
 
 <<<allocation

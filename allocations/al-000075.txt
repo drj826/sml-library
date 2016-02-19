@@ -6,6 +6,6 @@ requirement:: rq-000041         # Represent Document Font Size
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000075]
+index:: al-000075
 
 <<<allocation

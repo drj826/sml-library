@@ -11,6 +11,6 @@ type:: data format
 description:: The data format shall have the capability to represent
 an unordered list item.
 
-index:: [id:rq-000331]; list item!unordered
+index:: rq-000331; list item!unordered
 
 <<<requirement

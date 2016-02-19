@@ -12,6 +12,6 @@ description:: The software shall render a LaTeX ID reference.  An ID
 reference links to a division within the document by that division's
 ID.
 
-index:: [id:rq-000289]; ID reference!render LaTeX
+index:: rq-000289; ID reference!render LaTeX
 
 <<<requirement

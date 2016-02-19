@@ -6,6 +6,6 @@ requirement:: rq-000260         # Render Common Navigation Pane for Each HTML Pa
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000340]
+index:: al-000340
 
 <<<allocation

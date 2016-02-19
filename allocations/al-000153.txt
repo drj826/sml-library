@@ -6,6 +6,6 @@ requirement:: rq-000141         # Publish a Document Copyright Page
 
 test:: tc-000043                # Test
 
-index:: [id:al-000153]
+index:: al-000153
 
 <<<allocation

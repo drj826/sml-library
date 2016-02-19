@@ -6,6 +6,6 @@ requirement:: rq-000284         # Render a LaTeX URL Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000364]
+index:: al-000364
 
 <<<allocation

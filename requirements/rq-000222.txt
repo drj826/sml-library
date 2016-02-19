@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML citation.
 
-index:: [id:rq-000222]; citation!render HTML
+index:: rq-000222; citation!render HTML
 
 <<<requirement

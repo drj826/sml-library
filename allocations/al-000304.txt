@@ -6,6 +6,6 @@ requirement:: rq-000225         # Render an HTML Frowny Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000304]
+index:: al-000304
 
 <<<allocation

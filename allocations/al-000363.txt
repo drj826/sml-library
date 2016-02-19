@@ -6,6 +6,6 @@ requirement:: rq-000283         # Render a LaTeX Cross Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000363]
+index:: al-000363
 
 <<<allocation

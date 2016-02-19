@@ -6,6 +6,6 @@ requirement:: rq-000318         # Render LaTeX Bold Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000398]
+index:: al-000398
 
 <<<allocation

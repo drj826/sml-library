@@ -6,6 +6,6 @@ requirement:: rq-000189         # Represent Line-Ending Comments
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000189]
+index:: al-000189
 
 <<<allocation

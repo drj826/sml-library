@@ -6,6 +6,6 @@ requirement:: rq-000175         # Process Multiple Documents Without Restarting
 
 test:: tc-000043                # Test
 
-index:: [id:al-000024]
+index:: al-000024
 
 <<<allocation

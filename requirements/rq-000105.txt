@@ -16,6 +16,6 @@ that implement special features defined by the SML data format. The
 result of parsing is a collection of memory resident objects that
 represent the parsed document.
 
-index:: [id:rq-000105]; parse
+index:: rq-000105; parse
 
 <<<requirement

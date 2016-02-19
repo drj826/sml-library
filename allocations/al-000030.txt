@@ -6,6 +6,6 @@ requirement:: rq-000181         # Prevent Infinite Loops
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000030]
+index:: al-000030
 
 <<<allocation

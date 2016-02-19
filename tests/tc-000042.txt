@@ -12,6 +12,6 @@ be created.  Compliance with requirements is determined by formal
 examination -- think of a building inspection for compliance with the
 local code.
 
-index:: [id:tc-000042]; inspection
+index:: tc-000042; inspection
 
 <<<test

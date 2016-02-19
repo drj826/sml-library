@@ -6,6 +6,6 @@ requirement:: rq-000180         # Resolve And Hide Included Text
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000029]
+index:: al-000029
 
 <<<allocation

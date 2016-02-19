@@ -11,6 +11,6 @@ designing a solution is to create a common understanding of the
 solution to be built or that has been built.  A blueprint is a good
 example of the work product of a design activity.
 
-index:: [id:rq-000355]; design; solution;
+index:: rq-000355; design; solution;
 
 <<<requirement

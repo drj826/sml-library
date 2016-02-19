@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML `Tex' symbol.
 
-index:: [id:rq-000230]; `TeX' symbol!render HTML
+index:: rq-000230; `TeX' symbol!render HTML
 
 <<<requirement

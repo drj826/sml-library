@@ -13,6 +13,6 @@ required properties are declared.  The ontology specifies that certain
 properties are required.  The software must validate that these
 properties are declared.
 
-index:: [id:rq-000172]; validation!required properties
+index:: rq-000172; validation!required properties
 
 <<<requirement

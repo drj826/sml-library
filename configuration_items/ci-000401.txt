@@ -10,7 +10,7 @@ specializes:: ci-000466         # SML::Structure Class
 
 description:: An SML::Table represents tabular information in a document.
 
-index:: [id:ci-000401]; Table.pm; SML::Table; table
+index:: ci-000401; Table.pm; SML::Table; table
 
 >>>FIGURE.fig-class-diagram-table
 

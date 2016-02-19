@@ -6,6 +6,6 @@ requirement:: rq-000061         # Represent a Horizontal Rule
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000094]
+index:: al-000094
 
 <<<allocation

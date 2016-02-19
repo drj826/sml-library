@@ -14,6 +14,6 @@ definitions of terms used in a document.  The data format
 representation of a glossary entry must allow but not mandate newline
 characters within a glossary entry.
 
-index:: [id:rq-000025]; glossary entry
+index:: rq-000025; glossary entry
 
 <<<requirement

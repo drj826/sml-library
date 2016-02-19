@@ -6,6 +6,6 @@ requirement:: rq-000042         # Represent Table Font Size
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000076]
+index:: al-000076
 
 <<<allocation

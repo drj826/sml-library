@@ -12,7 +12,7 @@ description:: The software shall render an HTML list of
 [g:SML:LISTING]s.  The purpose of this listing is to enable readers to
 quickly navigate to any listing in the document.
 
-index:: [id:rq-000270]; list of listings!HTML; HTML list of listings
+index:: rq-000270; list of listings!HTML; HTML list of listings
 
 = [g:SML:LISTING] = [def:SML:LISTING]
 

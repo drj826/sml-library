@@ -6,6 +6,6 @@ requirement:: rq-000136         # Represent a `Definition Reuse' Statement
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000148]
+index:: al-000148
 
 <<<allocation

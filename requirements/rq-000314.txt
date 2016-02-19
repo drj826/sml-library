@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX underlined text.
 
-index:: [id:rq-000314]; underlined text!render LaTeX
+index:: rq-000314; underlined text!render LaTeX
 
 <<<requirement

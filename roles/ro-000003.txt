@@ -6,6 +6,6 @@ description:: A release manager coordinates the efforts of developers
 and testers to plan, design, implement, test, and release updates to
 software products.
 
-index:: [id:ro-000003]; Release Manager
+index:: ro-000003; Release Manager
 
 <<<role

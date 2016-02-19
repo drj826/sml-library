@@ -6,6 +6,6 @@ requirement:: rq-000127         # Run Scripts
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000015]
+index:: al-000015
 
 <<<allocation

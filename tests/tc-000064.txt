@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the TableRow.pm Perl
 module that implements the SML::TableRow class.
 
-index:: [id:tc-000064]; unit test case!TableRow.pm
+index:: tc-000064; unit test case!TableRow.pm
 
 [ref:lis-tablerow-pm-unit-test-case] shows the unit test for
 [file:TableRow.pm].

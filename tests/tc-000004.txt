@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the SML.pm Perl module
 that implements the SML class.
 
-index:: [id:tc-000004]; unit test case!SML.pm
+index:: tc-000004; unit test case!SML.pm
 
 >>>LISTING.lis-sml-pm-unit-test-results
 

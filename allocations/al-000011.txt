@@ -6,6 +6,6 @@ requirement:: rq-000184         # List Allowed Entity Properties
 
 test:: tc-000004                # SML.pm Unit Test Case
 
-index:: [id:al-000011]
+index:: al-000011
 
 <<<allocation

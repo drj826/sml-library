@@ -16,6 +16,6 @@ must be capable of representing index entries that span large (even
 multi-page) regions of text.  The data format must allow index entries
 to span newline characters.
 
-index:: [id:rq-000026]; index entry
+index:: rq-000026; index entry
 
 <<<requirement

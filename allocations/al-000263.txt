@@ -6,6 +6,6 @@ requirement:: rq-000191         # Emit Error on Invalid Semantics
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000263]
+index:: al-000263
 
 <<<allocation

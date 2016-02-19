@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Table.pm Perl
 module that implements the SML::Table class.
 
-index:: [id:tc-000029]; unit test case!Table.pm
+index:: tc-000029; unit test case!Table.pm
 
 [ref:lis-table-pm-unit-test-case] shows the unit test case for
 [file:Table.pm].

@@ -6,6 +6,6 @@ requirement:: rq-000266         # Render HTML List of Sidebars
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000346]
+index:: al-000346
 
 <<<allocation

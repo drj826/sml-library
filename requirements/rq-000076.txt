@@ -13,7 +13,7 @@ traceability relationship between specified parts of content.
 ``Traces'' between parts are simple subject-predicate-object
 assertions that declare something to be true.
 
-index:: [id:rq-000076]; traceability
+index:: rq-000076; traceability
 
 The data format must have the capability to represent specific
 assertions.  Items (problems, solutions, tests, results, tasks, roles,

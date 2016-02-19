@@ -11,7 +11,7 @@ specializes:: ci-000466         # SML::Structure Class
 description:: The Document.pm perl module implements the
 [g:SML:DOCUMENT] class.
 
-index:: [id:ci-000005]; Document.pm; SML::Document
+index:: ci-000005; Document.pm; SML::Document
 
 = [g:SML:DOCUMENT] = [def:SML:DOCUMENT]
 

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML superscripted text.
 
-index:: [id:rq-000241]; superscripted text!render HTML
+index:: rq-000241; superscripted text!render HTML
 
 <<<requirement

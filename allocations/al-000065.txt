@@ -6,6 +6,6 @@ requirement:: rq-000031         # Represent a List of Key Points
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000065]
+index:: al-000065
 
 <<<allocation

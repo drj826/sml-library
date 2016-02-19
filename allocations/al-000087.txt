@@ -6,6 +6,6 @@ requirement:: rq-000054         # Represent a Section Sign
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000087]
+index:: al-000087
 
 <<<allocation

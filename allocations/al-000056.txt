@@ -6,6 +6,6 @@ requirement:: rq-000022         # Represent a Bibliography Entry
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000056]
+index:: al-000056
 
 <<<allocation

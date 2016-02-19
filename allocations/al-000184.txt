@@ -6,6 +6,6 @@ requirement:: rq-000173         # Validate Property Multiplicity
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000184]
+index:: al-000184
 
 <<<allocation

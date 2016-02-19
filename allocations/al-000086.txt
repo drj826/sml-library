@@ -6,6 +6,6 @@ requirement:: rq-000053         # Represent a `Take Note' Symbol
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000086]
+index:: al-000086
 
 <<<allocation

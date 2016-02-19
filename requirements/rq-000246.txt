@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML file name.
 
-index:: [id:rq-000246]; file name!render HTML
+index:: rq-000246; file name!render HTML
 
 <<<requirement

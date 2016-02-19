@@ -17,7 +17,7 @@ italics, line breaks, page breaks, font size, text justification,
 etc.).  This requirement serves as a container for all
 [g:SML:presentation] representation requirements.
 
-index:: [id:rq-000008]; document presentation features
+index:: rq-000008; document presentation features
 
 For the most part the goal of SML is to minimize the ability for
 document authors to control document presentation (See: [id:rq-000005]

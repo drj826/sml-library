@@ -6,6 +6,6 @@ requirement:: rq-000018         # Represent Pre-Formatted Text
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000052]
+index:: al-000052
 
 <<<allocation

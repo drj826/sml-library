@@ -8,7 +8,7 @@ is_part_of:: ci-000510          # SML Perl Modules
 
 description:: The SML::Glossary class represents a glossary of terms.
 
-index:: [id:ci-000435]; Glossary.pm; SML::Glossary
+index:: ci-000435; Glossary.pm; SML::Glossary
 
 >>>FIGURE.fig-class-diagram-glossary
 

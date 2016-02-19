@@ -15,7 +15,7 @@ audience.  The purpose of identifying content as presentation slides
 is to make the content re-usable and to enable special listings of
 presentation slides.
 
-index:: [id:rq-000028]; slide; presentation slide
+index:: rq-000028; slide; presentation slide
 
 Elements of presentation slide meta data include:
 

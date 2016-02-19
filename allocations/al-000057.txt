@@ -6,6 +6,6 @@ requirement:: rq-000023         # Represent a Procedural Step
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000057]
+index:: al-000057
 
 <<<allocation

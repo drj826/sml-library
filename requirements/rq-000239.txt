@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML emdash.
 
-index:: [id:rq-000239]; emdash!render HTML
+index:: rq-000239; emdash!render HTML
 
 <<<requirement

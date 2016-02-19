@@ -6,6 +6,6 @@ requirement:: rq-000290         # Render a LaTeX `thepage' Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000370]
+index:: al-000370
 
 <<<allocation

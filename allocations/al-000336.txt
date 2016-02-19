@@ -6,6 +6,6 @@ requirement:: rq-000205         # Render a Block According to a Style
 
 test:: tc-000043                # Test
 
-index:: [id:al-000336]
+index:: al-000336
 
 <<<allocation

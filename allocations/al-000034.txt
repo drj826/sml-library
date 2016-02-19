@@ -6,6 +6,6 @@ requirement:: rq-000002         # Publish To PDF
 
 test:: tc-000043                # Test
 
-index:: [id:al-000034]
+index:: al-000034
 
 <<<allocation

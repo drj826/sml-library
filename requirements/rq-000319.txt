@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX fixed-width text.
 
-index:: [id:rq-000319]; fixed-width text!render LaTeX
+index:: rq-000319; fixed-width text!render LaTeX
 
 <<<requirement

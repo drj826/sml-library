@@ -6,6 +6,6 @@ requirement:: rq-000249         # Render an HTML Command
 
 test:: tc-000043                # Test
 
-index:: [id:al-000328]
+index:: al-000328
 
 <<<allocation

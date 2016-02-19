@@ -6,6 +6,6 @@ requirement:: rq-000038         # Represent a Page Break
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000072]
+index:: al-000072
 
 <<<allocation

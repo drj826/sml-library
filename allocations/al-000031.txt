@@ -6,6 +6,6 @@ requirement:: rq-000110         # Be Reusable
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000031]
+index:: al-000031
 
 <<<allocation

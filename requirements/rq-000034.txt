@@ -17,6 +17,6 @@ test is to make that test semantically traceable to other elements of
 content (like problems and solutions), to make the content re-usable,
 and to enable special listings of tests.
 
-index:: [id:rq-000034]; tests
+index:: rq-000034; tests
 
 <<<requirement

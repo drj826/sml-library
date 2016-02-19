@@ -6,6 +6,6 @@ requirement:: rq-000149         # Publish a Document List of References
 
 test:: tc-000043                # Test
 
-index:: [id:al-000161]
+index:: al-000161
 
 <<<allocation

@@ -11,6 +11,6 @@ type:: data format
 description:: The data format shall have the capability to represent
 italicized text.
 
-index:: [id:rq-000045]; italics; text!italics
+index:: rq-000045; italics; text!italics
 
 <<<requirement

@@ -10,6 +10,6 @@ associated:: rq-000252
 
 description:: The software shall render a LaTeX index reference.
 
-index:: [id:rq-000288]; index reference!render LaTeX
+index:: rq-000288; index reference!render LaTeX
 
 <<<requirement

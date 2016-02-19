@@ -6,6 +6,6 @@ requirement:: rq-000052         # Represent a Keystroke Symbol
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000085]
+index:: al-000085
 
 <<<allocation

@@ -12,6 +12,6 @@ description:: The software shall be configurable.  The purpose of this
 requirement is to give individual users the flexibility to configure
 the software to their specific needs.
 
-index:: [id:rq-000182]; configurability
+index:: rq-000182; configurability
 
 <<<requirement

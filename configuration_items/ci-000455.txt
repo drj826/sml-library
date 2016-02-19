@@ -11,7 +11,7 @@ specializes:: ci-000438         # SML::String Class
 description:: The SML::IndexReference class represents a term to be
 placed in the index.
 
-index:: [id:ci-000455]; IndexReference.pm; SML::IndexReference; index reference
+index:: ci-000455; IndexReference.pm; SML::IndexReference; index reference
 
 >>>FIGURE.fig-class-diagram-index-reference
 

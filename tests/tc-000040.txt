@@ -12,6 +12,6 @@ be created.  Compliance with requirements is determined by models or
 by interpreting results using established principles. For example, a
 design's performance might be analyzed by running simulations.
 
-index:: [id:tc-000040]; analysis
+index:: tc-000040; analysis
 
 <<<test

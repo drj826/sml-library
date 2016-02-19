@@ -10,7 +10,7 @@ specializes:: ci-000386         # SML::Element Class
 
 description:: An SML::Step represents an item in a step list.
 
-index:: [id:ci-000465]; Step.pm; SML::Step; step
+index:: ci-000465; Step.pm; SML::Step; step
 
 >>>FIGURE.fig-class-diagram-step
 

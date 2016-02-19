@@ -19,6 +19,6 @@ author to reuse a file containing a section structure in an
 ``exercise;'' a division which is not allowed to contain section
 headings.
 
-index:: [id:rq-000166]; include!flat
+index:: rq-000166; include!flat
 
 <<<requirement

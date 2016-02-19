@@ -6,6 +6,6 @@ requirement:: rq-000176         # Resolve Included Sections
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000025]
+index:: al-000025
 
 <<<allocation

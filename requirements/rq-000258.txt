@@ -14,7 +14,7 @@ user knows exactly where to look for the problem.  Syntax error
 warnings should also provide an informative message that describes the
 syntax error.
 
-index:: [id:rq-000258]; warning!syntax error
+index:: rq-000258; warning!syntax error
 
 Examples of possible syntax errors include:
 

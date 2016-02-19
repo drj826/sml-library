@@ -6,6 +6,6 @@ requirement:: rq-000235         # Render an HTML Close Double Quote
 
 test:: tc-000043                # Test
 
-index:: [id:al-000314]
+index:: al-000314
 
 <<<allocation

@@ -16,6 +16,6 @@ traceable to other elements of content (like tasks and requirements),
 to make the content re-usable, and to enable special listings of
 roles.
 
-index:: [id:rq-000037]; roles
+index:: rq-000037; roles
 
 <<<requirement

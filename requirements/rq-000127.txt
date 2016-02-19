@@ -11,6 +11,6 @@ type:: technical
 description:: The software shall run scripts specified by script
 statements and replace the statement with the output of the script.
 
-index:: [id:rq-000127]; scripts
+index:: rq-000127; scripts
 
 <<<requirement

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX close single quote.
 
-index:: [id:rq-000311]; single quote!render LaTeX
+index:: rq-000311; single quote!render LaTeX
 
 <<<requirement

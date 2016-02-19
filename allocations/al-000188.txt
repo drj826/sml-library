@@ -6,6 +6,6 @@ requirement:: rq-000188        # Preserve Division Order
 
 test:: tc-000043               # Test
 
-index:: [id:al-000188]
+index:: al-000188
 
 <<<allocation

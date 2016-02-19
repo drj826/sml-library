@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML trademark symbol.
 
-index:: [id:rq-000232]; trademark symbol!render HTML
+index:: rq-000232; trademark symbol!render HTML
 
 <<<requirement

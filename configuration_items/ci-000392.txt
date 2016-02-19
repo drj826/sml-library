@@ -15,7 +15,7 @@ about sub-sections?  Technically, sections don't ~~contain~~
 sub-sections.  Sections have properties like depth and number that
 make them appear nested, when in fact they are not.
 
-index:: [id:ci-000392]; Section.pm; SML::Section
+index:: ci-000392; Section.pm; SML::Section
 
 >>>FIGURE.fig-class-diagram-section
 

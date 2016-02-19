@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Entity.pm Perl
 module that implements the SML::Entity class.
 
-index:: [id:tc-000055]; unit test case!Entity.pm
+index:: tc-000055; unit test case!Entity.pm
 
 [ref:lis-item-pm-unit-test-case] shows the unit test for
 [file:Entity.pm].

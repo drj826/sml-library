@@ -6,6 +6,6 @@ requirement:: rq-000280         # Render HTML Index
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000360]
+index:: al-000360
 
 <<<allocation

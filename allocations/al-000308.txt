@@ -6,6 +6,6 @@ requirement:: rq-000229         # Render an HTML `LaTeX' Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000308]
+index:: al-000308
 
 <<<allocation

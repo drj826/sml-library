@@ -12,7 +12,7 @@ description:: The SML::Definition class represents a term/definition
 pair.  The defined term may also belong to a namespace to disambiguate
 the term from the same term in other namespaces.
 
-index:: [id:ci-000415]; Definition.pm; SML::Definition; definition
+index:: ci-000415; Definition.pm; SML::Definition; definition
 
 >>>FIGURE.fig-class-diagram-definition
 

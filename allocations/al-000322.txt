@@ -6,6 +6,6 @@ requirement:: rq-000243         # Render HTML Italicized Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000322]
+index:: al-000322
 
 <<<allocation

@@ -11,6 +11,6 @@ method of validating software quality until a more concrete method can
 be created.  Compliance with requirements is validated by observing
 the item in operation.
 
-index:: [id:tc-000041]; demonstration
+index:: tc-000041; demonstration
 
 <<<test

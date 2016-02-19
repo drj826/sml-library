@@ -12,6 +12,6 @@ description:: The data format shall represent spanned content
 presentation formats.  This requirement serves as a container for
 those formats.
 
-index:: [id:rq-000120]; spanned content presentation formats
+index:: rq-000120; spanned content presentation formats
 
 <<<requirement

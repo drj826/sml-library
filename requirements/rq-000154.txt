@@ -10,6 +10,6 @@ type:: functional
 
 description:: The software shall generate a version history log.
 
-index:: [id:rq-000154]; version history
+index:: rq-000154; version history
 
 <<<requirement

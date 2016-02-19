@@ -6,6 +6,6 @@ requirement:: rq-000086         # Represent Specified Data Types
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000118]
+index:: al-000118
 
 <<<allocation

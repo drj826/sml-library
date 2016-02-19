@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the ListItem.pm Perl
 module that implements the SML::ListItem class.
 
-index:: [id:tc-000044]; unit test case!ListItem.pm
+index:: tc-000044; unit test case!ListItem.pm
 
 [ref:lis-listitem-pm-unit-test-case] shows the unit test case for
 [file:ListItem.pm].

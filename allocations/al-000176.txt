@@ -6,6 +6,6 @@ requirement:: rq-000165         # Represent Option `Include As Section'
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000176]
+index:: al-000176
 
 <<<allocation

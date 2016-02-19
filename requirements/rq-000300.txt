@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX keystroke symbol.
 
-index:: [id:rq-000300]; keystroke symbol!render LaTeX
+index:: rq-000300; keystroke symbol!render LaTeX
 
 <<<requirement

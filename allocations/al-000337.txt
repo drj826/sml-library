@@ -6,6 +6,6 @@ requirement:: rq-000206         # Render a Division According to a Style
 
 test:: tc-000043                # Test
 
-index:: [id:al-000337]
+index:: al-000337
 
 <<<allocation

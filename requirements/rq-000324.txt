@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX literal XML tag.
 
-index:: [id:rq-000324]; XML tag!render LaTeX
+index:: rq-000324; XML tag!render LaTeX
 
 <<<requirement

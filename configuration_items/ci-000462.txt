@@ -12,7 +12,7 @@ description:: An SML::Publisher publishes object model content to
 finished documents and other products such as library glossaries and
 indexes and various cross reference products.
 
-index:: [id:ci-000462]; Publisher.pm; SML::Publisher; publisher
+index:: ci-000462; Publisher.pm; SML::Publisher; publisher
 
 >>>FIGURE.fig-class-diagram-publisher
 

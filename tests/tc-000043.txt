@@ -13,6 +13,6 @@ or executing an item under controlled conditions, configurations, and
 inputs in order to observe the response. Results are quantified and
 analyzed.
 
-index:: [id:tc-000043]; test
+index:: tc-000043; test
 
 <<<test

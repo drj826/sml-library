@@ -6,6 +6,6 @@ requirement:: rq-000287         # Render a LaTeX Acronym Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000367]
+index:: al-000367
 
 <<<allocation

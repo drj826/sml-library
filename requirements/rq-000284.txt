@@ -11,6 +11,6 @@ associated:: rq-000021
 description:: The software shall render a LaTeX url reference.  URL
 references link to locations outside the current document.
 
-index:: [id:rq-000284]; URL reference!render LaTeX
+index:: rq-000284; URL reference!render LaTeX
 
 <<<requirement

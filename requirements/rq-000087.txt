@@ -13,7 +13,7 @@ specified document meta data.  Document meta data describes the
 document.  The purpose of this requirement is to specify all elements
 of document meta data needed to publish books, reports, and articles.
 
-index:: [id:rq-000087]
+index:: rq-000087
 
 :: element
 

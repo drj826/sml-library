@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML date reference.
 
-index:: [id:rq-000220]; date reference!render HTML
+index:: rq-000220; date reference!render HTML
 
 <<<requirement

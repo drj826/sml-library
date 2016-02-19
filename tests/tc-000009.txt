@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the File.pm Perl
 module that implements the SML::File class.
 
-index:: [id:tc-000009]; unit test case!File.pm
+index:: tc-000009; unit test case!File.pm
 
 [ref:lis-file-pm-unit-test-case] shows the unit test case for
 [file:File.pm].

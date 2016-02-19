@@ -6,6 +6,6 @@ requirement:: rq-000004         # Publish To XML
 
 test:: tc-000043                # Test
 
-index:: [id:al-000036]
+index:: al-000036
 
 <<<allocation

@@ -14,6 +14,6 @@ description:: The software shall resolve included sections.  The
 [a:SML] data format enables authors to include the content of an
 external file as a section.
 
-index:: [id:rq-000176]; include
+index:: rq-000176; include
 
 <<<requirement

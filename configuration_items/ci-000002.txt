@@ -42,6 +42,6 @@ file:: ../SML/lib/SML.pm
 
 <<<LISTING
 
-index:: [id:ci-000002]; SML.pm; SML
+index:: ci-000002; SML.pm; SML
 
 <<<configuration_item

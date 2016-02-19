@@ -6,6 +6,6 @@ requirement:: rq-000012         # Represent a List
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000046]
+index:: al-000046
 
 <<<allocation

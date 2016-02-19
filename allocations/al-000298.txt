@@ -6,6 +6,6 @@ requirement:: rq-000219         # Render an HTML Revision Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000298]
+index:: al-000298
 
 <<<allocation

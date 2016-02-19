@@ -6,6 +6,6 @@ requirement:: rq-000295         # Render a LaTeX Status Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000375]
+index:: al-000375
 
 <<<allocation

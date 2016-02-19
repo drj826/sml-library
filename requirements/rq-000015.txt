@@ -14,7 +14,7 @@ and ASCII art into a document.  Figures have titles and descriptions
 (often called captions) and unique identifiers that allow cross
 referencing within the document.
 
-index:: [id:rq-000015]; figures
+index:: rq-000015; figures
 
 Elements of figure meta data include:
 

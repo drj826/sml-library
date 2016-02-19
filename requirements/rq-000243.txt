@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML italicized text.
 
-index:: [id:rq-000243]; italicized text!render HTML
+index:: rq-000243; italicized text!render HTML
 
 <<<requirement

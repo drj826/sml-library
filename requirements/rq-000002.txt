@@ -12,6 +12,6 @@ description:: The system shall enable a user to render
 [g:SML:DOCUMENT]s from [g:SML:Semantic Manuscript Language] (SML)
 sources to PDF.
 
-index:: [id:rq-000002]; PDF!render
+index:: rq-000002; PDF!render
 
 <<<requirement

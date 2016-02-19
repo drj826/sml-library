@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX frowny symbol. :-(
 
-index:: [id:rq-000299]; frowny symbol!render LaTeX
+index:: rq-000299; frowny symbol!render LaTeX
 
 <<<requirement

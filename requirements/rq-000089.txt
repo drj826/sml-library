@@ -15,6 +15,6 @@ acronyms used in a document.  The data format representation of an
 acronym definition must allow but not mandate newline characters
 within an acronym definition.
 
-index:: [id:rq-000089]; acronym; acronym list!entry
+index:: rq-000089; acronym; acronym list!entry
 
 <<<requirement

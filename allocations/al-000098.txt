@@ -6,6 +6,6 @@ requirement:: rq-000065         # Represent an `Include' Statement
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000098]
+index:: al-000098
 
 <<<allocation

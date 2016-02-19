@@ -6,6 +6,6 @@ requirement:: rq-000015         # Represent a Figure
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000049]
+index:: al-000049
 
 <<<allocation

@@ -6,6 +6,6 @@ requirement:: rq-000299         # Render a LaTeX Frowny Symbol
 
 test:: tc-000043                # Test
 
-index:: [id:al-000379]
+index:: al-000379
 
 <<<allocation

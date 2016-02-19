@@ -6,6 +6,6 @@ requirement:: rq-000083         # Represent an Unordered List
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000115]
+index:: al-000115
 
 <<<allocation

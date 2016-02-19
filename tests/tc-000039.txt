@@ -11,6 +11,6 @@ cases. Abstract test cases are often used until more concrete test
 cases can be created.  The four classic software qualification methods
 are: (1) analysis, (2) demonstration, (3) inspection, and (4) test.
 
-index:: [id:tc-000039]; abstract test cases
+index:: tc-000039; abstract test cases
 
 <<<test

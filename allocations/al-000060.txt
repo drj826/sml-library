@@ -6,6 +6,6 @@ requirement:: rq-000026         # Represent an Index Entry
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000060]
+index:: al-000060
 
 <<<allocation

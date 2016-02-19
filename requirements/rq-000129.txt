@@ -12,6 +12,6 @@ description:: The software shall insert re-usable document divisions as
 instructed by `insert:' statement in the document manuscript. Reusable
 content divisions include item narratives and glossary definitions.
 
-index:: [id:rq-000129]; insert content
+index:: rq-000129; insert content
 
 <<<requirement

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX emdash.
 
-index:: [id:rq-000313]; emdash!render LaTeX
+index:: rq-000313; emdash!render LaTeX
 
 <<<requirement

@@ -11,6 +11,6 @@ associated:: rq-000020
 description:: The software shall render a LaTeX cross reference.
 Cross references link two locations in the same document.
 
-index:: [id:rq-000283]; cross reference!render LaTeX
+index:: rq-000283; cross reference!render LaTeX
 
 <<<requirement

@@ -11,7 +11,7 @@ specializes:: ci-000466                 # SML::Structure Class
 description:: An SML::Source represents a bibliographic source
 referenced in the text.
 
-index:: [id:ci-000400]; Source.pm; SML::Source; source
+index:: ci-000400; Source.pm; SML::Source; source
 
 >>>FIGURE.fig-class-diagram-source
 

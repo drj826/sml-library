@@ -13,6 +13,6 @@ the font family used for the entire document.  The font family
 represents a set of fonts used for narrative text, fixed-width text,
 bold, italics, and other font variations.
 
-index:: [id:rq-000040]; font family
+index:: rq-000040; font family
 
 <<<requirement

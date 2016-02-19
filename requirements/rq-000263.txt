@@ -15,7 +15,7 @@ history comes from the author-maintained version history in the
 document.  These are notes about each published version that provide
 readers a summary updates in each version.
 
-index:: [id:rq-000263]; version history!HTML; HTML version history
+index:: rq-000263; version history!HTML; HTML version history
 
 = [g:SML:revisions] = [def:SML:revisions]
 

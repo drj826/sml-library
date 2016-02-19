@@ -12,6 +12,6 @@ description:: The data format shall have the capability to represent a
 spanned structure.  A spanned structure is an element of document
 structure that spans characters and or words within a block.
 
-index:: [id:rq-000334]
+index:: rq-000334
 
 <<<requirement

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML copyright symbol.
 
-index:: [id:rq-000231]; copyright symbol!render HTML
+index:: rq-000231; copyright symbol!render HTML
 
 <<<requirement

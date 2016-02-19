@@ -6,6 +6,6 @@ requirement:: rq-000152         # Publish a Prioritized List of Library Entities
 
 test:: tc-000043                # Test
 
-index:: [id:al-000164]
+index:: al-000164
 
 <<<allocation

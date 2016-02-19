@@ -6,6 +6,6 @@ requirement:: rq-000234         # Render an HTML Open Double Quote
 
 test:: tc-000043                # Test
 
-index:: [id:al-000313]
+index:: al-000313
 
 <<<allocation

@@ -6,7 +6,7 @@ requirement:: rq-000194         # Represent Inference Rules
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000284]
+index:: al-000284
 
 ######################################################################
 

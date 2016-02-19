@@ -6,6 +6,6 @@ requirement:: rq-000200         # Validate Engineering Document Semantics
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000282]
+index:: al-000282
 
 <<<allocation

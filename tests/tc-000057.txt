@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the PreformattedBlock.pm Perl
 module that implements the SML::PreformattedBlock class.
 
-index:: [id:tc-000057]; unit test case!PreformattedBlock.pm
+index:: tc-000057; unit test case!PreformattedBlock.pm
 
 [ref:lis-preformattedblock-pm-unit-test-case] shows the unit test for
 [file:PreformattedBlock.pm].

@@ -14,7 +14,7 @@ any section in the document. The table of contents shall present the
 document section structure as a table of linked section titles
 indented to represent section levels.
 
-index:: [id:rq-000262]; table of contents!HTML; HTML table of contents
+index:: rq-000262; table of contents!HTML; HTML table of contents
 
 = [g:SML:SECTION] = [def:SML:SECTION]
 

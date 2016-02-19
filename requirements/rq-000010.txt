@@ -14,6 +14,6 @@ a [g:SML:block] of [g:SML:text] that communicates an idea. The data
 format representation of a paragraph must allow but not mandate
 [g:SML:newline] characters within a paragraph.
 
-index:: [id:rq-000010]; paragraph
+index:: rq-000010; paragraph
 
 <<<requirement

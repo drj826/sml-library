@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Figure.pm Perl
 module that implements the SML::Figure class.
 
-index:: [id:tc-000024]; unit test case!Figure.pm
+index:: tc-000024; unit test case!Figure.pm
 
 [ref:lis-figure-pm-unit-test-case] shows the unit test case for
 [file:Figure.pm].

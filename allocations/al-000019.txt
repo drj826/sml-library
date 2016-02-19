@@ -6,6 +6,6 @@ requirement:: rq-000131         # Resolve Lookups
 
 test:: tc-000043                # Test
 
-index:: [id:al-000019]
+index:: al-000019
 
 <<<allocation

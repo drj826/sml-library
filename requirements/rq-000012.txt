@@ -18,7 +18,7 @@ contain multiple blocks (i.e. paragraphs). Lists have no meta data
 elements.  This requirement serves as a container for requirements for
 the data format to represent lists.
 
-index:: [id:rq-000012]; lists
+index:: rq-000012; lists
 
 The data format must have the capability to represent the following
 types of lists:

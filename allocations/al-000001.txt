@@ -6,6 +6,6 @@ requirement:: rq-000005         # Minimize Presentation Markup
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000001]
+index:: al-000001
 
 <<<allocation

@@ -6,6 +6,6 @@ requirement:: rq-000144         # Publish a Document List of Tables
 
 test:: tc-000043                # Test
 
-index:: [id:al-000156]
+index:: al-000156
 
 <<<allocation

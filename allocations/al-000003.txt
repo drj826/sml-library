@@ -6,6 +6,6 @@ requirement:: rq-000048         # Be Encodable Using 7-Bit ASCII
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000003]
+index:: al-000003
 
 <<<allocation

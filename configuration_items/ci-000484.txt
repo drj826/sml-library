@@ -12,7 +12,7 @@ typically used to document the API of a Perl module.  This plugin
 enables authors to insert a plain text listing of the POD into an SML
 document.
 
-index:: [id:ci-000484]; Pod2Txt
+index:: ci-000484; Pod2Txt
 
 >>>LISTING.lis-pod2txt-pm
 

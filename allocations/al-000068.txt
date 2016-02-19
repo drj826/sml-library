@@ -6,6 +6,6 @@ requirement:: rq-000034         # Represent a Test
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000068]
+index:: al-000068
 
 <<<allocation

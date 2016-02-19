@@ -6,6 +6,6 @@ requirement:: rq-000055         # Represent a Smiley Face
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000088]
+index:: al-000088
 
 <<<allocation

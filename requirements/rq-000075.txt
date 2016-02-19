@@ -13,6 +13,6 @@ document version history.  Each version must be described by a date, a
 version number, and a paragraph describing what changed since the
 previous version.
 
-index:: [id:rq-000075]; version history
+index:: rq-000075; version history
 
 <<<requirement

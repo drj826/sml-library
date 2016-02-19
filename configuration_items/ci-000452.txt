@@ -11,7 +11,7 @@ specializes:: ci-000386         # SML::Element Class
 description:: An SML::Image represents an image file in the
 filesystem. The image filespec must exist in the library.
 
-index:: [id:ci-000452]; Image.pm; SML::Image; image
+index:: ci-000452; Image.pm; SML::Image; image
 
 >>>FIGURE.fig-class-diagram-image
 

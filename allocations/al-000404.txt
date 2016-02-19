@@ -6,6 +6,6 @@ requirement:: rq-000324         # Render a LaTeX Literal XML Tag
 
 test:: tc-000043                # Test
 
-index:: [id:al-000404]
+index:: al-000404
 
 <<<allocation

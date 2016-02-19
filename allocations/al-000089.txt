@@ -6,6 +6,6 @@ requirement:: rq-000056         # Represent a Frowny Face
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000089]
+index:: al-000089
 
 <<<allocation

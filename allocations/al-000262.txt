@@ -6,6 +6,6 @@ requirement:: rq-000099         # Parse SML Special Features
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000262]
+index:: al-000262
 
 <<<allocation

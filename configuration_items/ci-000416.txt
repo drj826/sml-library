@@ -13,7 +13,7 @@ description:: The SML::Entity class represents an [g:SML1:entity]. The
 library, their properties, and how they are allowed to relate to one
 another.
 
-index:: [id:ci-000416]; Entity.pm; SML::Entity
+index:: ci-000416; Entity.pm; SML::Entity
 
 >>>FIGURE.fig-class-diagram-entity
 

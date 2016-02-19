@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX smiley symbol. :-)
 
-index:: [id:rq-000298]; smiley symbol!render LaTeX
+index:: rq-000298; smiley symbol!render LaTeX
 
 <<<requirement

@@ -6,6 +6,6 @@ requirement:: rq-000183         # Permit Library Ontology Configuration
 
 test:: tc-000042                # Inspection
 
-index:: [id:al-000039]
+index:: al-000039
 
 <<<allocation

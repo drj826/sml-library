@@ -6,6 +6,6 @@ requirement:: rq-000072         # Represent a Script Statement
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000105]
+index:: al-000105
 
 <<<allocation

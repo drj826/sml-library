@@ -6,6 +6,6 @@ requirement:: rq-000047         # Represent Underlined Text
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000081]
+index:: al-000081
 
 <<<allocation

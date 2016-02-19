@@ -6,6 +6,6 @@ requirement:: rq-000020         # Represent an Inline Cross Reference
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000054]
+index:: al-000054
 
 <<<allocation

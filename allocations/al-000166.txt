@@ -6,6 +6,6 @@ requirement:: rq-000154         # Publish a Version History Log
 
 test:: tc-000043                # Test
 
-index:: [id:al-000166]
+index:: al-000166
 
 <<<allocation

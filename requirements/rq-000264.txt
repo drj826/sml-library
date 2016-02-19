@@ -15,7 +15,7 @@ enable the user to quickly navigate to any recently updated
 entity. This is an automatically rendered listing of changelog entries
 by entity type of entities that have been recently updated.
 
-index:: [id:rq-000264]; list of changes!HTML; HTML list of changes
+index:: rq-000264; list of changes!HTML; HTML list of changes
 
 For example, if the document is a system design document containing
 entities like requirements, configuration items, allocations, and test

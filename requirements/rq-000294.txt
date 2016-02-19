@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX date reference.
 
-index:: [id:rq-000294]; date reference!render LaTeX
+index:: rq-000294; date reference!render LaTeX
 
 <<<requirement

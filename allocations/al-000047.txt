@@ -6,6 +6,6 @@ requirement:: rq-000013         # Represent an Image
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000047]
+index:: al-000047
 
 <<<allocation

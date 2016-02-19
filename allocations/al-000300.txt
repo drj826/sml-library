@@ -6,6 +6,6 @@ requirement:: rq-000221         # Render an HTML Status Reference
 
 test:: tc-000043                # Test
 
-index:: [id:al-000300]
+index:: al-000300
 
 <<<allocation

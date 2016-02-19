@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX `Tex' symbol.
 
-index:: [id:rq-000304]; `TeX' symbol!render LaTeX
+index:: rq-000304; `TeX' symbol!render LaTeX
 
 <<<requirement

@@ -6,6 +6,6 @@ requirement:: rq-000316         # Render LaTeX Subscripted Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000396]
+index:: al-000396
 
 <<<allocation

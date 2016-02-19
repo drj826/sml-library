@@ -11,6 +11,6 @@ type:: functional
 description:: The software shall publish a list of changes since the
 previous version.
 
-index:: [id:rq-000153]; list of recent changes
+index:: rq-000153; list of recent changes
 
 <<<requirement

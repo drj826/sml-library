@@ -14,7 +14,7 @@ document readability by keeping the size of each page small and to
 keep the size of each HTML file small to speed browser page rendering.
 Chapters and appendices are considered types of sections.
 
-index:: [id:rq-000281]
+index:: rq-000281
 
 = [g:SML:SECTION] = [def:SML:SECTION]
 

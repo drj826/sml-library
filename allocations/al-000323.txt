@@ -6,6 +6,6 @@ requirement:: rq-000244         # Render HTML Bold Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000323]
+index:: al-000323
 
 <<<allocation

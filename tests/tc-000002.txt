@@ -9,6 +9,6 @@ type:: container
 description:: This test case serves as a container for all SML
 component test cases.
 
-index:: [id:tc-000002]; component test cases
+index:: tc-000002; component test cases
 
 <<<test

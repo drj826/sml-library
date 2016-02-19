@@ -10,6 +10,6 @@ description:: The organization shall understand requirements.  A
 requirement is a statement of need.  There are many reasons to create
 a common understanding of requirements.
 
-index:: [id:rq-000354]; requirements
+index:: rq-000354; requirements
 
 <<<requirement

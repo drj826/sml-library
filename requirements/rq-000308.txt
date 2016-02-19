@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX open double quote.
 
-index:: [id:rq-000308]; double quote!render LaTeX
+index:: rq-000308; double quote!render LaTeX
 
 <<<requirement

@@ -8,7 +8,7 @@ is_part_of:: ci-000510          # SML Perl Modules
 
 description:: An SML::File represents a file in the filesystem.
 
-index:: [id:ci-000384]; File.pm; SML::File; file
+index:: ci-000384; File.pm; SML::File; file
 
 >>>FIGURE.fig-class-diagram-file
 

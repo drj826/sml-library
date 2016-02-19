@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render HTML underlined text.
 
-index:: [id:rq-000240]; underlined text!render HTML
+index:: rq-000240; underlined text!render HTML
 
 <<<requirement

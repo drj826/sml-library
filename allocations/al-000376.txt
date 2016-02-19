@@ -6,6 +6,6 @@ requirement:: rq-000296         # Render a LaTeX Citation
 
 test:: tc-000043                # Test
 
-index:: [id:al-000376]
+index:: al-000376
 
 <<<allocation

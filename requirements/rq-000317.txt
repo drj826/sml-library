@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX italicized text.
 
-index:: [id:rq-000317]; italicized text!render LaTeX
+index:: rq-000317; italicized text!render LaTeX
 
 <<<requirement

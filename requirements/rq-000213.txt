@@ -10,6 +10,6 @@ associated:: rq-000090
 
 description:: The software shall render an HTML acronym reference.
 
-index:: [id:rq-000213]; acronym reference!render HTML
+index:: rq-000213; acronym reference!render HTML
 
 <<<requirement

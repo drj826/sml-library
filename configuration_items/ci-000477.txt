@@ -13,7 +13,7 @@ constrain the interpretation and well-formed use of these terms.  The
 semantics that hold for an SML library are expressed as an ontology in
 one or more ontology configuration files.
 
-index:: [id:ci-000477]; ontology!library
+index:: ci-000477; ontology!library
 
 >>>LISTING.lis-lib-ontology-config
 

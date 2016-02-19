@@ -12,7 +12,7 @@ description:: The software shall gather the structured data contained
 in a document into data structures for further processing by other
 software functions.
 
-index:: [id:rq-000128]; gather data
+index:: rq-000128; gather data
 
 - Ignore data elements within comment divisions.
 

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML status reference.
 
-index:: [id:rq-000221]; status reference!render HTML
+index:: rq-000221; status reference!render HTML
 
 <<<requirement

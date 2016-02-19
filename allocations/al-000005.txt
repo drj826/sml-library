@@ -6,6 +6,6 @@ requirement:: rq-000009         # Represent Special Features
 
 test:: tc-000040                # Analysis
 
-index:: [id:al-000005]
+index:: al-000005
 
 <<<allocation

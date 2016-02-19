@@ -14,6 +14,6 @@ lists, tables, figures...) enable authors to organize document
 content.  This requirement serves as a container for all document
 structure representation requirements.
 
-index:: [id:rq-000006]; document structures
+index:: rq-000006; document structures
 
 <<<requirement

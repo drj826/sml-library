@@ -13,6 +13,6 @@ conditional text.  Conditional text is document content that is
 included in the published document only if a conditional clause is
 true.
 
-index:: [id:rq-000071]; conditional text
+index:: rq-000071; conditional text
 
 <<<requirement

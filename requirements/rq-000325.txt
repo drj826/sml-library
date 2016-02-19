@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX e-mail address.
 
-index:: [id:rq-000325]; e-mail address!render LaTeX
+index:: rq-000325; e-mail address!render LaTeX
 
 <<<requirement

@@ -16,7 +16,7 @@ re-usable and to enable special listings of quotations.  Furthermore,
 the data format must provide the capability to capture specific
 elements of meta data.
 
-index:: [id:rq-000029]; quotation
+index:: rq-000029; quotation
 
 Elements of quotation meta data include:
 

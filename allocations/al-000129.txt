@@ -6,6 +6,6 @@ requirement:: rq-000097         # Represent a Source Citation
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000129]
+index:: al-000129
 
 <<<allocation

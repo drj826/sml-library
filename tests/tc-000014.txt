@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Block.pm Perl
 module that implements the SML::Block class.
 
-index:: [id:tc-000014]; unit test case!Block.pm
+index:: tc-000014; unit test case!Block.pm
 
 [ref:lis-block-pm-unit-test-case] shows the unit test for
 [file:Block.pm].

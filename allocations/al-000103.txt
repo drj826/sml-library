@@ -6,6 +6,6 @@ requirement:: rq-000070         # Represent Hidden Text
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000103]
+index:: al-000103
 
 <<<allocation

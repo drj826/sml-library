@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX copyright symbol.
 
-index:: [id:rq-000305]; copyright symbol!render LaTeX
+index:: rq-000305; copyright symbol!render LaTeX
 
 <<<requirement

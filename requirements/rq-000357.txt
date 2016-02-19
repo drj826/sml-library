@@ -10,6 +10,6 @@ description:: The organization shall verify that solutions satisfy
 requirements.  The purpose of verification is to prove that a solution
 either does or doesn't satisfy requirement.
 
-index:: [id:rq-000357]; verification
+index:: rq-000357; verification
 
 <<<requirement

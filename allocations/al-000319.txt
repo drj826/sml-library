@@ -6,6 +6,6 @@ requirement:: rq-000240         # Render HTML Underlined Text
 
 test:: tc-000043                # Test
 
-index:: [id:al-000319]
+index:: al-000319
 
 <<<allocation

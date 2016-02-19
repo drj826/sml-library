@@ -6,6 +6,6 @@ requirement:: rq-000094         # Represent the Result of a Review
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000126]
+index:: al-000126
 
 <<<allocation

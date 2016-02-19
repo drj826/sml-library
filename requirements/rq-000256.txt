@@ -13,7 +13,7 @@ container for specific change control functions.
 
 #---------------------------------------------------------------------
 
-index:: [id:rq-000256]; change control facility
+index:: rq-000256; change control facility
 
 Users often use a change control application to collaborate on
 document development.  Just as in software development, document

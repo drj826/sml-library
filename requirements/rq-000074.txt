@@ -15,6 +15,6 @@ enabling authors to define a variable in a single location and use the
 value of that variable in multiple locations. The value of a variable
 is a single [g:SML:block] of text.
 
-index:: [id:rq-000074]; variables
+index:: rq-000074; variables
 
 <<<requirement

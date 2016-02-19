@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML `take note' indicator.
 
-index:: [id:rq-000223]; `take note' indicator!render HTML
+index:: rq-000223; `take note' indicator!render HTML
 
 <<<requirement

@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render a LaTeX revision reference.
 
-index:: [id:rq-000293]; revision reference!render LaTeX
+index:: rq-000293; revision reference!render LaTeX
 
 <<<requirement

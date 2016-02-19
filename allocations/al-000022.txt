@@ -6,6 +6,6 @@ requirement:: rq-000156         # Read Files
 
 test:: tc-000009                # File.pm Unit Test Case
 
-index:: [id:al-000022]
+index:: al-000022
 
 <<<allocation

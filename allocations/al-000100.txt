@@ -6,6 +6,6 @@ requirement:: rq-000067         # Represent a Comment Line
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000100]
+index:: al-000100
 
 <<<allocation

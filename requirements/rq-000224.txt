@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML smiley symbol. :-)
 
-index:: [id:rq-000224]; smiley symbol!render HTML
+index:: rq-000224; smiley symbol!render HTML
 
 <<<requirement

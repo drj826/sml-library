@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render an HTML path name.
 
-index:: [id:rq-000247]; path name!render HTML
+index:: rq-000247; path name!render HTML
 
 <<<requirement

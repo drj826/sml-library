@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Paragraph.pm Perl
 module that implements the SML::Paragraph class.
 
-index:: [id:tc-000056]; unit test case!Paragraph.pm
+index:: tc-000056; unit test case!Paragraph.pm
 
 [ref:lis-paragraph-pm-unit-test-case] shows the unit test for
 [file:Paragraph.pm].

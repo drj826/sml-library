@@ -6,6 +6,6 @@ requirement:: rq-000105         # Parse SML divisions
 
 test:: tc-000005                # Parser.pm Unit Test Case
 
-index:: [id:al-000012]
+index:: al-000012
 
 <<<allocation

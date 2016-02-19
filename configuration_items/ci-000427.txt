@@ -11,7 +11,7 @@ specializes:: ci-000387         # SML::Block Class
 description:: An SML::PreformattedBlock represent a block of text that
 should be presented in its original pre-formatted form.
 
-index:: [id:ci-000427]; PreformattedBlock.pm; SML::PreformattedBlock
+index:: ci-000427; PreformattedBlock.pm; SML::PreformattedBlock
 
 >>>FIGURE.fig-class-diagram-preformatted-block
 

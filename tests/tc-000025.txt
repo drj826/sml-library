@@ -11,7 +11,7 @@ is_part_of:: tc-000001
 description:: This is the unit test case for the Listing.pm Perl
 module that implements the SML::Listing class.
 
-index:: [id:tc-000025]; unit test case!Listing.pm
+index:: tc-000025; unit test case!Listing.pm
 
 [ref:lis-listing-pm-unit-test-case] shows the unit test case for
 [file:Listing.pm].

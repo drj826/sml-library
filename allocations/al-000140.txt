@@ -6,6 +6,6 @@ requirement:: rq-000120         # Represent Spanned Content
 
 test:: tc-000041                # Demonstration
 
-index:: [id:al-000140]
+index:: al-000140
 
 <<<allocation

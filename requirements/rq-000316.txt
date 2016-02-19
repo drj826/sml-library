@@ -8,6 +8,6 @@ type:: technical
 
 description:: The software shall render LaTeX subscripted text.
 
-index:: [id:rq-000316]; subscripted text!render LaTeX
+index:: rq-000316; subscripted text!render LaTeX
 
 <<<requirement
