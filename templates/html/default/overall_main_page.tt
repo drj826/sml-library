@@ -107,13 +107,13 @@ bgcolor          = '#eeeeee'
 [%- END -%]
 [%- IF library.has_published_library_property_value('REVIEW','changes') -%]
 <br/>
-[%- draft_change_count = library.get_published_library_property_value('REVIEW','changes') -%]
-[%- IF draft_change_count == 0 -%]
+[%- review_change_count = library.get_published_library_property_value('REVIEW','changes') -%]
+[%- IF review_change_count == 0 -%]
 <span style="font-size:8pt;">no changes</span>
-[%- ELSIF draft_change_count == 1 -%]
+[%- ELSIF review_change_count == 1 -%]
 <a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">1 change since [%review_previous_version%]</a>
 [%- ELSE -%]
-<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%review_previous_version%]</a>
+<a href="REVIEW/LIBRARY/change.html" style="font-size:8pt;">[%review_change_count%] changes since [%review_previous_version%]</a>
 [%- END -%]
 [%- END -%]
 </td>
@@ -131,13 +131,13 @@ bgcolor          = '#eeeeee'
 [%- END -%]
 [%- IF library.has_published_library_property_value('APPROVED','changes') -%]
 <br/>
-[%- draft_change_count = library.get_published_library_property_value('APPROVED','changes') -%]
-[%- IF draft_change_count == 0 -%]
+[%- approved_change_count = library.get_published_library_property_value('APPROVED','changes') -%]
+[%- IF approved_change_count == 0 -%]
 <span style="font-size:8pt;">no changes</span>
-[%- ELSIF draft_change_count == 1 -%]
+[%- ELSIF approved_change_count == 1 -%]
 <a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">1 change since [%approved_previous_version%]</a>
 [%- ELSE -%]
-<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%draft_change_count%] changes since [%approved_previous_version%]</a>
+<a href="APPROVED/LIBRARY/change.html" style="font-size:8pt;">[%approved_change_count%] changes since [%approved_previous_version%]</a>
 [%- END -%]
 [%- END -%]
 </td>
