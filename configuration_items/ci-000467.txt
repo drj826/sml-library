@@ -20,6 +20,14 @@ image:: files/images/class-diagram-symbol.png
 
 <<<FIGURE
 
+>>>LISTING.lis-symbol-pod
+
+title:: SML::Symbol Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Symbol.pm
+
+<<<LISTING
+
 >>>LISTING.lis-symbol-pm
 
 title:: Symbol.pm Code Listing

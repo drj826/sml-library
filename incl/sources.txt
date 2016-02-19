@@ -108,6 +108,18 @@ note:: [url:https://en.wikipedia.org/wiki/Unified_Modeling_Language]
 <<<SOURCE
 
 ######################################################################
+
+>>>SOURCE.wp-api
+
+source_type:: misc
+
+title:: Wikipedia Article on Application programming interface
+
+note:: [url:https://en.wikipedia.org/wiki/Application_programming_interface]
+
+<<<SOURCE
+
+######################################################################
 # Local Emacs Variables
 
 # Local Variables:

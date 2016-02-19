@@ -19,6 +19,14 @@ image:: files/images/class-diagram-syntax.png
 
 <<<FIGURE
 
+>>>LISTING.lis-syntax-pod
+
+title:: SML::Syntax Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Syntax.pm
+
+<<<LISTING
+
 >>>LISTING.lis-syntax-pm
 
 title:: Syntax.pm Code Listing

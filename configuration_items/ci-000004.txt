@@ -9,9 +9,141 @@ attr:: language = perl
 description:: The SML Core Software is a package of object-oriented
 classes that provide software for processing SML documents.
 
-index:: [id:ci-000004]; SML Core Software
+index:: ci-000004; SML Core Software
 
 This configuration item is managed as a project on GitHub at
 [url:https://github.com/drj826/SML].
+
+Each Perl class contains its own [a:SML:API] documentation:
+
+- [title:lis-acronymlist-pod]
+
+- [title:lis-acronymtermreference-pod]
+
+- [title:lis-block-pod]
+
+- [title:lis-bulletlist-pod]
+
+- [title:lis-citationreference-pod]
+
+- [title:lis-crossreference-pod]
+
+- [title:lis-definition-pod]
+
+- [title:lis-definitionlistitem-pod]
+
+- [title:lis-division-pod]
+
+- [title:lis-document-pod]
+
+- [title:lis-element-pod]
+
+- [title:lis-emailaddress-pod]
+
+- [title:lis-entity-pod]
+
+- [title:lis-enumeratedlist-pod]
+
+- [title:lis-error-pod]
+
+- [title:lis-figure-pod]
+
+- [title:lis-file-pod]
+
+- [title:lis-filereference-pod]
+
+- [title:lis-footnotereference-pod]
+
+- [title:lis-glossary-pod]
+
+- [title:lis-glossarydefinitionreference-pod]
+
+- [title:lis-glossarytermreference-pod]
+
+- [title:lis-idreference-pod]
+
+- [title:lis-image-pod]
+
+- [title:lis-index-pod]
+
+- [title:lis-indexentry-pod]
+
+- [title:lis-indexreference-pod]
+
+- [title:lis-library-pod]
+
+- [title:lis-line-pod]
+
+- [title:lis-listitem-pod]
+
+- [title:lis-listing-pod]
+
+- [title:lis-lookupreference-pod]
+
+- [title:lis-note-pod]
+
+- [title:lis-ontology-pod]
+
+- [title:lis-ontologyrule-pod]
+
+- [title:lis-options-pod]
+
+- [title:lis-outcome-pod]
+
+- [title:lis-pagereference-pod]
+
+- [title:lis-paragraph-pod]
+
+- [title:lis-parser-pod]
+
+- [title:lis-part-pod]
+
+- [title:lis-pathreference-pod]
+
+- [title:lis-preformattedblock-pod]
+
+- [title:lis-propertystore-pod]
+
+- [title:lis-publisher-pod]
+
+- [title:lis-reasoner-pod]
+
+- [title:lis-references-pod]
+
+- [title:lis-section-pod]
+
+- [title:lis-source-pod]
+
+- [title:lis-statusreference-pod]
+
+- [title:lis-step-pod]
+
+# - [title:lis-string-pod]
+
+# - [title:lis-structure-pod]
+
+- [title:lis-svninfo-pod]
+
+- [title:lis-symbol-pod]
+
+- [title:lis-syntax-pod]
+
+# - [title:lis-table-pod]
+
+# - [title:lis-tablecell-pod]
+
+# - [title:lis-tablerow-pod]
+
+# - [title:lis-titlereference-pod]
+
+# - [title:lis-triple-pod]
+
+# - [title:lis-urlreference-pod]
+
+# - [title:lis-util-pod]
+
+# - [title:lis-value-pod]
+
+# - [title:lis-variablereference-pod]
 
 <<<configuration_item

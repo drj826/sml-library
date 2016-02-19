@@ -41,6 +41,16 @@ commonly used but is ineffective and/or counterproductive in practice;
 (2) obvious, but wrong, solutions to recurring problems; (3) common
 approaches to solving recurring problems that prove to be ineffective
 
+glossary:: application programming interface {SML} = ([acs:SML:API]) a
+set of routines, protocols, and tools for building software and
+applications. An API expresses a software component in terms of its
+operations, inputs, outputs, and underlying types, defining
+functionalities that are independent of their respective
+implementations, which allows definitions and implementations to vary
+without compromising the interface. A good API makes it easier to
+develop a program by providing all the building blocks, which are then
+put together by the programmer. [cite:wp-api]
+
 glossary:: assignment {SML} = (NOUN) An [g:SML2:entity] that (1)
 establishes a relationship between an activity and a role that must
 perform that activity, and (2) identifies the audit that verifies the

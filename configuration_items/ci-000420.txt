@@ -19,6 +19,14 @@ image:: files/images/class-diagram-svninfo.png
 
 <<<FIGURE
 
+>>>LISTING.lis-svninfo-pod
+
+title:: SML::Svninfo Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Svninfo.pm
+
+<<<LISTING
+
 >>>LISTING.lis-svninfo-pm
 
 title:: Svninfo.pm Code Listing
