@@ -23,6 +23,14 @@ image:: files/images/class-diagram-variable-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-variablereference-pod
+
+title:: SML::VariableReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/VariableReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-variablereference-pm
 
 title:: VariableReference.pm Code Listing

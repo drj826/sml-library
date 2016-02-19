@@ -22,6 +22,14 @@ image:: files/images/class-diagram-title-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-titlereference-pod
+
+title:: SML::TitleReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/TitleReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-titlereference-pm
 
 title:: TitleReference.pm Code Listing

@@ -118,9 +118,9 @@ Each Perl class contains its own [a:SML:API] documentation:
 
 - [title:lis-step-pod]
 
-# - [title:lis-string-pod]
+- [title:lis-string-pod]
 
-# - [title:lis-structure-pod]
+- [title:lis-structure-pod]
 
 - [title:lis-svninfo-pod]
 
@@ -128,22 +128,20 @@ Each Perl class contains its own [a:SML:API] documentation:
 
 - [title:lis-syntax-pod]
 
-# - [title:lis-table-pod]
+- [title:lis-table-pod]
 
-# - [title:lis-tablecell-pod]
+- [title:lis-tablecell-pod]
 
-# - [title:lis-tablerow-pod]
+- [title:lis-tablerow-pod]
 
-# - [title:lis-titlereference-pod]
+- [title:lis-titlereference-pod]
 
-# - [title:lis-triple-pod]
+- [title:lis-triple-pod]
 
-# - [title:lis-urlreference-pod]
+- [title:lis-urlreference-pod]
 
-# - [title:lis-util-pod]
+- [title:lis-util-pod]
 
-# - [title:lis-value-pod]
-
-# - [title:lis-variablereference-pod]
+- [title:lis-variablereference-pod]
 
 <<<configuration_item

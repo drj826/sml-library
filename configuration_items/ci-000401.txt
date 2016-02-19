@@ -20,6 +20,14 @@ image:: files/images/class-diagram-table.png
 
 <<<FIGURE
 
+>>>LISTING.lis-table-pod
+
+title:: SML::Table Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Table.pm
+
+<<<LISTING
+
 >>>LISTING.lis-table-pm
 
 title:: Table.pm
@@ -33,7 +41,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Table.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item

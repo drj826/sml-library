@@ -23,6 +23,14 @@ image:: files/images/class-diagram-url-reference.png
 
 <<<FIGURE
 
+>>>LISTING.lis-urlreference-pod
+
+title:: SML::URLReference Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/URLReference.pm
+
+<<<LISTING
+
 >>>LISTING.lis-urlreference-pm
 
 title:: URLReference.pm Code Listing

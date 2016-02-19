@@ -21,6 +21,14 @@ image:: files/images/class-diagram-structure.png
 
 <<<FIGURE
 
+>>>LISTING.lis-structure-pod
+
+title:: SML::Structure Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Structure.pm
+
+<<<LISTING
+
 >>>LISTING.lis-structure-pm
 
 title:: Structure.pm Code Listing

@@ -21,6 +21,14 @@ image:: files/images/class-diagram-triple.png
 
 <<<FIGURE
 
+>>>LISTING.lis-triple-pod
+
+title:: SML::Triple Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Triple.pm
+
+<<<LISTING
+
 >>>LISTING.lis-triple-pm
 
 title:: Triple.pm Code Listing

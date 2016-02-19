@@ -20,6 +20,14 @@ image:: files/images/class-diagram-table-row.png
 
 <<<FIGURE
 
+>>>LISTING.lis-tablerow-pod
+
+title:: SML::TableRow Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/TableRow.pm
+
+<<<LISTING
+
 >>>LISTING.lis-table-row-pm
 
 title:: TableRow.pm

@@ -20,6 +20,14 @@ image:: files/images/class-diagram-table-cell.png
 
 <<<FIGURE
 
+>>>LISTING.lis-tablecell-pod
+
+title:: SML::TableCell Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/TableCell.pm
+
+<<<LISTING
+
 >>>LISTING.lis-table-cell-pm
 
 title:: TableCell.pm

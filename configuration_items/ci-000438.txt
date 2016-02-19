@@ -20,6 +20,14 @@ image:: files/images/class-diagram-string.png
 
 <<<FIGURE
 
+>>>LISTING.lis-string-pod
+
+title:: SML::String Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/String.pm
+
+<<<LISTING
+
 >>>LISTING.lis-string-pm
 
 title:: String.pm Code Listing

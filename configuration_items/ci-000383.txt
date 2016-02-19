@@ -19,6 +19,14 @@ image:: files/images/class-diagram-util.png
 
 <<<FIGURE
 
+>>>LISTING.lis-util-pod
+
+title:: SML::Util Documentation
+
+plugin:: Pod2Txt ../SML/lib/SML/Util.pm
+
+<<<LISTING
+
 >>>LISTING.lis-util-pm
 
 title:: Util.pm Code Listing
@@ -32,7 +40,5 @@ fontsize:: footnotesize
 file:: ../SML/lib/SML/Util.pm
 
 <<<LISTING
-
-[clearpage]
 
 <<<configuration_item
