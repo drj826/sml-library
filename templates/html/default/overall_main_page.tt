@@ -175,19 +175,19 @@ num               = num + 1
 [%-
 
 version             = library.get_version
-change_count        = library.get_published_document_property_value('DRAFT',document_id,'changes')
+draft_change_count  = library.get_published_document_property_value('DRAFT',document_id,'changes')
 document_sha_digest = library.get_published_document_property_value('DRAFT',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_orange%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
-[%- IF change_count == 0 -%]
+[%- IF draft_change_count == 0 -%]
 <span style="font-size:8pt;">no change</span>
-[%- ELSIF change_count == 1 -%]
+[%- ELSIF ( draft_change_count == 1 ) OR ( not draft_change_count ) -%]
 <a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+<a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
 [%- END -%]
 </td>
 
@@ -214,19 +214,19 @@ sha                 = document_sha_digest.substr(0,7)
 [%-
 
 version             = library.get_published_document_property_value('REVIEW',document_id,'version')
-change_count        = library.get_published_document_property_value('REVIEW',document_id,'changes')
+review_change_count = library.get_published_document_property_value('REVIEW',document_id,'changes')
 document_sha_digest = library.get_published_document_property_value('REVIEW',document_id,'sha_digest')
 sha                 = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_green%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
-[%- IF change_count == 0 -%]
+[%- IF ( review_change_count == 0 ) OR ( not review_change_count ) -%]
 <span style="font-size:8pt;">no change</span>
-[%- ELSIF change_count == 1 -%]
+[%- ELSIF review_change_count == 1 -%]
 <a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+<a href="REVIEW/[%document_id%]/change.html" style="font-size:8pt;">[%review_change_count%] changes</a>
 [%- END -%]
 </td>
 
@@ -252,20 +252,20 @@ sha                 = document_sha_digest.substr(0,7)
 [%- IF library.has_published_document('APPROVED',document_id) -%]
 [%-
 
-version             = library.get_published_document_property_value('APPROVED',document_id,'version')
-change_count        = library.get_published_document_property_value('APPROVED',document_id,'changes')
-document_sha_digest = library.get_published_document_property_value('APPROVED',document_id,'sha_digest')
-sha                 = document_sha_digest.substr(0,7)
+version               = library.get_published_document_property_value('APPROVED',document_id,'version')
+approved_change_count = library.get_published_document_property_value('APPROVED',document_id,'changes')
+document_sha_digest   = library.get_published_document_property_value('APPROVED',document_id,'sha_digest')
+sha                   = document_sha_digest.substr(0,7)
 
 -%]
 <td style="background-color:[%lite_blue%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
-[%- IF change_count == 0 -%]
+[%- IF approved_change_count == 0 -%]
 <span style="font-size:8pt;">no change</span>
-[%- ELSIF change_count == 1 -%]
+[%- ELSIF ( approved_change_count == 1 ) OR ( not approved_change_count ) -%]
 <a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
-<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">[%change_count%] changes</a>
+<a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">[%approved_change_count%] changes</a>
 [%- END -%]
 </td>
 
