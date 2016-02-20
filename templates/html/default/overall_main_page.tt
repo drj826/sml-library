@@ -182,9 +182,9 @@ sha                 = document_sha_digest.substr(0,7)
 -%]
 <td style="background-color:[%lite_orange%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
-[%- IF draft_change_count == 0 -%]
+[%- IF ( draft_change_count == 0 ) OR ( not draft_change_count ) -%]
 <span style="font-size:8pt;">no change</span>
-[%- ELSIF ( draft_change_count == 1 ) OR ( not draft_change_count ) -%]
+[%- ELSIF draft_change_count == 1 -%]
 <a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
 <a href="DRAFT/[%document_id%]/change.html" style="font-size:8pt;">[%draft_change_count%] changes</a>
@@ -260,9 +260,9 @@ sha                   = document_sha_digest.substr(0,7)
 -%]
 <td style="background-color:[%lite_blue%];width:10%;">
 <span style="color:#888888;font-size:8pt;">[%sha%]</span><br/>
-[%- IF approved_change_count == 0 -%]
+[%- IF ( approved_change_count == 0 ) OR ( not approved_change_count ) -%]
 <span style="font-size:8pt;">no change</span>
-[%- ELSIF ( approved_change_count == 1 ) OR ( not approved_change_count ) -%]
+[%- ELSIF approved_change_count == 1 -%]
 <a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">1 change</a>
 [%- ELSE -%]
 <a href="APPROVED/[%document_id%]/change.html" style="font-size:8pt;">[%approved_change_count%] changes</a>
