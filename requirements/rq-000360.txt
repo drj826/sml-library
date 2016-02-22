@@ -1,0 +1,14 @@
+>>>requirement.rq-000360
+
+title:: Define Symbol Syntax
+
+type:: data format
+
+is_part_of:: rq-000107
+
+description:: The data format shall have the capability to represent a
+symbol.
+
+index:: rq-000360
+
+<<<requirement

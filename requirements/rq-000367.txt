@@ -1,0 +1,14 @@
+>>>requirement.rq-000367
+
+title:: Represent the Start of a Table Row
+
+type:: data format
+
+is_part_of:: rq-000326
+
+description:: The data format shall have the capability to represent
+the start of a table row.
+
+index:: rq-000367; table row
+
+<<<requirement

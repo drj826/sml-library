@@ -1,0 +1,14 @@
+>>>requirement.rq-000371
+
+title:: Represent A Document
+
+type:: data format
+
+is_part_of:: rq-000369
+
+description:: The data format shall have the capability to represent a
+document.
+
+index:: rq-000371; document
+
+<<<requirement

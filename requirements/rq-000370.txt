@@ -1,0 +1,17 @@
+>>>requirement.rq-000370
+
+title:: Represent Core Document Blocks
+
+type:: data format
+
+is_part_of:: rq-000006
+
+description:: The data format shall represent core document blocks.
+These are blocks needed to express ordinary document content.  These
+are document structures that should be available to any library and
+does ~~not~~ include entities with special meaning to a specific
+library.
+
+index:: rq-000370; block
+
+<<<requirement
