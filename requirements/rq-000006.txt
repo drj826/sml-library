@@ -1,10 +1,8 @@
 >>>requirement.rq-000006
 
-title:: Represent Document Structures
+title:: Represent Core Document Structures
 
 priority:: routine
-
-is_part_of:: rq-000107
 
 type:: data format
 

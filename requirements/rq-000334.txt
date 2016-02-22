@@ -1,16 +1,16 @@
 >>>requirement.rq-000334
 
-title:: Represent A Spanned Structure
+title:: Define String Syntax
 
-is_part_of:: rq-000006
+is_part_of:: rq-000107
 
 priority:: routine
 
 type:: data format
 
 description:: The data format shall have the capability to represent a
-spanned structure.  A spanned structure is an element of document
-structure that spans characters and or words within a block.
+content string.  A string is a structure that spans characters and or
+words within a block.
 
 index:: rq-000334
 

@@ -1,18 +1,18 @@
 >>>requirement.rq-000121
 
-title:: Represent a Presentation-Related Processing Instruction
+title:: Represent Core Document Processing Instructions
 
-is_part_of:: rq-000008
+is_part_of:: rq-000006
 
 priority:: routine
 
 type:: data format
 
-description:: The data format shall represent processing instructions
-that impact document content presentation.  This requirement serves as
-a container for those formats.
+description:: The data format shall represent core document processing
+instructions that impact document content presentation.  This
+requirement serves as a container for those formats.
 
-index:: rq-000121; presentation feature processing instructions
+index:: rq-000121; processing instructions
 
 A processing instruction is an instruction embedded in a document that
 directs the application that is processing the document to perform a

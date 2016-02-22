@@ -4,7 +4,7 @@ title:: Represent a Section
 
 priority:: routine
 
-is_part_of:: rq-000326
+is_part_of:: rq-000369
 
 type:: data format
 
@@ -17,7 +17,7 @@ indicated by either the beginning of another section or by the end of
 the document.  The data format representation of a section title must
 allow but not mandate it contain newline characters.  The data format
 must have the capability to represent the types of sections enumerated
-in the definition of the ``sectype'' data type ([id:rq-000086]).
+in the definition of the ``sectype'' data type.
 
 index:: rq-000011; sections
 

@@ -4,7 +4,7 @@ title:: Represent a Presentation Slide
 
 priority:: routine
 
-is_part_of:: rq-000195
+is_part_of:: rq-000369
 
 type:: data format
 

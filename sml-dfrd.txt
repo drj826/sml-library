@@ -78,9 +78,15 @@ index.
 
 ######################################################################
 
-# Represent Document Content
+# Define Document Syntax
 
 * plugin:: Parts2Sections rq-000107
+
+######################################################################
+
+# Represent Core Document Structures
+
+* plugin:: Parts2Sections rq-000006
 
 ######################################################################
 # Backmatter

@@ -1,17 +1,16 @@
 >>>requirement.rq-000120
 
-title:: Represent Spanned Content
+title:: Represent Core Document Strings
 
-is_part_of:: rq-000008
+is_part_of:: rq-000006
 
 priority:: routine
 
 type:: data format
 
-description:: The data format shall represent spanned content
-presentation formats.  This requirement serves as a container for
-those formats.
+description:: The data format shall represent core document string
+structures.  This requirement serves as a container for those formats.
 
-index:: rq-000120; spanned content presentation formats
+index:: rq-000120; strings
 
 <<<requirement

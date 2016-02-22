@@ -1,15 +1,24 @@
 >>>requirement.rq-000107
 
-title:: Represent Document Content
+title:: Define Document Syntax
 
 type:: package
 
-description:: The data format shall represent specified document
-content structures, presentation, and special features while
-conforming to specified design constraints.  This requirement is the
-top-level requirement for a descriptive markup language.  It serves as
-a container for all descriptive markup representation requirements.
+description:: The data format shall define a document syntax.  This
+requirement is the top-level requirement for a descriptive markup
+language.  It serves as a container for all descriptive markup syntax
+requirements.
 
 index:: rq-000107; data representation
+
+Only four syntax structures are needed to express document content:
+
+= [g:SML:division] = [def:SML:division]
+
+= [g:SML:block] = [def:SML:block]
+
+= [g:SML:string] = [def:SML:string]
+
+= [g:SML:symbol] = [def:SML:symbol]
 
 <<<requirement

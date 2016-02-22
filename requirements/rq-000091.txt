@@ -4,7 +4,7 @@ title:: Represent an Audio Clip
 
 priority:: routine
 
-is_part_of:: rq-000326
+is_part_of:: rq-000369
 
 type:: data format
 

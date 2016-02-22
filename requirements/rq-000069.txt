@@ -4,7 +4,7 @@ title:: Represent an Inline Comment
 
 priority:: routine
 
-is_part_of:: rq-000066
+is_part_of:: rq-000120
 
 type:: data format
 

@@ -4,7 +4,7 @@ title:: Represent a Command
 
 priority:: routine
 
-is_part_of:: rq-000125
+is_part_of:: rq-000120
 
 type:: data format
 

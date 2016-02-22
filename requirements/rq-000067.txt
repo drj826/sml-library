@@ -4,7 +4,7 @@ title:: Represent a Comment Line
 
 priority:: routine
 
-is_part_of:: rq-000066
+is_part_of:: rq-000370
 
 type:: data format
 

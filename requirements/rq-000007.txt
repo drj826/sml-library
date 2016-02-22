@@ -4,7 +4,7 @@ title:: Represent Semantic Content
 
 priority:: routine
 
-is_part_of:: rq-000107
+is_part_of:: rq-000359
 
 type:: data format
 

@@ -1,10 +1,10 @@
 >>>requirement.rq-000057
 
-title:: Represent a Left Arrow
+title:: Represent a Left Arrow Symbol
 
 priority:: routine
 
-is_part_of:: rq-000124
+is_part_of:: rq-000360
 
 type:: data format
 

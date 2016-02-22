@@ -4,7 +4,7 @@ title:: Represent a Glossary Reference
 
 priority:: routine
 
-is_part_of:: rq-000009
+is_part_of:: rq-000120
 
 type:: data format
 

@@ -4,7 +4,7 @@ title:: Be Encodable Using 7-Bit ASCII
 
 priority:: routine
 
-is_part_of:: rq-000107
+is_part_of:: rq-000111
 
 type:: data format
 

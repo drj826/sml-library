@@ -17,6 +17,9 @@ include this vocabulary in your document you must also include
 glossary:: ATTACHMENT {SML} = A [g:SML2:structure] that attaches an
 external file at a specific place within an [a:SML] [g:SML:DOCUMENT]
 
+glossary:: AUDIO {SML} = A [g:SML2:structure] that inserts an audio
+clip into an [a:SML] [g:SML:DOCUMENT]
+
 ###
 
 glossary:: acceptance test {SML} = Formal testing conducted to
@@ -91,11 +94,10 @@ programming language theory
 
 ###
 
-glossary:: block {SML} = (||SML::Block||) A [g:SML:part] which is a
-contiguous sequence of one or more ~~whole~~ [g:SML:line]s of text.
-Blocks end with either a blank line or the beginning of another
-block. Blocks cannot contain blank lines.  Blocks may contain
-[g:SML:string]s
+glossary:: block {SML} = A [g:SML:part] which is a contiguous sequence
+of one or more ~~whole~~ [g:SML:line]s of text.  Blocks end with
+either a blank line or the beginning of another block. Blocks cannot
+contain blank lines.  Blocks may contain [g:SML:string]s
 
 glossary:: break-fix {SML} = To replace/fix a broken part or to revert
 the system back to its approved baseline configuration.  Examples
@@ -227,13 +229,12 @@ level of test being performed. Developmental testing in comprised of
 the following test levels: (1) [g:SML:unit test], (2) [g:SML:component
 test], and (3) [g:SML:component integration test]
 
-glossary:: division {SML} = (||SML::Division||) A [g:SML:part] which
-is a contiguous sequence of whole [g:SML:line]s.  A division has an
-~~unambiguous~~ beginning and end.  Sometimes the beginning and end
-are explicit and other times they are implicit.  A division may be
-uniquely identified using an [a:SML:ID].  The [a:SML:ID] may be used
-to refer to the division from other parts of the [g:SML:DOCUMENT] or
-[g:SML:library]
+glossary:: division {SML} = A [g:SML:part] which is a contiguous
+sequence of whole [g:SML:line]s.  A division has an ~~unambiguous~~
+beginning and end.  Sometimes the beginning and end are explicit and
+other times they are implicit.  A division may be uniquely identified
+using an [a:SML:ID].  The [a:SML:ID] may be used to refer to the
+division from other parts of the [g:SML:DOCUMENT] or [g:SML:library]
 
 glossary:: DOCUMENT {SML} = (||SML::Document||) A [g:SML2:structure]
 that represents a written work about a topic
@@ -286,11 +287,11 @@ organization about which data is held. Entity types are declared in an
 [g:SML:division]s. Entities have properties and are often related to
 other entities. See [g:SML:property]
 
-glossary:: entity {SML2} = (||SML::Entity||) A [g:SML:division] that
-represents a thing of interest to an organization.  Entities defined
-in this library are: [g:SML:allocation], [g:SML:assignment],
-[g:SML:configuration item], [g:SML:requirement], [g:SML:role],
-[g:SML:task], and [g:SML:test]. Contrast with [g:SML2:structure]
+glossary:: entity {SML2} = A [g:SML:division] that represents a thing
+of interest to an organization.  Entities defined in this library are:
+[g:SML:allocation], [g:SML:assignment], [g:SML:configuration item],
+[g:SML:requirement], [g:SML:role], [g:SML:task], and
+[g:SML:test]. Contrast with [g:SML2:structure]
 
 glossary:: epanorthosis {SML} = a figure of speech that signifies
 emphatic work replacement. ``Thousands, no, millions!'' Often used for
@@ -509,13 +510,13 @@ those entities, and the formal axioms that constrain the
 interpretation and well-formed use of these terms.  An ontology is
 composed of [g:SML:ontology rule]s
 
-glossary:: ontology rule {SML} = (||SML::OntologyRule||) A single
-declaration that defines an allowed semantic expression.  An ontology
-is composed of a collection of ontology rules.  Document semantics are
-validated against the set of ontology rules.  There are (currently) 5
-(five) types of ontology rules: (1) division declarations, (2)
-property declarations, (3) enumeration declarations, (4) composition
-declarations, and (5) default value declarations
+glossary:: ontology rule {SML} = A single declaration that defines an
+allowed semantic expression.  An ontology is composed of a collection
+of ontology rules.  Document semantics are validated against the set
+of ontology rules.  There are (currently) 5 (five) types of ontology
+rules: (1) division declarations, (2) property declarations, (3)
+enumeration declarations, (4) composition declarations, and (5)
+default value declarations
 
 glossary:: operational baseline {SML} = A [g:IEEE:baseline] that
 identifies the system accepted and configured by the users in the
@@ -554,8 +555,8 @@ glossary:: parser {SML} = A software artifact that performs syntactic
 analysis of text (a sequence of tokens) to check for correct syntax
 and build a data structure implicit in the input tokens
 
-glossary:: part {SML} = (||SML::Part||) A syntactic unit of document
-content.  SML syntax defines three types of parts: [g:SML:division]s,
+glossary:: part {SML} = A syntactic unit of document content.  SML
+syntax defines three types of parts: [g:SML:division]s,
 [g:SML:block]s, and [g:SML:string]s
 
 glossary:: pattern {SML} = a general reusable solution to a commonly
@@ -711,12 +712,12 @@ glossary:: special feature {SML} = A feature that enables document
 authors to minimize the maintenance burden of updating documents and
 to automate certain document content generation
 
-glossary:: string {SML} = (||SML::String||) A [g:SML:part] which is a
-sequence of characters that may be a ~~partial~~ line or may span one
-or more ~~whole or partial~~ lines. A string may span multiple
-[g:SML:line]s but may ~~not~~ span multiple [g:SML:block]s.  Some
-strings have special meaning like bold, italics, underlined, fixed
-width, superscript, and subscript strings.  Strings are also used to
+glossary:: string {SML} = A [g:SML:part] which is a sequence of one or
+more characters that may be a ~~partial~~ line or may span one or more
+~~whole or partial~~ lines. A string may span multiple [g:SML:line]s
+but may ~~not~~ span multiple [g:SML:block]s.  Some strings have
+special meaning like bold, italics, underlined, fixed width,
+superscript, and subscript strings.  Strings are also used to
 represent cross references and other content with special meaning.
 Strings may be nested inside other strings. The content of a
 [g:SML:block] is a string. See also [g:SML:line], [g:SML:block], and
@@ -727,11 +728,11 @@ markup feature used to ~~organize~~ [g:SML:DOCUMENT] content. For
 example: sentences, paragraphs, [g:SML:SECTION] hierarchies,
 [g:SML:TABLE]s, [g:SML:FIGURE]s, [g:SML:LISTING]s
 
-glossary:: structure {SML2} = (||SML::Structure||) A [g:SML:division]
-that organizes content. Names of SML structures are reserved words and
-therefore capitalized. Structures are part of the core SML
-specification and are therefore the same in all SML libraries. SML
-structures are: [g:SML:ATTACHMENT], [g:SML:AUDIO], [g:SML:BARE_TABLE],
+glossary:: structure {SML2} = A [g:SML:division] that organizes
+content. Names of SML structures are reserved words and therefore
+capitalized. Structures are part of the core SML specification and are
+therefore the same in all SML libraries. SML structures are:
+[g:SML:ATTACHMENT], [g:SML:AUDIO], [g:SML:BARE_TABLE],
 [g:SML:BULLET_LIST], [g:SML:COMMENT], [g:SML:COMPOSITION_DECLARATION],
 [g:SML:CONDITIONAL], [g:SML:DEFINITION_LIST], [g:SML:DEMO],
 [g:SML:DIVISION_DECLARATION], [g:SML:DOCUMENT],
@@ -744,6 +745,9 @@ structures are: [g:SML:ATTACHMENT], [g:SML:AUDIO], [g:SML:BARE_TABLE],
 [g:SML:TABLE_ROW], [g:SML:TRIPLE], [g:SML:UNIVERSAL],
 [g:SML:VERSION_HISTORY], and [g:SML:VIDEO]. Contrast with
 [g:SML2:entity]
+
+glossary:: symbol {SML} = A [g:SML:string] which represents a singular
+piece of data which is a character, single idea, process, or entity
 
 glossary:: syntax {SML} = The set of rules that defines the
 combinations of symbols that are considered to be a correctly

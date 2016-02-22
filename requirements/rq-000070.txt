@@ -4,7 +4,7 @@ title:: Represent Hidden Text
 
 priority:: routine
 
-is_part_of:: rq-000009
+is_part_of:: rq-000369
 
 type:: data format
 

@@ -1,8 +1,8 @@
 >>>requirement.rq-000124
 
-title:: Represent Special Symbols
+title:: Represent Core Document Symbols
 
-is_part_of:: rq-000008
+is_part_of:: rq-000006
 
 priority:: routine
 
@@ -10,12 +10,12 @@ type:: data format
 
 associated:: rq-000048
 
-description:: The data format shall represent special symbols.  This
-requirement serves as a container for those symbols.  Many useful
+description:: The data format shall represent core document symbols.
+This requirement serves as a container for those symbols.  Many useful
 symbols are not directly encoded in 7-bit ASCII.  Since [id:rq-000048]
 constrains the data format's encoding to 7-bit ASCII the data format
 must define alternate representations for these symbols.
 
-index:: rq-000124; special symbols
+index:: rq-000124; symbols
 
 <<<requirement

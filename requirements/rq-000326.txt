@@ -1,16 +1,18 @@
 >>>requirement.rq-000326
 
-title:: Represent A Document Division
+title:: Define Division Syntax
 
-is_part_of:: rq-000006
+is_part_of:: rq-000107
 
 priority:: routine
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-a [g:SML:DOCUMENT] [g:SML:division].
+description:: The data format shall have the capability to represent a
+content [g:SML:division].
 
-index:: rq-000326
+index:: rq-000326; division
+
+= [g:SML:division] = [def:SML:division]
 
 <<<requirement
