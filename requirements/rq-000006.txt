@@ -1,6 +1,6 @@
 >>>requirement.rq-000006
 
-title:: Represent Core Document Structures
+title:: Represent Core Document Semantics
 
 priority:: routine
 

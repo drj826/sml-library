@@ -1,8 +1,8 @@
 >>>requirement.rq-000197
 
-title:: Declare an Entity Type
+title:: Declare an Entity
 
-is_part_of:: rq-000195
+is_part_of:: rq-000374
 
 priority:: routine
 

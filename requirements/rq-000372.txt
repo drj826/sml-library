@@ -1,0 +1,17 @@
+>>>requirement.rq-000372
+
+title:: Define the Syntax for an Element
+
+type:: data format
+
+is_part_of:: rq-000327
+
+description:: The data format shall define the syntax for an element.
+An [g:SML:element] is a [g:SML:block] that represents a name/value
+pair.
+
+index:: rq-000372; element
+
+= [g:SML:element] = [def:SML:element]
+
+<<<requirement

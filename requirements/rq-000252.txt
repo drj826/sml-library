@@ -1,6 +1,6 @@
 >>>requirement.rq-000252
 
-title:: Represent an Inline Index Reference
+title:: Define the Syntax for an Index Reference
 
 is_part_of:: rq-000334
 

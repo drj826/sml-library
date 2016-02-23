@@ -1,15 +1,15 @@
 >>>requirement.rq-000331
 
-title:: Represent An Unordered List Item
+title:: Define the Syntax for an Unordered List Item
 
-is_part_of:: rq-000330
+is_part_of:: rq-000327
 
 priority:: routine
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-an unordered list item.
+description:: The data format shall define the syntax for an unordered
+list item.
 
 index:: rq-000331; list item!unordered
 

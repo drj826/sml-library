@@ -1,6 +1,6 @@
 >>>requirement.rq-000051
 
-title:: Represent a Registered Trademark Symbol
+title:: Define the Syntax for a Registered Trademark Symbol
 
 priority:: routine
 
@@ -10,8 +10,8 @@ type:: data format
 
 associated:: rq-000050
 
-description:: The data format shall have the capability to represent
-a registered trademark symbol.
+description:: The data format shall define the syntax for a registered
+trademark symbol.
 
 index:: rq-000051; registered trademark symbol; symbol!registered
 trademark

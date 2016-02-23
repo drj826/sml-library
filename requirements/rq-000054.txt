@@ -1,6 +1,6 @@
 >>>requirement.rq-000054
 
-title:: Represent a Section Sign
+title:: Define the Syntax for a Section Symbol
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-section sign (also called a ``double S'').
+description:: The data format shall define the syntax for a
+section symbol (also called a ``double S'').
 
-index:: rq-000054; section sign; sign!section
+index:: rq-000054; section symbol; symbol!section
 
 <<<requirement

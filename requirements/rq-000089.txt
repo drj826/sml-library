@@ -1,6 +1,6 @@
 >>>requirement.rq-000089
 
-title:: Represent an Acronym List Entry
+title:: Define the Syntax for an Acronym List Entry
 
 priority:: routine
 
@@ -8,12 +8,12 @@ is_part_of:: rq-000327
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-an acronym list entry (i.e. an acronym/definition pair).  This
-capability enables an author to establish formal definitions of
-acronyms used in a document.  The data format representation of an
-acronym definition must allow but not mandate newline characters
-within an acronym definition.
+description:: The data format shall define the syntax for an acronym
+list entry (i.e. an acronym/definition pair).  This capability enables
+an author to establish formal definitions of acronyms used in a
+document.  The data format representation of an acronym definition
+must allow but not mandate newline characters within an acronym
+definition.
 
 index:: rq-000089; acronym; acronym list!entry
 

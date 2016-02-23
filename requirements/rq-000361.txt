@@ -1,13 +1,14 @@
 >>>requirement.rq-000361
 
-title:: Represent the Start of a Named Division
+title:: Define the Syntax for the Start of a Named Division
 
 type:: data format
 
 is_part_of:: rq-000326
 
-description:: The data format shall have the capability to represent
-the start of a named division.
+description:: The data format shall define the syntax for the start of
+a named division.  Named divisions represent document structures
+composed of other (sub) divisions and content blocks.
 
 index:: rq-000361; division
 

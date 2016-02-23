@@ -1,18 +1,18 @@
 >>>requirement.rq-000136
 
-title:: Represent a `Definition Reuse' Statement
+title:: Represent a Definition Reference
 
 priority:: routine
 
-is_part_of:: rq-000073
+is_part_of:: rq-000120
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-definition re-use statements.  A definition retrieves and inserts any
-glossary or acronym definition.  The purpose of this requirement is to
-maximize document maintainability by giving authors the capability to
-define terms and acronyms in one location and reuse them in multiple
+description:: The data format shall have the capability to represent a
+definition reference.  A definition retrieves and inserts any glossary
+or acronym definition.  The purpose of this requirement is to maximize
+document maintainability by giving authors the capability to define
+terms and acronyms in one location and reuse them in multiple
 locations.
 
 index:: rq-000136; definitions

@@ -1,15 +1,15 @@
 >>>requirement.rq-000332
 
-title:: Represent An Ordered List Item
+title:: Define the Syntax for an Ordered List Item
 
-is_part_of:: rq-000330
+is_part_of:: rq-000327
 
 priority:: routine
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-an ordered list item.
+description:: The data format shall define the syntax for an ordered
+list item.
 
 index:: rq-000332; list item!ordered
 

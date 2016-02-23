@@ -1,6 +1,6 @@
 >>>requirement.rq-000013
 
-title:: Represent an Image
+title:: Define the Syntax for an Image
 
 priority:: routine
 
@@ -10,13 +10,12 @@ type:: data format
 
 associated:: rq-000015
 
-description:: The data format shall have the capability to represent
-an image.  This capability allows authors to insert an image into a
-document.  Note that an image is different than a figure.  A figure
-has a title and description and can be cross referenced using a unique
-identifier.  An image, on the other hand, is simply a picture inserted
-as document content with no other meta-data.  Images have no meta data
-elements.
+description:: The data format shall define the syntax for an image.
+This capability allows authors to insert an image into a document.
+Note that an image is different than a figure.  A figure has a title
+and description and can be cross referenced using a unique identifier.
+An image, on the other hand, is simply a picture inserted as document
+content with no other meta-data.  Images have no meta data elements.
 
 index:: rq-000013; image
 

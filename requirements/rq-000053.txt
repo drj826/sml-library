@@ -1,6 +1,6 @@
 >>>requirement.rq-000053
 
-title:: Represent a `Take Note' Symbol
+title:: Define the Syntax for a `Take Note' Symbol
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-take note symbol.  The purpose of a ``take note'' symbol is to draw
-the reader's attention to a particularly important point.
+description:: The data format shall define the syntax for a take note
+symbol.  The purpose of a ``take note'' symbol is to draw the reader's
+attention to a particularly important point.
 
 index:: rq-000053; take note symbol; symbol!take note
 

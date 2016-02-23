@@ -1,13 +1,13 @@
 >>>requirement.rq-000366
 
-title:: Represent the End of a Table Cell
+title:: Define the Syntax for the End of a Table Cell
 
 type:: data format
 
 is_part_of:: rq-000326
 
-description:: The data format shall have the capability to represent
-the end of a table cell.
+description:: The data format shall define the syntax for the end of a
+table cell.
 
 index:: rq-000366; table cell
 

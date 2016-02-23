@@ -1,6 +1,6 @@
 >>>requirement.rq-000021
 
-title:: Represent an Inline External Hyperlink
+title:: Define the Syntax for an External Hyperlink
 
 priority:: routine
 

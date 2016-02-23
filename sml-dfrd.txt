@@ -78,15 +78,33 @@ index.
 
 ######################################################################
 
+# Permit a User to Customize a Library
+
+* plugin:: Parts2Sections rq-000375
+
+######################################################################
+
 # Define Document Syntax
 
 * plugin:: Parts2Sections rq-000107
 
 ######################################################################
 
-# Represent Core Document Structures
+# Represent Ontology Semantics
+
+* plugin:: Parts2Sections rq-000374
+
+######################################################################
+
+# Represent Core Document Semantics
 
 * plugin:: Parts2Sections rq-000006
+
+######################################################################
+
+# Represent Engineering Document Semantics
+
+* plugin:: Parts2Sections rq-000373
 
 ######################################################################
 # Backmatter

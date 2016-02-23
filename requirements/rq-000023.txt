@@ -1,6 +1,6 @@
 >>>requirement.rq-000023
 
-title:: Represent a Procedural Step
+title:: Define the Syntax for a Procedural Step
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000327
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-procedural step.  This capability enables an author to represent one
-of potentially many steps within a sequence. The data format
+description:: The data format shall define the syntax for a procedural
+step.  This capability enables an author to represent one of
+potentially many steps within a sequence. The data format
 representation of a procedural step must allow but not mandate newline
 characters within a procedural step.
 

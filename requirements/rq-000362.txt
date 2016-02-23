@@ -1,13 +1,13 @@
 >>>requirement.rq-000362
 
-title:: Represent the End of a Named Division
+title:: Define the Syntax for the End of a Named Division
 
 type:: data format
 
 is_part_of:: rq-000326
 
-description:: The data format shall have the capability to represent
-the end of a named division.
+description:: The data format shall define the syntax for the end of a
+named division.
 
 index:: rq-000362; division
 

@@ -1,14 +1,14 @@
 >>>requirement.rq-000253
 
-title:: Represent a Unique Division Identifier
+title:: Define the Syntax for a Unique Division Identifier
 
-is_part_of:: rq-000327
+is_part_of:: rq-000326
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-a unique division identifier.  The identifier must be unique within
-the library.
+description:: The data format shall define the syntax for a unique
+division identifier.  This unique identifier will make it possible to
+refer to the division from anywhere else in the library.
 
 index:: rq-000253; unique division identifier
 

@@ -1,6 +1,6 @@
 >>>requirement.rq-000018
 
-title:: Represent Pre-Formatted Text
+title:: Define the Syntax for a Division of Pre-Formatted Text
 
 priority:: routine
 
@@ -8,11 +8,11 @@ is_part_of:: rq-000326
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-pre-formatted text.  Pre-formatted text is verbatim text inserted into
-a document while preserving all white spaces and line breaks.  This
-requirement serves as a container for data format requirements related
-to representing pre-formatted text.
+description:: The data format shall define the syntax for a division
+of pre-formatted text.  Pre-formatted text is verbatim text inserted
+into a document while preserving all white spaces and line breaks.
+This requirement serves as a container for data format requirements
+related to representing pre-formatted text.
 
 index:: rq-000018; pre-formatted text
 

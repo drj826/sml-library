@@ -1,13 +1,13 @@
 >>>requirement.rq-000365
 
-title:: Represent the Start of a Table Cell
+title:: Define the Syntax for the Start of a Table Cell
 
 type:: data format
 
 is_part_of:: rq-000326
 
-description:: The data format shall have the capability to represent
-the start of a table cell.
+description:: The data format shall define the syntax for the start of
+a table cell.
 
 index:: rq-000365; table cell
 

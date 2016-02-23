@@ -1,6 +1,6 @@
 >>>requirement.rq-000090
 
-title:: Represent an Inline Acronym Reference
+title:: Define the Syntax for an Acronym Reference
 
 priority:: routine
 

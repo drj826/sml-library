@@ -1,6 +1,6 @@
 >>>requirement.rq-000026
 
-title:: Represent an Index Entry
+title:: Define the Syntax for an Index Entry
 
 priority:: routine
 
@@ -8,11 +8,11 @@ is_part_of:: rq-000327
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-an index entry. An index entry enables an author to indicate a term that
-should appear in the document index.  Furthermore, the data format
-must enable authors to define index ~~sub-entries~~.  The data format
-must be capable of representing index entries that span large (even
+description:: The data format shall define the syntax for an index
+entry. An index entry enables an author to indicate a term that should
+appear in the document index.  Furthermore, the data format must
+enable authors to define index ~~sub-entries~~.  The data format must
+be capable of representing index entries that span large (even
 multi-page) regions of text.  The data format must allow index entries
 to span newline characters.
 

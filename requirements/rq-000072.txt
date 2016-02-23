@@ -4,7 +4,7 @@ title:: Represent a Script Statement
 
 priority:: routine
 
-is_part_of:: rq-000009
+is_part_of:: rq-000370
 
 type:: data format
 

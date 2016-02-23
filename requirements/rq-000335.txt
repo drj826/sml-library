@@ -1,6 +1,6 @@
 >>>requirement.rq-000335
 
-title:: Represent a Section Heading
+title:: Define the Syntax for a Section Heading
 
 is_part_of:: rq-000327
 
@@ -8,8 +8,9 @@ priority:: routine
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-section heading.
+description:: The data format shall define the syntax for a section
+heading.  A section heading summarizes the topic of the section and is
+used as an entry in the table of contents.
 
 index:: rq-000335; section heading
 

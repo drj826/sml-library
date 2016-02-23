@@ -1,6 +1,6 @@
 >>>requirement.rq-000187
 
-title:: Represent an Inline Internal Hyperlink
+title:: Define the Syntax for an Internal Hyperlink
 
 is_part_of:: rq-000334
 

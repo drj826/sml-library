@@ -8,8 +8,6 @@ is_part_of:: rq-000369
 
 type:: data format
 
-associated:: rq-000087
-
 description:: The data format shall have the capability to represent a
 section epigraph.  An epigraph is a phrase, quotation, or poem at the
 beginning of a section. The data format representation of a section
@@ -19,8 +17,8 @@ section epigraph.
 index:: rq-000088; epigraph
 
 Note that a ~~section~~ epigraph is not the same as a ~~document~~
-epigraph.  A document epigraph is an element of document meta data
-(See [id:rq-000087]) and applies to the whole document.
+epigraph.  A document epigraph is an element of document meta data and
+applies to the whole document.
 
 Section epigraphs may have the following meta data elements:
 

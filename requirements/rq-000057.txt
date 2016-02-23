@@ -1,6 +1,6 @@
 >>>requirement.rq-000057
 
-title:: Represent a Left Arrow Symbol
+title:: Define the Syntax for a Left Arrow Symbol
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-left arrow.
+description:: The data format shall define the syntax for a left
+arrow symbol.
 
-index:: rq-000057; left arrow
+index:: rq-000057; left arrow; symbol!left arrow
 
 <<<requirement

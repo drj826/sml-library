@@ -1,19 +1,20 @@
 >>>requirement.rq-000096
 
-title:: Represent a `Strict Entity Status' Option
+title:: Permit a User to Set a `Use Formal Status' Option
 
 priority:: routine
 
-is_part_of:: rq-000035
+is_part_of:: rq-000375
 
 type:: data format
 
-description:: The data format shall have the capability to represent
-the option of formally determining [g:SML2:entity] status from formal
-outcomes rather than from informal entity status attributes.  The
-purpose of this requirement is to enable authors to declare whether
-they want entity status to come from formal test results and audits,
-~~or~~ from the informal status attributes of each entity (default).
+description:: The technical solution shall permit a user to set a `use
+formal status' option.  This option, when set, means that
+[g:SML2:entity] status must come from formal outcomes rather than from
+informal entity status attributes.  The purpose of this requirement is
+to enable authors to declare whether they want entity status to come
+from formal test results and audits, ~~or~~ from the informal status
+attributes of each entity (default).
 
 index:: rq-000096; status; item!status
 

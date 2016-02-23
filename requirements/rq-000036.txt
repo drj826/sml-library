@@ -4,7 +4,7 @@ title:: Represent a Task
 
 priority:: routine
 
-is_part_of:: rq-000195
+is_part_of:: rq-000373
 
 type:: data format
 

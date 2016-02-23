@@ -1,6 +1,6 @@
 >>>requirement.rq-000025
 
-title:: Represent a Glossary Entry
+title:: Define the Syntax for a Glossary Entry
 
 priority:: routine
 
@@ -8,8 +8,8 @@ is_part_of:: rq-000327
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-glossary entry.  This capability enable an author to establish formal
+description:: The data format shall define the syntax for a glossary
+entry.  This capability enable an author to establish formal
 definitions of terms used in a document.  The data format
 representation of a glossary entry must allow but not mandate newline
 characters within a glossary entry.

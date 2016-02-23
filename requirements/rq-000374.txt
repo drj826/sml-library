@@ -1,0 +1,16 @@
+>>>requirement.rq-000374
+
+title:: Represent Ontology Semantics
+
+priority:: routine
+
+type:: data format
+
+associated:: rq-000006
+
+description:: The data format shall represent ontology semantics.
+This means the data format can be used to define an ontology.
+
+index:: rq-000374; ontology semantics
+
+<<<requirement

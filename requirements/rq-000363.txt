@@ -1,13 +1,13 @@
 >>>requirement.rq-000363
 
-title:: Represent the Start of a Document Section
+title:: Define the Syntax for the Start of a Document Section
 
 type:: data format
 
 is_part_of:: rq-000326
 
-description:: The data format shall have the capability to represent
-the start of a document section.
+description:: The data format shall define the syntax for the start of
+a document section.
 
 index:: rq-000363; section
 

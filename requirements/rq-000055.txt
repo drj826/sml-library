@@ -1,6 +1,6 @@
 >>>requirement.rq-000055
 
-title:: Represent a Smiley Face
+title:: Define the Syntax for a Smiley Face Symbol
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-smiley face.
+description:: The data format shall define the syntax for a smiley
+face symbol.
 
-index:: rq-000055; smiley face
+index:: rq-000055; smiley face; emoticon; symbol!smiley face
 
 <<<requirement

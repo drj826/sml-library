@@ -1,6 +1,6 @@
 >>>requirement.rq-000056
 
-title:: Represent a Frowny Face
+title:: Define the Syntax for a Frowny Face Symbol
 
 priority:: routine
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall have the capability to represent a
-frowny face.
+description:: The data format shall define the syntax for a frowny
+face symbol.
 
-index:: rq-000056; frowny face
+index:: rq-000056; frowny face; symbol!frowny face
 
 <<<requirement
