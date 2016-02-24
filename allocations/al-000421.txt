@@ -1,0 +1,11 @@
+>>>allocation.al-000421
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000331         # Define the Syntax for an Unordered List Item
+
+test:: tc-000041                # Demonstration
+
+index:: al-000421
+
+<<<allocation

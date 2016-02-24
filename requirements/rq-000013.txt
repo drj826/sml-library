@@ -1,10 +1,10 @@
 >>>requirement.rq-000013
 
-title:: Define the Syntax for an Image
+title:: Define the Syntax for an Image Element
 
 priority:: routine
 
-is_part_of:: rq-000327
+is_part_of:: rq-000372
 
 type:: data format
 

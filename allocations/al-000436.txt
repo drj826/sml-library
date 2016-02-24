@@ -1,0 +1,11 @@
+>>>allocation.al-000436
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000380         # Define the Syntax for a Script Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000436
+
+<<<allocation

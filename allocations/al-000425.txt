@@ -1,0 +1,11 @@
+>>>allocation.al-000425
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000372         # Define the Syntax for an Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000425
+
+<<<allocation

@@ -1,0 +1,13 @@
+>>>requirement.rq-000390
+
+title:: Define the Syntax for a Bold String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a bold string.
+
+index:: rq-000390; bold; string!bold
+
+<<<requirement

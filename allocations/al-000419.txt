@@ -1,0 +1,11 @@
+>>>allocation.al-000419
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000362         # Define the Syntax for the End of a Named Division
+
+test:: tc-000041                # Demonstration
+
+index:: al-000419
+
+<<<allocation

@@ -1,0 +1,11 @@
+>>>allocation.al-000431
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000382         # Define the Syntax for an Review Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000431
+
+<<<allocation

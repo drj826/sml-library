@@ -1,0 +1,11 @@
+>>>allocation.al-000430
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000379         # Define the Syntax for a CSV File Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000430
+
+<<<allocation

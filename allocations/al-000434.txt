@@ -1,0 +1,11 @@
+>>>allocation.al-000434
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000388         # Define the Syntax for a Version History Entry
+
+test:: tc-000041                # Demonstration
+
+index:: al-000434
+
+<<<allocation

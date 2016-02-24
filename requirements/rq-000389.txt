@@ -1,0 +1,15 @@
+>>>requirement.rq-000389
+
+title:: Define the Syntax for Non-Reference Strings
+
+type:: data format
+
+is_part_of:: rq-000334
+
+description:: The data format shall define the syntax for
+non-reference strings.  Non-reference strings are strings that do not
+refer to any other information.
+
+index:: rq-000389; string!non-reference
+
+<<<requirement

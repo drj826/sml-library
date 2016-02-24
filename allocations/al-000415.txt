@@ -1,0 +1,11 @@
+>>>allocation.al-000415
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000368         # Define the Syntax for the End of a Table Row
+
+test:: tc-000041                # Demonstration
+
+index:: al-000415
+
+<<<allocation

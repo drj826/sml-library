@@ -1,0 +1,17 @@
+>>>requirement.rq-000383
+
+title:: Define the Syntax for a File Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a file
+element.  The purpose of a file element is to identify a file which is
+the property of a division (structure or entity).  For example, the
+LISTING division may have a `file' property which identifies a file
+containing the contents of the listing.
+
+index:: rq-000383
+
+<<<requirement

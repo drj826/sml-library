@@ -1,0 +1,17 @@
+>>>requirement.rq-000386
+
+title:: Define the Syntax for an Attribute Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for an attribute
+element.  The purpose of an attribute element is to declare a property
+name and value that are not declared in the ontology.  This gives
+authors the flexibility to add properties without changing the library
+ontology.
+
+index:: rq-000386; attribute element; element!attribute
+
+<<<requirement

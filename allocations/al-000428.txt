@@ -1,0 +1,11 @@
+>>>allocation.al-000428
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000378         # Define the Syntax for a Plugin Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000428
+
+<<<allocation

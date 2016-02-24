@@ -1,0 +1,15 @@
+>>>requirement.rq-000385
+
+title:: Define the Syntax for a Variable Definition
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a variable
+definition.  The purpose of a variable definition is to define a value
+in one place but use it in many places.
+
+index:: rq-000385; variable definition; element!variable definition
+
+<<<requirement

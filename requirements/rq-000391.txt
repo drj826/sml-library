@@ -1,0 +1,14 @@
+>>>requirement.rq-000391
+
+title:: Define the Syntax for a Italics String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a italics
+string.
+
+index:: rq-000391; italics; string!italics
+
+<<<requirement

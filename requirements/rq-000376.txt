@@ -1,0 +1,14 @@
+>>>requirement.rq-000376
+
+title:: Define the Syntax for a Title Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a title
+element. A title element declares the title of the enclosing division.
+
+index:: rq-000376; element!title
+
+<<<requirement

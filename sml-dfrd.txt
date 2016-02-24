@@ -29,10 +29,13 @@ Functional Requirements Document (FRD)
 
 *.sml-dfrd-introduction Introduction
 
-This is a boring document.  What are you looking for? This is the
-[a:SML:DFRD] for the [a:SML] data format. It describes what the SML
-data format must be able to represent. So, if you're wondering, ``Can
-SML represent ~~strikethrough~~ strings?'' this document is for
+This is a boring document.  Why in the world are you reading this?
+What could you possibly be looking for?
+
+This is the [a:SML:DFRD] for the [a:SML] data format. It describes
+syntax definition requirements and requirement for the semantics the
+SML data format must be able to represent. So, if you're wondering,
+``Can SML represent ~~strikethrough~~ strings?'' this document is for
 you![f:sml-dfrd-introduction:1]
 
 The required data format will be used to represent book, article, and

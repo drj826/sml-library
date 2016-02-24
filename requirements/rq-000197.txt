@@ -1,6 +1,6 @@
 >>>requirement.rq-000197
 
-title:: Declare an Entity
+title:: Represent an Entity Declaration
 
 is_part_of:: rq-000374
 
@@ -8,10 +8,10 @@ priority:: routine
 
 type:: data format
 
-description:: The data format shall have the capability to declare an
-allowed entity type.  For instance, a systems engineering domain might
-contain entities types like: problems, solutions, allocations, tests,
-results, tasks, and roles.
+description:: The data format shall have the capability to represent
+an entity declaration. For instance, a systems engineering domain
+might contain entities types like: problems, solutions, allocations,
+tests, results, tasks, and roles.
 
 index:: rq-000197; entity types
 

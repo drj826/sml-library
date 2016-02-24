@@ -1,0 +1,11 @@
+>>>allocation.al-000439
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000334         # Define String Syntax
+
+test:: tc-000041                # Demonstration
+
+index:: al-000439
+
+<<<allocation

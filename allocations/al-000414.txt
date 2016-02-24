@@ -1,0 +1,11 @@
+>>>allocation.al-000414
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000364         # Define the Syntax for the End of a Document Section
+
+test:: tc-000041                # Demonstration
+
+index:: al-000414
+
+<<<allocation

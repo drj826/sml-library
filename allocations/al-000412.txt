@@ -1,0 +1,11 @@
+>>>allocation.al-000412
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000363         # Define the Syntax for the Start of a Document Section
+
+test:: tc-000041                # Demonstration
+
+index:: al-000412
+
+<<<allocation

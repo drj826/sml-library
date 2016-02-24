@@ -1,0 +1,16 @@
+>>>requirement.rq-000377
+
+title:: Define the Syntax for an Include Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for an include
+element.  An include element instructs the application to include in
+the document a division from another part of the library.  This
+enables users to re-use content.
+
+index:: rq-000377; include element; element!include
+
+<<<requirement

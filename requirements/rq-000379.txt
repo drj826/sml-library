@@ -1,0 +1,15 @@
+>>>requirement.rq-000379
+
+title:: Define the Syntax for a CSV File Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a CSV file
+element.  The purpose of the CSV file element is to identify a CSV
+file containing entity property declarations.
+
+index:: rq-000379; CSV file; element!CSV file
+
+<<<requirement

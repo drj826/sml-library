@@ -1,0 +1,14 @@
+>>>requirement.rq-000392
+
+title:: Define the Syntax for a Fixed Width String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a fixed
+width string.
+
+index:: rq-000392; fixed width; string!fixed width
+
+<<<requirement

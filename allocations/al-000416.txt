@@ -1,0 +1,11 @@
+>>>allocation.al-000416
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000365         # Define the Syntax for the Start of a Table Cell
+
+test:: tc-000041                # Demonstration
+
+index:: al-000416
+
+<<<allocation

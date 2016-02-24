@@ -1,0 +1,11 @@
+>>>allocation.al-000423
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000332         # Define the Syntax for an Ordered List Item
+
+test:: tc-000041                # Demonstration
+
+index:: al-000423
+
+<<<allocation

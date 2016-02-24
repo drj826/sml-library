@@ -1,0 +1,11 @@
+>>>allocation.al-000426
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000376         # Define the Syntax for a Title Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000426
+
+<<<allocation

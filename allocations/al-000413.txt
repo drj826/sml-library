@@ -1,0 +1,11 @@
+>>>allocation.al-000413
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000361         # Define the Syntax for the Start of a Named Division
+
+test:: tc-000041                # Demonstration
+
+index:: al-000413
+
+<<<allocation

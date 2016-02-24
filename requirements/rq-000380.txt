@@ -1,0 +1,15 @@
+>>>requirement.rq-000380
+
+title:: Define the Syntax for a Script Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a script
+element.  A script element instructs the application to run a script
+and include the results in the document.
+
+index:: rq-000380; script element; element!script
+
+<<<requirement

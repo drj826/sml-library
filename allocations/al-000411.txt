@@ -1,0 +1,11 @@
+>>>allocation.al-000411
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000326         # Define Document Syntax
+
+test:: tc-000041                # Demonstration
+
+index:: al-000411
+
+<<<allocation

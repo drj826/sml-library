@@ -1,0 +1,11 @@
+>>>allocation.al-000422
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000335         # Define the Syntax for a Section Heading
+
+test:: tc-000041                # Demonstration
+
+index:: al-000422
+
+<<<allocation

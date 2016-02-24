@@ -1,0 +1,11 @@
+>>>allocation.al-000427
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000377         # Define the Syntax for an Include Element
+
+test:: tc-000041                # Demonstration
+
+index:: al-000427
+
+<<<allocation

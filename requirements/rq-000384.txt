@@ -1,0 +1,17 @@
+>>>requirement.rq-000384
+
+title:: Define the Syntax for a Definition Element
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a definition
+element.  The purpose of a definition element is to declare a term and
+it's related definition.  This syntax might be used for multiple
+different semantics such as glossary entries, acronym list entries,
+and variable definitions.
+
+index:: rq-000384; definition; element!definition
+
+<<<requirement

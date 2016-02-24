@@ -1,0 +1,11 @@
+>>>allocation.al-000433
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000387         # Define the Syntax for a Procedural Step
+
+test:: tc-000041                # Demonstration
+
+index:: al-000433
+
+<<<allocation

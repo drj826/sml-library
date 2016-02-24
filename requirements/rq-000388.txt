@@ -1,0 +1,16 @@
+>>>requirement.rq-000388
+
+title:: Define the Syntax for a Version History Entry
+
+type:: data format
+
+is_part_of:: rq-000372
+
+description:: The data format shall define the syntax for a version
+history entry.  The purpose of a version history entry is to describe
+a specific version of a work.
+
+index:: rq-000388; version history entry; element!version history
+entry
+
+<<<requirement
