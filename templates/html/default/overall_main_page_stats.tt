@@ -1,0 +1,95 @@
+[%#
+
+overall_main_page_stats.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+[%-
+
+id               = library.get_id
+name             = library.get_name
+document_id_list = library.get_document_presentation_id_list
+ontology         = library.get_ontology
+entity_name_list = ontology.get_entity_name_list
+grey             = '#dddddd'
+orange           = '#ff9933'
+green            = '#33cc33'
+blue             = '#4d96ff'
+lite_orange      = '#ffcc99'
+lite_green       = '#aae7aa'
+lite_blue        = '#cce1ff'
+num              = 0
+bgcolor          = '#eeeeee'
+
+-%]
+
+[%temp = library.get_all_entities%]
+[%- WRAPPER overall_page.tt -%]
+
+<h1 style="text-align:center;">[%- name -%] Statistics</h1>
+
+<div>
+
+<table border="2" style="width:75%;margin-left: auto; margin-right: auto;">
+<tr><th>Library</th><th>Ontology</th></tr>
+
+<tr>
+
+<td>
+
+<table border="1" style="width:90%;margin-left: auto; margin-right: auto;">
+<tr><th style="width:75%">Entity</th><th>Count</th></tr>
+[%- totalcount = 0-%]
+[%- FOREACH entity IN entity_name_list -%]
+  [%- count = library.get_division_count(entity) -%]
+  [%- IF count != "" -%]
+    [%- totalcount = totalcount + count -%]
+  [%- END -%]
+<tr><td>[%- entity -%]</td><td>[%- count -%]</td></tr>
+[%- END -%]
+<tr><td>TOTAL ENTITY COUNT</td><td>[%- totalcount -%]</td></tr>
+</table>
+
+</br></br>
+
+<table border="1" style="width:90%;margin-left: auto; margin-right: auto;">
+<tr><th style="width:75%">Structure</th><th>Count</th></tr>
+[%- totalcount = 0-%]
+[%- FOREACH structure IN ontology.get_structure_name_list -%]
+  [%- count = library.get_division_count(structure) -%]
+  [%- IF count != "" -%]
+    [%- totalcount = totalcount + count -%]
+  [%- END -%]
+<tr><td>[%- structure -%]</td><td>[%- count -%]</td></tr>
+[%- END -%]
+<tr><td>TOTAL STRUCTURE COUNT</td><td>[%- totalcount -%]</td></tr>
+</table>
+
+</td>
+
+<td>
+
+<table border="1" style="width:90%;margin-left: auto; margin-right: auto;">
+<tr><th style="width:75%">Rule type</th><th>Count</th></tr>
+[%- totalcount = 0-%]
+[%- FOREACH rule IN ontology.get_rule_type_list -%]
+  [%- count = ontology.get_rule_type_count(rule) -%]
+  [%- IF count != "" -%]
+    [%- totalcount = totalcount + count -%]
+  [%- END -%]
+<tr><td>[%- rule -%]</td><td>[%- count -%]</td></tr>
+[%- END -%]
+<tr><td>TOTAL RULE COUNT</td><td>[%- totalcount -%]</td></tr>
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
+[%- END -%]

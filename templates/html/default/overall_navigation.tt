@@ -33,6 +33,8 @@ library => an SML::Library object
 <a href="APPROVED/LIBRARY/index.html">APPROVED</a><br/>
 [%- END -%]
 
+<a href="library-stats.html">LIBRARY Stats</a><br/>
+
 </td>
 </tr>
 
