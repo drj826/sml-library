@@ -1,0 +1,13 @@
+>>>requirement.rq-000393
+
+title:: Define the Syntax for a Underline String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a underline string.
+
+index:: rq-000393; underline; string!underline
+
+<<<requirement

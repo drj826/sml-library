@@ -1,0 +1,13 @@
+>>>requirement.rq-000394
+
+title:: Define the Syntax for a Superscript String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a superscript string.
+
+index:: rq-000394; superscript; string!superscript
+
+<<<requirement

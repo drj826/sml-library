@@ -1,0 +1,14 @@
+>>>requirement.rq-000399
+
+title:: Define the Syntax for a Single Quoted String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a single
+quoted string.
+
+index:: rq-000399; single quote; string!single quoted
+
+<<<requirement

@@ -1,0 +1,14 @@
+>>>requirement.rq-000397
+
+title:: Define the Syntax for a User Entered Text String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a user
+entered text string.
+
+index:: rq-000397; user entered text; string!user entered text
+
+<<<requirement

@@ -1,0 +1,13 @@
+>>>requirement.rq-000398
+
+title:: Define the Syntax for an XML Tag
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for an XML tag.
+
+index:: rq-000398; xml tag; string!xml tag
+
+<<<requirement

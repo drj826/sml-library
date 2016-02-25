@@ -1,0 +1,14 @@
+>>>requirement.rq-000401
+
+title:: Define the Syntax for a Literal String
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a literal
+string.
+
+index:: rq-000401; double quote; string!literal
+
+<<<requirement

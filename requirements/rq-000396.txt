@@ -1,0 +1,13 @@
+>>>requirement.rq-000396
+
+title:: Define the Syntax for a Keystroke Symbol
+
+type:: data format
+
+is_part_of:: rq-000389
+
+description:: The data format shall define the syntax for a keystroke symbol.
+
+index:: rq-000396; keystroke symbol; string!keystroke symbol
+
+<<<requirement

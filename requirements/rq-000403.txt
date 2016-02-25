@@ -1,0 +1,15 @@
+>>>requirement.rq-000403
+
+title:: Define the Syntax for a File Reference String
+
+is_part_of:: rq-000402
+
+type:: data format
+
+description:: The data format shall have the capability to represent a
+file reference string.  The purpose of a file reference string is to
+identify any file specification even to a file that doesn't exist.
+
+index:: rq-000403; file reference; string!file reference
+
+<<<requirement

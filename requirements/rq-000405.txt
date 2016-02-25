@@ -1,0 +1,15 @@
+>>>requirement.rq-000405
+
+title:: Define the Syntax for a Command Reference String
+
+is_part_of:: rq-000402
+
+type:: data format
+
+description:: The data format shall have the capability to represent a
+command reference string.  A command reference string is a command
+that a user might enter at a command prompt.
+
+index:: rq-000405; command; string!command reference
+
+<<<requirement

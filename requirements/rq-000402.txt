@@ -1,0 +1,16 @@
+>>>requirement.rq-000402
+
+title:: Define the Syntax for External Reference Strings
+
+type:: data format
+
+is_part_of:: rq-000334
+
+description:: The data format shall define the syntax for external
+reference strings.  External reference strings are strings that refer
+to information external to the library such as an Email address or
+external URL.
+
+index:: rq-000402; string!external reference
+
+<<<requirement

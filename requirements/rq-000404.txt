@@ -1,0 +1,15 @@
+>>>requirement.rq-000404
+
+title:: Define the Syntax for a Path Reference String
+
+is_part_of:: rq-000402
+
+type:: data format
+
+description:: The data format shall have the capability to represent a
+path reference string.  The purpose of a path reference string is to
+identify any path specification even to a path that doesn't exist.
+
+index:: rq-000404; path reference; string!path reference
+
+<<<requirement
