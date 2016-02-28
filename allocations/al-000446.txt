@@ -1,0 +1,11 @@
+>>>allocation.al-000446
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000416         # Define the Syntax for a Glossary Definition Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000446
+
+<<<allocation

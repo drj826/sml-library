@@ -1,0 +1,11 @@
+>>>allocation.al-000471
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000394         # Define the Syntax for a Superscript String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000471
+
+<<<allocation

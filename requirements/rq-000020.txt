@@ -1,10 +1,10 @@
 >>>requirement.rq-000020
 
-title:: Define the Syntax for a Cross Reference
+title:: Define the Syntax for a Cross Reference String
 
 priority:: routine
 
-is_part_of:: rq-000334
+is_part_of:: rq-000407
 
 type:: data format
 
@@ -14,10 +14,13 @@ associated:: rq-000022
 
 description:: The data format shall have the capability to represent
 an inline cross reference.  An inline cross reference enables authors
-to direct the reader's attention to another part of the document.  The
-cross referencing capability must enable authors to cross reference
-specified document elements.
+to direct the reader's attention to another part of the library.  The
+cross reference shall be presented in the document as a location
+description for the target location.
 
 index:: rq-000020; cross references
+
+For instance if the target of the cross reference is a table then the
+application should display the table number like `Table 1-21'.
 
 <<<requirement

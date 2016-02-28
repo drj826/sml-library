@@ -1,0 +1,16 @@
+>>>requirement.rq-000427
+
+title:: Define the Syntax for a Linebreak Symbol
+
+type:: data format
+
+is_part_of:: rq-000426
+
+description:: The data format shall define the syntax for a linebreak
+symbol.  A linebreak symbol instructs instructs the application to
+insert a linebreak at the location it is encountered during
+processing.
+
+index:: rq-000427
+
+<<<requirement

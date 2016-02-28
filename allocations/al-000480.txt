@@ -1,0 +1,11 @@
+>>>allocation.al-000480
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000428         # Define the Syntax for a Pagebreak Symbol
+
+test:: tc-000041                # Demonstration
+
+index:: al-000480
+
+<<<allocation

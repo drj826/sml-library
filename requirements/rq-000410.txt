@@ -1,0 +1,15 @@
+>>>requirement.rq-000410
+
+title:: Define the Syntax for an ID Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for an ID
+reference string.  The purpose of an ID reference string is to
+reference the ID of any division in the library.
+
+index:: rq-000410; string!ID reference
+
+<<<requirement

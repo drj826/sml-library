@@ -1,0 +1,18 @@
+>>>requirement.rq-000408
+
+title:: Define the Syntax for a Property Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for a property
+reference string.  The purpose of a property reference string is to
+``look up'' any property value in the library and re-use it in another
+location.  For instance if you have a table description you wish to
+show in other locations you should have the ability to ``look up'' the
+description property of the table.
+
+index:: rq-000408; string!property reference; lookup
+
+<<<requirement

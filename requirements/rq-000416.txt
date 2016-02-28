@@ -1,0 +1,19 @@
+>>>requirement.rq-000416
+
+title:: Define the Syntax for a Glossary Definition Reference String
+
+priority:: routine
+
+is_part_of:: rq-000407
+
+type:: data format
+
+description:: The data format shall have the capability to represent
+an inline glossary definition reference.  In other words, the data
+format must have the capability to tell the application to replace the
+reference with the glossary definition.
+
+index:: rq-000416; glossary definition reference; string!glossary
+definition reference
+
+<<<requirement

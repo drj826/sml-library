@@ -1,0 +1,19 @@
+>>>requirement.rq-000415
+
+title:: Define the Syntax for a Glossary Term Reference String
+
+priority:: routine
+
+is_part_of:: rq-000407
+
+type:: data format
+
+description:: The data format shall have the capability to represent
+an inline glossary term reference.  In other words, the data format
+must have the capability to indicate a term is defined in the
+glossary.
+
+index:: rq-000415; glossary term reference; string!glossary term
+reference
+
+<<<requirement

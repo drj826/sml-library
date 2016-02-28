@@ -1,0 +1,11 @@
+>>>allocation.al-000482
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000431         # Define the Syntax for a TeX Symbol
+
+test:: tc-000041                # Demonstration
+
+index:: al-000482
+
+<<<allocation

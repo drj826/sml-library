@@ -1,0 +1,17 @@
+>>>requirement.rq-000431
+
+title:: Define the Syntax for a TeX Symbol
+
+priority:: routine
+
+is_part_of:: rq-000360
+
+type:: data format
+
+description:: The data format shall define the syntax for a TeX
+symbol.  TeX is a computer typesetting system used to produce high
+quality hardcopy document renditions.
+
+index:: rq-000431; TeX symbol; symbol!TeX
+
+<<<requirement

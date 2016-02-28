@@ -1,6 +1,6 @@
 >>>requirement.rq-000021
 
-title:: Define the Syntax for an External Hyperlink
+title:: Define the Syntax for an External Hyperlink Reference String
 
 priority:: routine
 
@@ -9,9 +9,7 @@ is_part_of:: rq-000402
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline external hyperlink.  An inline external hyperlink enables
-authors to provide a link to a specified type of resource external to
-the document.
+an inline reference to an external hyperlink (URL).
 
 index:: rq-000021; external hyperlinks; hyperlink!external; string!URL
 

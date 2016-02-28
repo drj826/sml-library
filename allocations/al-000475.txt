@@ -1,0 +1,11 @@
+>>>allocation.al-000475
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000403         # Define the Syntax for a File Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000475
+
+<<<allocation

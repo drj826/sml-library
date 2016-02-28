@@ -1,0 +1,11 @@
+>>>allocation.al-000455
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000414         # Define the Syntax for a Variable Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000455
+
+<<<allocation

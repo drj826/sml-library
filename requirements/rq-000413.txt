@@ -1,0 +1,18 @@
+>>>requirement.rq-000413
+
+title:: Define the Syntax for a Citation Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for a citation
+reference string.  The purpose of a citation reference string is to
+refer to any source defined in the list of references.  In addition to
+citing the source itself the syntax must enable the author to describe
+where in that source the reader should direct their attention (i.e. pp
+26-28).
+
+index:: rq-000413; string!citation reference
+
+<<<requirement

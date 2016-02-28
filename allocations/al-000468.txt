@@ -1,0 +1,11 @@
+>>>allocation.al-000468
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000393         # Define the Syntax for a Underline String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000468
+
+<<<allocation

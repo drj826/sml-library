@@ -1,0 +1,17 @@
+>>>requirement.rq-000430
+
+title:: Define the Syntax for a LaTeX Symbol
+
+priority:: routine
+
+is_part_of:: rq-000360
+
+type:: data format
+
+description:: The data format shall define the syntax for a LaTeX
+symbol.  LaTeX is a computer typesetting system used to produce high
+quality hardcopy document renditions.
+
+index:: rq-000430; LaTeX symbol; symbol!LaTeX
+
+<<<requirement

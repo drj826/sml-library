@@ -1,0 +1,11 @@
+>>>allocation.al-000478
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000429         # Define the Syntax for a Clearpage Symbol
+
+test:: tc-000041                # Demonstration
+
+index:: al-000478
+
+<<<allocation

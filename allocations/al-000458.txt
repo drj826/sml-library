@@ -1,0 +1,11 @@
+>>>allocation.al-000458
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000422         # Define the Syntax for a ``Page Count'' Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000458
+
+<<<allocation

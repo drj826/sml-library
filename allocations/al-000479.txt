@@ -1,0 +1,11 @@
+>>>allocation.al-000479
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000427         # Define the Syntax for a Linebreak Symbol
+
+test:: tc-000041                # Demonstration
+
+index:: al-000479
+
+<<<allocation

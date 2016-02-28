@@ -1,0 +1,11 @@
+>>>allocation.al-000459
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000389         # Define the Syntax for Non-Reference Strings
+
+test:: tc-000041                # Demonstration
+
+index:: al-000459
+
+<<<allocation

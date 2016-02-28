@@ -1,0 +1,11 @@
+>>>allocation.al-000448
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000410         # Define the Syntax for an ID Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000448
+
+<<<allocation

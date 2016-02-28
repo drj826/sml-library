@@ -1,0 +1,16 @@
+>>>requirement.rq-000428
+
+title:: Define the Syntax for a Pagebreak Symbol
+
+type:: data format
+
+is_part_of:: rq-000426
+
+description:: The data format shall define the syntax for a pagebreak
+symbol.  A pagebreak symbol instructs instructs the application to
+insert a pagebreak at the location it is encountered during
+processing.
+
+index:: rq-000428
+
+<<<requirement

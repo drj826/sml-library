@@ -1,0 +1,11 @@
+>>>allocation.al-000447
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000423         # Define the Syntax for a ``The Section'' Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000447
+
+<<<allocation

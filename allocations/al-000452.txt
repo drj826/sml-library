@@ -1,0 +1,11 @@
+>>>allocation.al-000452
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000408         # Define the Syntax for a Property Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000452
+
+<<<allocation

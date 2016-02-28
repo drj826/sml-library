@@ -1,0 +1,11 @@
+>>>allocation.al-000481
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000055         # Define the Syntax for a Smiley Face Symbol
+
+test:: tc-000041                # Demonstration
+
+index:: al-000481
+
+<<<allocation

@@ -1,0 +1,11 @@
+>>>allocation.al-000472
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000402         # Define the Syntax for External Reference Strings
+
+test:: tc-000041                # Demonstration
+
+index:: al-000472
+
+<<<allocation

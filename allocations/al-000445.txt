@@ -1,0 +1,11 @@
+>>>allocation.al-000445
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000412         # Define the Syntax for a Footnote Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000445
+
+<<<allocation

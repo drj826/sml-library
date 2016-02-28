@@ -1,19 +1,20 @@
 >>>requirement.rq-000090
 
-title:: Define the Syntax for an Acronym Reference
+title:: Define the Syntax for an Acronym Term Reference String
 
 priority:: routine
 
-is_part_of:: rq-000334
+is_part_of:: rq-000407
 
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline acronym reference.  In other words, the data format must
-have the capability to indicate an acronym is in the official list of
-acronyms.  The data format must allow acronym references to span
-newline characters.
+an inline acronym term reference.  In other words, the data format
+must have the capability to indicate an acronym is in the official
+list of acronyms. The acronym `term' is the short form of the acronym
+itself and not the expanded definition of the acronym.
 
-index:: rq-000090; acronym reference
+index:: rq-000090; acronym term reference; string!acronym term
+reference
 
 <<<requirement

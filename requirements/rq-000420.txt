@@ -1,0 +1,19 @@
+>>>requirement.rq-000420
+
+title:: Define the Syntax for a ``The Page'' Reference String
+
+type:: data format
+
+is_part_of:: rq-000419
+
+associated:: rq-000422
+
+description:: The data format shall define the syntax for a ``the
+page'' reference string.  The purpose of a ``the page'' reference
+string is to display the current page number.  This is often used in a
+header or footer along with a ``page count'' reference string to form
+a string like ``page 23 of 312''.
+
+index:: rq-000420; the page reference; string!the page reference
+
+<<<requirement

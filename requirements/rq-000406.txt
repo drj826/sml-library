@@ -1,6 +1,6 @@
 >>>requirement.rq-000406
 
-title:: Define the Syntax for an External Hyperlink
+title:: Define the Syntax for an Email Address Reference String
 
 priority:: routine
 
@@ -9,10 +9,20 @@ is_part_of:: rq-000402
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline external hyperlink.  An inline external hyperlink enables
-authors to provide a link to a specified type of resource external to
-the document.
+an inline reference to an Email address. The syntax must define how to
+specify the Email address and provide an option to define other text
+to be displayed in the published document.
 
-index:: rq-000406; external hyperlinks; hyperlink!external; string!URL
+index:: rq-000406; Email address; string!Email address
+
+For instance an author may want to refer just to an Email address
+like:
+
+  drj826@acm.org
+
+Or, he may want to refer to an Email address but display other text in
+the document:
+
+  drj826@acm.org "Don Johnson"
 
 <<<requirement

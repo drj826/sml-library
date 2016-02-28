@@ -1,0 +1,16 @@
+>>>requirement.rq-000426
+
+title:: Define the Syntax for Processing Instruction Symbols
+
+type:: data format
+
+is_part_of:: rq-000360
+
+description:: The data format shall define the syntax for processing
+instruction symbols.  A processing instruction symbol instructs the
+application to take some action when the symbol is encountered during
+processing.
+
+index:: rq-000426
+
+<<<requirement

@@ -1,0 +1,11 @@
+>>>allocation.al-000477
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000426         # Define the Syntax for Processing Instruction Symbols
+
+test:: tc-000041                # Demonstration
+
+index:: al-000477
+
+<<<allocation

@@ -1,8 +1,8 @@
 >>>requirement.rq-000187
 
-title:: Define the Syntax for an Internal Hyperlink
+title:: Define the Syntax for an Internal Hyperlink String
 
-is_part_of:: rq-000334
+is_part_of:: rq-000407
 
 priority:: routine
 
@@ -13,11 +13,16 @@ associated:: rq-000021
 associated:: rq-000020
 
 description:: The data format shall have the capability to represent
-an inline internal hyperlink.  This capability must allow authors to
-designate arbitrary ``from'' span of text as the beginning end of the
-hyperlink and to designate an arbitrary location in the document as
-the target end of the hyperlink.
+an inline hyperlink to a location internal to the library.  This
+capability must allow authors to designate arbitrary ``from'' span of
+text as the beginning end of the hyperlink and to designate an
+arbitrary location in the document as the target end of the hyperlink.
 
 index:: rq-000187; internal hyperlink; hyperlink!internal
+
+This syntax will be different than a cross reference because it will
+allow the author to specify the text to display in the document.  A
+cross reference will display a location description and not text
+specified by the author.
 
 <<<requirement

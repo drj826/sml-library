@@ -1,0 +1,11 @@
+>>>allocation.al-000449
+
+configuration_item:: ci-000433  # SML::Syntax
+
+requirement:: rq-000425         # Define the Syntax for a ``The Revision'' Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000449
+
+<<<allocation

@@ -1,0 +1,11 @@
+>>>allocation.al-000474
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000405         # Define the Syntax for a Command Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000474
+
+<<<allocation

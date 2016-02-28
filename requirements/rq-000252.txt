@@ -1,8 +1,8 @@
 >>>requirement.rq-000252
 
-title:: Define the Syntax for an Index Reference
+title:: Define the Syntax for an Index Reference String
 
-is_part_of:: rq-000334
+is_part_of:: rq-000407
 
 type:: data format
 

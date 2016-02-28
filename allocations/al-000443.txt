@@ -1,0 +1,11 @@
+>>>allocation.al-000443
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000413         # Define the Syntax for a Citation Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000443
+
+<<<allocation

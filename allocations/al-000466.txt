@@ -1,0 +1,11 @@
+>>>allocation.al-000466
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000392         # Define the Syntax for a Fixed Width String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000466
+
+<<<allocation

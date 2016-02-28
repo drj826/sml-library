@@ -1,0 +1,11 @@
+>>>allocation.al-000463
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000399         # Define the Syntax for a Single Quoted String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000463
+
+<<<allocation

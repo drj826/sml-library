@@ -1,0 +1,11 @@
+>>>allocation.al-000441
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000407         # Define the Syntax for Internal Reference Strings
+
+test:: tc-000041                # Demonstration
+
+index:: al-000441
+
+<<<allocation

@@ -1,0 +1,15 @@
+>>>requirement.rq-000412
+
+title:: Define the Syntax for a Footnote Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for a footnote
+reference string.  The purpose of a footnote reference string is to
+refer to any footnote in the document.
+
+index:: rq-000412; string!footnote reference
+
+<<<requirement

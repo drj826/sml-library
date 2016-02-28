@@ -1,0 +1,11 @@
+>>>allocation.al-000460
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000391         # Define the Syntax for a Italics String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000460
+
+<<<allocation

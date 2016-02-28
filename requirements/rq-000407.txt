@@ -1,0 +1,14 @@
+>>>requirement.rq-000407
+
+title:: Define the Syntax for Internal Reference Strings
+
+type:: data format
+
+is_part_of:: rq-000334
+
+description:: The data format shall define the syntax for strings that
+reference locations internal to the library.
+
+index:: rq-000407; string!internal reference
+
+<<<requirement

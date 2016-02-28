@@ -1,0 +1,16 @@
+>>>requirement.rq-000421
+
+title:: Define the Syntax for a ``The Date'' Reference String
+
+type:: data format
+
+is_part_of:: rq-000419
+
+description:: The data format shall define the syntax for a ``the
+date'' reference string.  The purpose of a ``the date'' reference
+string is to display the current date.  This is often used in a header
+or footer.
+
+index:: rq-000421; the date reference; string!the date reference
+
+<<<requirement

@@ -1,0 +1,19 @@
+>>>requirement.rq-000422
+
+title:: Define the Syntax for a ``Page Count'' Reference String
+
+type:: data format
+
+is_part_of:: rq-000419
+
+associated:: rq-000420
+
+description:: The data format shall define the syntax for a ``page
+count'' reference string.  The purpose of a ``page count'' reference
+string is to display the number of pages in the document.  This is
+often used in a header or footer along with a ``the page'' reference
+string to form a string like ``page 23 of 312''.
+
+index:: rq-000422; page count reference; string!page count reference
+
+<<<requirement

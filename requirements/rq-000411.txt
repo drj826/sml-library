@@ -1,0 +1,16 @@
+>>>requirement.rq-000411
+
+title:: Define the Syntax for a Page Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for a page
+reference string.  The purpose of a page reference string is to
+display the page number on which the specified division appears in the
+document.
+
+index:: rq-000411; string!page reference
+
+<<<requirement

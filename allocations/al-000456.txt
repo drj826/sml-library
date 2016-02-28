@@ -1,0 +1,11 @@
+>>>allocation.al-000456
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000424         # Define the Syntax for a ``The Version'' Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000456
+
+<<<allocation

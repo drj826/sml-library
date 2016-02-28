@@ -30,6 +30,20 @@ ontology = library.get_ontology
 <td width="90px">[% INCLUDE status_icon.tt %]&nbsp;[% INCLUDE id_link.tt id = entity_id %]</td>
 <td>[% INCLUDE STRING.tt self = ps.get_property_string(entity_id,'title') %]</td>
 
+[%- IF ontology.allows_property_name('has_part',entity_name) -%]
+  [%- IF ps.has_property(entity_id,'has_part') -%]
+    [%- list = ps.get_property_value_list(entity_id,'has_part') -%]
+    [%- count = list.size -%]
+    [%- IF count == 1 -%]
+<td>1 part</td>
+    [%- ELSE -%]
+<td>[%count%] parts</td>
+    [%- END -%]
+  [%- ELSE -%]
+<td>&nbsp;</td>
+  [%- END -%]
+[%- END -%]
+
 [%- IF ontology.allows_property_name('allocation',entity_name) -%]
   [%- IF ps.has_property(entity_id,'allocation') -%]
     [%- list = ps.get_property_value_list(entity_id,'allocation') -%]

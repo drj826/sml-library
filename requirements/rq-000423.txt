@@ -1,0 +1,18 @@
+>>>requirement.rq-000423
+
+title:: Define the Syntax for a ``The Section'' Reference String
+
+type:: data format
+
+is_part_of:: rq-000419
+
+associated:: rq-000422
+
+description:: The data format shall define the syntax for a ``the
+section'' reference string.  The purpose of a ``the section''
+reference string is to display the current section number.  This is
+often used in a header or footer.
+
+index:: rq-000423; the section reference; string!the section reference
+
+<<<requirement

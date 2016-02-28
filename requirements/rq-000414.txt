@@ -1,0 +1,16 @@
+>>>requirement.rq-000414
+
+title:: Define the Syntax for a Variable Reference String
+
+type:: data format
+
+is_part_of:: rq-000407
+
+description:: The data format shall define the syntax for a variable
+reference string.  The purpose of a variable reference string is to
+refer to the value of a variable previously defined anywhere else in
+the library.
+
+index:: rq-000414; string!variable reference
+
+<<<requirement

@@ -1,0 +1,17 @@
+>>>requirement.rq-000419
+
+title:: Define the Syntax for Contextual Replacement Reference Strings
+
+type:: data format
+
+is_part_of:: rq-000334
+
+description:: The data format shall define the syntax for contextual
+replacement reference strings.  A contextual reference is one with
+content that depends either on location in the document or on some
+some characteristic of the document.
+
+index:: rq-000419; contextual replacement reference; string!contextual
+replacement reference
+
+<<<requirement

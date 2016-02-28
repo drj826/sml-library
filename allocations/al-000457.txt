@@ -1,0 +1,11 @@
+>>>allocation.al-000457
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000417         # Define the Syntax for a Status Reference String
+
+test:: tc-000041                # Demonstration
+
+index:: al-000457
+
+<<<allocation

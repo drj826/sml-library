@@ -1,0 +1,19 @@
+>>>requirement.rq-000418
+
+title:: Define the Syntax for a Priority Reference String
+
+priority:: routine
+
+is_part_of:: rq-000407
+
+type:: data format
+
+description:: The data format shall have the capability to represent
+an inline priority reference.  An entity may have a priority property
+that represents the importance of the entity.  The priority reference
+will enable authors to refer to the priority of the entity from
+anywhere in the library.
+
+index:: rq-000418; priority reference; string!priority reference
+
+<<<requirement
