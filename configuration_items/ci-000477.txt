@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000477
 
-title:: SML Library Ontology Configuration
+title:: SML Library Ontology Configuration File
 
 type:: configuration file
 

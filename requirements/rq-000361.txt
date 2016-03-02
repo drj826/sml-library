@@ -8,8 +8,12 @@ is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the start of
 a named division.  Named divisions represent document structures
-composed of other (sub) divisions and content blocks.
+composed of other (sub) divisions and content blocks.  The start
+division syntax shall capture the division name and ID.
 
 index:: rq-000361; division
+
+outcome::2016-02-29:rq-000361:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -7,8 +7,14 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the end of a
-document section.
+document [g:SML:SECTION].
 
-index:: rq-000364; section
+index:: rq-000364; section syntax
+
+outcome::2016-03-02:rq-000364:red: I'm not convinced this requirement
+is necessary.  The technical solution I've chosen has ~~no~~ explicit
+syntax for the end of a document section.  Instead, the end of a
+document section is implied by either (1) the beginning of the next
+section, or (2) the end of the document. (Don Johnson)
 
 <<<requirement

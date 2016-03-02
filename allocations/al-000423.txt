@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000332         # Define the Syntax for an Ordered List Item
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000423
+
+outcome::2016-03-02:al-000423:green: The SML::Syntax class defines the
+syntax for an ordered list item on line 435 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

@@ -1,6 +1,6 @@
 >>>allocation.al-000287
 
-configuration_item:: ci-000006  # Core Ontology Configuration
+configuration_item:: ci-000006  # Core Ontology Configuration File
 
 requirement:: rq-000208         # Distinguish Reserved Words
 

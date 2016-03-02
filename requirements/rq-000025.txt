@@ -1,6 +1,6 @@
 >>>requirement.rq-000025
 
-title:: Define the Syntax for a Glossary Entry
+title:: Define the Syntax for a Glossary Entry Element
 
 priority:: routine
 
@@ -9,7 +9,7 @@ is_part_of:: rq-000372
 type:: data format
 
 description:: The data format shall define the syntax for a glossary
-entry.  This capability enable an author to establish formal
+entry element.  This capability enable an author to establish formal
 definitions of terms used in a document.  The data format
 representation of a glossary entry must allow but not mandate newline
 characters within a glossary entry.

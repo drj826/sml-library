@@ -11,71 +11,16 @@ type:: data format
 description:: The data format shall define the syntax for a division
 of pre-formatted text.  Pre-formatted text is verbatim text inserted
 into a document while preserving all white spaces and line breaks.
-This requirement serves as a container for data format requirements
-related to representing pre-formatted text.
 
-index:: rq-000018; pre-formatted text
+index:: rq-000018; pre-formatted text syntax; syntax!pre-formatted
+text
 
-Elements of pre-formatted text meta data include:
+No [g:SML:element]s should be allowed within a pre-formatted text
+division because all text should be interpretted as pre-formatted.  If
+you need elements like title and description consider using a
+[g:SML:LISTING] instead.
 
-:: element
-
-:: description
-
-:: type
-
-:: required?
-
-:: multiplicity
-
----
-
-: ~~title~~
-
-: Title of the pre-formatted text block
-
-: block
-
-: optional
-
-: single
-
----
-
-: ~~label~~
-
-: Unique identifier for the pre-formatted text block
-
-: ID
-
-: optional
-
-: single
-
----
-
-: ~~description~~
-
-: A one-paragraph description of the pre-formatted text block
-
-: block
-
-: optional
-
-: single
-
----
-
-:yellow: ~~narrative~~
-
-:yellow: The actual pre-formatted block of text
-
-:yellow: block
-
-:yellow: required
-
-:yellow: single
-
----
+outcome::2016-03-02:rq-000018:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

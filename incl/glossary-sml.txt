@@ -95,9 +95,9 @@ programming language theory
 ###
 
 glossary:: block {SML} = A [g:SML:part] which is a contiguous sequence
-of one or more ~~whole~~ [g:SML:line]s of text.  Blocks end with
-either a blank line or the beginning of another block. Blocks cannot
-contain blank lines.  Blocks may contain [g:SML:string]s
+of one or more ~~whole~~ non-blank [g:SML:line]s of text.  Blocks end
+with either a blank line or the beginning of another block. Blocks may
+contain [g:SML:string]s
 
 glossary:: break-fix {SML} = To replace/fix a broken part or to revert
 the system back to its approved baseline configuration.  Examples
@@ -230,11 +230,12 @@ the following test levels: (1) [g:SML:unit test], (2) [g:SML:component
 test], and (3) [g:SML:component integration test]
 
 glossary:: division {SML} = A [g:SML:part] which is a contiguous
-sequence of whole [g:SML:line]s.  A division has an ~~unambiguous~~
-beginning and end.  Sometimes the beginning and end are explicit and
-other times they are implicit.  A division may be uniquely identified
-using an [a:SML:ID].  The [a:SML:ID] may be used to refer to the
-division from other parts of the [g:SML:DOCUMENT] or [g:SML:library]
+sequence of whole [g:SML:line]s of text possibly including blank
+lines.  A division has an ~~unambiguous~~ beginning and end.  The
+beginning and end may be either explicit or implicit.  A division may
+contain [g:SML:block]s and other divisions. A division may be uniquely
+identified by an [a:SML:ID] that may be used to refer to the division
+from other parts of the [g:SML:DOCUMENT] or [g:SML:library]
 
 glossary:: DOCUMENT {SML} = (||SML::Document||) A [g:SML2:structure]
 that represents a written work about a topic
@@ -715,10 +716,10 @@ to automate certain document content generation
 glossary:: string {SML} = A [g:SML:part] which is a sequence of one or
 more characters that may be a ~~partial~~ line or may span one or more
 ~~whole or partial~~ lines. A string may span multiple [g:SML:line]s
-but may ~~not~~ span multiple [g:SML:block]s.  Some strings have
-special meaning like bold, italics, underlined, fixed width,
-superscript, and subscript strings.  Strings are also used to
-represent cross references and other content with special meaning.
+but may ~~not~~ span multiple [g:SML:block]s.  Some strings describe
+how to present the text like bold, italics, underlined, fixed width,
+superscript, and subscript strings.  Other strings are used to
+represent cross references or other text with special meaning.
 Strings may be nested inside other strings. The content of a
 [g:SML:block] is a string. See also [g:SML:line], [g:SML:block], and
 [g:SML:division]
@@ -782,10 +783,10 @@ include the table in a list of tables in the document front
 matter. Contrast with [g:SML:BARE_TABLE]
 
 glossary:: TABLE_CELL {SML} = (||SML::TableCell||) A
-[g:SML2:structure] that represents a single table cell
+[g:SML2:structure] that represents a single [g:SML:TABLE] cell
 
-glossary:: TABLE_ROW {SML} = (||SML::TableRow||) A
-[g:SML2:structure] that represents a single table row
+glossary:: TABLE_ROW {SML} = (||SML::TableRow||) A [g:SML2:structure]
+that represents a single [g:SML:TABLE] row
 
 glossary:: TRIPLE {SML} = (||SML::Triple||) A statement which relates
 a subject to an object (subject -> predicate -> object)

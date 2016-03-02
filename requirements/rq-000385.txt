@@ -1,16 +1,21 @@
 >>>requirement.rq-000385
 
-title:: Define the Syntax for a Variable Definition
+title:: Define the Syntax for a Variable Definition Element
 
 type:: data format
 
 is_part_of:: rq-000372
 
-description:: The data format shall define the syntax for a variable
-definition.  The purpose of a variable definition is to define a value
-in one place and then be able to refer to that value anywhere in the
-library.
+description:: The data format shall define the syntax for a
+[g:SML:variable definition] [g:SML:element].  The purpose of a
+variable definition is to define a value in one place and then be able
+to refer to that value anywhere in the library. The name of the
+element shall signify the element is a variable definition.  The value
+of the element shall express the variable definition.
 
 index:: rq-000385; variable definition; element!variable definition
+
+outcome::2016-03-02:rq-000385:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

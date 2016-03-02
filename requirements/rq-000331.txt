@@ -9,8 +9,12 @@ priority:: routine
 type:: data format
 
 description:: The data format shall define the syntax for an unordered
-list item.
+list item.  An unordered list item is sometimes called a bullet list
+item.
 
 index:: rq-000331; list item!unordered
+
+outcome::2016-03-02:rq-000331:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -1,6 +1,6 @@
 >>>configuration_item.ci-000512
 
-title:: SML Library Log Configuration
+title:: SML Library Log Configuration File
 
 type:: configuration file
 

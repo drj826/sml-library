@@ -9,8 +9,12 @@ priority:: routine
 type:: data format
 
 description:: The data format shall define the syntax for an ordered
-list item.
+list item. An ordered list item is sometimes called an enumerated list
+item.
 
 index:: rq-000332; list item!ordered
+
+outcome::2016-03-02:rq-000332:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

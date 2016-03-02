@@ -7,8 +7,14 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the end of a
-table cell.
+[g:SML:TABLE_CELL].
 
-index:: rq-000366; table cell
+index:: rq-000366; table cell syntax; syntax!table cell
+
+outcome::2016-03-02:rq-000366:red: I'm not convinced this requirement
+is necessary.  The technical solution I've chosen has ~~no~~ explicit
+syntax for the end of a table cell.  Instead, the end of a table cell
+is implied by either (1) the beginning of the next table cell, (2) the
+end of the table row, or (3) the end of the table. (Don Johnson)
 
 <<<requirement

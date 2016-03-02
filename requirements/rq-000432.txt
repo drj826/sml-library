@@ -1,0 +1,26 @@
+>>>requirement.rq-000432
+
+title:: Define the Syntax for a Unique Section Identifier
+
+is_part_of:: rq-000335
+
+type:: data format
+
+associated:: rq-000253
+
+description:: The data format shall define the syntax for a unique
+section identifier which is part of the section heading syntax.  This
+unique identifier will make it possible to refer to the section from
+anywhere else in the library.  The purpose for making the unique ID
+part of the section heading syntax is to simplify parsing.  Keeping
+the ID part of the section heading syntax enables the parser to
+immediately create the section object without looking ahead for the
+ID.
+
+index:: rq-000432; unique section identifier syntax; syntax!unique
+section identifier
+
+outcome::2016-02-29:rq-000432:green: This requirement is
+complete. (Don Johnson)
+
+<<<requirement

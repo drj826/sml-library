@@ -12,8 +12,12 @@ description:: The data format shall define the syntax for a paragraph.
 A paragraph is an element of document [g:SML1:structure], a
 [g:SML:block] of [g:SML:text] that communicates an idea. The data
 format representation of a paragraph must allow but not mandate
-[g:SML:newline] characters within a paragraph.
+[g:SML:newline] characters within a paragraph. The syntax shall
+capture the paragraph text.
 
 index:: rq-000010; paragraph
+
+outcome::2016-03-02:rq-000010:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

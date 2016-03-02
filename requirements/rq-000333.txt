@@ -9,8 +9,11 @@ priority:: routine
 type:: data format
 
 description:: The data format shall define the syntax for a definition
-list item.
+list item. The syntax shall capture the term and definition.
 
 index:: rq-000333; list item!definition
+
+outcome::2016-03-02:rq-000333:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

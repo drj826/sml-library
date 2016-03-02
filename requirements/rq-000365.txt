@@ -7,8 +7,11 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the start of
-a table cell.
+a [g:SML:TABLE_CELL].
 
-index:: rq-000365; table cell
+index:: rq-000365; table cell syntax; syntax!table cell
+
+outcome::2016-03-02:rq-000365:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -15,4 +15,9 @@ index:: rq-000326; division
 
 = [g:SML:division] = [def:SML:division]
 
+outcome::2016-03-02:rq-000326:green: This requirement is complete.
+Note that some parts of this requirement are red because I'm not
+convinced they're necessary ([id:rq-000364], [id:rq-000366], and
+[id:rq-000367]). (Don Johnson)
+
 <<<requirement

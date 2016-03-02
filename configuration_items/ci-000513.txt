@@ -1,0 +1,22 @@
+>>>configuration_item.ci-000513
+
+title:: SML Library Configuration File
+
+type:: configuration file
+
+is_part_of:: ci-000511
+
+description:: The library configuration file ([file:library.conf])
+permits the user to specify library-wide configuration options.
+
+index:: ci-000513; library.conf
+
+>>>LISTING.lis-library-conf-file
+
+title:: Example Library Configuration File
+
+file:: conf/library.conf
+
+<<<LISTING
+
+<<<configuration_item

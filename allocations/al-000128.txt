@@ -1,11 +1,16 @@
 >>>allocation.al-000128
 
-configuration_item:: ci-000433  # SML::Syntax
+configuration_item:: ci-000513  # Library Configuration File
 
-requirement:: rq-000096         # Represent a `Strict Entity Status' Option
+requirement:: rq-000096         # Permit a User to Set a Use Formal Status Option
 
 test:: tc-000041                # Demonstration
 
 index:: al-000128
+
+outcome::2016-03-01:al-000128:red: At this time the
+[file:library.conf] file does ~~not~~ permit a user to set the `use
+formal status' option.  This is still set on a per-document basis
+using the `use_formal_status' element.
 
 <<<allocation

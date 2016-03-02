@@ -1,6 +1,6 @@
 >>>requirement.rq-000082
 
-title:: Be Human Readable
+title:: Maximize Data Format Human Readability
 
 priority:: routine
 

@@ -7,8 +7,11 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the end of a
-named division.
+named [g:SML:division].
 
 index:: rq-000362; division
+
+outcome::2016-03-02:rq-000362:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

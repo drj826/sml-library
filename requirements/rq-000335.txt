@@ -8,10 +8,16 @@ priority:: routine
 
 type:: data format
 
-description:: The data format shall define the syntax for a section
-heading.  A section heading summarizes the topic of the section and is
-used as an entry in the table of contents.
+description:: The data format shall define the syntax for a
+[g:SML:SECTION] heading.  A section heading summarizes the topic of
+the section and is used as an entry in the table of contents. The
+section heading shall signify the beginning of the section. The syntax
+shall capture the section heading and an optional unique identifier
+for the section.
 
-index:: rq-000335; section heading
+index:: rq-000335; section heading syntax; syntax!section heading
+
+outcome::2016-03-02:rq-000335:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

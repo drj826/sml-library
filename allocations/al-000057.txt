@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000023         # Represent a Procedural Step
+requirement:: rq-000023         # Define the Syntax for a Procedural Step
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000057
+
+outcome::2016-03-02:al-000057:green: The SML::Syntax class defines the
+syntax for a procedural step at line 1023 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

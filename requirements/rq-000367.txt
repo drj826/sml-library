@@ -7,8 +7,15 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the start of
-a table row.
+a [g:SML:TABLE_ROW].
 
 index:: rq-000367; table row
+
+outcome::2016-03-02:rq-000367:red: I'm not convinced this requirement
+is necessary.  The technical solution I've chosen has ~~no~~ explicit
+syntax for the start of a table row.  Instead, the start of a table
+row is implied by either (1) the beginning of a table cell that marks
+the beginning of a table, or (2) the beginning of the table cell
+immediately following the end of a table row. (Don Johnson)
 
 <<<requirement

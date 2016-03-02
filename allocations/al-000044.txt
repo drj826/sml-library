@@ -2,10 +2,13 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000010         # Represent Paragraphs
+requirement:: rq-000010         # Define the Syntax for a Paragraph
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000044
+
+outcome::2016-03-02:al-000044:green: The SML::Syntax class defines the
+syntax for a paragraph at line 346 of [file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

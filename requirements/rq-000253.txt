@@ -2,14 +2,21 @@
 
 title:: Define the Syntax for a Unique Division Identifier
 
-is_part_of:: rq-000326
+is_part_of:: rq-000361
 
 type:: data format
 
 description:: The data format shall define the syntax for a unique
-division identifier.  This unique identifier will make it possible to
-refer to the division from anywhere else in the library.
+division identifier which is part of the start division syntax.  This
+unique identifier will make it possible to refer to the division from
+anywhere else in the library.  The purpose for making the unique ID
+part of the start division syntax is to simplify parsing.  Keeping the
+ID part of the start syntax enables the parser to immediately create
+the division object without looking ahead for the ID. 
 
 index:: rq-000253; unique division identifier
+
+outcome::2016-02-29:rq-000253:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

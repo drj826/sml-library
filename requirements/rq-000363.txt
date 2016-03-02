@@ -7,8 +7,16 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the start of
-a document section.
+a document section.  This ``start section'' syntax shall require a
+section heading and allow for an optional unique section identifier.
+The syntax shall capture the section heading and ID.
 
 index:: rq-000363; section
+
+outcome::2016-03-02:rq-000363:red: I'm not convinced this requirement
+is necessary.  A section heading ([id:rq-000335]) signifies the
+beginning of a document section.  Apart from the section heading the
+syntax I've chosen actually does not require a separate syntax for the
+beginning of a section.
 
 <<<requirement

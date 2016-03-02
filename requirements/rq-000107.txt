@@ -13,12 +13,12 @@ index:: rq-000107; data representation
 
 Only four syntax structures are needed to express document content:
 
-= [g:SML:division] = [def:SML:division]
+= [g:SML:division] = [def:SML:division].
 
-= [g:SML:block] = [def:SML:block]
+= [g:SML:block] = [def:SML:block].
 
-= [g:SML:string] = [def:SML:string]
+= [g:SML:string] = [def:SML:string].
 
-= [g:SML:symbol] = [def:SML:symbol]
+= [g:SML:symbol] = [def:SML:symbol].
 
 <<<requirement

@@ -1,14 +1,14 @@
 >>>requirement.rq-000387
 
-title:: Define the Syntax for a Procedural Step
+title:: Define the Syntax for a Procedural Step Element
 
 type:: data format
 
 is_part_of:: rq-000372
 
 description:: The data format shall define the syntax for a procedural
-step.  The purpose of a procedural step is to capture a sequence of
-steps that form a procedure.
+step element.  The purpose of a procedural step is to capture a
+sequence of steps that form a procedure.
 
 index:: rq-000387; step; element!step; procedural step
 

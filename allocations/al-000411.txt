@@ -2,10 +2,16 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000326         # Define Document Syntax
+requirement:: rq-000326         # Define Division Syntax
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000411
+
+outcome::2016-03-02:al-000411:green: The SML::Syntax class defines all
+required division syntax.  Note that [id:rq-000326] contains some
+requirements of questionable necessity.  The SML::Syntax class does
+not satisfy these at this time ([id:rq-000363], [id:rq-000364],
+[id:rq-000366], and [id:rq-000367]). (Don Johnson)
 
 <<<allocation

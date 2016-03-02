@@ -8,8 +8,6 @@ priority:: routine
 
 type:: technical
 
-associated:: rq-000326
-
 description:: The software shall have the capability to [g:SML:format]
 a document division according to a template.
 

@@ -4,8 +4,16 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000364         # Define the Syntax for the End of a Document Section
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000414
+
+outcome::2016-03-01:al-000414:red: The SML::Syntax does ~~not~~ define
+the syntax for the end of a document section because the end of a
+document section is implicit.  Two things can signify the end of a
+document section: (1) the beginning of another section, or (2) the end
+of the document.  The end of a document section is currently implied
+by parser logic and not by the syntax specification.  This bothers me.
+(Don Johnson)
 
 <<<allocation

@@ -7,8 +7,14 @@ type:: data format
 is_part_of:: rq-000372
 
 description:: The data format shall define the syntax for a title
-element. A title element declares the title of the enclosing division.
+[g:SML:element]. A title element declares the title of the enclosing
+division. The name of the elment shall signify the element is a
+title.  The value of the element shall be the title text.  The syntax
+shall capture the title text.
 
 index:: rq-000376; element!title
+
+outcome::2016-03-02:rq-000376:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

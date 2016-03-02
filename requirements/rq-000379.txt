@@ -7,9 +7,14 @@ type:: data format
 is_part_of:: rq-000372
 
 description:: The data format shall define the syntax for a CSV file
-element.  The purpose of the CSV file element is to identify a CSV
-file containing entity property declarations.
+[g:SML:element].  The purpose of the CSV file element is to identify a
+CSV file containing entity property declarations. The name of the
+element shall signify the element identifies a CSV file.  The value of
+the element shall be the filespec for the CSV file.
 
 index:: rq-000379; CSV file; element!CSV file
+
+outcome::2016-03-02:rq-000379:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

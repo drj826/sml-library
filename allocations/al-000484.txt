@@ -1,0 +1,14 @@
+>>>allocation.al-000484
+
+configuration_item:: ci-000433  # SML::Syntax Class
+
+requirement:: rq-000432         # Define the Syntax for a Unique Section Identifier
+
+test:: tc-000042                # Inspection
+
+index:: al-000484
+
+outcome::2016-03-02:al-000484:green: The SML::Syntax class defines the
+syntax for a unique section identifier at line 270 in [file:Syntax.pm].
+
+<<<allocation

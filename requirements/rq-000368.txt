@@ -7,8 +7,11 @@ type:: data format
 is_part_of:: rq-000326
 
 description:: The data format shall define the syntax for the end of a
-table row.
+[g:SML:TABLE_ROW].
 
-index:: rq-000368; table row
+index:: rq-000368; table row syntax; syntax!table row
+
+outcome::2016-03-02:rq-000368:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

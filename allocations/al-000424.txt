@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000333         # Define the Syntax for a Definition List Item
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000424
+
+outcome::2016-03-02:al-000424:green: The SML::Syntax defines the
+syntax for a definition list item on line 460 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

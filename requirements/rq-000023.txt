@@ -10,10 +10,13 @@ type:: data format
 
 description:: The data format shall define the syntax for a procedural
 step.  This capability enables an author to represent one of
-potentially many steps within a sequence. The data format
-representation of a procedural step must allow but not mandate newline
-characters within a procedural step.
+potentially many steps within a sequence (a [g:SML:STEP_LIST]). The
+data format representation of a procedural step must allow but not
+mandate newline characters within a procedural step.
 
 index:: rq-000023; procedural step
+
+outcome::2016-03-02:rq-000023:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

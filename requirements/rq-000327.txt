@@ -15,4 +15,7 @@ index:: rq-000327
 
 = [g:SML:block] = [def:SML:block]
 
+outcome::2016-03-02:rq-000327:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement
