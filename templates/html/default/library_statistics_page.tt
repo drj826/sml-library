@@ -17,6 +17,8 @@ ps       = library.get_property_store
 
 <h1 align="center">Statistics</h1>
 
+<div align="center">
+
 <table>
 
 <tr>
@@ -104,5 +106,7 @@ ps       = library.get_property_store
 [%- END -%]
 
 </table>
+
+</div>
 
 [%- END -%]
