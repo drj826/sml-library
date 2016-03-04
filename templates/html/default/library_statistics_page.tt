@@ -1,0 +1,108 @@
+[%#
+
+library_statistics_page.tt
+
+ARGS:
+
+library => an SML::Library object
+
+-%]
+[%-
+
+ontology = library.get_ontology
+ps       = library.get_property_store
+
+-%]
+[%- WRAPPER library_page.tt -%]
+
+<h1 align="center">Statistics</h1>
+
+<table>
+
+<tr>
+<td>&nbsp;</td>
+<td align="right" width="75px">&nbsp;</td>
+<td align="right" width="110px">100% complete</td>
+<td align="right" width="110px">part complete</td>
+<td align="right" width="110px">0% complete</td>
+<td align="right" width="110px">unknown</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td align="right" width="75px">count</td>
+<td align="right" width="110px"><img src="images/status_green.png"></td>
+<td align="right" width="110px"><img src="images/status_yellow.png"></td>
+<td align="right" width="110px"><img src="images/status_red.png"></td>
+<td align="right" width="110px"><img src="images/status_grey.png"></td>
+</tr>
+
+[%- bgcolor = '#ffffff' -%]
+
+[%- FOREACH entity_name IN ontology.get_entity_name_list -%]
+
+  [%- IF bgcolor == '#eeeeee' -%]
+  [%- bgcolor = '#ffffff' -%]
+  [%- ELSE -%]
+  [%- bgcolor = '#eeeeee' -%]
+  [%- END -%]
+
+[%- count = library.get_division_count(entity_name) -%]
+  [%- green_count   = ps.get_division_count_by_property_value(entity_name,'status','green') -%]
+  [%- yellow_count  = ps.get_division_count_by_property_value(entity_name,'status','yellow') -%]
+  [%- red_count     = ps.get_division_count_by_property_value(entity_name,'status','red') -%]
+  [%- grey_count    = ps.get_division_count_by_property_value(entity_name,'status','grey') -%]
+
+  [%- IF count -%]
+    [%- green_percent  = 100 * green_count / count -%]
+    [%- yellow_percent = 100 * yellow_count / count -%]
+    [%- red_percent    = 100 * red_count / count -%]
+    [%- grey_percent   = 100 * grey_count / count -%]
+  [%- ELSE -%]
+    [%- green_percent  = 0 -%]
+    [%- yellow_percent = 0 -%]
+    [%- red_percent    = 0 -%]
+    [%- grey_percent   = 0 -%]
+  [%- END -%]
+
+
+<tr>
+<td style="background-color:[%bgcolor%]">[%entity_name%]</td>
+
+[%- IF count -%]
+<td style="background-color:[%bgcolor%]" align="right">[%count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF green_count -%]
+<td style="background-color:[%bgcolor%]" align="right">[%green_count%] ([% green_percent FILTER format('%0.1f') %]%)</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF yellow_count -%]
+<td style="background-color:[%bgcolor%]" align="right">[%yellow_count%] ([% yellow_percent FILTER format('%0.1f') %]%)</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF red_count -%]
+<td style="background-color:[%bgcolor%]" align="right">[%red_count%] ([% red_percent FILTER format('%0.1f') %]%)</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF grey_count -%]
+<td style="background-color:[%bgcolor%]" align="right">[%grey_count%] ([% grey_percent FILTER format('%0.1f') %]%)</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+[%- END -%]
+
+</tr>
+
+[%- END -%]
+
+</table>
+
+[%- END -%]
