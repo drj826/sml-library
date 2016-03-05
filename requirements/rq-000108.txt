@@ -4,8 +4,6 @@ title:: Resolve `Include' Statements
 
 is_part_of:: rq-000105
 
-priority:: routine
-
 type:: technical
 
 associated:: rq-000065

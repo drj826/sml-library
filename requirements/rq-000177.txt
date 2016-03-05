@@ -4,8 +4,6 @@ title:: Resolve Included Flat Text
 
 is_part_of:: rq-000108
 
-priority:: routine
-
 type:: technical
 
 associated:: rq-000166

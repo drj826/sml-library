@@ -4,8 +4,6 @@ title:: Be Maintainable
 
 is_part_of:: rq-000111
 
-priority:: routine
-
 type:: non-functional
 
 description:: The software shall be maintainable. Maintainability is

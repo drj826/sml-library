@@ -2,8 +2,6 @@
 
 title:: Represent a Solution
 
-priority:: routine
-
 is_part_of:: rq-000373
 
 type:: data format

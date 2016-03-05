@@ -63,6 +63,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 <td style="font-weight:bold;">subject</td>
 <td style="font-weight:bold;">property (predicate)</td>
 <td style="font-weight:bold;">object</td>
+<td style="font-weight:bold;">default value</td>
 <td style="font-weight:bold;">allowed values</td>
 <td style="font-weight:bold;">inverse rule</td>
 <td style="font-weight:bold;">multiplicity</td>
@@ -80,6 +81,13 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
   is_imply_only      = ontology.property_is_imply_only(entity_name,property_name)
   multiplicity       = ontology.property_allows_multiplicity(entity_name,property_name)
   -%]
+
+  [%- IF ontology.has_default_property_value(entity_name,property_name) -%]
+    [%- default_value = ontology.get_default_property_value(entity_name,property_name) -%]
+  [%- ELSE -%]
+    [%- default_value = '' -%]
+  [%- END -%]
+
   [%- FOREACH object_name IN object_name_list -%]
     [%-
     rule            = ontology.get_rule_for(entity_name,property_name,object_name)
@@ -98,6 +106,8 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 [%object_name%]
 [%- END -%]
 </td>
+
+<td>[%default_value%]</td>
 
 <td>[%allowed_value_list.join(', ')%]</td>
 <td><a href="#[%inverse_rule_id%]">[%inverse_rule_id%]</a></td>
@@ -151,6 +161,7 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 <td style="font-weight:bold;">subject</td>
 <td style="font-weight:bold;">property (predicate)</td>
 <td style="font-weight:bold;">object</td>
+<td style="font-weight:bold;">default value</td>
 <td style="font-weight:bold;">allowed values</td>
 <td style="font-weight:bold;">inverse rule</td>
 <td style="font-weight:bold;">multiplicity</td>
@@ -168,6 +179,13 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
   is_imply_only      = ontology.property_is_imply_only(structure_name,property_name)
   multiplicity       = ontology.property_allows_multiplicity(structure_name,property_name)
   -%]
+
+  [%- IF ontology.has_default_property_value(structure_name,property_name) -%]
+    [%- default_value = ontology.get_default_property_value(structure_name,property_name) -%]
+  [%- ELSE -%]
+    [%- default_value = '' -%]
+  [%- END -%]
+
   [%- FOREACH object_name IN object_name_list -%]
     [%-
     rule    = ontology.get_rule_for(structure_name,property_name,object_name)
@@ -185,6 +203,8 @@ count    = div_ct + prp_ct + cmp_ct + enu_ct + def_ct
 [%object_name%]
 [%- END -%]
 </td>
+
+<td>[%default_value%]</td>
 
 <td>[%allowed_value_list.join(', ')%]</td>
 <td><a href="#[%inverse_rule_id%]">[%inverse_rule_id%]</a></td>

@@ -5,8 +5,6 @@ Division or to the Document Itself
 
 is_part_of:: rq-000128
 
-priority:: routine
-
 type:: technical
 
 attr:: validation method = inspection

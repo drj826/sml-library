@@ -4,8 +4,6 @@ title:: Permit Library Ontology Configuration
 
 is_part_of:: rq-000182
 
-priority:: routine
-
 type:: non-functional
 
 description:: The [g:SML:library] [g:SML:ontology] shall be

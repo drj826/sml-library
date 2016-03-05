@@ -2,8 +2,6 @@
 
 title:: Represent Engineering Document Semantics
 
-priority:: routine
-
 type:: data format
 
 associated:: rq-000006

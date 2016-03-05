@@ -4,8 +4,6 @@ title:: Trigger Update When Included File Changes
 
 is_part_of:: rq-000256
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall automatically trigger an update to a

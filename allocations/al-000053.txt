@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000019         # Represent a Footnote
+requirement:: rq-000019         # Define the Syntax for a Footnote Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000053
+
+outcome::2016-03-05:al-000053:green: The SML::Syntax class defines the
+syntax for a footnote element at line 997 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

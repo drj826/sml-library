@@ -2,8 +2,6 @@
 
 title:: Represent Document Font Size
 
-priority:: routine
-
 is_part_of:: rq-000371
 
 type:: data format

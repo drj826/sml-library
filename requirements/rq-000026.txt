@@ -2,20 +2,21 @@
 
 title:: Define the Syntax for an Index Entry Element
 
-priority:: routine
-
 is_part_of:: rq-000372
 
 type:: data format
 
 description:: The data format shall define the syntax for an index
 entry element. An index entry enables an author to indicate a term
-that should appear in the document index.  Furthermore, the data
-format must enable authors to define index ~~sub-entries~~.  The data
-format must be capable of representing index entries that span large
-(even multi-page) regions of text.  The data format must allow index
-entries to span newline characters.
+should appear in the index.  Furthermore, the data format must enable
+authors to define index ~~sub-entries~~ and ~~sub-sub-entries~~.  The
+data format must be capable of representing index entries that span
+large (even multi-page) regions of text.  The data format must allow
+index entries to span newline characters.
 
 index:: rq-000026; index entry
+
+outcome::2016-03-05:rq-000026:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

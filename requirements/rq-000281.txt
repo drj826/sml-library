@@ -4,8 +4,6 @@ title:: Render An HTML Page For Each Document Section
 
 is_part_of:: rq-000001
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall render an HTML page for each document

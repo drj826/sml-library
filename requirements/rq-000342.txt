@@ -4,8 +4,6 @@ title:: Permit User to Disable SVN Functions
 
 is_part_of:: rq-000341
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall permit the user to disable subversion

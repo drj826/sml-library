@@ -4,8 +4,6 @@ title:: Permit Configuration of Allowed Entity Properties
 
 is_part_of:: rq-000183
 
-priority:: routine
-
 type:: non-functional
 
 description:: The [g:SML:ontology] shall permit the user to configure

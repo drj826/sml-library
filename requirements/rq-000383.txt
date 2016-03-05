@@ -10,8 +10,12 @@ description:: The data format shall define the syntax for a file
 element.  The purpose of a file element is to identify a file which is
 the property of a division (structure or entity).  For example, the
 LISTING division may have a `file' property which identifies a file
-containing the contents of the listing.
+containing the contents of the listing. The syntax shall capture the
+filespec.
 
 index:: rq-000383
+
+outcome::2016-03-05:rq-000383:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

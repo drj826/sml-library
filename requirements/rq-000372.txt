@@ -14,4 +14,7 @@ index:: rq-000372; element
 
 = [g:SML:element] = [def:SML:element]
 
+outcome::2016-03-05:rq-000372:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

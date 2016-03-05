@@ -4,8 +4,6 @@ title:: Process Multiple Documents Without Restarting
 
 is_part_of:: rq-000104
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall have the capability to process

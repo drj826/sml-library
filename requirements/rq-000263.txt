@@ -4,8 +4,6 @@ title:: Render HTML version history
 
 is_part_of:: rq-000001
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall render an HTML version history.  The

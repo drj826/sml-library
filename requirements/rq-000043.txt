@@ -2,8 +2,6 @@
 
 title:: Represent Table Cell Font Size
 
-priority:: routine
-
 is_part_of:: rq-000014
 
 type:: data format

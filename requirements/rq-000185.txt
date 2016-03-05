@@ -4,8 +4,6 @@ title:: Perform Specified Utility Functions
 
 is_part_of:: rq-000199
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall perform specified utility functions.

@@ -19,24 +19,25 @@ ps       = library.get_property_store
 
 <div align="center">
 
-<table>
+<table cellspacing="0">
+<caption style="font-weight:bold;">Entity Status</caption>
 
 <tr>
 <td>&nbsp;</td>
 <td align="right" width="75px">&nbsp;</td>
-<td align="right" width="110px">100% complete</td>
-<td align="right" width="110px">part complete</td>
-<td align="right" width="110px">0% complete</td>
-<td align="right" width="110px">unknown</td>
+<td align="right" width="110px" colspan="2">100% complete</td>
+<td align="right" width="110px" colspan="2">part complete</td>
+<td align="right" width="110px" colspan="2">0% complete</td>
+<td align="right" width="110px" colspan="2">unknown</td>
 </tr>
 
 <tr>
 <td>&nbsp;</td>
 <td align="right" width="75px">count</td>
-<td align="right" width="110px"><img src="images/status_green.png"></td>
-<td align="right" width="110px"><img src="images/status_yellow.png"></td>
-<td align="right" width="110px"><img src="images/status_red.png"></td>
-<td align="right" width="110px"><img src="images/status_grey.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/status_green.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/status_yellow.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/status_red.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/status_grey.png"></td>
 </tr>
 
 [%- bgcolor = '#ffffff' -%]
@@ -69,36 +70,143 @@ ps       = library.get_property_store
 
 
 <tr>
-<td style="background-color:[%bgcolor%]">[%entity_name%]</td>
+<td style="background-color:[%bgcolor%];">[%entity_name%]</td>
 
 [%- IF count -%]
-<td style="background-color:[%bgcolor%]" align="right">[%count%]</td>
+<td style="background-color:[%bgcolor%];" align="right">[%count%]</td>
 [%- ELSE -%]
-<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
 [%- END -%]
 
 [%- IF green_count -%]
-<td style="background-color:[%bgcolor%]" align="right">[%green_count%] ([% green_percent FILTER format('%0.1f') %]%)</td>
+<td style="background-color:[%bgcolor%];" align="right">[% green_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%green_count%]</td>
 [%- ELSE -%]
-<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
 [%- END -%]
 
 [%- IF yellow_count -%]
-<td style="background-color:[%bgcolor%]" align="right">[%yellow_count%] ([% yellow_percent FILTER format('%0.1f') %]%)</td>
+<td style="background-color:[%bgcolor%];" align="right">[% yellow_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%yellow_count%]</td>
 [%- ELSE -%]
-<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
 [%- END -%]
 
 [%- IF red_count -%]
-<td style="background-color:[%bgcolor%]" align="right">[%red_count%] ([% red_percent FILTER format('%0.1f') %]%)</td>
+<td style="background-color:[%bgcolor%];" align="right">[% red_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%red_count%]</td>
 [%- ELSE -%]
-<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
 [%- END -%]
 
 [%- IF grey_count -%]
-<td style="background-color:[%bgcolor%]" align="right">[%grey_count%] ([% grey_percent FILTER format('%0.1f') %]%)</td>
+<td style="background-color:[%bgcolor%];" align="right">[% grey_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%grey_count%]</td>
 [%- ELSE -%]
-<td style="background-color:[%bgcolor%]" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+[%- END -%]
+
+</tr>
+
+[%- END -%]
+
+</table>
+
+<br/><br/>
+
+<table cellspacing="0">
+<caption style="font-weight:bold;">Entity Priority</caption>
+
+<tr>
+<td>&nbsp;</td>
+<td align="right" width="75px">&nbsp;</td>
+<td align="right" width="110px" colspan="2">critical</td>
+<td align="right" width="110px" colspan="2">high</td>
+<td align="right" width="110px" colspan="2">routine</td>
+<td align="right" width="110px" colspan="2">low</td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td align="right" width="75px">count</td>
+<td align="right" width="110px" colspan="2"><img src="images/priority_red.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/priority_orange.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/priority_yellow.png"></td>
+<td align="right" width="110px" colspan="2"><img src="images/priority_grey.png"></td>
+</tr>
+
+[%- bgcolor = '#ffffff' -%]
+
+[%- FOREACH entity_name IN ontology.get_entity_name_list -%]
+
+  [%- IF bgcolor == '#eeeeee' -%]
+  [%- bgcolor = '#ffffff' -%]
+  [%- ELSE -%]
+  [%- bgcolor = '#eeeeee' -%]
+  [%- END -%]
+
+  [%- count = library.get_division_count(entity_name) -%]
+  [%- critical_count = ps.get_division_count_by_property_value(entity_name,'priority','critical') -%]
+  [%- high_count     = ps.get_division_count_by_property_value(entity_name,'priority','high') -%]
+  [%- routine_count  = ps.get_division_count_by_property_value(entity_name,'priority','routine') -%]
+  [%- low_count      = ps.get_division_count_by_property_value(entity_name,'priority','low') -%]
+
+  [%- IF count -%]
+    [%- critical_percent = 100 * critical_count / count -%]
+    [%- high_percent     = 100 * high_count / count -%]
+    [%- routine_percent  = 100 * routine_count / count -%]
+    [%- low_percent      = 100 * low_count / count -%]
+  [%- ELSE -%]
+    [%- critical_percent = 0 -%]
+    [%- high_percent     = 0 -%]
+    [%- routine_percent  = 0 -%]
+    [%- low_percent      = 0 -%]
+  [%- END -%]
+
+
+<tr>
+<td style="background-color:[%bgcolor%];">[%entity_name%]</td>
+
+[%- IF count -%]
+<td style="background-color:[%bgcolor%];" align="right">[%count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF critical_count -%]
+<td style="background-color:[%bgcolor%];" align="right">[% critical_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%critical_count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF high_count -%]
+<td style="background-color:[%bgcolor%];" align="right">[% high_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%high_count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF routine_count -%]
+<td style="background-color:[%bgcolor%];" align="right">[% routine_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%routine_count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+[%- END -%]
+
+[%- IF low_count -%]
+<td style="background-color:[%bgcolor%];" align="right">[% low_percent FILTER format('%0.1f') %]%</td>
+<td style="background-color:[%bgcolor%];color:#888888;" align="right">[%low_count%]</td>
+[%- ELSE -%]
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
+<td style="background-color:[%bgcolor%];" align="right">&nbsp;</td>
 [%- END -%]
 
 </tr>

@@ -4,8 +4,6 @@ title:: Preserve Division Order
 
 is_part_of:: rq-000128
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall remember the order in which divisions

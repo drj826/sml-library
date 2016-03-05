@@ -4,8 +4,6 @@ title:: Parse SML Special Features
 
 is_part_of:: rq-000105
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall parse all SML special features.  This

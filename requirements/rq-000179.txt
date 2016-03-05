@@ -4,8 +4,6 @@ title:: Resolve Included Raw Text
 
 is_part_of:: rq-000108
 
-priority:: routine
-
 type:: technical
 
 associated:: rq-000168

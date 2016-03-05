@@ -4,8 +4,6 @@ title:: Render Documents from SML to SML
 
 is_part_of:: rq-000098
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall enable a user to render

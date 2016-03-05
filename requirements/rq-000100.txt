@@ -4,8 +4,6 @@ title:: Parse an SML Conditional Division
 
 is_part_of:: rq-000099
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall parse an SML conditional division.

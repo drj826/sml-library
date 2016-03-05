@@ -4,8 +4,6 @@ title:: Represent Core Document Symbols
 
 is_part_of:: rq-000006
 
-priority:: routine
-
 type:: data format
 
 associated:: rq-000048

@@ -4,8 +4,6 @@ title:: Publish a Document Glossary
 
 is_part_of:: rq-000139
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall enable a user to generate a document

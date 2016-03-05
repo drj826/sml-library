@@ -4,8 +4,6 @@ title:: Minimize Presentation Markup
 
 is_part_of:: rq-000082
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall minimize document

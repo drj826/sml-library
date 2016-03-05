@@ -4,8 +4,6 @@ title:: Return the Definition of a Definition List Item
 
 is_part_of:: rq-000340
 
-priority:: routine
-
 type:: technical
 
 attr:: validation method = test

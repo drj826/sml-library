@@ -7,9 +7,13 @@ type:: data format
 is_part_of:: rq-000372
 
 description:: The data format shall define the syntax for a procedural
-step element.  The purpose of a procedural step is to capture a
-sequence of steps that form a procedure.
+step element.  The purpose of a procedural step is to capture a one
+step in a sequence of steps that form a procedure.  The syntax shall
+capture the step description.
 
 index:: rq-000387; step; element!step; procedural step
+
+outcome::2016-03-05:rq-000387:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

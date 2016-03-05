@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000381         # Define the Syntax for an Outcome Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000432
+
+outcome::2016-03-05:al-000432:green: The SML::Syntax class defines the
+syntax for an outcome element at line 706 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

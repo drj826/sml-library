@@ -4,8 +4,6 @@ title:: Be Reusable
 
 is_part_of:: rq-000111
 
-priority:: routine
-
 type:: non-functional
 
 description:: The product shall provide a reusable library of software

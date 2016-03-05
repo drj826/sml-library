@@ -2,8 +2,6 @@
 
 title:: Permit a User to Set a `Use Formal Status' Option
 
-priority:: routine
-
 is_part_of:: rq-000375
 
 type:: data format

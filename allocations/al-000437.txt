@@ -8,4 +8,9 @@ test:: tc-000041                # Demonstration
 
 index:: al-000437
 
+outcome::2016-03-05:al-000437:green: The SML::Syntax class defines the
+syntax for a definition element at line 843 of [file:Syntax.pm].
+However, I'm not convinced that [id:rq-000384] is even necessary.  The
+syntax is not used anywhere in the current solution. (Don Johnson)
+
 <<<allocation

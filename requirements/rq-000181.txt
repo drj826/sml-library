@@ -4,8 +4,6 @@ title:: Prevent Infinite Loops
 
 is_part_of:: rq-000105
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall prevent infinite loops.  Several

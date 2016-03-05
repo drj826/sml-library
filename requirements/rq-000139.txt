@@ -4,8 +4,6 @@ title:: Publish Document Front and Back Matter
 
 is_part_of:: rq-000199
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall generate document front and back

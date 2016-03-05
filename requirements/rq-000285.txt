@@ -6,8 +6,6 @@ is_part_of:: rq-000205
 
 type:: technical
 
-associated:: rq-000019
-
 description:: The software shall render a LaTeX footnote reference.
 
 index:: rq-000285; footnote reference!render LaTeX

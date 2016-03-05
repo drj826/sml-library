@@ -4,8 +4,6 @@ title:: Format Output Text From Document Structure Objects
 
 is_part_of:: rq-000199
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall format output text from document

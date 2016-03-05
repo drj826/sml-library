@@ -2,8 +2,6 @@
 
 title:: Maximize Data Format Human Readability
 
-priority:: routine
-
 is_part_of:: rq-000111
 
 type:: data format

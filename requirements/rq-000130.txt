@@ -4,8 +4,6 @@ title:: Substitute Variables
 
 is_part_of:: rq-000105
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall substitute inline variable tags with

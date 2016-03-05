@@ -4,8 +4,6 @@ title:: Publish a Document List of References
 
 is_part_of:: rq-000139
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall publish a document list of references

@@ -2,8 +2,6 @@
 
 title:: Represent a Formal Outcome
 
-priority:: routine
-
 is_part_of:: rq-000370
 
 type:: data format

@@ -2,21 +2,23 @@
 
 title:: Define the Syntax for an Image Element
 
-priority:: routine
-
 is_part_of:: rq-000372
 
 type:: data format
 
 associated:: rq-000015
 
-description:: The data format shall define the syntax for an image.
-This capability allows authors to insert an image into a document.
-Note that an image is different than a figure.  A figure has a title
+description:: The data format shall define the syntax for an image
+element.  The purpose of an image element is to insert an image into a
+document.  An image is different than a figure.  A figure has a title
 and description and can be cross referenced using a unique identifier.
 An image, on the other hand, is simply a picture inserted as document
-content with no other meta-data.  Images have no meta data elements.
+content with no other meta-data. The syntax shall capture the filespec
+for the image file.
 
 index:: rq-000013; image
+
+outcome::2016-03-05:rq-000013:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -4,8 +4,6 @@ title:: Validate a Library Contains No Redundant Allocations
 
 is_part_of:: rq-000200
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall validate that a library contains no

@@ -2,8 +2,6 @@
 
 title:: Represent Fixed-Width Text
 
-priority:: routine
-
 is_part_of:: rq-000120
 
 type:: data format

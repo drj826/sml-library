@@ -4,8 +4,6 @@ title:: Validate SML Document Syntax
 
 is_part_of:: rq-000105
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall validate SML document syntax.  The

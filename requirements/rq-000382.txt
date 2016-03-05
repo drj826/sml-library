@@ -1,18 +1,20 @@
 >>>requirement.rq-000382
 
-title:: Define the Syntax for an Review Element
+title:: Define the Syntax for a Review Element
 
 type:: data format
 
 is_part_of:: rq-000372
 
 description:: The data format shall define the syntax for a review
-element.  The purpose of an review element is to declare the status
-value of an entity as determined by an informal review.  The review
-information shall include: entity reviewed, date of review, status
-determined by the review, and a description (not to exceed one
-paragraph) of the review.
+element.  The purpose of an review element is document the result of
+an informal review.  The review information shall include: entity
+reviewed, date of review, status determined by the review, and a
+description (not to exceed one paragraph) of the review.
 
 index:: rq-000382
+
+outcome::2016-03-05:rq-000382:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

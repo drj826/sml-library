@@ -4,8 +4,6 @@ title:: Remove Markup From Content Blocks
 
 is_part_of:: rq-000199
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall remove markup from content blocks.

@@ -10,8 +10,17 @@ description:: The data format shall define the syntax for a definition
 element.  The purpose of a definition element is to declare a term and
 it's related definition.  This syntax might be used for multiple
 different semantics such as glossary entries, acronym list entries,
-and variable definitions.
+and variable definitions. The syntax shall capture the defined term,
+an optional namespace, and the term definition.  The namespace is a
+string of characters that disambiguates the definition from other
+definitions of the same term.
 
 index:: rq-000384; definition; element!definition
+
+outcome::2016-03-05:rq-000384:red: This requirement is complete,
+however, I'm not convinced it is necessary.  The syntax that satisfies
+this requirement is not used anywhere in the code. More specific
+syntax for glossary, acronym, and variable definitions are used
+instead. (Don Johnson)
 
 <<<requirement

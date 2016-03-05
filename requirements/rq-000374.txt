@@ -2,8 +2,6 @@
 
 title:: Represent Ontology Semantics
 
-priority:: routine
-
 type:: data format
 
 associated:: rq-000006

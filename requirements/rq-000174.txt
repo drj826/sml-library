@@ -4,8 +4,6 @@ title:: Validate External File References
 
 is_part_of:: rq-000119
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall validate the existence of all

@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000386         # Define the Syntax for an Attribute Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000435
+
+outcome::2016-03-05:al-000435:green: The SML::Syntax class defines the
+syntax for an attribute element at line 934 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

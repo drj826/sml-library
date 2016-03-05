@@ -4,8 +4,6 @@ title:: Gather Every Block of Every Parsed File to a Division
 
 is_part_of:: rq-000128
 
-priority:: routine
-
 type:: technical
 
 attr:: validation method = inspection

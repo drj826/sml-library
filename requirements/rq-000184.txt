@@ -4,8 +4,6 @@ title:: List Allowed Entity Properties
 
 is_part_of:: rq-000185
 
-priority:: routine
-
 type:: technical
 
 description:: The software shall produce a list of properties allowed

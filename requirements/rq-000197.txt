@@ -4,8 +4,6 @@ title:: Represent an Entity Declaration
 
 is_part_of:: rq-000374
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall have the capability to represent

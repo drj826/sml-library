@@ -2,8 +2,6 @@
 
 title:: Represent Core Document Semantics
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall have the capability to represent

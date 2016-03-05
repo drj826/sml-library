@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000013         # Represent an Image
+requirement:: rq-000013         # Define the Syntax for an Image Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000047
+
+outcome::2016-03-05:al-000047:green: The SML::Syntax class defines the
+syntax for an image element at line 817 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

@@ -2,8 +2,6 @@
 
 title:: Represent Document Font Family
 
-priority:: routine
-
 is_part_of:: rq-000371
 
 type:: data format

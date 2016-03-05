@@ -4,8 +4,6 @@ title:: Validate First-Order Document Semantics
 
 is_part_of:: rq-000254
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall enable a user to validate first-order

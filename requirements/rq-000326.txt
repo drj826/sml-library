@@ -4,8 +4,6 @@ title:: Define Division Syntax
 
 is_part_of:: rq-000107
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall have the capability to represent a

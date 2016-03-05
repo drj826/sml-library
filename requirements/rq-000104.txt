@@ -2,8 +2,6 @@
 
 title:: Perform Functions For Users
 
-priority:: routine
-
 status:: yellow
 
 type:: package

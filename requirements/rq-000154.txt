@@ -4,8 +4,6 @@ title:: Publish a Version History Log
 
 is_part_of:: rq-000139
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall generate a version history log.

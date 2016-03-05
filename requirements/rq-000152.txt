@@ -4,8 +4,6 @@ title:: Publish a Prioritized List of Library Entities
 
 is_part_of:: rq-000139
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall publish a list of library entities

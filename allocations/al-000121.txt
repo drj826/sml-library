@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000089         # Represent an Acronym List Entry
+requirement:: rq-000089         # Define the Syntax for an Acronym Definition Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000121
+
+outcome::2016-03-05:al-000121:green: The SML::Syntax class defines the
+syntax for an acronym definition element at line 963 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

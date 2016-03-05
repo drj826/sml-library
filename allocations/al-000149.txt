@@ -4,7 +4,7 @@ configuration_item:: ci-000004  # SML Software Library
 
 requirement:: rq-000137         # Be Maintainable
 
-test:: tc-000042                # Inspection
+test:: tc-000041                # Demonstration
 
 index:: al-000149
 

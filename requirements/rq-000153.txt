@@ -4,8 +4,6 @@ title:: Publish a List of Changes Since Previous Version
 
 is_part_of:: rq-000139
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall publish a list of changes since the

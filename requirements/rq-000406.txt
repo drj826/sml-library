@@ -2,8 +2,6 @@
 
 title:: Define the Syntax for an Email Address Reference String
 
-priority:: routine
-
 is_part_of:: rq-000402
 
 type:: data format

@@ -2,18 +2,22 @@
 
 title:: Define the Syntax for an Acronym Definition Element
 
-priority:: routine
-
 is_part_of:: rq-000372
 
 type:: data format
 
 description:: The data format shall define the syntax for an acronym
 definition element.  This capability enables an author to establish
-formal definitions of acronyms used in a document.  The data format
-representation of an acronym definition must allow but not mandate
-newline characters within an acronym definition.
+formal definitions of acronyms used in a library.  The data format
+must allow but not mandate newline characters within an acronym
+definition. The syntax shall capture the acronym, an optional
+namespace, and the acronym definition.  The namespace is a string of
+characters that disambiguates the acronym definition from others with
+the same acronym.
 
 index:: rq-000089; acronym; acronym list!entry
+
+outcome::2016-03-05:rq-000089:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

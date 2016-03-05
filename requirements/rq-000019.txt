@@ -2,8 +2,6 @@
 
 title:: Define the Syntax for a Footnote Element
 
-priority:: routine
-
 is_part_of:: rq-000372
 
 type:: data format
@@ -13,8 +11,12 @@ element.  This capability enables an author to place text at the
 bottom of a page for author comments, citations, or other explanatory
 content not sufficiently important to add to the main text. The data
 format representation of a footnote must allow but not mandate newline
-characters within a footnote.
+characters within a footnote. The syntax shall capture the footnote
+number and text.
 
 index:: rq-000019; footnote
+
+outcome::2016-03-05:rq-000019:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

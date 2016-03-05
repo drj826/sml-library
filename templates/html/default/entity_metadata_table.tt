@@ -47,22 +47,14 @@ sha_digest = self.get_sha_digest.substr(0,7)
 
 <td style="width:8%;background-color:#eeeeee;color:#888888;">Priority:</td>
 <td style="background-color:#eeeeee;">
-[%- IF ps.has_property(id,'priority') -%]
 [%- priority = ps.get_property_text(id,'priority') -%]
 [% INCLUDE priority_icon.tt %] [%priority%]
-[%- ELSE -%]
-[% INCLUDE priority_icon.tt %]
-[%- END -%]
 </td>
 
 <td style="width:8%;background-color:#eeeeee;color:#888888;">Status:</td>
 <td style="background-color:#eeeeee;">
-[%- IF ps.has_property(id,'status') -%]
 [%- status = ps.get_property_text(id,'status') -%]
 [% INCLUDE status_icon.tt %] [%status%]
-[%- ELSE -%]
-[% INCLUDE status_icon.tt %]
-[%- END -%]
 </td>
 
 <td style="width:5%;background-color:#eeeeee;color:#888888;">SHA1:</td>

@@ -4,8 +4,6 @@ title:: Provide Runtime Configuration Options
 
 is_part_of:: rq-000104
 
-priority:: routine
-
 type:: package
 
 description:: The software shall provide runtime configuration

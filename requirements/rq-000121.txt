@@ -4,8 +4,6 @@ title:: Represent Core Document Processing Instructions
 
 is_part_of:: rq-000006
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall represent core document processing

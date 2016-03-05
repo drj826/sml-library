@@ -2,8 +2,6 @@
 
 title:: Represent a Fill in the Blank
 
-priority:: routine
-
 is_part_of:: rq-000124
 
 type:: data format

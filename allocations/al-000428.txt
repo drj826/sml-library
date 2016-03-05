@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000378         # Define the Syntax for a Plugin Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000428
+
+outcome::2016-03-05:al-000428:green: The SML::Syntax class defines the
+syntax for a plugin element at line 623 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

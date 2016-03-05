@@ -15,4 +15,7 @@ information shall include: entity tested (or audited), date of test
 
 index:: rq-000381
 
+outcome::2016-03-05:rq-000381:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

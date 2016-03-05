@@ -2,8 +2,6 @@
 
 title:: Define the Syntax for a Horizontal Rule Symbol
 
-priority:: routine
-
 is_part_of:: rq-000360
 
 type:: data format

@@ -4,8 +4,6 @@ title:: Permit Entity Properties to be Declared in a CSV File
 
 is_part_of:: rq-000006
 
-priority:: routine
-
 type:: data format
 
 description:: The data format shall have the capability to represent a

@@ -2,8 +2,6 @@
 
 title:: Define the Syntax for a Status Reference String
 
-priority:: routine
-
 is_part_of:: rq-000407
 
 type:: data format

@@ -4,8 +4,6 @@ title:: Allow Three Levels of Index Entries
 
 is_part_of:: rq-000280
 
-priority:: routine
-
 type:: functional
 
 description:: The software shall allow three levels of index entries.

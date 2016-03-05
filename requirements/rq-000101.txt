@@ -4,8 +4,6 @@ title:: Parse an SML Comment Division
 
 is_part_of:: rq-000099
 
-priority:: routine
-
 type:: functional
 
 associated:: rq-000100

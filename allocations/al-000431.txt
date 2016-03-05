@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000382         # Define the Syntax for an Review Element
+requirement:: rq-000382         # Define the Syntax for a Review Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000431
+
+outcome::2016-03-05:al-000431:green: The SML::Syntax class defines the
+syntax for a review element at line 734 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

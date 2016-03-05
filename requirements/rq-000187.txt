@@ -4,8 +4,6 @@ title:: Define the Syntax for an Internal Hyperlink String
 
 is_part_of:: rq-000407
 
-priority:: routine
-
 type:: data format
 
 associated:: rq-000021

@@ -8,4 +8,8 @@ test:: tc-000041                # Demonstration
 
 index:: al-000438
 
+outcome::2016-03-05:al-000438:green: The SML::Syntax class defines the
+syntax for a file element at line 792 of [file:Syntax.pm]. (Don
+Johnson)
+
 <<<allocation
