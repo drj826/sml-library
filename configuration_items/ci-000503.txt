@@ -2,7 +2,7 @@
 
 title:: SML Library
 
-type:: software
+type:: documentation
 
 depends_on:: ci-000004
 

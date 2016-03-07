@@ -237,8 +237,8 @@ contain [g:SML:block]s and other divisions. A division may be uniquely
 identified by an [a:SML:ID] that may be used to refer to the division
 from other parts of the [g:SML:DOCUMENT] or [g:SML:library]
 
-glossary:: DOCUMENT {SML} = (||SML::Document||) A [g:SML2:structure]
-that represents a written work about a topic
+glossary:: DOCUMENT {SML} = A [g:SML2:structure] that represents a
+written work about a topic
 
 glossary:: don't repeat yourself {SML} = ([a:SML:DRY]) a principle of
 software development, aimed at reducing repetition of information of
