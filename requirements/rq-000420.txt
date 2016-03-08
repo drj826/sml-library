@@ -14,6 +14,10 @@ string is to display the current page number.  This is often used in a
 header or footer along with a ``page count'' reference string to form
 a string like ``page 23 of 312''.
 
-index:: rq-000420; the page reference; string!the page reference
+index:: rq-000420; the page reference; string!the page reference; page
+number
+
+outcome::2016-03-08:rq-000420:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

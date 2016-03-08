@@ -69,6 +69,8 @@ include:: ro-000002           # Document Author
 
 include:: ro-000003           # Release Manager
 
+include:: ro-000004           # Library Administrator
+
 ######################################################################
 
 # Perform Engineering Activities

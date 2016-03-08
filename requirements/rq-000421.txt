@@ -11,6 +11,9 @@ date'' reference string.  The purpose of a ``the date'' reference
 string is to display the current date.  This is often used in a header
 or footer.
 
-index:: rq-000421; the date reference; string!the date reference
+index:: rq-000421; the date reference; string!the date reference; date
+
+outcome::2016-03-08:rq-000421:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

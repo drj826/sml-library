@@ -4,8 +4,12 @@ configuration_item:: ci-000443  # SML::Syntax
 
 requirement:: rq-000419         # Define the Syntax for Contextual Replacement Reference Strings
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000440
+
+outcome::2016-03-08:al-000440:green: The SML::Syntax class defines the
+syntax for all required contextual replacement reference strings. (Don
+Johnson)
 
 <<<allocation

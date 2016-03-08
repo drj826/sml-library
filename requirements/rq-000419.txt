@@ -14,4 +14,7 @@ some characteristic of the document.
 index:: rq-000419; contextual replacement reference; string!contextual
 replacement reference
 
+outcome::2016-03-08:rq-000419:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

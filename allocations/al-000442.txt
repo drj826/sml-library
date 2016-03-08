@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax Class
 
-requirement:: rq-000420         # Define the Syntax for a ``The Page'' Reference String
+requirement:: rq-000420         # Define the Syntax for a "The Page" Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000442
+
+outcome::2016-03-08:al-000442:green: The SML::Syntax class defines the
+syntax for a ``the page'' reference string at line 2115 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

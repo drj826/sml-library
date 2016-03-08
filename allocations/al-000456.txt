@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax Class
 
-requirement:: rq-000424         # Define the Syntax for a ``The Version'' Reference String
+requirement:: rq-000424         # Define the Syntax for a "The Version" Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000456
+
+outcome::2016-03-08:al-000456:green: The SML::Syntax class defines the
+syntax for a ``the version'' reference string at line 2185 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation
