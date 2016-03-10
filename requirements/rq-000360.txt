@@ -4,11 +4,18 @@ title:: Define Symbol Syntax
 
 type:: data format
 
-is_part_of:: rq-000107
+is_part_of:: rq-000107          # Define Document Syntax
+
+associated:: rq-000048          # Be Encodable Using 7-Bit ASCII
 
 description:: The data format shall have the capability to represent a
-symbol.
+symbol. 7-bit ASCII contains a very limited symbol set.  This
+requirement is necessary because the syntax must have the capability
+to represent various symbols not present in 7-bit ASCII.
 
 index:: rq-000360
+
+outcome::2016-03-10:rq-000360:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -12,4 +12,7 @@ reference the ID of any division in the library.
 
 index:: rq-000410; string!ID reference
 
+outcome::2016-03-09:rq-000410:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

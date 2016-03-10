@@ -6,8 +6,13 @@ type:: data format
 
 is_part_of:: rq-000389
 
-description:: The data format shall define the syntax for a superscript string.
+description:: The data format shall define the syntax for a
+superscript string. A superscript string must be contained within a
+single [g:SML:block].
 
 index:: rq-000394; superscript; string!superscript
+
+outcome::2016-03-09:rq-000394:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

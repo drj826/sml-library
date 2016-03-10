@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000404         # Define the Syntax for a Path Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000473
+
+outcome::2016-03-09:al-000473:green: The SML::Syntax class defines the
+syntax for a path reference string at line 1508 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

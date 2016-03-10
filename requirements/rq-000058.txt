@@ -6,9 +6,15 @@ is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall define the syntax for a right
-arrow symbol.
+associated:: rq-000048
 
-index:: rq-000058; right arrow
+description:: The data format shall define the syntax for a right
+arrow symbol. This requirement is necessary because the 7-bit ASCII
+character set does not include a right arrow symbol.
+
+index:: rq-000058; right arrow; symbol!right arrow
+
+outcome::2016-03-10:rq-000058:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

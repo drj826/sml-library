@@ -14,7 +14,7 @@ description:: The data format shall have the capability to represent
 an inline hyperlink to a location internal to the library.  This
 capability must allow authors to designate arbitrary ``from'' span of
 text as the beginning end of the hyperlink and to designate an
-arbitrary location in the document as the target end of the hyperlink.
+arbitrary location in the library as the target end of the hyperlink.
 
 index:: rq-000187; internal hyperlink; hyperlink!internal
 
@@ -22,5 +22,8 @@ This syntax will be different than a cross reference because it will
 allow the author to specify the text to display in the document.  A
 cross reference will display a location description and not text
 specified by the author.
+
+outcome::2016-03-09:rq-000187:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax Class
 
-requirement:: rq-000428         # Define the Syntax for a Pagebreak Symbol
+requirement:: rq-000428         # Define the Syntax for a "Pagebreak" Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000480
+
+outcome::2016-03-10:al-000480:green: The SML::Syntax class defines the
+syntax for a ``pagebreak'' symbol at line 2238 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

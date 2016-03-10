@@ -81,12 +81,6 @@ index.
 
 ######################################################################
 
-# Permit a User to Customize a Library
-
-* plugin:: Parts2Sections rq-000375
-
-######################################################################
-
 # Define Document Syntax
 
 * plugin:: Parts2Sections rq-000107

@@ -9,8 +9,12 @@ type:: data format
 description:: The data format shall have the capability to represent
 an inline index reference.  In other words, give authors the inline
 capability to represent that a word or phrase should be included in
-the document index.
+the document index. The syntax must have the capability to represent
+index entries, sub-entries, and sub-sub-entries.
 
 index:: rq-000252; index reference
+
+outcome::2016-03-09:rq-000252:green:  This requirement is
+complete. (Don Johnson)
 
 <<<requirement

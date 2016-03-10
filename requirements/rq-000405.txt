@@ -8,8 +8,12 @@ type:: data format
 
 description:: The data format shall have the capability to represent a
 command reference string.  A command reference string is a command
-that a user might enter at a command prompt.
+that a user might enter at a command prompt. A command reference
+string must be contained within a single [g:SML:block].
 
 index:: rq-000405; command; string!command reference
+
+outcome::2016-03-09:rq-000405:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

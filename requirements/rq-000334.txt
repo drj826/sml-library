@@ -8,8 +8,12 @@ type:: data format
 
 description:: The data format shall have the capability to represent a
 content string.  A string is a structure that spans characters and or
-words within a block.
+words within a single [g:SML:block].
 
 index:: rq-000334
+
+outcome::2016-03-09:rq-000334:yellow: The status of this requirement
+is yellow because one of its parts ([id:rq-000407]) is yellow. (Don
+Johnson)
 
 <<<requirement

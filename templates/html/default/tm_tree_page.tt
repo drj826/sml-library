@@ -18,6 +18,8 @@ ps             = library.get_property_store
 
 <h1 align="center">[%entity_name.ucfirst%] Traceability Tree</h1>
 
+<p align="center">([%entity_id_list.size%] [%entity_name%]s)</p>
+
 <button type="button" onclick="jQuery('#tree').treetable('expandAll'); return false;">Expand All</button>
 <button type="button" onclick="jQuery('#tree').treetable('collapseAll'); return false;">Collapse All</button>
 

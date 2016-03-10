@@ -7,8 +7,15 @@ is_part_of:: rq-000402
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline reference to an external hyperlink (URL).
+an in-line reference to an external hyperlink (URL). An external
+hyperlink reference string must be contained within a single
+[g:SML:block]. The syntax must give authors the option to specify the
+link text to be displayed.  If no link text is specified the URL will
+be displayed. The syntax shall capture the URL and link text.
 
 index:: rq-000021; external hyperlinks; hyperlink!external; string!URL
+
+outcome::2016-03-09:rq-000021:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

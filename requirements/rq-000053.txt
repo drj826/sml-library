@@ -1,15 +1,18 @@
 >>>requirement.rq-000053
 
-title:: Define the Syntax for a `Take Note' Symbol
+title:: Define the Syntax for a ``Take Note'' Symbol
 
 is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall define the syntax for a take note
-symbol.  The purpose of a ``take note'' symbol is to draw the reader's
-attention to a particularly important point.
+description:: The data format shall define the syntax for a ``take
+note'' symbol.  The purpose of a ``take note'' symbol is to draw the
+reader's attention to a particularly important point.
 
 index:: rq-000053; take note symbol; symbol!take note
+
+outcome::2016-03-10:rq-000053:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

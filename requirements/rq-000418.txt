@@ -14,4 +14,7 @@ anywhere in the library.
 
 index:: rq-000418; priority reference; string!priority reference
 
+outcome::2016-03-09:rq-000418:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

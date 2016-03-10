@@ -11,4 +11,8 @@ reference locations internal to the library.
 
 index:: rq-000407; string!internal reference
 
+outcome::2016-03-09:rq-000407:yellow: The status of this requirement
+is yellow because one of its parts, [id:rq-000409] is yellow. (Don
+Johnson)
+
 <<<requirement

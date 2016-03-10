@@ -4,8 +4,12 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000399         # Define the Syntax for a Single Quoted String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000463
+
+outcome::2016-03-09:al-000463:green: The SML::Syntax class defines the
+syntax for a single quoted string at line 1412 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

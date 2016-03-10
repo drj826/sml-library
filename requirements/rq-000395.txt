@@ -6,8 +6,12 @@ type:: data format
 
 is_part_of:: rq-000389
 
-description:: The data format shall define the syntax for a subscript string.
+description:: The data format shall define the syntax for a subscript
+string. A subscript string must be contained within a single block.
 
 index:: rq-000395; subscript; string!subscript
+
+outcome::2016-03-09:rq-000395:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

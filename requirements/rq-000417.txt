@@ -7,11 +7,15 @@ is_part_of:: rq-000407
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline status reference.  An entity may have a status property that
-represents the degree to which the entity is complete.  The status
-reference will enable authors to refer to the status of the entity
-from anywhere in the library.
+an inline status reference.  The ``status'' of an entity represents
+the degree to which the entity is complete.  The status reference will
+enable authors to refer to the status of any entity from anywhere in
+the library.  The syntax must also enable an author to directly
+specify a status value (green, yellow, red, or grey).
 
 index:: rq-000417; status reference; string!status reference
+
+outcome::2016-03-09:rq-000417:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -15,4 +15,7 @@ where in that source the reader should direct their attention (i.e. pp
 
 index:: rq-000413; string!citation reference
 
+outcome::2016-03-09:rq-000413:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

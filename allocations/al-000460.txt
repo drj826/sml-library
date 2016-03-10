@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax Class
 
-requirement:: rq-000391         # Define the Syntax for a Italics String
+requirement:: rq-000391         # Define the Syntax for an Italics String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000460
+
+outcome::2016-03-09:al-000460:green: The SML::Syntax class defines the
+syntax for an italics string at line 1141 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

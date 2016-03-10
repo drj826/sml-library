@@ -6,9 +6,17 @@ is_part_of:: rq-000360
 
 type:: data format
 
+associated:: rq-000048
+
+associated:: rq-000055
+
 description:: The data format shall define the syntax for a frowny
-face symbol.
+face symbol. This requirement is necessary because the 7-bit ASCII
+character set does not define a symbol for a frowny face.
 
 index:: rq-000056; frowny face; symbol!frowny face
+
+outcome::2015-03-10:rq-000056:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

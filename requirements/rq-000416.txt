@@ -9,9 +9,15 @@ type:: data format
 description:: The data format shall have the capability to represent
 an inline glossary definition reference.  In other words, the data
 format must have the capability to tell the application to replace the
-reference with the glossary definition.
+reference with the specified glossary definition.  The syntax must
+support an optional namespace string.  The purpose of the namespace
+string is to allow the same term to have different glossary
+definitions in different contexts.
 
 index:: rq-000416; glossary definition reference; string!glossary
 definition reference
+
+outcome::2016-03-09:rq-000416:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

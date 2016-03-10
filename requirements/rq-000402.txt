@@ -13,4 +13,7 @@ external URL.
 
 index:: rq-000402; string!external reference
 
+outcome::2016-03-09:rq-000402:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

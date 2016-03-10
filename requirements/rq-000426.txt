@@ -13,4 +13,7 @@ processing.
 
 index:: rq-000426
 
+outcome::2016-03-10:rq-000426:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

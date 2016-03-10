@@ -2,7 +2,7 @@
 
 title:: Represent a Section
 
-is_part_of:: rq-000369
+is_part_of:: rq-000369          # Represent Core Document Divisions
 
 type:: data format
 

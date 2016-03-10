@@ -2,11 +2,11 @@
 
 title:: Define the Syntax for an Image Element
 
-is_part_of:: rq-000372
+is_part_of:: rq-000372          # Define the Syntax for an Element
 
 type:: data format
 
-associated:: rq-000015
+associated:: rq-000015          # Represent a Figure
 
 description:: The data format shall define the syntax for an image
 element.  The purpose of an image element is to insert an image into a

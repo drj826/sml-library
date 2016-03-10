@@ -1,18 +1,21 @@
 >>>requirement.rq-000429
 
-title:: Define the Syntax for a Clearpage Symbol
+title:: Define the Syntax for a ``Clearpage'' Symbol
 
 type:: data format
 
 is_part_of:: rq-000426
 
-description:: The data format shall define the syntax for a clearpage
-symbol.  A clearpage symbol instructs instructs the application to
-insert a pagebreak and render all pending floats on the page(s)
-following the pagebreak.  Clearpage instructions are sometimes used
-when rendering typeset pages containing floating content like tables
-and figures.
+description:: The data format shall define the syntax for a
+``clearpage'' symbol.  A ``clearpage'' symbol instructs the
+application to insert a ``pagebreak'' and render all pending floats on
+the page(s) following the pagebreak.  ``Clearpage'' symbols are
+sometimes used when rendering typeset pages containing floating
+content like tables and figures.
 
 index:: rq-000429
+
+outcome::2016-03-10:rq-000429:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

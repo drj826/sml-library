@@ -7,12 +7,18 @@ is_part_of:: rq-000407
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline acronym term reference.  In other words, the data format
-must have the capability to indicate an acronym is in the official
-list of acronyms. The acronym `term' is the short form of the acronym
-itself and not the expanded definition of the acronym.
+an inline acronym term reference string.  In other words, the data
+format must have the capability to indicate that a string represents
+an acronym in the list of acronyms. The acronym `term' is the short
+form of the acronym.  The acronym `definition' is the long form of the
+acronym. The syntax must support specification of a namespace string.
+The purpose of a namespace string is to have different definitions of
+identical acronyms.
 
 index:: rq-000090; acronym term reference; string!acronym term
 reference
+
+outcome::2016-03-09:rq-000090:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

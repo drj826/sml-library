@@ -4,8 +4,11 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000407         # Define the Syntax for Internal Reference Strings
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000441
+
+outcome::2016-03-09:al-000441:green: The SML::Syntax class defines all
+required syntaxes for internal reference strings. (Don Johnson)
 
 <<<allocation

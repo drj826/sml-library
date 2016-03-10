@@ -3,10 +3,11 @@
 title:: Library Administrator
 
 description:: A library administrator oversees the systematic
-development and maintenance of a documentation library. The library
-administrator also controls changes to the ontology. Although many
-developers may be contributing to library development, the library
-administrator controls the versioning and release of the library.
+development and maintenance of a documentation [g:SML:library]. The
+library administrator also controls changes to the
+[g:SML:ontology]. Although many developers may be contributing to
+library development, the library administrator controls the
+[g:SML:versioning] and [g:SML:release] of the library.
 
 index:: ro-000004; Library Administrator
 

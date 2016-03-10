@@ -2,10 +2,13 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000187         # Represent Internal Hyperlinks
+requirement:: rq-000187         # Define the Syntax for an Internal Hyperlink String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000187
+
+outcome::2016-03-09:al-000187:red: The SML::Syntax class currently has
+~~no~~ syntax defined for an internal hyperlink string. (Don Johnson)
 
 <<<allocation

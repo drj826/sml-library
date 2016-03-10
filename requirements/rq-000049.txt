@@ -6,9 +6,15 @@ is_part_of:: rq-000360
 
 type:: data format
 
+associated:: rq-000048
+
 description:: The data format shall define the syntax for a copyright
-symbol.
+symbol. This requirement is necessary because 7-bit ASCII does not
+contain a copyright character.
 
 index:: rq-000049; copyright symbol; symbol!copyright
+
+outcome::2016-03-10:rq-000049:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

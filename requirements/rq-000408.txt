@@ -1,18 +1,23 @@
 >>>requirement.rq-000408
 
-title:: Define the Syntax for a Property Reference String
+title:: Define the Syntax for a Property Value Lookup Reference String
 
 type:: data format
 
 is_part_of:: rq-000407
 
 description:: The data format shall define the syntax for a property
-reference string.  The purpose of a property reference string is to
-``look up'' any property value in the library and re-use it in another
-location.  For instance if you have a table description you wish to
-show in other locations you should have the ability to ``look up'' the
-description property of the table.
+value lookup reference string.  The purpose of a property value lookup
+reference string is to ``look up'' any property value in the library
+and re-use it in another location.  For instance if you have a table
+description you wish to show in other locations you should have the
+ability to ``look up'' the description property of the table. This
+maximizes document maintainability by giving authors the capability to
+define content in only one location and reuse it in many.
 
 index:: rq-000408; string!property reference; lookup
+
+outcome::2016-03-09:rq-000408:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

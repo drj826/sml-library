@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000057         # Represent a Left Arrow
+requirement:: rq-000057         # Define the Syntax for a Left Arrow Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000090
+
+outcome::2016-03-10:al-000090:green: The SML::Syntax class defined the
+syntax for a left arrow symbol at line 2328 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

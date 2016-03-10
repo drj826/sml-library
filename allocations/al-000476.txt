@@ -4,7 +4,7 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000360         # Define Symbol Syntax
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000476
 

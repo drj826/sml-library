@@ -2,10 +2,18 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000080         # Represent an `Em Dash' Symbol
+requirement:: rq-000080         # Define the Syntax for an "Em Dash" Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000113
+
+outcome::2016-03-10:al-000113:red: The SML::Syntax class does ~~NOT~~
+define the syntax for an ``em dash'' symbol.  Line 2484 of
+[file:Syntax.pm] has a commented-out syntax definition.  I ran into
+difficulty with the implementation of the chosen syntax (--) because
+it collided with too many other symbols.  I plan to go back to the
+drawing board in the future to implement an ``em dash'' symbol
+syntax. (Don Johnson)
 
 <<<allocation

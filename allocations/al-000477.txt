@@ -4,8 +4,11 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000426         # Define the Syntax for Processing Instruction Symbols
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000477
+
+outcome::2016-03-10:al-000477:green: The SML::Syntax class defines the
+syntax for all required processing instruction symbols. (Don Johnson)
 
 <<<allocation

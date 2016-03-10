@@ -2,7 +2,7 @@
 
 title:: Be Encodable Using 7-Bit ASCII
 
-is_part_of:: rq-000111
+is_part_of:: rq-000111          # Satisfy Non-Functional Requirements
 
 type:: data format
 

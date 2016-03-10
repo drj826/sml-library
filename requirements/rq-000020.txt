@@ -8,8 +8,6 @@ type:: data format
 
 associated:: rq-000021
 
-associated:: rq-000022
-
 description:: The data format shall have the capability to represent
 an inline cross reference.  An inline cross reference enables authors
 to direct the reader's attention to another part of the library.  The
@@ -20,5 +18,8 @@ index:: rq-000020; cross references
 
 For instance if the target of the cross reference is a table then the
 application should display the table number like `Table 1-21'.
+
+outcome::2016-03-09:rq-000020:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

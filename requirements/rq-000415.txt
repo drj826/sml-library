@@ -9,9 +9,14 @@ type:: data format
 description:: The data format shall have the capability to represent
 an inline glossary term reference.  In other words, the data format
 must have the capability to indicate a term is defined in the
-glossary.
+glossary. The syntax must have the capability to distinquish between
+namespaces.  The purpose of a namespace is to allow the same term to
+have different definitions in different contexts.
 
 index:: rq-000415; glossary term reference; string!glossary term
 reference
+
+outcome::2016-03-09:rq-000415:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

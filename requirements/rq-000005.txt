@@ -2,7 +2,7 @@
 
 title:: Minimize Presentation Markup
 
-is_part_of:: rq-000082
+is_part_of:: rq-000082          # Maximize Data Format Human Readability
 
 type:: data format
 

@@ -4,8 +4,11 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000402         # Define the Syntax for External Reference Strings
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000472
+
+outcome::2016-03-09:al-000472:green: The SML::Syntax class defines the
+syntax for all required external reference strings. (Don Johnson)
 
 <<<allocation

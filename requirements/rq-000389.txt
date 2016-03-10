@@ -12,4 +12,7 @@ refer to any other information.
 
 index:: rq-000389; string!non-reference
 
+outcome::2016-03-09:rq-000389:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

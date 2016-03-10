@@ -2,7 +2,7 @@
 
 title:: Define the Syntax for a Paragraph
 
-is_part_of:: rq-000327
+is_part_of:: rq-000327          # Define Block Syntax
 
 type:: data format
 

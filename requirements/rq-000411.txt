@@ -9,8 +9,12 @@ is_part_of:: rq-000407
 description:: The data format shall define the syntax for a page
 reference string.  The purpose of a page reference string is to
 display the page number on which the specified division appears in the
-document.
+document.  The page reference should provide the ID of the referenced
+division.
 
 index:: rq-000411; string!page reference
+
+outcome::2016-03-09:rq-000411:green:  This requirement is
+complete. (Don Johnson)
 
 <<<requirement

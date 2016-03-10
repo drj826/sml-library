@@ -2,10 +2,16 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000252         # Represent an Index Reference
+requirement:: rq-000252         # Define the Syntax for an Index Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000331
+
+outcome::2016-03-09:al-000331:green: The SML::Syntax class defines the
+syntax for an index reference string on line 1829 of [file:Syntax.pm].
+It further refines the syntax of an index entry at line 2617 of
+[file:Syntax.pm] to identify entries, sub-entries, and
+sub-sub-entries. (Don Johnson)
 
 <<<allocation

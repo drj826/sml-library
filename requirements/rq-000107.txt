@@ -21,4 +21,8 @@ Only four syntax structures are needed to express document content:
 
 = [g:SML:symbol] = [def:SML:symbol].
 
+outcome::2016-03-10:rq-000107:yellow: The status of this requirement
+is yellow because it contains parts that are not complete. (Don
+Johnson)
+
 <<<requirement

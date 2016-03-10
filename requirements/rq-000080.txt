@@ -1,16 +1,23 @@
 >>>requirement.rq-000080
 
-title:: Define the Syntax for an `Em Dash' Symbol
+title:: Define the Syntax for an ``Em Dash'' Symbol
 
 is_part_of:: rq-000360
 
 type:: data format
 
-description:: The data format shall define the syntax for an `em dash'
-symbol. The em dash (--), m dash, m-rule, or ``mutton,'' often
-demarcates a break of thought or some similar interpolation stronger
-than the interpolation demarcated by parentheses.
+associated:: rq-000048
+
+description:: The data format shall define the syntax for an ``em
+dash'' symbol. The ``em dash'', ``m dash'', ``m-rule'', or ``mutton,''
+often demarcates a break of thought or some similar interpolation
+stronger than the interpolation demarcated by parentheses. This
+requirement is necessary because the 7-bit ASCII character set does
+not define an ``em dash'' symbol.
 
 index:: rq-000080; em dash; symbol!em dash
+
+outcome::2016-03-10:rq-000080:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

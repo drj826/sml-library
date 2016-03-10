@@ -2,16 +2,22 @@
 
 title:: Define the Syntax for a Registered Trademark Symbol
 
-is_part_of:: rq-000360
+is_part_of:: rq-000360          # Define Symbol Syntax
 
 type:: data format
 
-associated:: rq-000050
+associated:: rq-000048          # Be Encodable Using 7-Bit ASCII
+
+associated:: rq-000050          # Define the Syntax for a Trademark Symbol
 
 description:: The data format shall define the syntax for a registered
-trademark symbol.
+trademark symbol. This requirement is necessary because the 7-bit
+ASCII character set does not define a registered trademark symbol.
 
 index:: rq-000051; registered trademark symbol; symbol!registered
 trademark
+
+outcome::2016-03-10:rq-000051:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -6,9 +6,15 @@ is_part_of:: rq-000360
 
 type:: data format
 
+associated:: rq-000048
+
 description:: The data format shall define the syntax for a smiley
-face symbol.
+face symbol. This requirement is necessary because the 7-bit ASCII
+character set does not contain a symbol for a smiley face.
 
 index:: rq-000055; smiley face; emoticon; symbol!smiley face
+
+outcome::2016-03-10:rq-000055:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

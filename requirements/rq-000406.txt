@@ -7,9 +7,10 @@ is_part_of:: rq-000402
 type:: data format
 
 description:: The data format shall have the capability to represent
-an inline reference to an Email address. The syntax must define how to
+an in-line reference to an Email address. The syntax must define how to
 specify the Email address and provide an option to define other text
-to be displayed in the published document.
+to be displayed in the published document. An Email address reference
+string must be contained within a single [g:SML:block].
 
 index:: rq-000406; Email address; string!Email address
 
@@ -22,5 +23,8 @@ Or, he may want to refer to an Email address but display other text in
 the document:
 
   drj826@acm.org "Don Johnson"
+
+outcome::2016-03-09:rq-000406:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

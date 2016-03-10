@@ -296,7 +296,7 @@ of interest to an organization.  Entities defined in this library are:
 
 glossary:: epanorthosis {SML} = a figure of speech that signifies
 emphatic work replacement. ``Thousands, no, millions!'' Often used for
-emphasis or sarcasim
+emphasis or sarcasm
 
 glossary:: epigraph {SML1} = A quotation at the beginning of a book,
 chapter, etc. suggesting its theme
@@ -521,7 +521,7 @@ default value declarations
 
 glossary:: operational baseline {SML} = A [g:IEEE:baseline] that
 identifies the system accepted and configured by the users in the
-operational environment after a period of onsite test using production
+operational environment after a period of on-site test using production
 data
 
 glossary:: operator {SML} = the skill level necessary to operate a
@@ -590,7 +590,7 @@ an [g:SML1:entity].  Allowed properties are declared in the
 one or many, meaning, they may be either single-valued or
 multi-valued.  Properties may be required or optional.  Properties may
 also be ``imply-only'' meaning that them may ~~not~~ be explicitly
-declared using elements, but may ~~only~~ be infered by the
+declared using elements, but may ~~only~~ be inferred by the
 [g:SML:reasoner].
 
 glossary:: publish {SML} = A program that converts minimally formatted
@@ -767,7 +767,7 @@ governing the total technical and managerial effort required to
 transform a set of customer needs, expectations, and constraints into
 a product solution and support that solution throughout the product's
 life. This includes the definition of technical performance measures,
-the integration of engineering specialties towards the establishment
+the integration of engineering specialties toward the establishment
 of a product architecture, and the definition of supporting life-cycle
 processes that balance cost, performance, and schedule objectives.
 
@@ -829,7 +829,7 @@ description, or heading of a [g:SML:DOCUMENT], [g:SML2:structure],
 # U
 ######################################################################
 
-glossary:: UNIVERSAL {SML} = A catagory of [g:SML:element] that may
+glossary:: UNIVERSAL {SML} = A category of [g:SML:element] that may
 exist anywhere in SML text, not just in specified divisions
 
 ###
@@ -877,6 +877,14 @@ glossary:: variable definition {SML} = A [g:SML:definition] that
 defines a key/value pair where the key is the variable name and the
 value is the definition.  Variable definitions are limited to a single
 block of text
+
+glossary:: version {SML} = An identifier that represents the state of
+a work product at some point in time (i.e. v2.13.4). The Semantic
+Versioning specification defines a commonly used versioning
+system. See [url:http://semver.org/].
+
+glossary:: versioning {SML} = The activity of identifying the
+[g:SML:version] of a work product.
 
 glossary:: video {SML} = A [g:SML2:structure] that instructs the
 publishing application to insert a video clip into the document

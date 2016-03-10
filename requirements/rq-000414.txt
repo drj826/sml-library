@@ -9,8 +9,14 @@ is_part_of:: rq-000407
 description:: The data format shall define the syntax for a variable
 reference string.  The purpose of a variable reference string is to
 refer to the value of a variable previously defined anywhere else in
-the library.
+the library. The syntax must support the specification of an optional
+namespace string.  The purpose of the namespace string is to allow the
+same variable name to have different definitions in different
+contexts.
 
 index:: rq-000414; string!variable reference
+
+outcome::2016-03-09:rq-000414:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

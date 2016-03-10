@@ -1,13 +1,18 @@
 >>>requirement.rq-000393
 
-title:: Define the Syntax for a Underline String
+title:: Define the Syntax for an Underline String
 
 type:: data format
 
 is_part_of:: rq-000389
 
-description:: The data format shall define the syntax for a underline string.
+description:: The data format shall define the syntax for an underline
+string.  An underline string must be contained within a single
+[g:SML:block].
 
 index:: rq-000393; underline; string!underline
+
+outcome::2016-03-09:rq-000393:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -8,8 +8,13 @@ is_part_of:: rq-000407
 
 description:: The data format shall define the syntax for a footnote
 reference string.  The purpose of a footnote reference string is to
-refer to any footnote in the document.
+refer to any footnote in the library.  The footnote reference string
+should capture the ID of the division containing the footnote and the
+footnote number.
 
 index:: rq-000412; string!footnote reference
+
+outcome::2016-03-09:rq-000412:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

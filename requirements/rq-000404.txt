@@ -8,8 +8,13 @@ type:: data format
 
 description:: The data format shall have the capability to represent a
 path reference string.  The purpose of a path reference string is to
-identify any path specification even to a path that doesn't exist.
+identify any path specification perhaps even to a path that doesn't
+exist. A path reference string must be contained within a single
+[g:SML:block].
 
 index:: rq-000404; path reference; string!path reference
+
+outcome::2016-03-09:rq-000404:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

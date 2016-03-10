@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax Class
 
-requirement:: rq-000429         # Define the Syntax for a Clearpage Symbol
+requirement:: rq-000429         # Define the Syntax for a "Clearpage" Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000478
+
+outcome::2016-03-10:al-000478:green: The SML::Syntax class defines the
+syntax for a ``Clearpage'' symbol at line 2256 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

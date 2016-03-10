@@ -8,8 +8,13 @@ type:: data format
 
 description:: The data format shall have the capability to represent a
 file reference string.  The purpose of a file reference string is to
-identify any file specification even to a file that doesn't exist.
+identify any file specification perhaps even to a file that doesn't
+exist. A file reference string must be contained within a single
+[g:SML:block].
 
 index:: rq-000403; file reference; string!file reference
+
+outcome::2016-03-09:rq-000403:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

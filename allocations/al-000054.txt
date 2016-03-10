@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000020         # Represent an Inline Cross Reference
+requirement:: rq-000020         # Define the Syntax for a Cross Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000054
+
+outcome::2016-03-09:al-000054:green: The SML::Syntax class defines the
+syntax for a cross reference string at line 1642 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

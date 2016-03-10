@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000021         # Represent an Inline External Hyperlink
+requirement:: rq-000021         # Define the Syntax for an External Hyperlink Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000055
+
+outcome::2016-03-09:al-000055:green: The SML::Syntax class defines the
+syntax for an external hyperlink reference string at line 1532 of
+[file:Syntax.pm]. (Don Johnson)
 
 <<<allocation

@@ -2,10 +2,13 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000061         # Represent a Horizontal Rule
+requirement:: rq-000061         # Define the Syntax for a Horizontal Rule Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000094
+
+outcome::2016-03-10:al-000094:red: The SML::Syntax class does ~~NOT~~
+define a syntax for a horizontal rule at this time. (Don Johnson)
 
 <<<allocation

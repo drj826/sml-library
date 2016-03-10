@@ -2,14 +2,19 @@
 
 title:: Define the Syntax for a TeX Symbol
 
-is_part_of:: rq-000360
+is_part_of:: rq-000360          # Define Symbol Syntax
 
 type:: data format
 
+priority:: low
+
 description:: The data format shall define the syntax for a TeX
 symbol.  TeX is a computer typesetting system used to produce high
-quality hardcopy document renditions.
+quality hard-copy document renditions.
 
 index:: rq-000431; TeX symbol; symbol!TeX
+
+outcome::2016-03-10:rq-000431:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

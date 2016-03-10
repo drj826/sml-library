@@ -7,8 +7,14 @@ type:: data format
 is_part_of:: rq-000389
 
 description:: The data format shall define the syntax for a literal
-string.
+string. A literal string must be contained within a single
+[g:SML:block].  The purpose of this requirement is to give authors the
+ability to escape the special meaning of text that would otherwise be
+interpreted as SML markup.
 
 index:: rq-000401; double quote; string!literal
+
+outcome::2016-03-09:rq-000401:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

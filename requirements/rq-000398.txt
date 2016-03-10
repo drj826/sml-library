@@ -6,8 +6,16 @@ type:: data format
 
 is_part_of:: rq-000389
 
-description:: The data format shall define the syntax for an XML tag.
+description:: The data format shall define the syntax for an XML
+tag. An XML tag must be contained within a single [g:SML:block].  The
+purpose of this requirement is to enable SML applications to recognize
+XML tags within manuscript text so they are not passed directly
+through to XML or HTML renditions where they might otherwise conflict
+with the rendition markup.
 
 index:: rq-000398; xml tag; string!xml tag
+
+outcome::2016-03-09:rq-000398:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

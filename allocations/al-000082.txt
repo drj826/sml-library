@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000049         # Represent a Copyright Symbol
+requirement:: rq-000049         # Define the Syntax for a Copyright Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000082
+
+outcome::2016-03-10:al-000082:green: The SML::Syntax class defines the
+syntax for a copyright symbol at line 2416 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

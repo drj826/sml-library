@@ -6,9 +6,17 @@ type:: data format
 
 is_part_of:: rq-000389
 
+associated:: rq-000048
+
 description:: The data format shall define the syntax for a double
-quoted string.
+quoted string. A double quoted string must be contained within a
+single [g:SML:block]. The syntax must distinguish between the open and
+close quotes.  This requirement is identified because 7-bit ASCII does
+not represent left or right double quotation marks.
 
 index:: rq-000400; double quote; string!double quoted
+
+outcome::2016-03-09:rq-000400:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

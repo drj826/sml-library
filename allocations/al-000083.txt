@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000433  # SML::Syntax
 
-requirement:: rq-000050         # Represent a Trademark Symbol
+requirement:: rq-000050         # Define the Syntax for a Trademark Symbol
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000083
+
+outcome::2016-03-10:al-000083:green: The SML::Syntax class defines the
+syntax for a trademark symbol at line 2433 of [file:Syntax.pm]. (Don
+Johnson)
 
 <<<allocation

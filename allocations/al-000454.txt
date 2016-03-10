@@ -4,8 +4,13 @@ configuration_item:: ci-000433  # SML::Syntax Class
 
 requirement:: rq-000415         # Define the Syntax for a Glossary Term Reference String
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000454
+
+outcome::2016-03-09:al-000454:green: The SML::Syntax class defines the
+syntax for a glossary term reference string at line 1923 of
+[file:Syntax.pm].  The defined syntax supports optional
+namespaces. (Don Johnson)
 
 <<<allocation

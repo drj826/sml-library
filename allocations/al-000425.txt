@@ -4,7 +4,7 @@ configuration_item:: ci-000433  # SML::Syntax
 
 requirement:: rq-000372         # Define the Syntax for an Element
 
-test:: tc-000041                # Demonstration
+test:: tc-000042                # Inspection
 
 index:: al-000425
 
