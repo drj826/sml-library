@@ -1,0 +1,18 @@
+>>>requirement.rq-000434
+
+title:: Describe How a Solution Works or Should Work
+
+type:: activity
+
+is_part_of:: rq-000355          # Design Solutions
+
+description:: The organization shall describe ~~how~~ a solution works
+or should work. The work product of this activity is a model of the
+solution design. The model allocates functional requirements
+(functions) to design components to explain how the design satisfies
+requirements. The model also describes relationships between design
+components.
+
+index:: rq-000434; design
+
+<<<requirement

@@ -1,0 +1,23 @@
+>>>requirement.rq-000433
+
+title:: Describe What a Solution Does or Should Do
+
+type:: activity
+
+is_part_of:: rq-000354          # Understand Requirements
+
+description:: The organization shall describe ~~what~~ a solution does
+or should do.  This activity is sometimes called [g:CMMI:functional
+analysis]. The work product of this activity is a [g:IEEE:functional
+baseline] which consists of [g:SML:functional requirement]s arranged
+in a [g:CMMI:functional architecture]. The [g:IEEE:functional
+baseline] is often documented in a [g:IEEE:functional specification].
+
+index:: rq-000433; functional analysis
+
+The first step in understanding requirements is often answering the
+questions, ``What does a solution do?'' or ``What is a solution
+~~supposed~~ to do?''  The purpose of [g:CMMI:functional analysis] is
+to produce work products that answer these questions.
+
+<<<requirement

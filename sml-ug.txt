@@ -30,6 +30,62 @@ ver:: 1.5 = 2012-03-23 = Updated glossary organization.
 
 ######################################################################
 
+>>>COMMENT
+
+Why use SML?
+
+This is a description of an SML user.  Me.  Why do I use SML? What is
+important to me?
+
+I like to work with software.  When building and using software I
+think it is important to create a common understanding of:
+
+- What does the software do (or what should it do)?
+
+- How does the software work (or how should it work)?
+
+- How do you know the software works the way it's supposed to?
+
+An SML user has a ~~passion~~ for answering these questions.  For
+organizations critically dependent on software, I think the long term
+viability of the organization depends on creating a common
+understanding of the answers to these questions.
+
+Tribal knowledge is a poor substitute for documentation.
+
+I think documents are important. Documents asynchronously create
+common understanding. Documents teach. Smart people read and write.
+They get good at it.  They use a common language to document a common
+understanding.
+
+The first language every developer must master is English.  People who
+lack reading and writing skills should not be in the software
+business.
+
+The current agile software development trend often minimizes the
+importance of documentation.  Documentation slows down development. I
+think this will be its undoing.  Some DevOps practitioners take this
+to the extreme by making developers individually responsible for their
+software in production. It seems to me this makes an organization
+critically dependent on the developer of critical software.  What
+happens if the developer gets hit by a bus?  Wins the lottery?  Gets
+hired away by a competitor (like winning the lottery)?
+
+I like agile.  I think agile methods work as well for documents as
+code.
+
+Why not just read and write source code?  Too many languages.  Some
+don't need the deep understanding that source code gives, they only
+need a shallow understanding of what the software does or how it
+works.
+
+I want to build documents using little parts like building models
+with legos.
+
+<<<COMMENT
+
+######################################################################
+
 *.getting-started Getting Started
 
 >>>EPIGRAPH

@@ -22,15 +22,13 @@ ps       = library.get_property_store
 [%- FOREACH entity_name IN ontology.get_entity_name_list -%]
 <h2 style="background-color:#eeeeee;padding:10px;" id="[%entity_name%]">[%entity_name%]</h2>
 
-<table>
 [%- entity_id_list = library.get_division_id_list_by_name(entity_name) -%]
 
+<p>[%entity_id_list.size%] [%entity_name%]s</p>
+
+<table>
 [%- FOREACH entity_id IN entity_id_list -%]
-  [%- IF ps.has_property(entity_id,'status') -%]
   [%- status = ps.get_property_text(entity_id,'status') -%]
-  [%- ELSE -%]
-  [%- status = 'grey' -%]
-  [%- END -%]
 <tr>
 
 <td style="width:12%;">[% INCLUDE status_icon.tt %]&nbsp;[%- INCLUDE id_link.tt id = entity_id -%]</td>

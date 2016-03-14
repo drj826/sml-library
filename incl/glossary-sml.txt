@@ -825,6 +825,11 @@ glossary:: title {SML} = A [g:SML:block] that is a brief name,
 description, or heading of a [g:SML:DOCUMENT], [g:SML2:structure],
 [g:SML2:entity], or [g:SML:SECTION]
 
+glossary:: tribal knowledge {SML} = Any unwritten information that is
+not commonly known by others within a company.  This term is used most
+when referencing information that may need to be known by other in
+order to produce quality product or service
+
 ######################################################################
 # U
 ######################################################################
