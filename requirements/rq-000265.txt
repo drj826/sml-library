@@ -1,14 +1,14 @@
 >>>requirement.rq-000265
 
-title:: Render HTML List of Slides
+title:: Publish a Static HTML Document List of Slides
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML list of slides.  The
-purpose of this listing is to enable readers to quickly navigate to
-any slide in the document.
+description:: The software shall publish a static HTML list of slides.
+The purpose of this listing is to enable readers to quickly navigate
+to any slide in the document.
 
 index:: rq-000265; list of slides!HTML; HTML list of slides
 

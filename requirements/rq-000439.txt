@@ -1,0 +1,14 @@
+>>>requirement.rq-000439
+
+title:: Satisfy Mission Directives
+
+type:: package
+
+description:: The organization shall satisfy mission directives.  This
+requirement serves as a package (a container) for all mission
+directives levied on the organization.  Organizational activities are
+often derived from mission directives.
+
+index:: rq-000439; mission directives
+
+<<<requirement

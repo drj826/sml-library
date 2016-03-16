@@ -1,19 +1,19 @@
 >>>requirement.rq-000282
 
-title:: Render HTML Copyright Page
+title:: Publish a Static HTML Document Copyright Page
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML copyright page.  The
-copyright page shall present the: (1) optional biographical note, (2)
-publisher's address, (3) copyright notice, (4) year of publication,
-(5) subsequent editions, (6) any additional copyright information, (7)
-publishing history, (8) translation, (9) ISBN, (10) ISSN, (11)
-acknowledgments, permissions, and other credits, (12) grants, and (13)
-cataloging-in-publication (CIP) data
+description:: The software shall publish a static HTML document
+copyright page.  The copyright page shall present the: (1) optional
+biographical note, (2) publisher's address, (3) copyright notice, (4)
+year of publication, (5) subsequent editions, (6) any additional
+copyright information, (7) publishing history, (8) translation, (9)
+ISBN, (10) ISSN, (11) acknowledgments, permissions, and other credits,
+(12) grants, and (13) cataloging-in-publication (CIP) data
 
-index:: rq-000282; copyright page!HTML; HTML copyright page
+index:: rq-000282; copyright page!HTML; HTML copyright page; copyright
 
 <<<requirement

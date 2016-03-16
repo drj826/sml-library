@@ -240,6 +240,8 @@ from other parts of the [g:SML:DOCUMENT] or [g:SML:library]
 glossary:: DOCUMENT {SML} = A [g:SML2:structure] that represents a
 written work about a topic
 
+glossary:: document {SML} = A written work about a topic
+
 glossary:: don't repeat yourself {SML} = ([a:SML:DRY]) a principle of
 software development, aimed at reducing repetition of information of
 all kinds, especially useful in multi-tier architectures. The DRY
@@ -278,9 +280,11 @@ name/value pair expressing a piece of structured information or
 instructing the processor to take some action. See also
 [g:SML:property]
 
-glossary:: engineer {SML} = the skill level needed to invent, design
-and implement systems to solve real world problems.  Contrast with
-[g:SML:technician] and [g:SML:operator]
+glossary:: engineer {SML} = (1) an ~~individual~~ who invents,
+designs, and implements systems to solve real world problems, (2) the
+~~skill level~~ needed to invent, design and implement systems to
+solve real world problems.  Contrast with [g:SML:technician] and
+[g:SML:operator]
 
 glossary:: entity {SML1} = A thing of interest to an
 organization about which data is held. Entity types are declared in an
@@ -396,7 +400,8 @@ publishing application to include the [g:SML:text] from another
 [g:SML:division]
 
 glossary:: index {SML} = An alphabetically organized listing of terms
-and with references to where those terms are used in the document
+and with references to where those terms are used in one or more
+documents
 
 glossary:: instructional demonstration {SML} = a description of a
 series of tasks that reinforce and illustrate concepts being taught
@@ -512,20 +517,21 @@ interpretation and well-formed use of these terms.  An ontology is
 composed of [g:SML:ontology rule]s
 
 glossary:: ontology rule {SML} = A single declaration that defines an
-allowed semantic expression.  An ontology is composed of a collection
-of ontology rules.  Document semantics are validated against the set
-of ontology rules.  There are (currently) 5 (five) types of ontology
-rules: (1) division declarations, (2) property declarations, (3)
-enumeration declarations, (4) composition declarations, and (5)
-default value declarations
+allowed semantic expression.  An [g:SML:ontology] is composed of a
+collection of ontology rules.  Document semantics are validated
+against the set of ontology rules.  There are (currently) 5 (five)
+types of ontology rules: (1) division declarations, (2) property
+declarations, (3) enumeration declarations, (4) composition
+declarations, and (5) default value declarations
 
 glossary:: operational baseline {SML} = A [g:IEEE:baseline] that
 identifies the system accepted and configured by the users in the
 operational environment after a period of on-site test using production
 data
 
-glossary:: operator {SML} = the skill level necessary to operate a
-system.  Contrast with [g:SML:engineer] and [g:SML:technician]
+glossary:: operator {SML} = (1) an ~~individual~~ who operates a
+system, (2) the ~~skill level~~ necessary to operate a system.
+Contrast with [g:SML:engineer] and [g:SML:technician]
 
 ######################################################################
 # P
@@ -593,8 +599,11 @@ also be ``imply-only'' meaning that them may ~~not~~ be explicitly
 declared using elements, but may ~~only~~ be inferred by the
 [g:SML:reasoner].
 
-glossary:: publish {SML} = A program that converts minimally formatted
+glossary:: publish {SML1} = A program that converts minimally formatted
 text files into published documents
+
+glossary:: publish {SML2} = To issue an informational work product for
+distribution to an indented audience
 
 ######################################################################
 # Q
@@ -810,9 +819,10 @@ implementation specific/dependent. See also DHS definition of
 [g:SML:functional requirement]s and [g:SML:non-functional
 requirement]s.
 
-glossary:: technician {SML} = the skill level needed to deploy,
-configure and repair systems. Contrast with [g:SML:engineer] and
-[g:SML:operator]
+glossary:: technician {SML} = (1) an ~~individual~~ who deploys,
+configures, and repairs systems; (2) the ~~skill level~~ needed to
+deploy, configure and repair systems. Contrast with [g:SML:engineer]
+and [g:SML:operator]
 
 glossary:: test {SML} = An [g:SML2:entity] that describes a test, a
 method of proving (verifying) a solution solves a problem

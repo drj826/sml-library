@@ -1,0 +1,16 @@
+>>>requirement.rq-000440
+
+title:: Satisfy Compliance Directives
+
+type:: package
+
+description:: The organization shall satisfy compliance directives.  A
+compliance directive places constraints on how the organization
+operates or on how systems are implemented and operated. This
+requirement serves as a package (a container) for all compliance
+directives levied on the organization.  Organizational activities are
+often derived from compliance directives.
+
+index:: rq-000440; compliance directives
+
+<<<requirement

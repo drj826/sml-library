@@ -1,0 +1,16 @@
+>>>requirement.rq-000437
+
+title:: Perform Organizational Activities
+
+type:: package
+
+description:: Organizational activities describe what people do.  This
+requirement serves as a package (a container) for all organizational
+activities.  These activities are often called ``responsibilities''
+within a framework of ``roles and responsibilities.'' System
+functional requirements are often derived from organizational
+activities.
+
+index:: rq-000437; organizational activities; activities
+
+<<<requirement

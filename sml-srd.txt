@@ -182,15 +182,15 @@ contains a complete collection of terms and their definitions.
 
 ######################################################################
 
-# Permit a User to Customize a Library
-
-* plugin:: Parts2Sections rq-000375
-
-######################################################################
-
 # Perform Functions For Users
 
 * plugin:: Parts2Sections rq-000104
+
+######################################################################
+
+# Permit a User to Customize a Library
+
+* plugin:: Parts2Sections rq-000375
 
 ######################################################################
 

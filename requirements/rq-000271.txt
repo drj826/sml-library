@@ -1,15 +1,16 @@
 >>>requirement.rq-000271
 
-title:: Render HTML List of To Do Items
+title:: Publish a Static HTML Document List of To Do Items
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML list of ``to do''
-items.  The purpose of this listing is to enable readers to quickly
-navigate to any ``to do'' item in the document.
+description:: The software shall publish a static HTML document list
+of ``to do'' items.  The purpose of this listing is to enable readers
+to quickly navigate to any ``to do'' item in the document.
 
-index:: rq-000271; list of to do items!HTML; HTML list of to do items
+index:: rq-000271; list of to do items!HTML; HTML list of to do items;
+to do
 
 <<<requirement

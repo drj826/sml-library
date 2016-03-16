@@ -1,17 +1,15 @@
 >>>requirement.rq-000001
 
-title:: Render Documents from SML to Static HTML
+title:: Publish an SML Document to Static HTML
 
-is_part_of:: rq-000098          # Render Documents From SML Source Files
+is_part_of:: rq-000436          # Publish an SML Document
 
 type:: functional
 
-description:: The system shall enable a user to render
-[g:SML:DOCUMENT]s from [g:SML:Semantic Manuscript Language] (SML)
-sources to static HTML documents.  The purpose of producing static
-HTML is to enable simple document sharing via storage devices like CD,
-DVD, or USB drives and by uploading to content management web
-services.
+description:: The system shall enable a user to publish an [ac:SML]
+[g:SML:DOCUMENT] to static HTML.  The purpose of producing static HTML
+is to enable simple document sharing via storage devices like CD, DVD,
+or USB drives and by uploading to content management web services.
 
 index:: rq-000001; HTML!render static
 

@@ -4,6 +4,8 @@ title:: Define Document Syntax
 
 type:: package
 
+is_part_of:: rq-000438                  # Satisfy Functional Requirements
+
 description:: The data format shall define a document syntax.  This
 requirement is the top-level requirement for a descriptive markup
 language.  It serves as a container for all descriptive markup syntax
