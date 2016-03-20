@@ -1,0 +1,17 @@
+>>>allocation.al-000487
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000441         # Publish a Static HTML Document List of Errors
+
+test:: tc-000041                # Demonstration
+
+index:: al-000487
+
+outcome::2016-03-20:al-000487:green: The SML::Publisher class
+publishes a static HTML document list of errors. This function is
+performed by the [code:_publish_html_document] private method called
+by the [code:publish] public method. See line 937 of
+[file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

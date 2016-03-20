@@ -1,11 +1,17 @@
 >>>allocation.al-000348
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000268         # Render HTML List of Demonstrations
+requirement:: rq-000268         # Publish a Static HTML Document List of Demonstrations
 
 test:: tc-000041                # Demonstration
 
 index:: al-000348
+
+outcome::2016-03-20:al-000348:green: The SML::Publisher class
+publishes a static HTML document list of demonstrations. This function
+is performed by the [cmd:_publish_html_document] private method called
+by the [cmd:publish] public method.  See line 859 of
+[file:Publisher.pm]. (Don Johnson)
 
 <<<allocation

@@ -9,8 +9,9 @@ test:: tc-000041                # Demonstration
 index:: al-000343
 
 outcome::2016-03-16:al-000343:green: The SML::Publisher class
-publishes a static HTML document version history page (ref line 882 of
-[file:Publisher.pm]) that includes all required data elements. (Don
-Johnson)
+publishes a static HTML document version history page that includes
+all required data elements.  The [cmd:_publish_html_document] private
+method called by the [cmd:publish] public method performs this
+function. See line 882 of [file:Publisher.pm]. (Don Johnson)
 
 <<<allocation

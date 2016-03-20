@@ -9,7 +9,9 @@ test:: tc-000041                # Demonstration
 index:: al-000356
 
 outcome::2016-03-16:al-000356:green: The SML::Publisher class
-publishes a static HTML document glossary (ref line 898 of
-[file:Publisher.pm]). (Don Johnson)
+publishes a static HTML document glossary.  This function is performed
+by the [cmd:_publish_html_document] private method called by the
+[cmd:publish] public method. See line 898 of [file:Publisher.pm]. (Don
+Johnson)
 
 <<<allocation

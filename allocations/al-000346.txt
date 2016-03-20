@@ -1,11 +1,15 @@
 >>>allocation.al-000346
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000266         # Render HTML List of Sidebars
+requirement:: rq-000266         # Publish a Static HTML Document List of Sidebars
 
 test:: tc-000041                # Demonstration
 
 index:: al-000346
+
+outcome::2016-03-20:al-000346:red: At this time the SML::Publisher
+class ~~does not~~ publish a static HTML document list of
+sidebars. (Don Johnson)
 
 <<<allocation

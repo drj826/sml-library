@@ -1,11 +1,15 @@
 >>>allocation.al-000351
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000271         # Render HTML List of To Do Items
+requirement:: rq-000271         # Publish a Static HTML Document List of To Do Items
 
 test:: tc-000041                # Demonstration
 
 index:: al-000351
+
+outcome::2016-03-20:al-000351:red: At this time the SML::Publisher
+class ~~does not~~ publish a static HTML document list of to do
+items. (Don Johnson)
 
 <<<allocation
