@@ -1,0 +1,20 @@
+>>>requirement.rq-000441
+
+title:: Publish a Static HTML Document List of Errors
+
+type:: functional
+
+is_part_of:: rq-000001
+
+description:: The software shall publish a static HTML document list
+of errors.  Errors may be syntax errors, semantics errors, or other
+errors discovered during manuscript validation.  The purpose of this
+error listing is to notify readers of errors and enable the user to
+quickly navigate to the location of each error (if applicable).
+
+index:: rq-000441; errors
+
+outcome::2016-03-20:rq-000441:green: This requirement is
+complete. (Don Johnson)
+
+<<<requirement

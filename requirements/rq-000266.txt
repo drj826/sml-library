@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document List of Sidebars
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -13,5 +13,8 @@ to quickly navigate to any sidebar in the document.
 index:: rq-000266; list of sidebars!HTML; HTML list of sidebars
 
 = [g:SML:SIDEBAR] = [def:SML:SIDEBAR]
+
+outcome::2016-03-20:rq-000266:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -1,0 +1,16 @@
+>>>requirement.rq-000443
+
+title:: Publish an SML Library to Static HTML
+
+is_part_of:: rq-000435          # Publish an SML Library
+
+type:: functional
+
+description:: The system shall enable a user to publish an [ac:SML]
+[g:SML:library] to static HTML.  The purpose of producing static HTML
+is to enable simple library sharing via storage devices like CD, DVD,
+or USB drives and by uploading to content management web services.
+
+index:: rq-000443; HTML!render static
+
+<<<requirement

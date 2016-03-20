@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document List of Quotations
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -14,5 +14,8 @@ index:: rq-000267; list of quotations!HTML; HTML list of quotations;
 quotation
 
 = [g:SML:QUOTATION] = [def:SML:QUOTATION]
+
+outcome::2016-03-20:rq-000267:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

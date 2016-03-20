@@ -19,4 +19,7 @@ are not optimized for very large HTML files.  Therefore, the best way
 to meet this requirement is to render the SML document into a
 ~~collection~~ of navigable HTML pages.
 
+outcome::2016-03-20:rq-000001:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

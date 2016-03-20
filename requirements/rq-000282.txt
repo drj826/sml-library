@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document Copyright Page
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -15,5 +15,8 @@ ISBN, (10) ISSN, (11) acknowledgments, permissions, and other credits,
 (12) grants, and (13) cataloging-in-publication (CIP) data
 
 index:: rq-000282; copyright page!HTML; HTML copyright page; copyright
+
+outcome::2016-03-20:rq-000282:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

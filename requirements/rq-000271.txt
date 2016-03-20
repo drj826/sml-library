@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document List of To Do Items
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -12,5 +12,8 @@ to quickly navigate to any ``to do'' item in the document.
 
 index:: rq-000271; list of to do items!HTML; HTML list of to do items;
 to do
+
+outcome::2016-03-20:rq-000271:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

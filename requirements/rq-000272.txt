@@ -14,4 +14,7 @@ index:: rq-000272; list of tables!HTML; HTML list of tables; table
 
 = [g:SML:TABLE] = [def:SML:TABLE]
 
+outcome::2016-03-17:rq-000272:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

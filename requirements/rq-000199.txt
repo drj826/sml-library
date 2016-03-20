@@ -4,14 +4,12 @@ title:: Satisfy Technical Requirements
 
 type:: package
 
-description:: The system shall satisfy technical requirements.  This
-requirement serves as a container for all technical requirements. A
-technical requirement is one that describes something a system must do
-for another system or system component (i.e. ~~not~~ directly for a
-user).  Technical requirements begin with the phrase, ``The system
-shall...'' Technical requirements may be implementation
-specific/dependent.
+description:: The system shall satisfy [g:SML:technical requirement]s.
+This requirement serves as a package (a container) for all technical
+requirements.
 
-index:: rq-000199; technical requirements
+index:: rq-000199; technical requirements; requirement!technical
+
+= [g:SML:technical requirement] = [def:SML:technical requirement]
 
 <<<requirement

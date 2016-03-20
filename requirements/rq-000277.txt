@@ -15,4 +15,7 @@ acronym
 
 = [g:SML:acronym] = [def:SML:acronym]
 
+outcome::2016-03-20:rq-000277:green: This requirement is
+complete. (Don Johnson)
+
 <<<requirement

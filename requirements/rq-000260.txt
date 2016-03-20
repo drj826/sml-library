@@ -18,7 +18,7 @@ index:: rq-000260; navigation pane
 The document navigation pane shall display the following data
 elements:
 
-: 1
+: 1.
 
 : hyperlink to library main page
 
@@ -26,7 +26,7 @@ elements:
 
 ---
 
-: 2
+: 2.
 
 : hyperlink to document title page
 
@@ -34,7 +34,7 @@ elements:
 
 ---
 
-: 3
+: 3.
 
 : hyperlink to document list of tables
 
@@ -42,7 +42,7 @@ elements:
 
 ---
 
-: 4
+: 4.
 
 : hyperlink to document list of figures
 
@@ -50,7 +50,7 @@ elements:
 
 ---
 
-: 5
+: 5.
 
 : hyperlink to document list of attachments
 
@@ -58,7 +58,7 @@ elements:
 
 ---
 
-: 6
+: 6.
 
 : hyperlink to document list of listings
 
@@ -66,7 +66,7 @@ elements:
 
 ---
 
-: 7
+: 7.
 
 : hyperlink to document list of demonstrations
 
@@ -74,7 +74,7 @@ elements:
 
 ---
 
-: 8
+: 8.
 
 : hyperlink to document list of exercises
 
@@ -82,7 +82,7 @@ elements:
 
 ---
 
-: 9
+: 9.
 
 : hyperlink to document list of slides
 
@@ -90,7 +90,7 @@ elements:
 
 ---
 
-: 10
+: 10.
 
 : hyperlink to document version history
 
@@ -98,7 +98,7 @@ elements:
 
 ---
 
-: 11
+: 11.
 
 : hyperlink to document changes since previous version
 
@@ -106,7 +106,7 @@ elements:
 
 ---
 
-: 12
+: 12.
 
 : hyperlink to document glossary
 
@@ -114,7 +114,7 @@ elements:
 
 ---
 
-: 13
+: 13.
 
 : hyperlink to document acronym list
 
@@ -122,7 +122,7 @@ elements:
 
 ---
 
-: 14
+: 14.
 
 : hyperlink to document list of references
 
@@ -130,7 +130,7 @@ elements:
 
 ---
 
-: 15
+: 15.
 
 : hyperlink to document index
 
@@ -138,7 +138,15 @@ elements:
 
 ---
 
-: 16
+: 16.
+
+: hyperlink to document error listing (if any)
+
+: ref: [id:rq-000441] - [title:rq-000441]
+
+---
+
+: 17.
 
 : date document was published
 
@@ -146,7 +154,7 @@ elements:
 
 ---
 
-: 17
+: 18.
 
 : time document was published
 
@@ -154,7 +162,7 @@ elements:
 
 ---
 
-: 18
+: 19.
 
 : document version number (may be library version number)
 
@@ -162,7 +170,7 @@ elements:
 
 ---
 
-: 19
+: 20.
 
 : document revision identifier (may be cryptographic digest of
 document manuscript)
@@ -170,5 +178,8 @@ document manuscript)
 :
 
 ---
+
+outcome::2016-03-17:rq-000260:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

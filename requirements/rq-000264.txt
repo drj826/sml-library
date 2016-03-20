@@ -2,17 +2,17 @@
 
 title:: Publish a Static HTML Document List of Changes
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
 description:: The software shall publish a static HTML document list
 of changes since the previous version.  The purpose of this change
-listing is to notify readers which entities have been updated since
-the previous version and to enable the user to quickly navigate to any
-recently updated entity. This is an automatically rendered listing of
-change-log entries by entity type of entities that have been recently
-updated.
+listing is to notify readers which entities and structures have been
+updated since the previous version and to enable the user to quickly
+navigate to any recently updated entity or structure. This must be an
+automatically rendered listing of change-log entries by entity and
+structure name.
 
 index:: rq-000264; list of changes!HTML; HTML list of changes
 
@@ -23,5 +23,8 @@ these entity types, listing which ones have been recently updated
 along with the change-log entry committed with the change.
 
 = [g:SML2:entity] = [def:SML2:entity]
+
+outcome::2016-03-20:rq-000264:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

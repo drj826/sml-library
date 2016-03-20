@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document List of Listings
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -13,5 +13,8 @@ enable readers to quickly navigate to any listing in the document.
 index:: rq-000270; list of listings!HTML; HTML list of listings
 
 = [g:SML:LISTING] = [def:SML:LISTING]
+
+outcome::2016-03-20:rq-000270:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

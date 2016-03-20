@@ -2,7 +2,7 @@
 
 title:: Publish a Static HTML Document List of Attachments
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
@@ -14,5 +14,8 @@ index:: rq-000274; list of attachments!HTML; HTML list of attachments;
 attachment
 
 = [g:SML:ATTACHMENT] = [def:SML:ATTACHMENT]
+
+outcome::2016-03-20:rq-000274:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement
