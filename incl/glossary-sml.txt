@@ -533,6 +533,9 @@ glossary:: operator {SML} = (1) an ~~individual~~ who operates a
 system, (2) the ~~skill level~~ necessary to operate a system.
 Contrast with [g:SML:engineer] and [g:SML:technician]
 
+glossary:: organizational activity {SML} = Same as [g:SML:business
+requirement]
+
 ######################################################################
 # P
 ######################################################################
@@ -812,10 +815,12 @@ difference between a ~~technical requirement~~ and a
 ~~[g:SML:functional requirement]~~.  A ~~technical requirement~~
 describes what the system must do for another [g:IEEE:system] or
 [g:SML:system component].  A ~~functional requirement~~ describes what
-the system must do for a ~~user~~.  Technical requirements begin with
-the phrase, ``The system shall...''  Technical requirements may be
-implementation specific/dependent. See also DHS definition of
-[g:SML:system requirement].  Technical requirements are derived from
+the system must do for a ~~user~~.  Technical requirements are
+important because they define functions that must be verified
+(tested). Technical requirements begin with the phrase, ``The system
+shall...''  Technical requirements may be implementation
+specific/dependent. See also DHS definition of [g:SML:system
+requirement].  Technical requirements are derived from
 [g:SML:functional requirement]s and [g:SML:non-functional
 requirement]s.
 
