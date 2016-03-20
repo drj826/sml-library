@@ -1,0 +1,13 @@
+>>>requirement.rq-000438
+
+title:: Satisfy Functional Requirements
+
+type:: package
+
+description:: The solution shall satisfy functional requirements.
+This requirement serves as a package (a container) for all functional
+requirements.
+
+index:: rq-000438; functional requirements
+
+<<<requirement

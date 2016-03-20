@@ -4,7 +4,9 @@ title:: Represent Engineering Document Semantics
 
 type:: data format
 
-associated:: rq-000006
+is_part_of:: rq-000438                  # Satisfy Functional Requirements
+
+associated:: rq-000006                  # Represent Core Document Semantics
 
 description:: The data format shall have the capability to represent
 document [g:SML1:structure]s.  Structures (i.e. paragraphs, sections,

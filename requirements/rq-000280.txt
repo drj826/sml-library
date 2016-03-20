@@ -1,17 +1,21 @@
 >>>requirement.rq-000280
 
-title:: Render HTML Index
+title:: Publish a Static HTML Document Index
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
-description:: The software shall render an HTML [g:SML:index].  The
-purpose of the index is to enable readers to quickly navigate to
-definitions of key terms used in the document.
+description:: The software shall publish a static HTML document
+[g:SML:index].  The purpose of the document index is to enable readers
+to quickly navigate to document locations by key terms. The index
+shall be arranged alphabetically.
 
 index:: rq-000280; index!HTML; HTML index
 
 = [g:SML:index] = [def:SML:index]
+
+outcome::2016-03-20:rq-000280:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

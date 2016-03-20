@@ -1,15 +1,185 @@
 >>>requirement.rq-000260
 
-title:: Render A Common Navigation Pane for Each HTML Page
+title:: Publish a Static HTML Document Navigation Pane Common to Each
+Document Page
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render a common navigation pane for
-each HTML page. The purpose of this requirement is to ease navigation
-among the pages that make up a document.
+description:: The software shall publish a common static HTML document
+navigation pane for each document page. The purpose of this
+requirement is to ease navigation among the pages that make up a
+document. The document navigation pane shall have all specified
+required data elements.
 
 index:: rq-000260; navigation pane
+
+The document navigation pane shall display the following data
+elements:
+
+: 1.
+
+: hyperlink to library main page
+
+:
+
+---
+
+: 2.
+
+: hyperlink to document title page
+
+: ref: [id:rq-000261] - [title:rq-000261]
+
+---
+
+: 3.
+
+: hyperlink to document list of tables
+
+: ref: [id:rq-000272] - [title:rq-000272]
+
+---
+
+: 4.
+
+: hyperlink to document list of figures
+
+: ref: [id:rq-000273] - [title:rq-000273]
+
+---
+
+: 5.
+
+: hyperlink to document list of attachments
+
+: ref: [id:rq-000274] - [title:rq-000274]
+
+---
+
+: 6.
+
+: hyperlink to document list of listings
+
+: ref: [id:rq-000270] - [title:rq-000270]
+
+---
+
+: 7.
+
+: hyperlink to document list of demonstrations
+
+: ref: [id:rq-000268] - [title:rq-000268]
+
+---
+
+: 8.
+
+: hyperlink to document list of exercises
+
+: ref: [id:rq-000269] - [title:rq-000269]
+
+---
+
+: 9.
+
+: hyperlink to document list of slides
+
+: ref: [id:rq-000265] - [title:rq-000265]
+
+---
+
+: 10.
+
+: hyperlink to document version history
+
+: ref: [id:rq-000263] - [title:rq-000263]
+
+---
+
+: 11.
+
+: hyperlink to document changes since previous version
+
+: ref: [id:rq-000264] - [title:rq-000264]
+
+---
+
+: 12.
+
+: hyperlink to document glossary
+
+: ref: [id:rq-000276] - [title:rq-000276]
+
+---
+
+: 13.
+
+: hyperlink to document acronym list
+
+: ref: [id:rq-000277] - [title:rq-000277]
+
+---
+
+: 14.
+
+: hyperlink to document list of references
+
+: ref: [id:rq-000279] - [title:rq-000279]
+
+---
+
+: 15.
+
+: hyperlink to document index
+
+: ref: [id:rq-000280] - [title:rq-000280]
+
+---
+
+: 16.
+
+: hyperlink to document error listing (if any)
+
+: ref: [id:rq-000441] - [title:rq-000441]
+
+---
+
+: 17.
+
+: date document was published
+
+:
+
+---
+
+: 18.
+
+: time document was published
+
+:
+
+---
+
+: 19.
+
+: document version number (may be library version number)
+
+:
+
+---
+
+: 20.
+
+: document revision identifier (may be cryptographic digest of
+document manuscript)
+
+:
+
+---
+
+outcome::2016-03-17:rq-000260:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

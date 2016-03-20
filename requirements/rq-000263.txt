@@ -1,20 +1,33 @@
 >>>requirement.rq-000263
 
-title:: Render HTML version history
+title:: Publish a Static HTML Document Version History
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML version history.  The
-purpose of this listing is to enable readers to quickly understand why
-each version of the document was released. The content for the version
-history comes from the author-maintained version history in the
-document.  These are notes about each published version that provide
-readers a summary updates in each version.
+description:: The software shall [g:SML2:publish] a static HTML
+[g:SML:document] [g:SML:version] history.  The purpose of this listing
+is to enable readers to quickly understand why each version of the
+document was released. The content for the version history comes from
+the author-maintained version history in the document.  These are
+notes about each published version that provide readers a summary
+updates in each version.
 
 index:: rq-000263; version history!HTML; HTML version history
 
-= [g:SML:revisions] = [def:SML:revisions]
+= [g:SML:VERSION_HISTORY] = [def:SML:VERSION_HISTORY]
+
+The static HTML document version history page must display a list of
+document versions with the following information for each:
+
++ version number
+
++ version date
+
++ version description
+
+outcome::2016-03-16:rq-000263:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

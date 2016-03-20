@@ -2,7 +2,7 @@
 
 title:: Permit Library Ontology Configuration
 
-is_part_of:: rq-000182
+is_part_of:: rq-000375
 
 type:: non-functional
 

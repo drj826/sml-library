@@ -1,6 +1,6 @@
 >>>requirement.rq-000096
 
-title:: Permit a User to Set a `Use Formal Status' Option
+title:: Permit a User to Set a Library-Wide `Use Formal Status' Option
 
 is_part_of:: rq-000375
 

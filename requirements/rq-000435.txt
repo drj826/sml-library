@@ -1,0 +1,21 @@
+>>>requirement.rq-000435
+
+title:: Publish an SML Library
+
+type:: functional
+
+is_part_of:: rq-000104
+
+description:: The software shall enable a user to [g:SML2:publish] an
+[ac:SML] [g:SML:library].  This means publish all documents in the
+library as well as all special library pages. The user must have the
+ability to initiate this process with a single action and the publish
+process must complete with no user interaction.  Publishing events
+should be logged to a screen terminal and to a file.  Events may
+include information messages as well as warnings and errors.
+
+index:: rq-000435; library; publish
+
+= [g:SML:library] = [def:SML:library]
+
+<<<requirement

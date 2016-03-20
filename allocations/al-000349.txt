@@ -1,11 +1,17 @@
 >>>allocation.al-000349
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000269         # Render HTML List of Exercises
+requirement:: rq-000269         # Publish a Static HTML Document List of Exercises
 
 test:: tc-000041                # Demonstration
 
 index:: al-000349
+
+outcome::2016-03-20:al-000349:green: The [code:SML::Publisher] class
+publishes a static HTML document list of exercises.  This function is
+performed by the [code:_publish_html_document] private method called
+by the [code:publish] public method.  See line 867 of
+[file:Publisher.pm]. (Don Johnson)
 
 <<<allocation

@@ -1,17 +1,21 @@
 >>>requirement.rq-000277
 
-title:: Render HTML List of Acronyms
+title:: Publish a Static HTML Document List of Acronyms
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML list of
-[g:SML:acronym]s.  The purpose of this acronym is to enable readers to
-quickly navigate to any acronym in the document.
+description:: The software shall publish a static HTML document list
+of [g:SML:acronym]s.  The purpose of this acronym listing is to enable
+readers to quickly navigate to any acronym in the document.
 
-index:: rq-000277; list of acronyms!HTML; HTML list of acronyms
+index:: rq-000277; list of acronyms!HTML; HTML list of acronyms;
+acronym
 
 = [g:SML:acronym] = [def:SML:acronym]
+
+outcome::2016-03-20:rq-000277:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -1,11 +1,17 @@
 >>>allocation.al-000340
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000514  # Default HTML document_page Template
 
-requirement:: rq-000260         # Render Common Navigation Pane for Each HTML Page
+requirement:: rq-000260         # Publish a Static HTML Document Navigation Pane Common to Each Document Page
 
 test:: tc-000041                # Demonstration
 
 index:: al-000340
+
+outcome::2016-03-17:al-000340:green: The default
+[file:document_page.tt] template (which serves as a wrapper used to
+render every document page) calls the default
+[file:document_navigation.tt] template that publishes a static HTML
+document navigation page common to each document page. (Don Johnson)
 
 <<<allocation

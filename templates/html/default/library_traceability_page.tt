@@ -18,15 +18,25 @@ ontology = library.get_ontology
 
 [%- entity_name_list = ontology.get_entity_name_list -%]
 
-<p style="background-color:#eeeeee;padding:10px;">Whole/Part Traceability Trees</p>
+<p style="background-color:#eeeeee;padding:10px;">Whole/Part Hierarchy Trees</p>
 
 <ul>
 [%- FOREACH entity_name IN entity_name_list -%]
 
 [%- IF ontology.allows_property_name('is_part_of',entity_name) -%]
-<li><a href="tm_tree.[%entity_name%].html">[%entity_name.ucfirst%] Traceability Tree</a></li>
+<li><a href="tm_tree.[%entity_name%].html">[%entity_name.ucfirst%]</a></li>
 
 [%- END -%]
+
+[%- END -%]
+</ul>
+
+<p style="background-color:#eeeeee;padding:10px;">Traceability Matrices</p>
+
+<ul>
+[%- FOREACH entity_name IN ['requirement','configuration_item','test'] -%]
+
+<li><a href="tm_[%entity_name%].html">[%entity_name.ucfirst%]</a></li>
 
 [%- END -%]
 </ul>

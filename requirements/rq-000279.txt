@@ -1,17 +1,23 @@
 >>>requirement.rq-000279
 
-title:: Render HTML List of References
+title:: Publish a Static HTML Document List of References
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
-description:: The software shall render an HTML list of
-[g:SML:reference]s.  The purpose of this reference is to enable
-readers to quickly navigate to any reference in the document.
+description:: The software shall publish a static HTML document list
+of [g:SML:reference]s.  The purpose of this reference listing is to
+enable readers to quickly navigate to any reference in the document.
 
-index:: rq-000279; list of references!HTML; HTML list of references
+index:: rq-000279; list of references!HTML; HTML list of references;
+references
 
 = [g:SML:reference] = [def:SML:reference]
+
+= [g:SML:SOURCE] = [def:SML:SOURCE]
+
+outcome::2016-03-20:rq-000279:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

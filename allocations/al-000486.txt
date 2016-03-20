@@ -1,0 +1,11 @@
+>>>allocation.al-000486
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000435         # Publish an SML Library
+
+test:: tc-000041                # Demonstration
+
+index:: al-000486
+
+<<<allocation

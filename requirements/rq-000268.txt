@@ -1,18 +1,22 @@
 >>>requirement.rq-000268
 
-title:: Render HTML List of Demonstrations
+title:: Publish a Static HTML Document List of Demonstrations
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML list of
-[g:SML:demonstration]s.  The purpose of this listing is to enable
-readers to quickly navigate to any demonstration in the document.
+description:: The software shall publish a static HTML document list
+of [g:SML:demonstration]s.  The purpose of this demonstration listing
+is to enable readers to quickly navigate to any demonstration in the
+document.
 
 index:: rq-000268; list of demonstrations!HTML; HTML list of
-demonstrations
+demonstrations; demonstration
 
 = [g:SML:DEMO] = [def:SML:DEMO]
+
+outcome::2016-03-20:rq-000268:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -4,6 +4,8 @@ title:: Perform Engineering Activities
 
 type:: activity
 
+is_part_of:: rq-000437
+
 description:: The organization shall perform engineering activities.
 
 index:: rq-000358

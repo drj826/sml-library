@@ -1,11 +1,15 @@
 >>>allocation.al-000362
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000282         # Render HTML Copyright Page
+requirement:: rq-000282         # Publish a Static HTML Document Copyright Page
 
 test:: tc-000041                # Demonstration
 
 index:: al-000362
+
+outcome::2016-03-20:al-000362:red: At this time the
+[code:SML::Publisher] class ~~does not~~ publish a static HTML
+document copyright page. (Don Johnson)
 
 <<<allocation

@@ -4,6 +4,8 @@ title:: Represent Core Document Semantics
 
 type:: data format
 
+is_part_of:: rq-000438                  # Satisfy Functional Requirements
+
 description:: The data format shall have the capability to represent
 document [g:SML1:structure]s.  Structures (i.e. paragraphs, sections,
 lists, tables, figures...) enable authors to organize document

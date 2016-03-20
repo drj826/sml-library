@@ -1,17 +1,21 @@
 >>>requirement.rq-000269
 
-title:: Render HTML List of Exercises
+title:: Publish a Static HTML Document List of Exercises
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
-description:: The software shall render an HTML list of
-[g:SML:EXERCISE]s.  The purpose of this listing is to enable
-readers to quickly navigate to any exercise in the document.
+description:: The software shall publish a static HTML document list
+of [g:SML:EXERCISE]s.  The purpose of this exercise listing is to
+enable readers to quickly navigate to any exercise in the document.
 
-index:: rq-000269; list of exercises!HTML; HTML list of exercises
+index:: rq-000269; list of exercises!HTML; HTML list of exercises;
+exercise
 
 = [g:SML:EXERCISE] = [def:SML:EXERCISE]
+
+outcome::2016-03-20:rq-000269:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

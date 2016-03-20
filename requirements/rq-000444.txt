@@ -1,0 +1,35 @@
+>>>requirement.rq-000444
+
+title:: Enable a User to View the Completeness of a System
+
+type:: functional
+
+is_part_of:: rq-000443
+
+description:: The software shall enable a user to view the
+completeness of a system. The completeness of a system is typically
+expressed via ``traceability'' views that show relationships between
+requirements, solutions, and tests including the degree of
+completeness of those requirements, solutions, and tests.
+
+index:: rq-000444
+
+In a single view the software shall enable the user to answer the
+following questions:
+
++ Are the requirements related to some function complete?
+
++ Have those requirements been allocated to solutions?
+
++ Have those solutions been completely implemented?
+
++ Have tests been established to prove the allocated solutions meet
+  the requirements?
+
++ Have the tests been executed to prove the allocations have been
+  satisfied?
+
+The software shall present a view that answers these questions without
+requiring the user to click to another view.
+
+<<<requirement

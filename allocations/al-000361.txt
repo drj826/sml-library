@@ -1,11 +1,17 @@
 >>>allocation.al-000361
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000281         # Render An HTML Page For Each Document Section
+requirement:: rq-000281         # Publish A Static HTML Page For Each Document Section
 
 test:: tc-000041                # Demonstration
 
 index:: al-000361
+
+outcome::2016-03-20:al-000361:green: The [code:SML::Publisher] class
+publishes a static HTML page for each document section. This function
+is performed by the [code:_publish_html_document] private method
+called by the [code:publish] public method.  See line 798 of
+[file:Publisher.pm]. (Don Johnson)
 
 <<<allocation

@@ -1,11 +1,15 @@
 >>>allocation.al-000347
 
-configuration_item:: ci-000505  # Default HTML Templates
+configuration_item:: ci-000462  # SML::Publisher Class
 
-requirement:: rq-000267         # Render HTML List of Quotations
+requirement:: rq-000267         # Publish a Static HTML Document List of Quotations
 
 test:: tc-000041                # Demonstration
 
 index:: al-000347
+
+outcome::2016-03-20:al-000347:red: At this time the SML::Publisher
+class ~~does not~~ publish a static HTML document list of
+quotations. (Don Johnson)
 
 <<<allocation

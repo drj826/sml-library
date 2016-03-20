@@ -2,10 +2,14 @@
 
 configuration_item:: ci-000462  # SML::Publisher
 
-requirement:: rq-000001         # Publish To HTML
+requirement:: rq-000001         # Publish an SML Document to Static HTML
 
-test:: tc-000043                # Test
+test:: tc-000041                # Demonstration
 
 index:: al-000033
+
+outcome::2016-03-20:al-000033:yellow: At this time the
+[code:SML::Publisher] class performs most but not all required static
+HTML publishing functions. (Don Johnson)
 
 <<<allocation

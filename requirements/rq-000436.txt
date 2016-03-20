@@ -1,0 +1,20 @@
+>>>requirement.rq-000436
+
+title:: Publish an SML Document
+
+type:: functional
+
+is_part_of:: rq-000104
+
+description:: The software shall enable a user to [g:SML2:publish] an
+individual [ac:SML] [g:SML:DOCUMENT].  The user must have the ability
+to initiate this process with a single action and the publish process
+must complete with no user interaction.  Publishing events should be
+logged to a screen terminal and to a file.  Events may include
+information messages as well as warnings and errors.
+
+index:: rq-000436; document; publish
+
+= [g:SML:DOCUMENT] = [def:SML:DOCUMENT]
+
+<<<requirement

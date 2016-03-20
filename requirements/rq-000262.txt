@@ -1,19 +1,22 @@
 >>>requirement.rq-000262
 
-title:: Render HTML Table of Contents
+title:: Publish a Static HTML Document Table of Contents
 
 is_part_of:: rq-000001
 
 type:: functional
 
-description:: The software shall render an HTML table of contents. The
-purpose of this listing is to enable readers to quickly navigate to
-any section in the document. The table of contents shall present the
-document section structure as a table of linked section titles
-indented to represent section levels.
+description:: The software shall publish a static HTML document table
+of contents. The purpose of this listing is to enable readers to
+quickly navigate to any section in the document. The table of contents
+shall present the document section structure as a table of linked
+section titles indented to represent section levels.
 
 index:: rq-000262; table of contents!HTML; HTML table of contents
 
 = [g:SML:SECTION] = [def:SML:SECTION]
+
+outcome::2016-03-16:rq-000262:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

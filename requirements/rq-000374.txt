@@ -4,7 +4,9 @@ title:: Represent Ontology Semantics
 
 type:: data format
 
-associated:: rq-000006
+is_part_of:: rq-000438                  # Satisfy Functional Requirements
+
+associated:: rq-000006                  # Represent Core Document Semantics
 
 description:: The data format shall represent ontology semantics.
 This means the data format can be used to define an ontology.

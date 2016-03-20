@@ -1,17 +1,21 @@
 >>>requirement.rq-000267
 
-title:: Render HTML List of Quotations
+title:: Publish a Static HTML Document List of Quotations
 
-is_part_of:: rq-000001
+is_part_of:: rq-000001          # Publish an SML Document to Static HTML
 
 type:: functional
 
-description:: The software shall render an HTML list of
-[g:SML:QUOTATION]s.  The purpose of this listing is to enable readers
-to quickly navigate to any quotation in the document.
+description:: The software shall publish a static HTML document list
+of [g:SML:QUOTATION]s.  The purpose of this listing is to enable
+readers to quickly navigate to any quotation in the document.
 
-index:: rq-000267; list of quotations!HTML; HTML list of quotations
+index:: rq-000267; list of quotations!HTML; HTML list of quotations;
+quotation
 
 = [g:SML:QUOTATION] = [def:SML:QUOTATION]
+
+outcome::2016-03-20:rq-000267:green: This requirement is
+complete. (Don Johnson)
 
 <<<requirement

@@ -12,11 +12,11 @@ enables an author to insert a file into a document for explanation and
 reference.  Readers of soft-copy document renditions should have the
 capability to detach and open attachments.  Attachments have titles
 and descriptions (often called captions) and unique identifiers that
-allow cross referencing within the document.
+enable cross referencing within the library.
 
 index:: rq-000017; attachments
 
-Elements of attachment meta data include:
+Attachment meta data properties include:
 
 :: element
 

@@ -4,10 +4,13 @@ title:: Satisfy Non-Functional Requirements
 
 type:: package
 
-description:: The product shall satisfy specified non-functional
-requirements.  This requirement serves as a container for all
-non-functional requirements.
+description:: The product shall satisfy specified
+[g:SML:non-functional requirement]s.  This requirement serves as a
+package (a container) for all non-functional requirements.
 
-index:: rq-000111; requirements!non-functional
+index:: rq-000111; requirements!non-functional; non-functional
+requirements
+
+= [g:SML:non-functional requirement] = [def:SML:non-functional requirement]
 
 <<<requirement

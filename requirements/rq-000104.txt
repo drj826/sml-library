@@ -1,10 +1,12 @@
 >>>requirement.rq-000104
 
-title:: Perform Functions For Users
+title:: Perform Functions For Users and Stakeholders
 
 status:: yellow
 
 type:: package
+
+is_part_of:: rq-000438                  # Satisfy Functional Requirements
 
 validated_by:: ro-000001                # Systems Engineer
 

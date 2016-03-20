@@ -4,6 +4,8 @@ title:: Permit a User to Customize a Library
 
 type:: package
 
+is_part_of:: rq-000182                  # Be Configurable
+
 description:: The technical solution shall permit a user to customize
 a library.  This requirement serves as a container for all library
 customization requirements.

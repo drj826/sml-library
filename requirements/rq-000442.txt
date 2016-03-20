@@ -1,0 +1,17 @@
+>>>requirement.rq-000442
+
+title:: Enable a User to Explore a Library Entity Hierarchy
+
+type:: functional
+
+is_part_of:: rq-000443
+
+description:: The software shall enable a user to explore a library
+entity hierarchy.  Some entities like requirements and configuration
+items are arranged in hierarchies for explain-ability. The software
+should enable a user to ``drill in'' to such a hierarchy to explore
+and explain the information.
+
+index:: rq-000442
+
+<<<requirement
