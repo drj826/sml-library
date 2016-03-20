@@ -1,0 +1,22 @@
+[%#
+
+tm_page.tt
+
+ARGS:
+
+library     => an SML::Library object
+publisher   => an SML::Publisher object
+entity_name => name of entity for which to build tree
+
+-%]
+[%-
+
+entity_id_list = library.get_division_id_list_by_name(entity_name)
+ps             = library.get_property_store
+
+-%]
+[%- WRAPPER library_page.tt -%]
+
+<h1 align="center">[%entity_name.ucfirst%] Traceability Matrix</h1>
+
+[%- END -%]
