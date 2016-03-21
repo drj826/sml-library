@@ -398,7 +398,7 @@ f3b79a261f4f080e99057af3ba2fdc6db01ee426 ci-000427
 a25cc484c899fc6eb0a3af8d28af520e825649af ci-000428
 def935eee6426aebf5d7158e30a8cf56f1a43155 ci-000429
 60a2ec9894ec4e2f85706db196aebf9f628c506e ci-000432
-9d9c554dfb1066e03f9f269a491a97b2b60365f3 ci-000433
+2410cd3a2cdef7c7d54c40630715d76f48b1e4b9 ci-000433
 564658c74eed4a183aa0e18c8a7a7fa0f022338c ci-000435
 fee990900b481be5893da973f832144455aecf93 ci-000436
 ba06b4a23b7b84db44fc2755371fd3b826550e73 ci-000437
@@ -686,7 +686,7 @@ c90b5f0181d39df28449cccef481bab9b62ced62 lis-indexreference-pod
 70a33e04388b06ef7477fa665c0d65759b585043 lis-item-pm-unit-test-case
 b01173ba1725a433ae59b64b1fdbcc5e5e13cfd8 lis-item-pm-unit-test-results
 1021337a2bdca35c9b6be9ef8d5e61856eceefb3 lis-lib-ontology-config
-416639cdba1a7b04386eb6c31c769f0d840e7481 lis-library-conf-file
+6582f5b471ff12de3f393957247ac31bf2301343 lis-library-conf-file
 0be253c029b03cf1b6532eabc844ddba59c25cfa lis-library-pm
 aec29f828e1295ab79f7b4eafac657b6dd02170e lis-library-pm-unit-test-case
 b710ba9db35d456cf135c81973ae0415be969997 lis-library-pm-unit-test-results
@@ -724,7 +724,7 @@ bb97946792a451a1592d6354ed0d506d7b69f951 lis-pagereference-pm
 ac22bc26abc8b8ad525cd2da6a617e6d8191fd7d lis-paragraph-pm-unit-test-case
 86a40241b278b3baffb2a4bb1377ffe2860ab173 lis-paragraph-pm-unit-test-results
 3991947d2a42a22e8be9203891f6268ce30b3008 lis-paragraph-pod
-702596211800edc5f3b524a2a8ef8ad61fefadb8 lis-parser-pm
+25edf641aa8ca11d2bf711a7491e2db134ddef67 lis-parser-pm
 1c85e1d777342dfdf5ecff310f1eb271eeda0f51 lis-parser-pm-unit-test-case
 9b82916c62b67f1bf6e37f85423627330d5ce324 lis-parser-pm-unit-test-results
 385001f0ba6a99d7f882d03fa4d13fe20b106edf lis-parser-pod
@@ -790,8 +790,8 @@ c6b8e9d38371fb5798a1d4b348a9c91f85d79d33 lis-svninfo-pm-unit-test-case
 38a04d7bcea0b4a43f392b074a311785614e324c lis-svninfo-pod
 4740c786ae1ebe1d338ed84fecb617a40a66c408 lis-symbol-pm
 d5d313f8b05ed18458d639469c2e05aa1ce19345 lis-symbol-pod
-8adab610b0287af1105844049cf065acee5f003b lis-syntax-pm
-f88c5e26f1b65a801c9d0286c93ffd83ad8273ce lis-syntax-pod
+313559323c849bfee8849ff0cc90155cae79486f lis-syntax-pm
+04b9c5aa463b075229ec751ded32e0ace589bb30 lis-syntax-pod
 24ee00933e9e53b550a1c4c884db473275030063 lis-table-cell-pm
 b8ad8b6db1f35aad64a647040a2fc6ccd913b41b lis-table-pm
 1978dea5d3be8bae5445de922734f5a4f8b32032 lis-table-pm-unit-test-case
@@ -814,7 +814,7 @@ c01ee6ebdcb2a30ab61a7fb05f71202e7eb9d809 lis-update_sha_digests-bat
 c5c737f0e3f80bd525268bbc060f593e280e0f4e lis-update_sha_digests-pl
 70adb4e3b9fe06eb9dab7b97cd00d66bc11dffdb lis-urlreference-pm
 0bea7d652d8e704d67af3f40cc26f6b7df3ad16d lis-urlreference-pod
-93b5be0dea091e93085fdefd113a4fa6002301ad lis-util-pm
+e566678b206e6be6d54b35fc1f6a74b0ce6d5873 lis-util-pm
 9e483a897d5e75036e66f34f3c066d62fb4c8898 lis-util-pm-unit-test-case
 6c69b657d384c7112962c087073b33ba21a97d4c lis-util-pm-unit-test-results
 00ca3feb61bca88a30d103a67dab28801acc1d65 lis-util-pod
@@ -1271,7 +1271,7 @@ eea2f4a1243f7d2dcbbce698539ebdc5d5b7e0d0 sml-dfrd-introduction
 e4ac5976b165782fc87665f62309cf6f0091b2f2 sml-forward
 388e9fb86bfb5299835bf292a1d0ea1fd30a921b sml-language
 8996e9cfa81b0b59669f7a93c9b076a6934f6cc2 sml-presentation-summary
-90ac003f3b294c41d5628f3fa144a439ecd4bfa6 sml-sdd
+11cf76dbf79fcb4f865a7908563822326f533025 sml-sdd
 95c2d9cc063a8d5a350ba20952db08a199b6e197 sml-special-summary
 d3f322c3ee71c7f31e33315740b141741ee770c0 sml-srd
 371b4f82d544517b008479b26a4b65b57d8c1ad7 sml-structure-summary
