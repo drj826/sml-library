@@ -1,0 +1,25 @@
+>>>configuration_item.ci-000514
+
+title:: Default HTML document_page Template
+
+type:: software
+
+is_part_of:: ci-000505          # Default HTML Templates
+
+uses:: ci-000515                # Default HTML document_navigation Template
+
+description:: The default HTML document_page template renders a
+document page. This template serves as a wrapper for all document
+pages.
+
+index:: ci-000514; document_page template
+
+>>>LISTING.lis-html-default-document-page-tt
+
+title:: Default HTML document_page Template
+
+file:: templates/html/default/document_page.tt
+
+<<<LISTING
+
+<<<configuration_item

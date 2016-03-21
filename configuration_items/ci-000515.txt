@@ -1,0 +1,23 @@
+>>>configuration_item.ci-000515
+
+title:: Default HTML document_navigation Template
+
+type:: software
+
+is_part_of:: ci-000505          # Default HTML Templates
+
+description:: The default HTML document_navigation template renders a
+static HTML document navigation pane common to each document
+page.
+
+index:: ci-000515; document_navigation template
+
+>>>LISTING.lis-html-default-document-navigation-tt
+
+title:: Default HTML document_navigation Template
+
+file:: templates/html/default/document_navigation.tt
+
+<<<LISTING
+
+<<<configuration_item
