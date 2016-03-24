@@ -1,6 +1,6 @@
 >>>requirement.rq-000374
 
-title:: Represent Ontology Semantics
+title:: Define Ontology Syntax
 
 type:: data format
 
@@ -8,9 +8,9 @@ is_part_of:: rq-000438                  # Satisfy Functional Requirements
 
 associated:: rq-000006                  # Represent Core Document Semantics
 
-description:: The data format shall represent ontology semantics.
-This means the data format can be used to define an ontology.
+description:: The data format shall define ontology syntax.  This
+means the data format can be used to define ontology rules.
 
-index:: rq-000374; ontology semantics
+index:: rq-000374; ontology syntax; syntax!ontology
 
 <<<requirement

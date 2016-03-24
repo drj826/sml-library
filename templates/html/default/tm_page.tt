@@ -8,15 +8,38 @@ library     => an SML::Library object
 publisher   => an SML::Publisher object
 entity_name => name of entity for which to build tree
 
--%]
-[%-
+DESCRIPTION:
 
+This template renders a traceability matrix page.  This traceability
+matrix is a series of blocks.  Each block is a 2-column display with
+entities on the left and allocations on the right.
+
+The blocks are ordered by entity hierarchy layer such that the top of
+the entity hierarchy is at the top of the page and you get deeper and
+deeper in the hierarchy as you scroll down the page.
+
+-%]
+[%
 entity_id_list = library.get_division_id_list_by_name(entity_name)
 ps             = library.get_property_store
-
 -%]
-[%- WRAPPER library_page.tt -%]
+[% WRAPPER library_page.tt -%]
 
 <h1 align="center">[%entity_name.ucfirst%] Traceability Matrix</h1>
 
-[%- END -%]
+[%
+
+INCLUDE tm_toplevel.tt;
+
+part_id_list = [];
+
+FOREACH entity_id IN entity_id_list;
+  UNLESS ps.has_property(entity_id,'is_part_of');
+    part_id_list.push(entity_id);
+  END;
+END;
+
+INCLUDE tm_layer.tt entity_id_list = part_id_list;
+-%]
+
+[% END -%]

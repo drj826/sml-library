@@ -16,7 +16,7 @@ ps             = library.get_property_store
 -%]
 [%- WRAPPER library_page.tt -%]
 
-<h1 align="center">[%entity_name.ucfirst%] Traceability Tree</h1>
+<h1 align="center">[%entity_name.ucfirst%] Tree</h1>
 
 <p align="center">([%entity_id_list.size%] [%entity_name%]s)</p>
 

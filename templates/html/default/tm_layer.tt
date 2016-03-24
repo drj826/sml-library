@@ -1,0 +1,38 @@
+[%#
+
+tm_layer.tt
+
+ARGS:
+
+library        => an SML::Library object
+publisher      => an SML::Publisher object
+entity_name    => name of entity for which to build tree
+entity_id_list => list of entity IDs for which to render traceability blocks
+ps             => library property store
+
+DESCRIPTION:
+
+A "traceability matrix layer" is a layer of the entity hierarchy in
+the traceability matrix.  It is rendered as a sequence of
+"traceability blocks."
+
+These layers are rendered in descending order on the traceability
+matrix page so that the further you navigate down the page the deeper
+you are in the entity hierarchy.
+
+-%]
+[%
+part_id_list = [];
+
+FOREACH entity_id IN entity_id_list;
+  IF ps.has_property(entity_id,'has_part');
+    INCLUDE tm_block.tt;
+    entity_part_list = ps.get_property_value_list(entity_id,'has_part'); 
+    part_id_list = part_id_list.merge(entity_part_list);
+  END;
+END;
+
+IF part_id_list.size > 0;
+  INCLUDE tm_layer.tt entity_id_list = part_id_list;
+END;
+-%]

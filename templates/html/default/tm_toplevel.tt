@@ -1,0 +1,100 @@
+[%#
+
+tm_toplevel.tt
+
+ARGS:
+
+library     => an SML::Library object
+publisher   => an SML::Publisher object
+entity_name => name of entity for which to build tree
+
+DESCRIPTION:
+
+This template renders a toplevel block in a traceability matrix.  A
+block represents an entity and its parts.  This toplevel block is the
+block of entities that are not part of any other entity.  In other
+words they each represent the top of an entity hierarchy. Each part is
+"traced" to the allocations associated with it.
+
+If a part has sub-parts, a hyper-link identifying the number of
+sub-parts appears on the left side.  Following the hyper-link takes
+you to the block which displays the sub-parts.
+
+-%]
+[%
+part_id_list = [];
+
+FOREACH entity_id IN entity_id_list;
+  UNLESS ps.has_property(entity_id,'is_part_of');
+    part_id_list.push(entity_id);
+  END;
+END;
+
+-%]
+
+<table style="border-collapse:collapse; width: 100%;" id="toplevel">
+
+[%# BLOCK HEADER %]
+<tr>
+<td style="background-color:#dddddd;"></td>
+<td style="background-color:#dddddd;" colspan="2">TOPLEVEL</td>
+</tr>
+[%
+FOREACH part_id IN part_id_list;
+
+  part_status = ps.get_property_text(part_id,'status');
+  part_title  = ps.get_property_text(part_id,'title');
+
+  IF ps.has_property(part_id,'has_part');
+
+    subpart_list  = ps.get_property_value_list(part_id,'has_part');
+    subpart_count = subpart_list.size;
+
+  ELSE;
+
+    subpart_count = '';
+
+  END
+-%]
+
+[%# BLOCK ROW %]
+<tr style="border-bottom: 1px solid #dddddd;line-height: 1;">
+<td style="background-color:#dddddd;text-align:center;width:4%">
+<a href="#[%part_id%]">[%subpart_count%]</a>
+</td>
+<td width="48%">
+[%
+INCLUDE status_icon.tt status = part_status; "&nbsp;";
+INCLUDE id_link.tt id = part_id; "&nbsp;";
+part_title;
+-%]
+</td>
+<td width="48%">
+[%
+   IF ps.has_property(part_id,'allocation');
+     FOREACH allocation_id IN ps.get_property_value_list(part_id,'allocation');
+       allocation_status = ps.get_property_text(allocation_id,'status');
+-%]
+<div style="padding-bottom:8px;">
+[%
+INCLUDE status_icon.tt status = allocation_status; "&nbsp;";
+INCLUDE id_link.tt id = allocation_id; "&nbsp;";
+INCLUDE STRING.tt self = ps.get_property_string(allocation_id,'title');
+-%]
+<br/>
+</div>
+[%# END FOREACH allocation ID%]
+[% END -%]
+
+[%# END IF has property allocation%]
+[% END -%]
+</td>
+</tr>
+
+[%# END FOREACH part in part ID list%]
+[% END -%]
+<tr>
+<td colspan="3">&nbsp;</td>
+</tr>
+
+</table>

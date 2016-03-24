@@ -15,11 +15,13 @@ ps       = library.get_property_store
 ontology = library.get_ontology
 
 -%]
-[%- IF ps.has_property(entity_id,'status') -%]
-[%- status = ps.get_property_text(entity_id,'status') -%]
-[%- ELSE -%]
-[%- status = 'grey' -%]
-[%- END -%]
+[%
+IF ps.has_property(entity_id,'status');
+  status = ps.get_property_text(entity_id,'status');
+ELSE;
+  status = 'grey';
+END
+-%]
 
 [%- IF ps.has_property(entity_id,'is_part_of') -%]
 [%- is_part_of = ps.get_property_text(entity_id,'is_part_of') -%]
@@ -58,11 +60,21 @@ ontology = library.get_ontology
   [%- END -%]
 [%- END -%]
 
+[%- IF ps.has_property(entity_id,'has_part') -%]
+<td><a href="tm_[%entity_name%].html#[%entity_id%]">tm</a></td>
+[%- ELSE -%]
+<td>&nbsp;</td>
+[%- END -%]
+
 </tr>
 
-[% IF ps.has_property(entity_id,'has_part') %]
-[%- part_id_list = ps.get_property_text_list(entity_id,'has_part') -%]
-[%- FOREACH part_id IN part_id_list -%]
-[%- INCLUDE tm_tree_row.tt entity_id = part_id -%]
-[%- END -%]
-[%- END -%]
+[%
+IF ps.has_property(entity_id,'has_part');
+
+  part_id_list = ps.get_property_text_list(entity_id,'has_part');
+
+  FOREACH part_id IN part_id_list;
+    INCLUDE tm_tree_row.tt entity_id = part_id;
+  END;
+END;
+-%]
