@@ -61,7 +61,7 @@ END
 [%- END -%]
 
 [%- IF ps.has_property(entity_id,'has_part') -%]
-<td><a href="tm_[%entity_name%].html#[%entity_id%]">tm</a></td>
+<td><a href="tm_[%entity_name%].html#[%entity_id%]">trace</a></td>
 [%- ELSE -%]
 <td>&nbsp;</td>
 [%- END -%]
