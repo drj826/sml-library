@@ -1,0 +1,16 @@
+>>>allocation.al-000495
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000445         # Publish a Static HTML Rendition of Each Document in the Library
+
+test:: tc-000041                # Demonstration
+
+index:: al-000495
+
+outcome::2016-03-25:al-000495:green: The [code:SML::Publisher] class
+publishes a static HTML rendition of each document in the library.
+The [code:publish_all_documents] public method performs this function.
+See line 157 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

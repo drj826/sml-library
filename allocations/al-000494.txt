@@ -1,0 +1,16 @@
+>>>allocation.al-000494
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000456         # Publish a Static HTML Library Acronym List Page
+
+test:: tc-000041                # Demonstration
+
+index:: al-000494
+
+outcome::2016-03-25:al-000494:green: The [code:SML::Publisher] class
+publishes a static HTML library acronym list page.  The
+[code:publish_html_library_special_pages] public method performs this
+function.  See line 477 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

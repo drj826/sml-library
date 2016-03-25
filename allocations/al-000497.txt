@@ -1,0 +1,16 @@
+>>>allocation.al-000497
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000450         # Publish a Static HTML Traceability Page
+
+test:: tc-000041                # Demonstration
+
+index:: al-000497
+
+outcome::2016-03-25:al-000497:green: The [code:SML::Publisher] class
+publishes a static HTML traceability page.  The
+[code:publish_html_library_special_pages] public method performs this
+function.  See line 434 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

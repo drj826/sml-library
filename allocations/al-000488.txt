@@ -1,0 +1,16 @@
+>>>allocation.al-000488
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000455         # Publish a Static HTML Library Glossary Page
+
+test:: tc-000041                # Demonstration
+
+index:: al-000488
+
+outcome::2016-03-25:al-000488:green: The [code:SML::Publisher] class
+publishes a static HTML library glossary page.  The
+[code:publish_html_library_special_pages] public method performs this
+function.  See line 471 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

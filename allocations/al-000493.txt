@@ -1,0 +1,16 @@
+>>>allocation.al-000493
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000447         # Publish a Static HTML Main Library Page
+
+test:: tc-000041                # Demonstration
+
+index:: al-000493
+
+outcome::2016-03-25:al-000493:green: The [code:SML::Publisher] class
+publishes a static HTML main library page.  The
+[code:publish_html_library_main_page] public method performs this
+function.  See line 329 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation

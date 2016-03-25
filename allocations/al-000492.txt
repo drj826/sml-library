@@ -1,0 +1,16 @@
+>>>allocation.al-000492
+
+configuration_item:: ci-000462  # SML::Publisher Class
+
+requirement:: rq-000460         # Publish a Static HTML Library List of Changes Page
+
+test:: tc-000041                # Demonstration
+
+index:: al-000492
+
+outcome::2016-03-25:al-000492:green: The [code:SML::Publisher] class
+publishes a static HTML library list of changes page.  The
+[code:publish_html_library_special_pages] public method performs this
+function.  See line 499 of [file:Publisher.pm]. (Don Johnson)
+
+<<<allocation
