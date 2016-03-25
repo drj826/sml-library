@@ -1,0 +1,31 @@
+>>>requirement.rq-000460
+
+title:: Publish a Static HTML Library List of Changes Page
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+type:: functional
+
+associated:: rq-000264          # Publish a Static HTML Document List of Changes Page
+
+description:: The software shall publish a static HTML library list
+of changes since the previous version.  The purpose of this change
+listing is to notify readers which entities and structures have been
+updated since the previous version and to enable the user to quickly
+navigate to any recently updated entity or structure. This must be an
+automatically rendered listing of change-log entries by entity and
+structure name.
+
+index:: rq-000460; list of changes!HTML; HTML list of changes
+
+For example, if the library contains systems engineering documents
+containing entities like requirements, configuration items,
+allocations, and test cases, then the list of changes would list the
+changes for each of these entity types, listing which ones have been
+recently updated along with the change-log entry committed with the
+change.
+
+outcome::2016-03-25:rq-000460:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

@@ -1,0 +1,21 @@
+>>>requirement.rq-000454
+
+title:: Publish a Static HTML Library Entities Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML library
+entities page. The purpose of the entities page is to serve as an
+index of all entities in the library listed alphabetically by entity
+name and ID.  Given only an entity ID the entity page should enable a
+reader to quickly find the entity title and description and link to
+the location of the entity in library documents.
+
+index:: rq-000454; entities page
+
+outcome::2016-03-25:rq-000454:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

@@ -1,0 +1,21 @@
+>>>requirement.rq-000445
+
+title:: Publish a Static HTML Rendition of Each Document in the Library
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+uses:: rq-000001                # Publish an SML Document to Static HTML
+
+description:: The software shall publish a static HTML rendition of
+each document in the library. The purpose of this requirement is to
+enable a user to publish all library documents to static HTML with a
+single action.
+
+index:: rq-000445; publish
+
+outcome::2016-03-25:rq-000445:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

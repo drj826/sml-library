@@ -13,4 +13,7 @@ or USB drives and by uploading to content management web services.
 
 index:: rq-000443; HTML!render static
 
+outcome::2016-03-25:rq-000443:green: This requirement is completely
+defined. (Don Johnson)
+
 <<<requirement

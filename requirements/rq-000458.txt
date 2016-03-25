@@ -1,0 +1,26 @@
+>>>requirement.rq-000458
+
+title:: Publish a Static HTML Library Statistics Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML library
+statistics page. The purpose of the library statistics page is to
+present specific statistical data about the contents of the library.
+
+index:: rq-000458
+
+Specific questions the statistical data must answer are:
+
++ What percentage of entities have ~~status~~ of green, yellow, red
+  and grey for each entity in the library?
+
++ What percentage of entities have ~~priority~~ of critical, high,
+  routine, and low for each entity in the library?
+
+outcome::2016-03-25:rq-000458:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

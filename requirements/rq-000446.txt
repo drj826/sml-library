@@ -1,0 +1,25 @@
+>>>requirement.rq-000446
+
+title:: Publish a Static HTML Overall Main Library Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML ~~overall~~
+main library page.  The purpose of the overall main library page is to
+provide one page to access the DRAFT, REVIEW, and APPROVED versions of
+a library.
+
+index:: rq-000446; publish
+
+Note the difference between this requirement and [id:rq-000447],
+``[lookup:title:rq-000447].''  The ~~overall~~ main page called for by
+[id:rq-000447] provides access to multiple versions (DRAFT, REVIEW,
+APPROVED) of a library.  ~~This~~ requirement calls for a main page
+for a ~~single~~ version of a library.
+
+outcome::2016-03-25:rq-000446:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

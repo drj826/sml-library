@@ -1,0 +1,28 @@
+>>>requirement.rq-000451
+
+title:: Publish a Static HTML Entity Tree Page For Each Entity
+
+type:: technical
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML entity tree
+page for each library entity collection allowed to exist in a
+whole/part hierarchy. The purpose of this entity tree page is to
+enable a user to ``drill in'' to an entity hierarchy from the top down
+to gain a complete understanding of the entity collection.
+
+index:: rq-000451; publish
+
+Examples of entity trees include:
+
++ requirement tree
+
++ configuration item tree
+
++ test case tree
+
+outcome::2016-03-25:rq-000451:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

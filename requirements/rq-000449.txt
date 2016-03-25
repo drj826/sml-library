@@ -1,0 +1,27 @@
+>>>requirement.rq-000449
+
+title:: Publish a Static SML Library Metadata File
+
+type:: technical
+
+is_part_of:: rq-999999
+
+description:: The software shall publish a static SML library metadata
+file.  The purpose of the METADATA file is to capture specific library
+metadata at the time of publishing.
+
+index:: rq-000449; publish
+
+Metadata elements include:
+
++ date/time published
+
++ whether or not the library contains errors
+
++ library version
+
++ previous library version
+
++ number of changes since previous version
+
+<<<requirement

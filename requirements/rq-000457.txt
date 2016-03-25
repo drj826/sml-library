@@ -1,0 +1,19 @@
+>>>requirement.rq-000457
+
+title:: Publish a Static HTML Library References Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML library
+references page. The purpose of the library references page is to
+present a single list containing ~~all~~ source references used in the
+library.
+
+index:: rq-000457; references; library references
+
+outcome::2016-03-25:rq-000457:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

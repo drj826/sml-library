@@ -1,0 +1,17 @@
+>>>requirement.rq-000448
+
+title:: Publish a Static HTML Rendition of Each Library Special Page
+
+type:: functional
+
+is_part_of:: rq-999999
+
+description:: The software shall publish a static HTML rendition of
+each library special page. A ``library special page'' presents
+information that spans ~~all~~ library documents. Examples include:
+(1) a library-wide glossary, (2) a library-wide index, or (3) a
+library-wide list of acronyms.
+
+index:: rq-000448; publish
+
+<<<requirement

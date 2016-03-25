@@ -1,0 +1,25 @@
+>>>requirement.rq-000450
+
+title:: Publish a Static HTML Traceability Page
+
+type:: technical
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML Traceability
+page. The purpose of this page is to provide a set of links to any of
+several individual traceability views.
+
+index:: rq-000450; publish
+
+The following types of traceability views must be listed on the
+traceability page:
+
++ entity tree pages
+
++ traceability matrix pages
+
+outcome::2016-03-25:rq-000450:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

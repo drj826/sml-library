@@ -1,0 +1,18 @@
+>>>requirement.rq-000447
+
+title:: Publish a Static HTML Main Library Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML main library
+page.  The purpose of the main library page is to provide one page to
+all library documents and special pages.
+
+index:: rq-000447; publish
+
+outcome::2016-03-25:rq-000447:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

@@ -1,0 +1,28 @@
+>>>requirement.rq-000452
+
+title:: Publish a Static HTML Traceability Matrix Page For Each Entity
+
+type:: technical
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML traceability
+matrix page for each library entity collection allowed to exist in a
+whole/part hierarchy. The purpose of this entity tree page is to
+enable a user to ``trace'' entities to [g:SML:allocation]s.
+
+index:: rq-000452; publish; traceability matrix
+
+Traceability matrix pages should be published for the following
+entities that take part in allocations:
+
++ requirements
+
++ configuration items
+
++ test cases
+
+outcome::2016-03-25:rq-000452:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

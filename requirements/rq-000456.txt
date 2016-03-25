@@ -1,0 +1,18 @@
+>>>requirement.rq-000456
+
+title:: Publish a Static HTML Library Acronym List Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML library acronym
+list page. The purpose of the library acronym list page is to present
+a single list containing ~~all~~ acronyms used in the library.
+
+index:: rq-000456; acronym list; library acronym list
+
+outcome::2016-03-25:rq-000456:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

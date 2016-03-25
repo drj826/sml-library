@@ -1,0 +1,22 @@
+>>>requirement.rq-000461
+
+title:: Publish a Static HTML Library List of Errors Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+associated:: rq-000441          # Publish a Static HTML Document List of Errors
+
+description:: The software shall publish a static HTML library list
+of errors.  Errors may be syntax errors, semantics errors, or other
+errors discovered during manuscript validation.  The purpose of this
+error listing is to notify readers of errors and enable the user to
+quickly navigate to the location of each error (if applicable).
+
+index:: rq-000461; errors
+
+outcome::2016-03-25:rq-000461:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement

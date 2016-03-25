@@ -1,0 +1,20 @@
+>>>requirement.rq-000459
+
+title:: Publish a Static HTML Library Index Page
+
+type:: functional
+
+is_part_of:: rq-000443          # Publish an SML Library to Static HTML
+
+description:: The software shall publish a static HTML library index
+page. The purpose of the library index page is to present a single
+index of containing ~~all~~ index entries in the library. Each index
+entry may point to multiple locations. Each index location must
+indicate the document containing the location.
+
+index:: rq-000459; index; library index
+
+outcome::2016-03-25:rq-000459:green: This requirement is completely
+defined. (Don Johnson)
+
+<<<requirement
