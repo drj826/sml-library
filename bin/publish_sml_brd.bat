@@ -1,4 +1,4 @@
 @echo off
-..\..\perl\perl\bin\perl.exe ..\lib\publish_document.pl sml-brd
+..\..\portable-perl\perl\bin\perl.exe ..\lib\publish_document.pl sml-brd
 
 pause
